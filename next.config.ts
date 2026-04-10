@@ -1,7 +1,49 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  trailingSlash: true,
+  poweredByHeader: false,
+  images: {
+    remotePatterns: [
+      { protocol: "https", hostname: "img.youtube.com" },
+      { protocol: "https", hostname: "telepluscare.com" },
+    ],
+  },
+  async headers() {
+    return [
+      {
+        source: "/(.*)",
+        headers: [
+          { key: "X-Frame-Options", value: "SAMEORIGIN" },
+          { key: "X-Content-Type-Options", value: "nosniff" },
+          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+          { key: "X-XSS-Protection", value: "1; mode=block" },
+          {
+            key: "Strict-Transport-Security",
+            value: "max-age=63072000; includeSubDomains; preload",
+          },
+          {
+            key: "Permissions-Policy",
+            value: "camera=(), microphone=(), geolocation=()",
+          },
+        ],
+      },
+    ];
+  },
+  async redirects() {
+    return [
+      {
+        source: "/online-prescriptions-and-refills-in-red-dear/",
+        destination: "/online-prescriptions-and-refills-in-red-deer/",
+        permanent: true,
+      },
+      {
+        source: "/holsitic-healing-centre-in-edmonton/",
+        destination: "/holistic-healing-centre-in-edmonton/",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
