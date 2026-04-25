@@ -11,6 +11,51 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    title: "How to Get Ozempic in Canada (2026 Guide & Cost)",
+    description:
+      "Step-by-step guide to getting Ozempic legally in Canada in 2026 — eligibility, prescription paths, costs ($300-450/mo), insurance, and same-day virtual options.",
+    image: "/images/weight-loss/image-39.png",
+    href: "/how-to-get-ozempic-in-canada",
+    date: "April 2026",
+    category: "Weight Loss",
+  },
+  {
+    title: "Are Online Doctor's Notes Legal in Canada?",
+    description:
+      "A 2026 legal guide to online doctor's notes across Canada — when they're valid, who issues them, what employers and schools must accept, province by province.",
+    image: "/images/online-doctors-notes-in-edmonton/hero.jpg",
+    href: "/are-online-doctor-notes-legal-in-canada",
+    date: "April 2026",
+    category: "Legal",
+  },
+  {
+    title: "Cost of a Virtual Doctor Visit in Alberta (2026)",
+    description:
+      "Complete breakdown of virtual doctor visit costs in Alberta — what AHCIP covers, out-of-pocket fees, and how to save on telehealth in 2026.",
+    image: "/images/Rectangle-1090-3.png",
+    href: "/cost-of-virtual-doctor-visit-in-alberta",
+    date: "April 2026",
+    category: "Pricing",
+  },
+  {
+    title: "Ozempic vs Mounjaro vs Wegovy: Canadian Guide",
+    description:
+      "Compare Ozempic, Mounjaro, and Wegovy for weight loss in Canada — efficacy, side effects, costs, availability, and which one is right for you.",
+    image: "/images/weight-loss/image-41.png",
+    href: "/ozempic-vs-mounjaro-vs-wegovy-canada",
+    date: "April 2026",
+    category: "Weight Loss",
+  },
+  {
+    title: "How to Save Money on Prescriptions in Canada",
+    description:
+      "10 proven ways Canadians save money on prescription medications — generics, drug coverage programs, online pharmacies, and provincial benefits explained.",
+    image: "/images/prescription-refill/13-819x1024.jpeg",
+    href: "/how-to-save-money-on-prescriptions-canada",
+    date: "April 2026",
+    category: "Prescriptions",
+  },
+  {
     title: "Best Botox Treatment in Edmonton",
     description:
       "Discover why TelePlus Care offers the best botox treatments in Edmonton. Learn about our approach, what to expect during your appointment, and how to achieve natural-looking results.",

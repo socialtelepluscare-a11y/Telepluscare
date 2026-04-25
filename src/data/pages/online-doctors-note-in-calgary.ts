@@ -1,9 +1,9 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle: "Online Doctor's Note Calgary | Same-Day Sick Note, AHC",
+  metaTitle: "Online Doctor's Note Calgary | Same-Day Sick Note",
   metaDescription:
-    "Calgary residents can get a legal online doctor's note today from CPSA-licensed physicians. AHC-covered consult, accepted by Suncor, U of C, CBE, and more.",
+    "Calgary residents can get a legal online doctor's note today from CPSA-licensed physicians. Same-day delivery, accepted by Suncor, U of C, CBE, and more.",
   title: "Online Doctor's Note in Calgary — Same-Day Sick Notes for Work, School & Travel",
   heroDescription:
     "Skip the walk-in queue on 17th Avenue or 4th Street and speak to a Calgary-area family physician from your phone. We assess your symptoms, confirm the medical reason for your absence, and email a CPSA-signed sick note the same day — accepted by every major Calgary employer and school.",
@@ -13,7 +13,7 @@ export const pageData: LandingPageData = {
   lastReviewed: "2026-04-25",
   reviewedBy: "Dr. Maher Jerudi, MD",
   summary:
-    "A Calgary online doctor's note from a CPSA-registered physician is legally valid for work, school, and travel. TelePlusCare delivers same-day notes covered by Alberta Health Care, satisfying Alberta Employment Standards Code Section 53.97 — five unpaid sick days — and accepted by every Calgary employer including Suncor, Cenovus, Foothills Hospital, and the Calgary Board of Education.",
+    "A Calgary online doctor's note from a CPSA-registered physician is legally valid for work, school, and travel. TelePlusCare delivers same-day notes that satisfy Alberta Employment Standards Code Section 53.97 — five unpaid sick days — and are accepted by every Calgary employer including Suncor, Cenovus, Foothills Hospital, and the Calgary Board of Education. Doctor's notes are not covered by Alberta Health Care; a flat documentation fee applies.",
   keyFacts: [
     "Calgary's population of 1.3 million makes it Canada's third-most-active virtual care market.",
     "Section 53.97 of the Alberta Employment Standards Code provides 5 unpaid job-protected sick days per year.",
@@ -99,16 +99,16 @@ export const pageData: LandingPageData = {
         "Calgary Board of Education and Calgary Catholic School parents",
         "17th Ave SW, Stephen Ave, and Kensington service-sector workers",
       ],
-      image: "/images/online-doctors-notes-in-edmonton/section-6.jpg",
+      image: "/images/online-doctors-notes-in-edmonton/section-6.png",
       imageAlt: "Calgary workers and students at home",
     },
     {
       title: "Why Calgary Patients Choose TelePlusCare",
       content:
-        "Our model is designed for Calgary's pace. Booking, consultation, and note issuance can all happen in a single coffee break. Every physician is CPSA-registered, every consult is AHCIP-billed for eligible patients, and our after-hours coverage spans the windows when most Calgary illnesses actually develop — evenings, weekends, and the Monday-morning rush.",
+        "Our model is designed for Calgary's pace. Booking, consultation, and note issuance can all happen in a single coffee break. Every physician is CPSA-registered, and our after-hours coverage spans the windows when most Calgary illnesses actually develop — evenings, weekends, and the Monday-morning rush.",
       bullets: [
         "Every physician registered with the CPSA",
-        "AHCIP billing means no consultation fee for eligible Albertans",
+        "Transparent flat documentation fee for the doctor's note",
         "Same-day signed PDF, seven days a week",
         "Designed for downtown C-Train and ring-road commuters",
         "Encrypted Canadian-hosted infrastructure protects your PHI",
@@ -122,11 +122,6 @@ export const pageData: LandingPageData = {
       question: "Is an online doctor's note legally valid in Calgary?",
       answer:
         "Yes. A note signed by a CPSA-registered physician is legally identical to one issued at a Calgary walk-in clinic. Calgary employers, the Calgary Board of Education, and Calgary Catholic schools all accept it as official medical documentation.",
-    },
-    {
-      question: "Is the consultation covered by my Alberta Health Care card?",
-      answer:
-        "Yes — for Calgary residents with a valid AHCIP card, the medical consultation is billed to Alberta Health and there is no charge for the visit. A small documentation fee may apply for the note itself depending on its type and complexity.",
     },
     {
       question: "How quickly can I get a Calgary sick note?",

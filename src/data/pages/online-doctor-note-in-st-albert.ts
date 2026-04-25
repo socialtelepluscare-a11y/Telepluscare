@@ -3,7 +3,7 @@ import type { LandingPageData } from "@/types/landing-page";
 export const pageData: LandingPageData = {
   metaTitle: "Online Doctor's Note St. Albert | Same-Day Sick Note",
   metaDescription:
-    "St. Albert residents can get a same-day virtual doctor's note from CPSA-licensed physicians. AHC-covered. Accepted by St. Albert Public, Catholic, and area employers.",
+    "St. Albert residents can get a same-day virtual doctor's note from CPSA-licensed physicians. Accepted by St. Albert Public, Catholic, and area employers.",
   title: "Online Doctor's Note in St. Albert — Same-Day Virtual Sick Notes",
   heroDescription:
     "St. Albert families and Edmonton commuters can skip the wait at Sturgeon Hospital walk-ins or local clinics on St. Albert Trail. Speak with an Alberta-licensed physician from home, get a fast assessment, and receive a signed sick note your employer or your child's school will accept the same day.",
@@ -13,7 +13,7 @@ export const pageData: LandingPageData = {
   lastReviewed: "2026-04-25",
   reviewedBy: "Dr. Maher Jerudi, MD",
   summary:
-    "St. Albert patients can secure a same-day legally valid online doctor's note from a CPSA-registered physician without travelling to Sturgeon Hospital or an Edmonton clinic. The visit is covered by Alberta Health Care, the note satisfies Alberta Employment Standards Code Section 53.97 (five unpaid sick days), and it is accepted by St. Albert Public, Greater St. Albert Catholic Schools, and local employers.",
+    "St. Albert patients can secure a same-day legally valid online doctor's note from a CPSA-registered physician without travelling to Sturgeon Hospital or an Edmonton clinic. The note satisfies Alberta Employment Standards Code Section 53.97 (five unpaid sick days) and is accepted by St. Albert Public, Greater St. Albert Catholic Schools, and local employers. Doctor's notes are not covered by Alberta Health Care; a flat documentation fee applies.",
   keyFacts: [
     "St. Albert is a family-oriented community of approximately 69,000 residents northwest of Edmonton.",
     "Sturgeon Community Hospital serves St. Albert and the surrounding Sturgeon County region.",
@@ -99,16 +99,16 @@ export const pageData: LandingPageData = {
         "Local retail and service workers along St. Albert Trail",
         "Seniors in Grandin, Mission, and Lacombe Park",
       ],
-      image: "/images/online-doctors-notes-in-edmonton/section-6.jpg",
+      image: "/images/online-doctors-notes-in-edmonton/section-6.png",
       imageAlt: "St. Albert resident on a phone consultation",
     },
     {
       title: "Why St. Albert Families Choose TelePlusCare",
       content:
-        "St. Albert is family-first, and our service is designed around that reality. Same-day notes, AHCIP-billed consultations, and CPSA-registered physicians who understand both pediatric and adult sick-note documentation. Booking, consult, and note delivery can all happen during a normal school morning.",
+        "St. Albert is family-first, and our service is designed around that reality. Same-day notes from CPSA-registered physicians who understand both pediatric and adult sick-note documentation. Booking, consult, and note delivery can all happen during a normal school morning.",
       bullets: [
         "100% CPSA-registered Alberta physicians",
-        "AHCIP-billed consults — no fee with a valid Alberta Health Care card",
+        "Transparent flat documentation fee for the doctor's note",
         "Same-day notes seven days a week",
         "Family-oriented — pediatric and adult assessments",
         "Encrypted Canadian-hosted PHI infrastructure",
@@ -122,11 +122,6 @@ export const pageData: LandingPageData = {
       question: "Is an online doctor's note valid in St. Albert?",
       answer:
         "Yes. A note signed by a CPSA-registered Alberta physician is legally valid in St. Albert and accepted by both St. Albert Public Schools and Greater St. Albert Catholic Schools, as well as local employers and Edmonton-area HR teams.",
-    },
-    {
-      question: "Is the consult covered by Alberta Health Care?",
-      answer:
-        "Yes. The medical consult is billed to AHCIP for residents with a valid Alberta Health Care card, so there is no charge for the visit. A small documentation fee may apply for the note depending on its type.",
     },
     {
       question: "Can I get a note for my child's St. Albert school absence?",

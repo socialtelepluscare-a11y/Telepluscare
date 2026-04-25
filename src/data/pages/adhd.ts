@@ -8,14 +8,14 @@ export const pageData: LandingPageData = {
   title: "ADHD Treatment & Support in Alberta",
   heroDescription:
     "Attention-Deficit/Hyperactivity Disorder (ADHD) is a neurodevelopmental disorder characterized by persistent patterns of inattention, impulsivity, and hyperactivity that can significantly impact daily functioning. At TelePlus Care, our experienced healthcare providers offer comprehensive virtual ADHD assessments and personalized treatment plans for adults and adolescents across Alberta.\n\nWhether you suspect you may have ADHD or are seeking ongoing management, our team is here to help you navigate your journey toward better focus, productivity, and well-being.",
-  heroImage: "/images/930309845dff5228ec387db3bb3d48ef.png",
+  heroImage: "/images/mental-health/adhd.webp",
   heroImageAlt: "ADHD Treatment and Support in Alberta",
   sections: [
     {
       title: "Understanding ADHD",
       content:
         "ADHD is one of the most common neurodevelopmental disorders, affecting both children and adults. It is characterized by three core symptom categories: inattention, hyperactivity, and impulsivity. While everyone may experience these symptoms occasionally, individuals with ADHD experience them more severely and frequently, often interfering with their daily activities, relationships, and work or school performance.\n\nADHD is not simply a matter of willpower or discipline. It is a medical condition involving differences in brain development and activity that affect attention, the ability to sit still, and self-control. Early diagnosis and appropriate treatment can make a significant difference in quality of life.",
-      image: "/images/930309845dff5228ec387db3bb3d48ef.png",
+      image: "/images/mental-health/adhd.webp",
       imageAlt: "Understanding ADHD",
     },
     {

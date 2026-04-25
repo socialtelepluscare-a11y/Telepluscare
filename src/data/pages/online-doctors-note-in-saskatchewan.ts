@@ -99,7 +99,7 @@ export const pageData: LandingPageData = {
         "Moose Jaw — provincial agricultural sector and Saskatchewan Polytechnic students",
         "Rural Saskatchewan — long-distance patients avoiding drives to the nearest clinic",
       ],
-      image: "/images/online-doctors-notes-in-edmonton/section-6.jpg",
+      image: "/images/online-doctors-notes-in-edmonton/section-6.png",
       imageAlt: "Saskatchewan resident on a virtual consultation",
     },
     {

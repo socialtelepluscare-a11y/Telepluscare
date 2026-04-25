@@ -66,7 +66,7 @@ export const pageData: LandingPageData = {
     {
       title: "Alberta Health Coverage for Online Doctor Visits",
       content:
-        "One of the most common questions we receive is whether online doctor visits are covered by Alberta Health. The answer is yes. Most consultations with TelePlusCare's online doctors are covered by the Alberta Health Care Insurance Plan (AHCIP). If you hold a valid Alberta Health card, you can see a licensed physician online at no out-of-pocket cost for the consultation itself.\n\nSome services — such as certain medical certificates, aesthetic consultations, or specialized assessments — may have additional fees, which are communicated clearly before your appointment. TelePlusCare is committed to transparent pricing with no hidden charges.",
+        "One of the most common questions we receive is whether online doctor visits are covered by Alberta Health. The medical consultation may be covered by the Alberta Health Care Insurance Plan (AHCIP) for eligible Alberta residents with a valid AHCIP card.\n\nSome services — such as doctor's notes, medical certificates, aesthetic consultations, or specialized assessments — are not covered by Alberta Health Care and carry a flat fee, which is communicated clearly before your appointment. TelePlusCare is committed to transparent pricing with no hidden charges.",
       image: "/images/image-43.png",
       imageAlt: "Alberta Health coverage online doctor",
     },
@@ -132,7 +132,7 @@ export const pageData: LandingPageData = {
         "Thousands of Alberta residents choose TelePlusCare for their online healthcare needs. Here is why.",
       bullets: [
         "Same-day appointments — No weeks-long wait. See a doctor today.",
-        "Covered by Alberta Health — Most consultations cost you nothing with a valid Alberta Health card.",
+        "Alberta Health Coverage — The consultation may be covered by Alberta Health Care for eligible Alberta residents.",
         "Licensed Alberta physicians — Fully registered with the CPSA and experienced in virtual care.",
         "No referral needed — Book directly online or by phone.",
         "Comprehensive services — From prescriptions and sick notes to chronic disease management and mental health support.",
@@ -148,13 +148,13 @@ export const pageData: LandingPageData = {
     {
       question: "How much does it cost to see an online doctor in Alberta?",
       answer:
-        "Most consultations with TelePlusCare are covered by the Alberta Health Care Insurance Plan (AHCIP). If you have a valid Alberta Health card, you pay nothing out of pocket for the consultation. Some services such as medical certificates or aesthetic consultations may have additional fees, which are communicated upfront.",
+        "The medical consultation may be covered by the Alberta Health Care Insurance Plan (AHCIP) for eligible Alberta residents with a valid AHCIP card. Some services such as doctor's notes, medical certificates, or aesthetic consultations are not covered by Alberta Health Care and carry a flat fee, which is communicated upfront.",
     },
     {
       question:
         "Is my online doctor visit covered by Alberta Health?",
       answer:
-        "Yes. The majority of virtual consultations at TelePlusCare are fully covered by Alberta Health. Simply have your Alberta Health card ready when you book your appointment.",
+        "The medical consultation may be covered by Alberta Health Care for eligible Alberta residents with a valid AHCIP card. Specific documentation services such as doctor's notes carry a flat fee, shown upfront before you book.",
     },
     {
       question: "How does an online doctor appointment work?",
@@ -220,10 +220,10 @@ export const pageData: LandingPageData = {
     "TelePlusCare serves patients across all of Alberta including Edmonton, Calgary, Red Deer, Lethbridge, Medicine Hat, Grande Prairie, Fort McMurray, Airdrie, Cochrane, Sherwood Park, St. Albert, Spruce Grove, Leduc, Fort Saskatchewan, Beaumont, Camrose, Wetaskiwin, Lloydminster, Cold Lake, Hinton, Jasper, Banff, Canmore, Brooks, Drumheller, Okotoks, High River, Chestermere, Stony Plain, and all rural and remote communities throughout the province.",
   bookingUrl: "/book-appointment-alberta",
   summary:
-    "An online doctor in Alberta is a physician registered with the College of Physicians and Surgeons of Alberta (CPSA) who delivers care through secure video or phone consultations. TelePlus Care provides province-wide same-day virtual visits — covered by the Alberta Health Care Insurance Plan — for prescriptions, sick notes, mental health, chronic disease management, and over a dozen non-emergency conditions.",
+    "An online doctor in Alberta is a physician registered with the College of Physicians and Surgeons of Alberta (CPSA) who delivers care through secure video or phone consultations. TelePlus Care provides province-wide same-day virtual visits for prescriptions, sick notes, mental health, chronic disease management, and over a dozen non-emergency conditions. The medical consultation may be covered by Alberta Health Care for eligible Alberta residents.",
   keyFacts: [
     "All physicians registered with CPSA and licensed in Alberta",
-    "Most consultations covered by Alberta Health Care Insurance Plan",
+    "The consultation may be covered by Alberta Health Care for eligible Alberta residents",
     "Same-day appointments — no referral or family doctor required",
     "PIPEDA-compliant platform meeting Alberta Health Information Act standards",
   ],

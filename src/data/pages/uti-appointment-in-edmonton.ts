@@ -4,7 +4,7 @@ export const pageData: LandingPageData = {
   metaTitle: "UTI Appointment Edmonton | Same-Day Online UTI Treatment",
   metaDescription:
     "Edmonton residents: book a same-day virtual UTI appointment with an Alberta-licensed physician. Antibiotic prescriptions sent to your nearest pharmacy in minutes.",
-  title: "Same-Day UTI Appointment in Edmonton",
+  title: "Same-Day Online UTI Appointment in Edmonton",
   heroDescription:
     "Edmonton residents experiencing burning urination, urgency, or pelvic discomfort can connect with an Alberta-licensed physician within minutes. From Whyte Avenue to Mill Woods, we treat uncomplicated UTIs virtually and send prescriptions directly to pharmacies near the U of A Hospital, Royal Alex, or your home neighborhood.",
   heroImage: "/images/urinary-tract-infection-treatments.jpg",
@@ -12,11 +12,11 @@ export const pageData: LandingPageData = {
   bookingUrl: "/book-appointment-alberta",
   conditionType: "Urinary Tract Infection",
   summary:
-    "Edmonton patients experiencing UTI symptoms such as burning urination, frequent urgency, or pelvic pain can book a same-day virtual visit with TelePlus Care. Alberta-licensed physicians diagnose uncomplicated UTIs in 15 to 20 minutes and electronically send antibiotic prescriptions to any Edmonton pharmacy. Visits are covered by Alberta Health Care.",
+    "Edmonton patients experiencing UTI symptoms such as burning urination, frequent urgency, or pelvic pain can book a same-day virtual visit with TelePlus Care. Alberta-licensed physicians diagnose uncomplicated UTIs in 15 to 20 minutes and electronically send antibiotic prescriptions to any Edmonton pharmacy. The consultation may be covered by Alberta Health Care for eligible Alberta residents.",
   keyFacts: [
     "Same-day UTI appointment with an Edmonton-area physician within 30 minutes",
-    "Prescription delivered electronically to Shoppers Drug Mart, Rexall, Save-On-Foods, or any Edmonton pharmacy",
-    "Covered by Alberta Health Care for residents with a valid AHCIP card",
+    "Prescription sent electronically to Shoppers Drug Mart, Rexall, Save-On-Foods, or any Edmonton pharmacy",
+    "The consultation may be covered by Alberta Health Care for eligible Alberta residents",
     "All physicians are CPSA registered and licensed to practise in Alberta",
   ],
   sections: [
@@ -93,7 +93,7 @@ export const pageData: LandingPageData = {
     {
       title: "About TelePlus Care Serving Edmonton",
       content:
-        "TelePlus Care is an Alberta-based virtual clinic providing same-day care to patients across Edmonton, St. Albert, Sherwood Park, and the wider Edmonton Metropolitan Region. Our physicians are licensed by the College of Physicians and Surgeons of Alberta. All consultations are conducted on PIPEDA-compliant infrastructure, and visits are covered by Alberta Health Care for AHCIP holders.",
+        "TelePlus Care is an Alberta-based virtual clinic providing same-day care to patients across Edmonton, St. Albert, Sherwood Park, and the wider Edmonton Metropolitan Region. Our physicians are licensed by the College of Physicians and Surgeons of Alberta. All consultations are conducted on PIPEDA-compliant infrastructure. The consultation may be covered by Alberta Health Care for eligible Alberta residents.",
       image: "/images/ChatGPT-Image-Nov-3-2025-04_36_39-PM-1024x683.png",
       imageAlt: "TelePlus Care serving Edmonton patients",
     },
@@ -112,7 +112,7 @@ export const pageData: LandingPageData = {
     {
       question: "Is the UTI consultation covered by Alberta Health Care?",
       answer:
-        "Yes. Edmonton residents with a valid Alberta Health Care Insurance Plan (AHCIP) card are covered for medically necessary virtual UTI consultations with TelePlus Care physicians.",
+        "The medical consultation may be covered by Alberta Health Care for eligible Alberta residents with a valid AHCIP card. Some specialized services or documentation may carry an additional fee, which is communicated upfront.",
     },
     {
       question: "Do I need a urine test before getting antibiotics in Edmonton?",

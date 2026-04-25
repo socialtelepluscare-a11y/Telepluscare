@@ -1,9 +1,9 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle: "Online Doctor's Note Airdrie | Same-Day Sick Note, AHC",
+  metaTitle: "Online Doctor's Note Airdrie | Same-Day Sick Note",
   metaDescription:
-    "Airdrie residents and Calgary commuters can get a same-day virtual sick note from CPSA-licensed physicians. AHC-covered. Accepted by Rocky View Schools and area employers.",
+    "Airdrie residents and Calgary commuters can get a same-day virtual sick note from CPSA-licensed physicians. Accepted by Rocky View Schools and area employers.",
   title: "Get Your Online Doctor's Note in Airdrie — Same-Day Virtual Sick Notes",
   heroDescription:
     "If your morning commute runs from Airdrie down the QEII into Calgary, you've already lost enough time to traffic without sitting in a clinic on Main Street or 8th Street. Speak to a CPSA-licensed physician from home, get assessed in minutes, and receive a signed sick note your Calgary or Airdrie employer will accept the same day.",
@@ -13,7 +13,7 @@ export const pageData: LandingPageData = {
   lastReviewed: "2026-04-25",
   reviewedBy: "Dr. Maher Jerudi, MD",
   summary:
-    "Airdrie patients can secure a legally valid online doctor's note from a CPSA-registered physician without driving down the QEII to Calgary or queuing at a local walk-in. The visit is covered by Alberta Health Care, the note satisfies Alberta Employment Standards Code Section 53.97 (five unpaid sick days), and it is accepted by Rocky View Schools, the Airdrie Regional Health Centre, and Calgary-area employers.",
+    "Airdrie patients can secure a legally valid online doctor's note from a CPSA-registered physician without driving down the QEII to Calgary or queuing at a local walk-in. The note satisfies Alberta Employment Standards Code Section 53.97 (five unpaid sick days) and is accepted by Rocky View Schools, the Airdrie Regional Health Centre, and Calgary-area employers. Doctor's notes are not covered by Alberta Health Care; a flat documentation fee applies.",
   keyFacts: [
     "Airdrie has approximately 80,000 residents and is one of Alberta's fastest-growing cities.",
     "Most working Airdrie residents commute to Calgary along the QEII.",
@@ -99,16 +99,16 @@ export const pageData: LandingPageData = {
         "Airdrie Regional Health Centre staff",
         "Growing families in Cooper's Crossing, King's Heights, and Bayview",
       ],
-      image: "/images/online-doctors-notes-in-edmonton/section-6.jpg",
+      image: "/images/online-doctors-notes-in-edmonton/section-6.png",
       imageAlt: "Airdrie family using telemedicine",
     },
     {
       title: "Why Airdrie Patients Choose TelePlusCare",
       content:
-        "We understand the Airdrie commuter reality. Same-day notes, AHCIP-billed consultations, and CPSA-registered physicians who recognise that getting documentation shouldn't mean adding another hour to a QEII commute day. The whole process can wrap up before traffic clears at the Calgary city limit.",
+        "We understand the Airdrie commuter reality. Same-day notes from CPSA-registered physicians who recognise that getting documentation shouldn't mean adding another hour to a QEII commute day. The whole process can wrap up before traffic clears at the Calgary city limit.",
       bullets: [
         "100% CPSA-registered Alberta physicians",
-        "AHCIP-billed consults — no fee with a valid Alberta Health Care card",
+        "Transparent flat documentation fee for the doctor's note",
         "Same-day notes seven days a week",
         "Built for Calgary commuters and growing Airdrie families",
         "Encrypted Canadian-hosted PHI infrastructure",
@@ -127,11 +127,6 @@ export const pageData: LandingPageData = {
       question: "Will my Calgary employer accept the note even though I live in Airdrie?",
       answer:
         "Yes. Calgary employers — including major energy, finance, and healthcare firms — accept notes from CPSA-registered virtual physicians regardless of which Alberta city the patient lives in. The note carries a verification line for HR.",
-    },
-    {
-      question: "Is the consult covered by Alberta Health Care?",
-      answer:
-        "Yes. Airdrie residents with a valid AHCIP card pay nothing for the medical consultation. A small documentation fee may apply for some types of notes.",
     },
     {
       question: "How fast can I get the note?",

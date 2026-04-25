@@ -11,10 +11,10 @@ export const pageData: LandingPageData = {
   heroImage: "/images/OBJECTS.png",
   heroImageAlt: "Virtual walk-in clinic Edmonton online doctor consultation",
   summary:
-    "A virtual walk-in clinic functions identically to a traditional Edmonton walk-in clinic — diagnosis, prescriptions, sick notes, and lab requisitions — but delivered remotely by CPSA-licensed Alberta physicians via secure video or phone. TelePlus Care serves all Edmonton-area communities including Sherwood Park, St. Albert, Leduc, and downtown Edmonton with same-day appointments covered under AHCIP.",
+    "A virtual walk-in clinic functions identically to a traditional Edmonton walk-in clinic — diagnosis, prescriptions, sick notes, and lab requisitions — but delivered remotely by CPSA-licensed Alberta physicians via secure video or phone. TelePlus Care serves all Edmonton-area communities including Sherwood Park, St. Albert, Leduc, and downtown Edmonton with same-day appointments. The consultation may be covered by Alberta Health Care for eligible Alberta residents.",
   keyFacts: [
     "Same-day virtual walk-in appointments across the Edmonton metro area",
-    "Covered by Alberta Health Care for valid AHCIP cardholders",
+    "The consultation may be covered by Alberta Health Care for eligible Alberta residents",
     "CPSA-licensed Alberta physicians serving downtown to Sherwood Park",
     "No referral needed; prescriptions sent to your Edmonton pharmacy",
   ],
@@ -111,7 +111,7 @@ export const pageData: LandingPageData = {
       content:
         "Edmonton residents trust TelePlusCare as their go-to virtual walk-in clinic for many important reasons.",
       bullets: [
-        "Covered by Alberta Health — Most virtual walk-in clinic consultations at TelePlusCare are covered by the Alberta Health Care Insurance Plan (AHCIP). Edmonton patients with a valid Alberta Health card can access licensed medical care online at no out-of-pocket cost for the consultation itself.",
+        "Alberta Health Coverage — The medical consultation may be covered by Alberta Health Care for eligible Alberta residents with a valid AHCIP card. Documentation services such as sick notes carry a flat fee.",
         "Same-Day Online Doctor Appointments Edmonton — Unlike many family doctors in Edmonton with weeks-long wait times, TelePlusCare's virtual walk-in clinic offers same-day appointments so you receive the care you need exactly when you need it.",
         "100% Online — No Travel Required — Our virtual walk-in clinic serves all of Edmonton and Alberta. Whether you are in downtown Edmonton, Oliver, Strathcona, Mill Woods, Sherwood Park, or any surrounding community, TelePlusCare brings the doctor to you.",
         "Licensed Alberta Physicians — Every doctor at TelePlusCare's virtual walk-in clinic is fully licensed and registered to practice medicine in Alberta. You receive the same high standard of care as you would during an in-person visit.",
@@ -145,9 +145,9 @@ export const pageData: LandingPageData = {
       imageAlt: "Virtual Walk-In Clinic Edmonton vs Traditional Walk-In Clinic",
 },
     {
-      title: "Virtual Walk-In Clinic Edmonton — Covered by Alberta Health",
+      title: "Virtual Walk-In Clinic Edmonton — Alberta Health Coverage",
       content:
-        "A question many Edmonton patients ask is whether virtual walk-in clinic visits are covered by Alberta Health. The answer is yes. TelePlusCare's virtual walk-in clinic consultations in Edmonton are covered by the Alberta Health Care Insurance Plan (AHCIP) for eligible residents. This means most Edmonton patients pay nothing out of pocket for their online doctor consultation with TelePlusCare.\n\nTo use your Alberta Health coverage at TelePlusCare's virtual walk-in clinic in Edmonton, simply have your Alberta Health card ready when you book your appointment.",
+        "A question many Edmonton patients ask is whether virtual walk-in clinic consultations are covered by Alberta Health. The medical consultation may be covered by Alberta Health Care for eligible Alberta residents with a valid AHCIP card. Documentation services such as sick notes are not covered by Alberta Health Care and carry a flat fee, shown upfront before you book.\n\nTo use your Alberta Health coverage at TelePlusCare's virtual walk-in clinic in Edmonton, simply have your Alberta Health card ready when you book your appointment.",
           image: "/images/Rectangle-1090-10.png",
       imageAlt: "Virtual Walk-In Clinic Edmonton — Covered by Alberta Health",
 },
@@ -155,7 +155,7 @@ export const pageData: LandingPageData = {
       title:
         "Book Your Virtual Walk-In Clinic Appointment in Edmonton Today",
       content:
-        "Stop waiting hours at a traditional Edmonton walk-in clinic or weeks for a family doctor. TelePlusCare's virtual walk-in clinic in Edmonton gives you fast, professional, and convenient access to a licensed Alberta doctor the same day.\n\nCall us at 587-442-4898 or visit telepluscare.com/contact-us to book your virtual walk-in clinic appointment in Edmonton today. Same-day appointments available. Covered by Alberta Health. 100% online.",
+        "Stop waiting hours at a traditional Edmonton walk-in clinic or weeks for a family doctor. TelePlusCare's virtual walk-in clinic in Edmonton gives you fast, professional, and convenient access to a licensed Alberta doctor the same day.\n\nCall us at 587-442-4898 or visit telepluscare.com/contact-us to book your virtual walk-in clinic appointment in Edmonton today. Same-day appointments available. The consultation may be covered by Alberta Health Care for eligible Alberta residents. 100% online.",
           image: "/images/Rectangle-1090-11.png",
       imageAlt: "Book Your Virtual Walk-In Clinic Appointment in Edmonton Today",
 },
@@ -177,7 +177,7 @@ export const pageData: LandingPageData = {
       question:
         "Is the virtual walk-in clinic covered by Alberta Health in Edmonton?",
       answer:
-        "Yes, most consultations at TelePlusCare's Edmonton virtual walk-in clinic are covered by the Alberta Health Care Insurance Plan. Have your Alberta Health card ready when booking your appointment.",
+        "The medical consultation may be covered by Alberta Health Care for eligible Alberta residents with a valid AHCIP card. Documentation services such as sick notes carry a flat fee, shown upfront before you book.",
     },
     {
       question:

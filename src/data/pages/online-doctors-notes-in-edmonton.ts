@@ -1,10 +1,10 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle: "Online Doctor's Note Edmonton | Same-Day AHC Sick Note",
+  metaTitle: "Online Doctor's Note Edmonton | Same-Day Sick Note",
   metaDescription:
-    "Get a same-day online doctor's note in Edmonton from CPSA-licensed physicians. Covered by Alberta Health Care. Accepted by employers, U of A, and NAIT.",
-  title: "Online Doctor's Note in Edmonton — Same-Day, AHC-Covered Sick Notes",
+    "Get a same-day online doctor's note in Edmonton from CPSA-licensed physicians. Accepted by employers, U of A, and NAIT.",
+  title: "Online Doctor's Note in Edmonton — Same-Day Sick Notes",
   heroDescription:
     "Edmonton residents can speak with an Alberta-licensed family physician from home and receive a legally valid sick note the same day. Whether you work downtown, study at the University of Alberta, or commute from Sherwood Park, our virtual clinic delivers documentation employers across the capital region accept without question.",
   heroImage: "/images/online-doctors-notes-in-edmonton/hero.jpg",
@@ -13,7 +13,7 @@ export const pageData: LandingPageData = {
   lastReviewed: "2026-04-25",
   reviewedBy: "Dr. Maher Jerudi, MD",
   summary:
-    "Online doctor's notes in Edmonton are legally valid when issued by a CPSA-licensed physician after a virtual assessment. TelePlusCare provides same-day delivery, costs nothing with a valid Alberta Health Care card, and meets Alberta Employment Standards Code Section 53.97 — five unpaid sick days yearly — accepted by every major Edmonton employer.",
+    "Online doctor's notes in Edmonton are legally valid when issued by a CPSA-licensed physician after a virtual assessment. TelePlusCare provides same-day delivery and meets Alberta Employment Standards Code Section 53.97 — five unpaid sick days yearly — accepted by every major Edmonton employer. Doctor's notes are not covered by Alberta Health Care; a flat documentation fee applies.",
   keyFacts: [
     "Edmonton population exceeds 1 million, making it Alberta's second-largest virtual care market.",
     "Alberta Employment Standards Code Section 53.97 grants five unpaid job-protected sick days per year.",
@@ -66,7 +66,7 @@ export const pageData: LandingPageData = {
     {
       title: "Same-Day Issuance: How It Works",
       content:
-        "Most Edmonton patients book in the morning and have a signed note before lunch. Booking takes under two minutes through our online intake form, which collects your symptoms, contact details, and Alberta Health Care number. A physician calls you back, conducts the assessment, and emails the note from a secure Canadian-hosted platform.\n\nThere is no in-person visit, no parking at Kingsway, and no waiting room — important during cold and flu season when transmission risk is high.",
+        "Most Edmonton patients book in the morning and have a signed note before lunch. Booking takes under two minutes through our online intake form, which collects your symptoms and contact details. A physician calls you back, conducts the assessment, and emails the note from a secure Canadian-hosted platform.\n\nThere is no in-person visit, no parking at Kingsway, and no waiting room — important during cold and flu season when transmission risk is high.",
       bullets: [
         "Step 1 — Complete the booking form (2 minutes)",
         "Step 2 — Speak to an Alberta physician by phone or secure video",
@@ -99,16 +99,16 @@ export const pageData: LandingPageData = {
         "Whyte Avenue and ICE District hospitality and retail workers",
         "Downtown professionals at Manulife Place, ATB Place, and Edmonton Tower",
       ],
-      image: "/images/online-doctors-notes-in-edmonton/section-6.jpg",
+      image: "/images/online-doctors-notes-in-edmonton/section-6.png",
       imageAlt: "Edmonton students and workers using telemedicine",
     },
     {
       title: "Why Edmontonians Choose TelePlusCare",
       content:
-        "We're built specifically for Alberta. Every physician on our roster holds a current CPSA registration, our intake forms are calibrated to AHCIP billing rules, and our after-hours coverage spans Edmonton's typical work and school hours. We also recognise the Edmonton context — winter mobility, river-valley commutes, and the realities of shift work at the Refinery Row complex east of the city.",
+        "We're built specifically for Alberta. Every physician on our roster holds a current CPSA registration, and our after-hours coverage spans Edmonton's typical work and school hours. We also recognise the Edmonton context — winter mobility, river-valley commutes, and the realities of shift work at the Refinery Row complex east of the city.",
       bullets: [
         "100% CPSA-registered Alberta family physicians",
-        "AHCIP-billed consultations — no fee for eligible Albertans",
+        "Transparent flat documentation fee for the doctor's note",
         "Same-day notes, every day of the week",
         "Mobile-friendly booking — works on Edmonton transit Wi-Fi",
         "Encrypted, Canadian-hosted PHI infrastructure",
@@ -122,11 +122,6 @@ export const pageData: LandingPageData = {
       question: "Is an online doctor's note legally valid in Edmonton?",
       answer:
         "Yes. A note signed by a CPSA-registered physician carries identical legal weight to one issued at a walk-in clinic on Jasper Avenue or any Edmonton family practice. Employers and Edmonton schools accept it as official medical documentation.",
-    },
-    {
-      question: "Does Alberta Health Care cover the consultation?",
-      answer:
-        "The medical consultation itself is billed to AHCIP for residents with a valid Alberta Health Care card, so there is no charge for the visit. A nominal documentation fee may apply for the note itself depending on the type required.",
     },
     {
       question: "How fast can I get the note in Edmonton?",

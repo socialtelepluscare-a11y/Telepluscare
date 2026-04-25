@@ -13,14 +13,14 @@ export const pageData: LandingPageData = {
   keyFacts: [
     "Most non-controlled refills issued within 15-30 minutes of consultation",
     "Sent electronically to any Edmonton pharmacy or delivery service",
-    "Most consultations covered by Alberta Health Care for AHCIP holders",
+    "The consultation may be covered by Alberta Health Care for eligible Alberta residents",
     "Cannot refill: opioids, benzodiazepines, ADHD stimulants, or sleeping pills",
   ],
   sections: [
     {
       title: "Refill Your Prescriptions Online",
       content:
-        "Running low on your medication? Don't wait in line or sit in a waiting room. At TelePlusCare, you can easily request prescription refills online, and get them approved quickly if appropriate.\n\nAvailable 24/7 — Anytime, anywhere\nServing Edmonton, Fort McMurray & surrounding areas\nCovered by Alberta Health Card (where eligible)",
+        "Running low on your medication? Don't wait in line or sit in a waiting room. At TelePlusCare, you can easily request prescription refills online, and get them approved quickly if appropriate.\n\nAvailable 24/7 — Anytime, anywhere\nServing Edmonton, Fort McMurray & surrounding areas\nThe consultation may be covered by Alberta Health Care for eligible Alberta residents",
       image: "/images/prescription-refill/111-819x1024.jpeg",
       imageAlt: "Prescriptions and Refills in Calgary",
     },
@@ -56,7 +56,7 @@ export const pageData: LandingPageData = {
         "Fast Turnaround: Receive your note in as little as 15 minutes",
         "Valid for Work, School & Travel: Use it with confidence anywhere in Alberta",
         "Secure & Private: Your consultation and documents are fully confidential",
-        "Alberta Health Card Accepted: Most services covered — no extra cost",
+        "Alberta Health Card Accepted: The consultation may be covered for eligible Alberta residents",
       ],
       image: "/images/prescription-refill/13-819x1024.jpeg",
       imageAlt: "Online Prescriptions and Refills in Edmonton – TelePlusCare",
@@ -103,7 +103,7 @@ export const pageData: LandingPageData = {
     {
       question: "Do I need an Alberta Health Care number?",
       answer:
-        "Many virtual services are covered by AHCIP, but you can still use TelePlusCare even if you don't have an Alberta Health Card. Fees may apply for uninsured services.",
+        "The consultation may be covered by Alberta Health Care for eligible Alberta residents, but you can still use TelePlusCare even if you don't have an Alberta Health Card. Fees may apply for uninsured services.",
     },
     {
       question: "Can you send my prescription to any pharmacy in Edmonton?",

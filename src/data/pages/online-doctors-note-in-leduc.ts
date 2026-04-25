@@ -1,9 +1,9 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle: "Online Doctor's Note Leduc | Same-Day Sick Note, AHC",
+  metaTitle: "Online Doctor's Note Leduc | Same-Day Sick Note",
   metaDescription:
-    "Leduc residents and Edmonton airport workers can get a same-day virtual sick note from CPSA physicians. AHC-covered. Accepted by Black Gold Schools and YEG employers.",
+    "Leduc residents and Edmonton airport workers can get a same-day virtual sick note from CPSA physicians. Accepted by Black Gold Schools and YEG employers.",
   title: "Online Doctor's Note in Leduc — Same-Day Virtual Sick Notes",
   heroDescription:
     "Whether you work shifts at the Edmonton International Airport, drive a service rig in the Nisku industrial park, or have a child at Leduc Composite High, getting a sick note shouldn't mean losing half a day to a walk-in clinic. Speak to a CPSA-registered physician from home and get a signed note the same day.",
@@ -13,7 +13,7 @@ export const pageData: LandingPageData = {
   lastReviewed: "2026-04-25",
   reviewedBy: "Dr. Maher Jerudi, MD",
   summary:
-    "Leduc residents — including airport workers and oil and gas service staff — can obtain a legally valid online doctor's note from a CPSA-registered physician without driving to Edmonton or a local walk-in. The visit is covered by Alberta Health Care, the note satisfies Alberta Employment Standards Code Section 53.97 (five unpaid sick days), and it is accepted by Black Gold School Division and Leduc-area employers.",
+    "Leduc residents — including airport workers and oil and gas service staff — can obtain a legally valid online doctor's note from a CPSA-registered physician without driving to Edmonton or a local walk-in. The note satisfies Alberta Employment Standards Code Section 53.97 (five unpaid sick days) and is accepted by Black Gold School Division and Leduc-area employers. Doctor's notes are not covered by Alberta Health Care; a flat documentation fee applies.",
   keyFacts: [
     "Leduc has approximately 34,000 residents and is the gateway to Edmonton International Airport (YEG).",
     "The Nisku Business Park is one of Canada's largest oil and gas service hubs.",
@@ -99,16 +99,16 @@ export const pageData: LandingPageData = {
         "Leduc Community Hospital employees",
         "Edmonton commuters using Highway 2 daily",
       ],
-      image: "/images/online-doctors-notes-in-edmonton/section-6.jpg",
+      image: "/images/online-doctors-notes-in-edmonton/section-6.png",
       imageAlt: "Leduc family at home",
     },
     {
       title: "Why Leduc Patients Choose TelePlusCare",
       content:
-        "We're calibrated for Leduc's mix of airport-shift schedules and oil and gas rotations. Same-day notes, AHCIP-billed consultations, and CPSA-registered physicians who understand fitness-for-duty expectations at Nisku employers. Our extended-hours coverage matches the windows Leduc workers actually have available.",
+        "We're calibrated for Leduc's mix of airport-shift schedules and oil and gas rotations. Same-day notes from CPSA-registered physicians who understand fitness-for-duty expectations at Nisku employers. Our extended-hours coverage matches the windows Leduc workers actually have available.",
       bullets: [
         "100% CPSA-registered Alberta physicians",
-        "AHCIP-billed consults — no fee with a valid Alberta Health Care card",
+        "Transparent flat documentation fee for the doctor's note",
         "Same-day notes seven days a week",
         "Built for airport and Nisku shift workers",
         "Encrypted Canadian-hosted PHI infrastructure",
@@ -127,11 +127,6 @@ export const pageData: LandingPageData = {
       question: "Will it be accepted by airport employers at YEG?",
       answer:
         "Yes. Major Edmonton International Airport employers — including airlines, ground services, retail, and security firms — accept notes from CPSA-registered virtual physicians. The note carries a verification line for HR.",
-    },
-    {
-      question: "Is the consult covered by Alberta Health Care?",
-      answer:
-        "Yes. Leduc residents with a valid AHCIP card pay nothing for the medical consultation. A small documentation fee may apply for some types of notes.",
     },
     {
       question: "How fast can I get the note?",

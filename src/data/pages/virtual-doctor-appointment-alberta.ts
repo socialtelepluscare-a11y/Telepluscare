@@ -76,9 +76,9 @@ export const pageData: LandingPageData = {
       imageAlt: "Same-Day Virtual Doctor Appointments Across Alberta",
 },
     {
-      title: "Virtual Doctor Appointments Covered by Alberta Health",
+      title: "Alberta Health Coverage for Virtual Doctor Appointments",
       content:
-        "Most virtual doctor appointments at TelePlusCare are covered by the Alberta Health Care Insurance Plan (AHCIP). If you hold a valid Alberta Health card, you can see a licensed physician online at no cost for the consultation itself.\n\nSome specialized services — including certain medical certificates, aesthetic consultations, and occupational health assessments — may carry additional fees. These are always communicated clearly before your appointment so there are no surprises. TelePlusCare believes in complete pricing transparency.",
+        "The medical consultation may be covered by the Alberta Health Care Insurance Plan (AHCIP) for eligible Alberta residents with a valid AHCIP card. If you hold a valid Alberta Health card, the consultation itself is generally billed to AHCIP at no cost to you.\n\nSome specialized services — including doctor's notes, medical certificates, aesthetic consultations, and occupational health assessments — are not covered by Alberta Health Care and carry a flat fee. These fees are always communicated clearly before your appointment so there are no surprises. TelePlusCare believes in complete pricing transparency.",
       image: "/images/Group-37523.png",
       imageAlt: "Alberta Health coverage virtual doctor appointment",
     },
@@ -108,7 +108,7 @@ export const pageData: LandingPageData = {
       question:
         "Are virtual doctor appointments covered by Alberta Health?",
       answer:
-        "Yes. Most virtual consultations at TelePlusCare are covered by the Alberta Health Care Insurance Plan. Have your Alberta Health card ready when booking. Some specialized services may have additional fees, which are communicated upfront.",
+        "The medical consultation may be covered by Alberta Health Care for eligible Alberta residents with a valid AHCIP card. Have your Alberta Health card ready when booking. Documentation services such as doctor's notes carry a flat fee, shown upfront before you book.",
     },
     {
       question:
@@ -163,10 +163,10 @@ export const pageData: LandingPageData = {
     "TelePlusCare's virtual doctor appointments are available to patients across all of Alberta including Edmonton, Calgary, Red Deer, Lethbridge, Medicine Hat, Grande Prairie, Fort McMurray, Airdrie, Cochrane, Sherwood Park, St. Albert, Spruce Grove, Leduc, Fort Saskatchewan, Beaumont, Camrose, Wetaskiwin, Lloydminster, Cold Lake, Hinton, Jasper, Banff, Canmore, Brooks, Drumheller, Okotoks, High River, Chestermere, Stony Plain, and all rural and remote communities throughout the province.",
   bookingUrl: "/book-appointment-alberta",
   summary:
-    "A virtual doctor appointment is a clinically-equivalent remote medical consultation conducted via secure video or phone with a CPSA-licensed Alberta physician. Most appointments last 10-20 minutes and cover prescriptions, sick notes, lab requisitions, referrals, and chronic care. TelePlus Care offers same-day booking across Alberta, with most consultations covered under AHCIP for valid health card holders.",
+    "A virtual doctor appointment is a clinically-equivalent remote medical consultation conducted via secure video or phone with a CPSA-licensed Alberta physician. Most appointments last 10-20 minutes and cover prescriptions, sick notes, lab requisitions, referrals, and chronic care. TelePlus Care offers same-day booking across Alberta. The consultation may be covered by Alberta Health Care for eligible Alberta residents.",
   keyFacts: [
     "Same-day virtual appointments — often booked within hours",
-    "Covered by Alberta Health Care for valid AHCIP cardholders",
+    "The consultation may be covered by Alberta Health Care for eligible Alberta residents",
     "10-20 minute consultations via encrypted video or phone",
     "Electronic prescriptions, sick notes, and referrals delivered same day",
   ],

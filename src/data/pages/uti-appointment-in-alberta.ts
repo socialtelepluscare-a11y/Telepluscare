@@ -3,7 +3,7 @@ import type { LandingPageData } from "@/types/landing-page";
 export const pageData: LandingPageData = {
   metaTitle: "UTI Appointment Alberta | Province-Wide Virtual UTI Doctor",
   metaDescription:
-    "Book a same-day virtual UTI appointment anywhere in Alberta. CPSA-licensed physicians prescribe antibiotics electronically to your local pharmacy under AHCIP.",
+    "Book a same-day virtual UTI appointment anywhere in Alberta. CPSA-licensed physicians prescribe antibiotics electronically to your local pharmacy. AHCIP-eligible consultation for Alberta residents.",
   title: "Province-Wide Virtual UTI Appointments Across Alberta",
   heroDescription:
     "Whether you live in Edmonton, Calgary, Red Deer, Lethbridge, Fort McMurray, Medicine Hat, Grande Prairie, St. Albert, Sherwood Park, or Airdrie, TelePlus Care connects every Alberta resident with a same-day virtual UTI consultation. CPSA-licensed physicians treat uncomplicated UTIs without an in-person visit.",
@@ -12,11 +12,11 @@ export const pageData: LandingPageData = {
   bookingUrl: "/book-appointment-alberta",
   conditionType: "Urinary Tract Infection",
   summary:
-    "Alberta residents experiencing UTI symptoms such as burning urination, urgency, and pelvic pressure can book a same-day virtual visit with TelePlus Care from any community in the province. CPSA-licensed physicians treat uncomplicated UTIs in 15 to 20 minutes and send antibiotic prescriptions to any Alberta pharmacy. Visits are covered by Alberta Health Care.",
+    "Alberta residents experiencing UTI symptoms such as burning urination, urgency, and pelvic pressure can book a same-day virtual visit with TelePlus Care from any community in the province. CPSA-licensed physicians treat uncomplicated UTIs in 15 to 20 minutes and send antibiotic prescriptions to any Alberta pharmacy. The consultation may be covered by Alberta Health Care for eligible Alberta residents.",
   keyFacts: [
     "Available province-wide to roughly 4.6 million Alberta residents",
     "Same-day UTI appointment available within 30 minutes",
-    "Covered by Alberta Health Care for residents with a valid AHCIP card",
+    "The consultation may be covered by Alberta Health Care for eligible Alberta residents",
     "CPSA-registered physicians licensed to practise across all of Alberta",
   ],
   sections: [
@@ -101,7 +101,7 @@ export const pageData: LandingPageData = {
     {
       title: "About TelePlus Care",
       content:
-        "TelePlus Care is an Alberta-based virtual primary care clinic providing same-day visits across the province. Every consultation is delivered by a physician registered with the College of Physicians and Surgeons of Alberta. Visits are billed through Alberta Health Care for AHCIP holders, and our infrastructure is fully PIPEDA compliant. Your records are confidential and never shared without consent.",
+        "TelePlus Care is an Alberta-based virtual primary care clinic providing same-day visits across the province. Every consultation is delivered by a physician registered with the College of Physicians and Surgeons of Alberta. The consultation may be covered by Alberta Health Care for eligible Alberta residents, and our infrastructure is fully PIPEDA compliant. Your records are confidential and never shared without consent.",
       image: "/images/ChatGPT-Image-Nov-3-2025-04_36_39-PM-1024x683.png",
       imageAlt: "TelePlus Care province-wide Alberta virtual clinic",
     },
@@ -113,9 +113,9 @@ export const pageData: LandingPageData = {
         "Yes. Any Alberta resident with a valid AHCIP card can book a same-day virtual UTI visit, whether you live in Edmonton, Calgary, Red Deer, Lethbridge, Medicine Hat, Fort McMurray, Grande Prairie, or a smaller community.",
     },
     {
-      question: "Is the visit covered by Alberta Health Care?",
+      question: "Is the consultation covered by Alberta Health Care?",
       answer:
-        "Yes. Medically necessary virtual UTI consultations with our CPSA-licensed physicians are covered for Alberta residents with a valid AHCIP card.",
+        "The medical consultation may be covered by Alberta Health Care for eligible Alberta residents with a valid AHCIP card. Some specialized services or documentation may carry an additional fee, which is communicated upfront.",
     },
     {
       question: "Which pharmacies in Alberta can receive my UTI prescription?",

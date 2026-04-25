@@ -3,8 +3,8 @@ import type { LandingPageData } from "@/types/landing-page";
 export const pageData: LandingPageData = {
   metaTitle: "UTI Appointment Red Deer | Same-Day Virtual UTI Doctor",
   metaDescription:
-    "Red Deer patients can book a same-day virtual UTI visit with an Alberta physician. Antibiotic prescriptions sent to your local pharmacy under Alberta Health Care.",
-  title: "Same-Day UTI Appointment in Red Deer",
+    "Red Deer patients can book a same-day virtual UTI visit with an Alberta physician. We write antibiotic prescriptions you can fill at your local pharmacy. AHCIP-eligible consultation for Alberta residents.",
+  title: "Same-Day Online UTI Appointment in Red Deer",
   heroDescription:
     "Red Deer residents from Oriole Park, Eastview Estates, and Sunnybrook can avoid long waits at Red Deer Regional Hospital and connect with an Alberta-licensed physician virtually. Same-day UTI care is also available to Central Alberta agricultural communities surrounding the city.",
   heroImage: "/images/urinary-tract-infection-treatments.jpg",
@@ -12,10 +12,10 @@ export const pageData: LandingPageData = {
   bookingUrl: "/book-appointment-alberta",
   conditionType: "Urinary Tract Infection",
   summary:
-    "Red Deer patients with UTI symptoms such as burning urination and pelvic pressure can book a same-day virtual consultation with TelePlus Care. CPSA-licensed Alberta physicians treat uncomplicated UTIs in roughly 15 to 20 minutes and send antibiotic prescriptions directly to any Red Deer pharmacy. Visits are covered by Alberta Health Care.",
+    "Red Deer patients with UTI symptoms such as burning urination and pelvic pressure can book a same-day virtual consultation with TelePlus Care. CPSA-licensed Alberta physicians treat uncomplicated UTIs in roughly 15 to 20 minutes and write a prescription you can fill at your Red Deer pharmacy.",
   keyFacts: [
     "Same-day virtual UTI appointment for Red Deer patients within 30 minutes",
-    "Prescription delivered to any Red Deer pharmacy under Alberta Health Care",
+    "Prescription sent electronically to any Red Deer pharmacy",
     "No referral required from a Central Alberta family doctor",
     "Roughly 90 percent of uncomplicated UTIs resolve with a single antibiotic course",
   ],
@@ -86,7 +86,7 @@ export const pageData: LandingPageData = {
     {
       title: "About TelePlus Care Serving Red Deer",
       content:
-        "TelePlus Care is an Alberta virtual clinic providing same-day care to patients in Red Deer and the Central Alberta region. Our physicians are licensed by the College of Physicians and Surgeons of Alberta and visits are billed through Alberta Health Care for eligible AHCIP holders. All consultations are PIPEDA compliant and confidential.",
+        "TelePlus Care is an Alberta virtual clinic providing same-day care to patients in Red Deer and the Central Alberta region. Our physicians are licensed by the College of Physicians and Surgeons of Alberta. The consultation may be covered by Alberta Health Care for eligible Alberta residents. All consultations are PIPEDA compliant and confidential.",
       image: "/images/ChatGPT-Image-Nov-3-2025-04_36_39-PM-1024x683.png",
       imageAlt: "TelePlus Care serving Red Deer and Central Alberta",
     },
@@ -108,9 +108,9 @@ export const pageData: LandingPageData = {
         "Yes. Patients across Central Alberta, including Sylvan Lake, Lacombe, Innisfail, Blackfalds, and Olds, regularly use TelePlus Care. Prescriptions can be sent to a pharmacy in your home community or in Red Deer.",
     },
     {
-      question: "Is the visit covered by Alberta Health Care?",
+      question: "Is the consultation covered by Alberta Health Care?",
       answer:
-        "Yes. Red Deer residents with a valid AHCIP card are covered for medically necessary UTI consultations with our CPSA-licensed Alberta physicians.",
+        "The medical consultation may be covered by Alberta Health Care for eligible Alberta residents with a valid AHCIP card. Some specialized services or documentation may carry an additional fee, which is communicated upfront.",
     },
     {
       question: "Do I need a urine test in Red Deer first?",

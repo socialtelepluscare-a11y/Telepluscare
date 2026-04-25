@@ -3,7 +3,7 @@ import type { LandingPageData } from "@/types/landing-page";
 export const pageData: LandingPageData = {
   metaTitle: "Online Doctor's Note Grande Prairie | Same-Day Sick Note",
   metaDescription:
-    "Grande Prairie residents and Peace Country workers can get a same-day virtual sick note from CPSA physicians. AHC-covered. Accepted by GPPSD and area employers.",
+    "Grande Prairie residents and Peace Country workers can get a same-day virtual sick note from CPSA physicians. Accepted by GPPSD and area employers.",
   title: "Online Doctor's Note in Grande Prairie — Same-Day Virtual Sick Notes",
   heroDescription:
     "From oil and gas operations across the Peace Country to agriculture, Northwestern Polytechnic, and Queen Elizabeth II Hospital, Grande Prairie residents can speak to a CPSA-licensed physician from home and get a signed sick note the same day. Designed for the long distances and shift work of northwestern Alberta.",
@@ -13,7 +13,7 @@ export const pageData: LandingPageData = {
   lastReviewed: "2026-04-25",
   reviewedBy: "Dr. Maher Jerudi, MD",
   summary:
-    "Grande Prairie patients can secure a legally valid online doctor's note from a CPSA-registered physician without driving to Queen Elizabeth II Hospital or a 100 Avenue walk-in. The visit is covered by Alberta Health Care, the note satisfies Alberta Employment Standards Code Section 53.97 (five unpaid sick days), and it is accepted by GPPSD, GPCSD, and Peace Country employers.",
+    "Grande Prairie patients can secure a legally valid online doctor's note from a CPSA-registered physician without driving to Queen Elizabeth II Hospital or a 100 Avenue walk-in. The note satisfies Alberta Employment Standards Code Section 53.97 (five unpaid sick days) and is accepted by GPPSD, GPCSD, and Peace Country employers. Doctor's notes are not covered by Alberta Health Care; a flat documentation fee applies.",
   keyFacts: [
     "Grande Prairie is the regional centre for Alberta's Peace Country with about 65,000 residents.",
     "Oil and gas, agriculture, and forestry are the foundation of the local economy.",
@@ -99,16 +99,16 @@ export const pageData: LandingPageData = {
         "Queen Elizabeth II Hospital staff",
         "GPPSD and GPCSD parents",
       ],
-      image: "/images/online-doctors-notes-in-edmonton/section-6.jpg",
+      image: "/images/online-doctors-notes-in-edmonton/section-6.png",
       imageAlt: "Grande Prairie family using telemedicine",
     },
     {
       title: "Why Grande Prairie Patients Choose TelePlusCare",
       content:
-        "We're calibrated for the Peace Country reality — long distances, irregular shifts, and limited weekday clinic capacity. Same-day notes, AHCIP-billed consultations, and CPSA-registered physicians who understand fitness-for-duty documentation for safety-sensitive roles in oil and gas and forestry.",
+        "We're calibrated for the Peace Country reality — long distances, irregular shifts, and limited weekday clinic capacity. Same-day notes from CPSA-registered physicians who understand fitness-for-duty documentation for safety-sensitive roles in oil and gas and forestry.",
       bullets: [
         "100% CPSA-registered Alberta physicians",
-        "AHCIP-billed consults — no fee with a valid Alberta Health Care card",
+        "Transparent flat documentation fee for the doctor's note",
         "Same-day notes seven days a week",
         "Designed for long-distance Peace Country commuters",
         "Encrypted Canadian-hosted PHI infrastructure",
@@ -127,11 +127,6 @@ export const pageData: LandingPageData = {
       question: "Will it be accepted at oil and gas operators in the Peace Country?",
       answer:
         "Yes. Major oil and gas service employers across the Peace Country accept notes from CPSA-registered virtual physicians. The note includes a verification line for HR and can document temporary fitness-for-duty restrictions where clinically appropriate.",
-    },
-    {
-      question: "Is the consult covered by Alberta Health Care?",
-      answer:
-        "Yes. Grande Prairie residents with a valid AHCIP card pay nothing for the medical consultation. A small documentation fee may apply for some types of notes.",
     },
     {
       question: "How fast can I get the note?",

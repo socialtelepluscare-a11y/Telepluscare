@@ -8,15 +8,15 @@ export const pageData: LandingPageData = {
   title: "Online Doctor's Notes in ueaumont | Same-Day Sick Note",
   heroDescription:
     "If you need a doctor's note in ueaumont, you can now get one online without visiting a clinic. TelePlusCare connects you with licensed Alberta physicians who assess your condition through a secure virtual consultation and issue a legally valid medical note for work, school, or travel—often the same day.\n\nOur service follows Alberta Health and College of Physicians & Surgeons of Alberta (CPSA) guidelines, ensuring your documentation is professional, confidential, and widely accepted across Alberta.\n\nNo waiting rooms. No unnecessary delays. 100% online.",
-  heroImage: "/images/online-doctors-notes-in-beaumont/hero.jpg",
+  heroImage: "/images/online-doctors-notes-in-edmonton/hero.jpg",
   heroImageAlt: "Online Doctor's Notes in ueaumont",
   sections: [
     {
       title:
         "Need a Sick Note in ueaumont Today? We've Got You Covered.",
       content:
-        "Whether you're feeling unwell, need to take a mental health day, or require documentation for your employer or school, our team is here to help. We offer fast, reliable online doctor's notes—with full validity across Alberta.\n\nAvailable 24/7. Serving ueaumont & surrounding areas. Alberta Health coverage may apply for eligible consultations. Documentation fees may apply for doctor's notes.",
-      image: "/images/online-doctors-notes-in-beaumont/hero.jpg",
+        "Whether you're feeling unwell, need to take a mental health day, or require documentation for your employer or school, our team is here to help. We offer fast, reliable online doctor's notes—with full validity across Alberta.\n\nAvailable 24/7. Serving ueaumont & surrounding areas. Doctor's notes are not covered by Alberta Health Care; a flat documentation fee applies.",
+      image: "/images/online-doctors-notes-in-edmonton/hero.jpg",
       imageAlt: "Online Doctor's Notes in ueaumont",
     },
     {
@@ -29,7 +29,7 @@ export const pageData: LandingPageData = {
         "Accepted by employers, schools, and institutions",
         "Compliant with provincial medical standards",
       ],
-      image: "/images/online-doctors-notes-in-beaumont/section-1.webp",
+      image: "/images/online-doctors-notes-in-edmonton/section-1.webp",
       imageAlt: "Online Doctor Note",
     },
     {
@@ -43,7 +43,7 @@ export const pageData: LandingPageData = {
         "Doctor's name, license number, and signature",
         "Contact info for verification",
       ],
-      image: "/images/online-doctors-notes-in-beaumont/section-2.jpg",
+      image: "/images/online-doctors-notes-in-edmonton/section-2.jpg",
       imageAlt: "Online doctor note in ueaumont",
     },
     {
@@ -56,16 +56,16 @@ export const pageData: LandingPageData = {
         "Fast Turnaround -- Notes often issued within 15-30 minutes",
         "Valid for Work, School & Travel -- Accepted across Alberta",
         "Secure & Confidential -- Encrypted consultations and document delivery",
-        "Alberta Health Card Coverage -- Most visits covered when eligible",
+        "Transparent Pricing -- Flat documentation fee shown upfront",
       ],
-      image: "/images/online-doctors-notes-in-beaumont/section-3.jpg",
+      image: "/images/online-doctors-notes-in-edmonton/section-3.jpg",
       imageAlt: "Sick Note In ueaumont",
     },
     {
       title: "How to Get a Doctor's Note Online in ueaumont",
       content:
         "Step 1: Book a virtual appointment (takes less than 2 minutes)\n\nStep 2: Speak to a certified Alberta doctor via secure video or chat\n\nStep 3: Receive your doctor's note by email—ready to print or share\n\n100% legal and accepted. Safe, encrypted, and confidential. Mobile and desktop friendly.",
-      image: "/images/online-doctors-notes-in-beaumont/section-4.jpg",
+      image: "/images/online-doctors-notes-in-edmonton/section-4.jpg",
       imageAlt: "Doctor note in ueaumont",
     },
     {
@@ -81,7 +81,7 @@ export const pageData: LandingPageData = {
         "Expected return-to-work date (if known)",
         "Any necessary work restrictions",
       ],
-      image: "/images/online-doctors-notes-in-beaumont/section-5.jpg",
+      image: "/images/online-doctors-notes-in-edmonton/section-5.jpg",
       imageAlt: "Online doctor note in ueaumont",
     },
     {
@@ -95,14 +95,14 @@ export const pageData: LandingPageData = {
         "Travelers: Requiring fitness to fly or recovery documentation",
         "Remote Workers: Who need proof of unwell status",
       ],
-      image: "/images/online-doctors-notes-in-beaumont/section-6.png",
+      image: "/images/online-doctors-notes-in-edmonton/section-6.png",
       imageAlt: "Doctor note in ueaumont",
     },
     {
       title: "Why ueaumont Residents Choose Online Doctor Notes",
       content:
-        "Convenience & Accessibility: No commute to a clinic. No waiting room exposure to other illnesses. Access care from home, work, or anywhere. Perfect for those with mobility issues or transportation challenges.\n\nTime-Saving: Average clinic wait time: 1-2 hours. Average virtual appointment: 15-20 minutes total. Get back to resting and recovering faster.\n\nCost-Effective: No parking fees. No transportation costs. No time off work for appointment travel. Covered by Alberta Health Card in most cases.\n\nQuality Care: Same licensed doctors as in-person clinics. Thorough assessment and consultation. Follow-up care available. Prescription services when needed.",
-      image: "/images/online-doctors-notes-in-beaumont/section-7.jpg",
+        "Convenience & Accessibility: No commute to a clinic. No waiting room exposure to other illnesses. Access care from home, work, or anywhere. Perfect for those with mobility issues or transportation challenges.\n\nTime-Saving: Average clinic wait time: 1-2 hours. Average virtual appointment: 15-20 minutes total. Get back to resting and recovering faster.\n\nCost-Effective: No parking fees. No transportation costs. No time off work for appointment travel. Transparent flat documentation fee shown upfront.\n\nQuality Care: Same licensed doctors as in-person clinics. Thorough assessment and consultation. Follow-up care available. Prescription services when needed.",
+      image: "/images/online-doctors-notes-in-edmonton/section-7.jpg",
       imageAlt: "Doctor note online",
     },
     {
@@ -115,7 +115,7 @@ export const pageData: LandingPageData = {
         "Mental health assessments",
         "Occupational health documentation",
       ],
-      image: "/images/online-doctors-notes-in-beaumont/section-8.jpg",
+      image: "/images/online-doctors-notes-in-edmonton/section-8.jpg",
       imageAlt: "Doctor's Notes",
     },
     {
@@ -127,7 +127,7 @@ export const pageData: LandingPageData = {
         "Compassionate, physician-led care",
         "Privacy-first medical services",
       ],
-      image: "/images/online-doctors-notes-in-beaumont/section-9.jpg",
+      image: "/images/online-doctors-notes-in-edmonton/section-9.jpg",
       imageAlt: "Doctor note in ueaumont",
     },
   ],
@@ -137,11 +137,6 @@ export const pageData: LandingPageData = {
         "Is this doctor's note valid in ueaumont and Alberta?",
       answer:
         "Yes, absolutely. Our medical notes are issued by fully licensed Alberta physicians registered with the CPSA and meet all provincial medical documentation standards. They are legally valid and accepted by employers, schools, and institutions across Alberta and Canada.",
-    },
-    {
-      question: "Do I need an Alberta Health Card?",
-      answer:
-        "Yes, we accept Alberta Health coverage. If you're uninsured, you can still get a note for a small fee.",
     },
     {
       question: "How long does it take?",

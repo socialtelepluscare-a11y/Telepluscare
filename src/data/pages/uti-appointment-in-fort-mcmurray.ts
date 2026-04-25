@@ -12,11 +12,11 @@ export const pageData: LandingPageData = {
   bookingUrl: "/book-appointment-alberta",
   conditionType: "Urinary Tract Infection",
   summary:
-    "Fort McMurray residents and fly-in-fly-out workers experiencing UTI symptoms such as burning urination and pelvic pressure can book a same-day virtual visit with TelePlus Care. CPSA-licensed Alberta physicians complete consultations in 15 to 20 minutes, send antibiotic prescriptions to any RMWB pharmacy, and bill through Alberta Health Care.",
+    "Fort McMurray residents and fly-in-fly-out workers experiencing UTI symptoms such as burning urination and pelvic pressure can book a same-day virtual visit with TelePlus Care. CPSA-licensed Alberta physicians complete consultations in 15 to 20 minutes and send antibiotic prescriptions to any RMWB pharmacy. The consultation may be covered by Alberta Health Care for eligible Alberta residents.",
   keyFacts: [
     "Same-day virtual UTI appointment within 30 minutes for Fort McMurray patients",
     "Designed for fly-in-fly-out oilsands rotation schedules and remote camp workers",
-    "Prescription delivered to any Fort McMurray pharmacy under Alberta Health Care",
+    "Prescription sent electronically to any Fort McMurray pharmacy",
     "Licensed Alberta physicians (CPSA registered) available seven days a week",
   ],
   sections: [
@@ -93,7 +93,7 @@ export const pageData: LandingPageData = {
     {
       title: "About TelePlus Care Serving Fort McMurray",
       content:
-        "TelePlus Care is an Alberta virtual clinic providing same-day care to patients in Fort McMurray and across the Regional Municipality of Wood Buffalo (RMWB). Our physicians are licensed by the College of Physicians and Surgeons of Alberta. Visits are billed through Alberta Health Care for AHCIP holders, and the platform is fully PIPEDA compliant for confidential care.",
+        "TelePlus Care is an Alberta virtual clinic providing same-day care to patients in Fort McMurray and across the Regional Municipality of Wood Buffalo (RMWB). Our physicians are licensed by the College of Physicians and Surgeons of Alberta. The consultation may be covered by Alberta Health Care for eligible Alberta residents, and the platform is fully PIPEDA compliant for confidential care.",
       image: "/images/ChatGPT-Image-Nov-3-2025-04_36_39-PM-1024x683.png",
       imageAlt: "TelePlus Care serving Fort McMurray and RMWB",
     },
@@ -110,9 +110,9 @@ export const pageData: LandingPageData = {
         "Your prescription is electronically sent to any Fort McMurray pharmacy of your choice, including Shoppers Drug Mart in Peter Pond Mall, Rexall on Franklin Avenue, Save-On-Foods Pharmacy in Eagle Ridge, and pharmacies near Northern Lights Regional Health Centre.",
     },
     {
-      question: "Is the UTI visit covered for RMWB residents?",
+      question: "Is the UTI consultation covered for RMWB residents?",
       answer:
-        "Yes. Fort McMurray and RMWB residents with a valid Alberta Health Care card are covered for medically necessary virtual UTI consultations with our CPSA-licensed physicians.",
+        "The medical consultation may be covered by Alberta Health Care for eligible Alberta residents with a valid AHCIP card. Some specialized services or documentation may carry an additional fee, which is communicated upfront.",
     },
     {
       question: "Can I book if I am not from Fort McMurray but working there?",

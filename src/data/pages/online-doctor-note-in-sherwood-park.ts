@@ -3,7 +3,7 @@ import type { LandingPageData } from "@/types/landing-page";
 export const pageData: LandingPageData = {
   metaTitle: "Online Doctor's Note Sherwood Park | Same-Day Sick Note",
   metaDescription:
-    "Sherwood Park residents and Strathcona County refinery workers can get a same-day virtual sick note from CPSA physicians. AHC-covered. Accepted by Bev Facey and area employers.",
+    "Sherwood Park residents and Strathcona County refinery workers can get a same-day virtual sick note from CPSA physicians. Accepted by Bev Facey and area employers.",
   title: "Online Doctor's Note in Sherwood Park — Same-Day Virtual Sick Notes",
   heroDescription:
     "Strathcona County is home to refinery row at Imperial Oil and Shell Scotford, plus thousands of Edmonton commuters who'd rather not lose half a day at a clinic on Sherwood Drive or Wye Road. Speak to a CPSA-licensed physician from home and get a signed sick note delivered the same day.",
@@ -13,7 +13,7 @@ export const pageData: LandingPageData = {
   lastReviewed: "2026-04-25",
   reviewedBy: "Dr. Maher Jerudi, MD",
   summary:
-    "Sherwood Park and Strathcona County patients can secure a legally valid online doctor's note from a CPSA-registered physician without driving into Edmonton. The visit is covered by Alberta Health Care, the note satisfies Alberta Employment Standards Code Section 53.97 (five unpaid sick days), and it is accepted by Elk Island Public, Elk Island Catholic, and refinery row employers.",
+    "Sherwood Park and Strathcona County patients can secure a legally valid online doctor's note from a CPSA-registered physician without driving into Edmonton. The note satisfies Alberta Employment Standards Code Section 53.97 (five unpaid sick days) and is accepted by Elk Island Public, Elk Island Catholic, and refinery row employers. Doctor's notes are not covered by Alberta Health Care; a flat documentation fee applies.",
   keyFacts: [
     "Sherwood Park is the urban heart of Strathcona County with about 76,000 residents.",
     "Refinery Row east of Sherwood Park hosts Imperial Oil Strathcona, Shell Scotford, and Suncor refining.",
@@ -99,16 +99,16 @@ export const pageData: LandingPageData = {
         "Strathcona Community Hospital staff",
         "Local retail and professional services workers along Baseline Road",
       ],
-      image: "/images/online-doctors-notes-in-edmonton/section-6.jpg",
+      image: "/images/online-doctors-notes-in-edmonton/section-6.png",
       imageAlt: "Sherwood Park family using telemedicine at home",
     },
     {
       title: "Why Sherwood Park Residents Choose TelePlusCare",
       content:
-        "We understand the Strathcona County context — refinery shift schedules, Edmonton commutes, and the desire to stay close to home and family. Same-day notes, AHCIP-billed consultations, and CPSA-registered physicians who understand fitness-for-duty documentation for safety-sensitive industrial roles.",
+        "We understand the Strathcona County context — refinery shift schedules, Edmonton commutes, and the desire to stay close to home and family. Same-day notes from CPSA-registered physicians who understand fitness-for-duty documentation for safety-sensitive industrial roles.",
       bullets: [
         "100% CPSA-registered Alberta physicians",
-        "AHCIP-billed consults — no fee with a valid Alberta Health Care card",
+        "Transparent flat documentation fee for the doctor's note",
         "Same-day notes seven days a week",
         "Designed for refinery shift workers and Edmonton commuters",
         "Encrypted Canadian-hosted PHI infrastructure",
@@ -127,11 +127,6 @@ export const pageData: LandingPageData = {
       question: "Will Imperial Oil Strathcona or Shell Scotford accept the note?",
       answer:
         "Yes. Refinery row operators routinely accept notes from CPSA-registered virtual physicians. The note includes a verification line for HR and can document temporary fitness-for-duty restrictions where clinically appropriate for safety-sensitive industrial roles.",
-    },
-    {
-      question: "Is the consult covered by Alberta Health Care?",
-      answer:
-        "Yes. Sherwood Park residents with a valid AHCIP card pay nothing for the medical consultation. A small documentation fee may apply for the note depending on its type.",
     },
     {
       question: "How fast can I get the note?",

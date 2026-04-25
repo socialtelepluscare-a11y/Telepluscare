@@ -3,8 +3,8 @@ import type { LandingPageData } from "@/types/landing-page";
 export const pageData: LandingPageData = {
   metaTitle: "Doctor's Note in Red Deer | Same-Day Virtual Sick Note",
   metaDescription:
-    "Red Deer residents can get a same-day online doctor's note from CPSA physicians. AHC-covered. Accepted by RDC, Red Deer Public Schools, and local employers.",
-  title: "Doctor's Note in Red Deer — Online, Same-Day, AHC-Covered",
+    "Red Deer residents can get a same-day online doctor's note from CPSA physicians. Accepted by RDC, Red Deer Public Schools, and local employers.",
+  title: "Doctor's Note in Red Deer — Online, Same-Day Sick Notes",
   heroDescription:
     "Living between Calgary and Edmonton along the QEII corridor doesn't mean you should drive an hour for a sick note. Red Deer residents can speak to an Alberta-licensed physician from home, get assessed in minutes, and receive a signed PDF note that local employers, schools, and the Red Deer Polytechnic accept without question.",
   heroImage: "/images/online-doctors-notes-in-edmonton/hero.jpg",
@@ -13,7 +13,7 @@ export const pageData: LandingPageData = {
   lastReviewed: "2026-04-25",
   reviewedBy: "Dr. Maher Jerudi, MD",
   summary:
-    "Red Deer residents can obtain a same-day online doctor's note from CPSA-licensed physicians without travelling to a clinic. The visit is covered by Alberta Health Care, the note is legally valid under Alberta Employment Standards Code Section 53.97 (five unpaid sick days), and Red Deer employers, schools, and the Polytechnic all accept it.",
+    "Red Deer residents can obtain a same-day online doctor's note from CPSA-licensed physicians without travelling to a clinic. The note is legally valid under Alberta Employment Standards Code Section 53.97 (five unpaid sick days), and Red Deer employers, schools, and the Polytechnic all accept it. Doctor's notes are not covered by Alberta Health Care; a flat documentation fee applies.",
   keyFacts: [
     "Red Deer is Alberta's third-largest city with a population of approximately 101,000.",
     "Alberta Employment Standards Code Section 53.97 provides 5 unpaid job-protected sick days per year.",
@@ -99,16 +99,16 @@ export const pageData: LandingPageData = {
         "Red Deer Public and Catholic School parents",
         "QEII corridor commuters travelling to Calgary or Edmonton offices",
       ],
-      image: "/images/online-doctors-notes-in-edmonton/section-6.jpg",
+      image: "/images/online-doctors-notes-in-edmonton/section-6.png",
       imageAlt: "Red Deer Polytechnic student studying at home",
     },
     {
       title: "Why Red Deer Patients Choose TelePlusCare",
       content:
-        "We're built for the central Alberta context — long highways, dispersed industry, and the reality that walk-in clinic queues fill quickly during winter. Our physicians are all CPSA-registered, our consultations are AHCIP-billed, and our note issuance is calibrated to what Red Deer employers and schools want to see.",
+        "We're built for the central Alberta context — long highways, dispersed industry, and the reality that walk-in clinic queues fill quickly during winter. Our physicians are all CPSA-registered, and our note issuance is calibrated to what Red Deer employers and schools want to see.",
       bullets: [
         "100% CPSA-registered Alberta physicians",
-        "AHCIP-billed visits — no consultation fee with a valid Alberta Health Care card",
+        "Transparent flat documentation fee for the doctor's note",
         "Same-day notes seven days a week",
         "No drive to a walk-in on Gaetz Avenue",
         "Encrypted Canadian-hosted PHI infrastructure",
@@ -122,11 +122,6 @@ export const pageData: LandingPageData = {
       question: "Is an online doctor's note valid in Red Deer?",
       answer:
         "Yes — a note signed by a CPSA-registered Alberta physician is legally valid in Red Deer and is accepted by local employers, the Polytechnic, and both public and Catholic school boards.",
-    },
-    {
-      question: "Is the consult covered by Alberta Health Care?",
-      answer:
-        "Yes. Red Deer residents with a valid Alberta Health Care card pay nothing for the consultation, which is billed to AHCIP. A small documentation fee may apply for some types of notes.",
     },
     {
       question: "How fast can I get the note?",

@@ -25,7 +25,7 @@ export const pageData: LandingPageData = {
       bullets: [
         "Available 24/7 — Anytime, anywhere",
         "Serving cold lake, Fort McMurray & surrounding areas",
-        "Covered by Alberta Health Card (where eligible)",
+        "The consultation may be covered by Alberta Health Care for eligible Alberta residents",
         "Option for pharmacy delivery",
       ],
       image: "/images/image_2024_04_24T06_38_39_877Z.png",
@@ -74,7 +74,7 @@ export const pageData: LandingPageData = {
       title:
         "Virtual Healthcare Benefits: Why cold lake Residents Choose Online Refill Prescription",
       content:
-        "Convenience & Accessibility: No commute to a clinic. No waiting room exposure to other illnesses. Access care from home, work, or anywhere. Perfect for those with mobility issues or transportation challenges.\n\nTime-Saving: Average clinic wait time is 1-2 hours. Average virtual appointment takes just 15-20 minutes total. Get back to resting and recovering faster.\n\nCost-Effective: No parking fees. No transportation costs. No time off work for appointment travel. Covered by Alberta Health Card in most cases.\n\nQuality Care: Same licensed doctors as in-person clinics. Thorough assessment and consultation. Follow-up care available. Prescription services when needed.",
+        "Convenience & Accessibility: No commute to a clinic. No waiting room exposure to other illnesses. Access care from home, work, or anywhere. Perfect for those with mobility issues or transportation challenges.\n\nTime-Saving: Average clinic wait time is 1-2 hours. Average virtual appointment takes just 15-20 minutes total. Get back to resting and recovering faster.\n\nCost-Effective: No parking fees. No transportation costs. No time off work for appointment travel. The consultation may be covered by Alberta Health Care for eligible Alberta residents.\n\nQuality Care: Same licensed doctors as in-person clinics. Thorough assessment and consultation. Follow-up care available. Prescription services when needed.",
       image:
         "/images/tele.pluscare_1762275770_3758564036423165455_74096322945-819x1024.jpg",
       imageAlt: "Doctor note online",
@@ -89,7 +89,7 @@ export const pageData: LandingPageData = {
         "Fast Turnaround: Receive your note in as little as 15 minutes",
         "Valid for Work, School & Travel: Use it with confidence anywhere in Alberta",
         "Secure & Private: Your consultation and documents are fully confidential",
-        "Alberta Health Card Accepted: Most services covered — no extra cost",
+        "Alberta Health Card Accepted: The consultation may be covered for eligible Alberta residents",
       ],
       image: "/images/13-819x1024.jpeg",
       imageAlt:
@@ -176,7 +176,7 @@ export const pageData: LandingPageData = {
     {
       question: "Do I need an Alberta Health Care number?",
       answer:
-        "Many virtual services are covered by AHCIP, but you can still use TelePlusCare even if you don't have an Alberta Health Card. Fees may apply for uninsured services.",
+        "The consultation may be covered by Alberta Health Care for eligible Alberta residents, but you can still use TelePlusCare even if you don't have an Alberta Health Card. Fees may apply for uninsured services.",
     },
     {
       question:

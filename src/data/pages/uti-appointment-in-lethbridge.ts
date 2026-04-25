@@ -2,8 +2,8 @@ import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
   metaTitle: "UTI Appointment Lethbridge | Online Same-Day UTI Doctor",
-  metaDescription:
-    "Book a same-day virtual UTI appointment in Lethbridge. Alberta-licensed physicians prescribe antibiotics electronically to your local pharmacy under AHCIP coverage.",
+    metaDescription:
+    "Book a same-day virtual UTI appointment in Lethbridge. Alberta-licensed physicians prescribe antibiotics electronically to your local pharmacy. AHCIP-eligible consultation for Alberta residents.",
   title: "Virtual UTI Appointment in Lethbridge",
   heroDescription:
     "Lethbridge residents in Westside, Riverside Heights, and Fairmont, plus University of Lethbridge students and patients near Chinook Regional Hospital, can connect with a CPSA-licensed physician within 30 minutes. Skip the windy drive across the High Level Bridge for routine UTI care.",
@@ -12,12 +12,12 @@ export const pageData: LandingPageData = {
   bookingUrl: "/book-appointment-alberta",
   conditionType: "Urinary Tract Infection",
   summary:
-    "Lethbridge patients with UTI symptoms including painful urination, urgency, and pelvic pressure can book a same-day virtual visit with TelePlus Care. CPSA-licensed Alberta physicians complete consultations in 15 to 20 minutes and send antibiotic prescriptions to any Lethbridge pharmacy. Visits are covered by Alberta Health Care for AHCIP holders.",
+    "Lethbridge patients with UTI symptoms including painful urination, urgency, and pelvic pressure can book a same-day virtual visit with TelePlus Care. CPSA-licensed Alberta physicians complete consultations in 15 to 20 minutes and send antibiotic prescriptions to any Lethbridge pharmacy. The consultation may be covered by Alberta Health Care for eligible Alberta residents.",
   keyFacts: [
     "Same-day UTI appointment for Lethbridge patients within 30 minutes",
     "Virtual UTI consultation lasts 15 to 20 minutes from a Westside or Northside home",
     "Confidential and PIPEDA compliant secure platform",
-    "Covered by Alberta Health Care for residents with a valid AHCIP card",
+    "The consultation may be covered by Alberta Health Care for eligible Alberta residents",
   ],
   sections: [
     {
@@ -86,7 +86,7 @@ export const pageData: LandingPageData = {
     {
       title: "About TelePlus Care Serving Lethbridge",
       content:
-        "TelePlus Care provides same-day virtual primary care to patients across Lethbridge and southern Alberta. Every consultation is delivered by a physician registered with the College of Physicians and Surgeons of Alberta. Visits are billed through Alberta Health Care for AHCIP holders. The platform is PIPEDA compliant and your information is never shared without consent.",
+        "TelePlus Care provides same-day virtual primary care to patients across Lethbridge and southern Alberta. Every consultation is delivered by a physician registered with the College of Physicians and Surgeons of Alberta. The consultation may be covered by Alberta Health Care for eligible Alberta residents. The platform is PIPEDA compliant and your information is never shared without consent.",
       image: "/images/ChatGPT-Image-Nov-3-2025-04_36_39-PM-1024x683.png",
       imageAlt: "TelePlus Care telehealth team serving Lethbridge",
     },
@@ -103,9 +103,9 @@ export const pageData: LandingPageData = {
         "Your prescription is electronically transmitted to any Lethbridge pharmacy of your choice, including Shoppers Drug Mart on Mayor Magrath Drive, Rexall at Park Place Mall, Save-On-Foods Pharmacy, and pharmacies near Chinook Regional Hospital.",
     },
     {
-      question: "Is the UTI visit covered under AHCIP for Lethbridge residents?",
+      question: "Is the UTI consultation covered under AHCIP for Lethbridge residents?",
       answer:
-        "Yes. Lethbridge residents with a valid Alberta Health Care card are covered for medically necessary virtual UTI consultations with TelePlus Care physicians.",
+        "The medical consultation may be covered by Alberta Health Care for eligible Alberta residents with a valid AHCIP card. Some specialized services or documentation may carry an additional fee, which is communicated upfront.",
     },
     {
       question: "Can patients near Coutts or Cardston use this service?",

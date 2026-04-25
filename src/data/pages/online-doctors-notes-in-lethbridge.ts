@@ -1,9 +1,9 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle: "Online Doctor's Note Lethbridge | Same-Day AHC Sick Note",
+  metaTitle: "Online Doctor's Note Lethbridge | Same-Day Sick Note",
   metaDescription:
-    "Lethbridge residents can get a same-day virtual sick note from CPSA-licensed physicians. AHC-covered. Accepted by U of L, Lethbridge College, and Chinook School Division.",
+    "Lethbridge residents can get a same-day virtual sick note from CPSA-licensed physicians. Accepted by U of L, Lethbridge College, and Chinook School Division.",
   title: "Online Doctor's Note in Lethbridge — Same-Day Virtual Sick Notes",
   heroDescription:
     "From the U of L campus on the west side to agricultural operations south of Highway 3, Lethbridge residents can speak with an Alberta-licensed physician without leaving home and receive a signed sick note the same day. Accepted by Chinook School Division, the Coca-Cola plant, and every major southern Alberta employer.",
@@ -13,7 +13,7 @@ export const pageData: LandingPageData = {
   lastReviewed: "2026-04-25",
   reviewedBy: "Dr. Maher Jerudi, MD",
   summary:
-    "Lethbridge patients can secure a legally valid online doctor's note from a CPSA-registered physician without travelling to a clinic. The consultation is covered by Alberta Health Care, the note satisfies Alberta Employment Standards Code Section 53.97 (five unpaid sick days), and it is accepted by the University of Lethbridge, Lethbridge College, Chinook School Division, and local employers.",
+    "Lethbridge patients can secure a legally valid online doctor's note from a CPSA-registered physician without travelling to a clinic. The note satisfies Alberta Employment Standards Code Section 53.97 (five unpaid sick days) and is accepted by the University of Lethbridge, Lethbridge College, Chinook School Division, and local employers. Doctor's notes are not covered by Alberta Health Care; a flat documentation fee applies.",
   keyFacts: [
     "Lethbridge is southern Alberta's largest city with approximately 104,000 residents.",
     "Section 53.97 of the Alberta Employment Standards Code grants 5 unpaid job-protected sick days per year.",
@@ -99,16 +99,16 @@ export const pageData: LandingPageData = {
         "Chinook School Division parents",
         "Cross-border commuters working in Montana",
       ],
-      image: "/images/online-doctors-notes-in-edmonton/section-6.jpg",
+      image: "/images/online-doctors-notes-in-edmonton/section-6.png",
       imageAlt: "Lethbridge resident accessing telemedicine",
     },
     {
       title: "Why Lethbridge Patients Choose TelePlusCare",
       content:
-        "Southern Alberta has unique scheduling realities — long agricultural shifts, seasonal harvest peaks, and limited evening clinic capacity in smaller surrounding towns. Our service is designed to fit those windows: same-day notes, AHCIP-billed consultations, and CPSA-registered physicians who understand local employer documentation expectations.",
+        "Southern Alberta has unique scheduling realities — long agricultural shifts, seasonal harvest peaks, and limited evening clinic capacity in smaller surrounding towns. Our service is designed to fit those windows: same-day notes from CPSA-registered physicians who understand local employer documentation expectations.",
       bullets: [
         "100% CPSA-registered Alberta physicians",
-        "AHCIP-billed consults — no fee for valid AHC cardholders",
+        "Transparent flat documentation fee for the doctor's note",
         "Same-day notes, seven days a week",
         "Tailored for southern Alberta scheduling realities",
         "Encrypted Canadian-hosted PHI infrastructure",
@@ -122,11 +122,6 @@ export const pageData: LandingPageData = {
       question: "Is an online doctor's note valid in Lethbridge?",
       answer:
         "Yes. A note signed by a CPSA-registered physician is fully valid in Lethbridge and is accepted by employers, the University of Lethbridge, Lethbridge College, and Chinook School Division.",
-    },
-    {
-      question: "Is my Alberta Health Care card accepted?",
-      answer:
-        "Yes. Lethbridge residents with a valid AHCIP card pay nothing for the consultation. A small documentation fee may apply for the note depending on its type.",
     },
     {
       question: "How quickly will I get the note?",

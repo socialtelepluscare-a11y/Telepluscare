@@ -99,7 +99,7 @@ export const pageData: LandingPageData = {
         "Wood Buffalo Public and Fort McMurray Catholic School parents",
         "Small business and service workers along Franklin Avenue",
       ],
-      image: "/images/online-doctors-notes-in-edmonton/section-6.jpg",
+      image: "/images/online-doctors-notes-in-edmonton/section-6.png",
       imageAlt: "Fort McMurray oil sands workers heading to site",
     },
     {
