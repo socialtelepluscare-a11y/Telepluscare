@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <!-- TelePlus Care - Master sitemap index -->
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
@@ -27,6 +28,6 @@
   </sitemap>
   <sitemap>
     <loc>https://telepluscare.com/sitemap-articles.xml</loc>
-    <lastmod>2026-03-23</lastmod>
+    <lastmod>2026-04-25</lastmod>
   </sitemap>
 </sitemapindex>

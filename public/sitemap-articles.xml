@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <!-- TelePlus Care - articles sitemap -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
@@ -91,6 +92,67 @@
     </image:image>
     <image:image>
       <image:loc>https://telepluscare.com/images/Rectangle-1090-8.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/how-to-get-ozempic-in-canada/</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/how-to-get-ozempic-in-canada/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/how-to-get-ozempic-in-canada/"/>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/weight-loss/image-39.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/weight-loss/image-40.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/are-online-doctor-notes-legal-in-canada/</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/are-online-doctor-notes-legal-in-canada/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/are-online-doctor-notes-legal-in-canada/"/>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/online-doctors-notes-in-edmonton/hero.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/cost-of-virtual-doctor-visit-in-alberta/</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/cost-of-virtual-doctor-visit-in-alberta/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/cost-of-virtual-doctor-visit-in-alberta/"/>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/Rectangle-1090-3.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/ozempic-vs-mounjaro-vs-wegovy-canada/</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/ozempic-vs-mounjaro-vs-wegovy-canada/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/ozempic-vs-mounjaro-vs-wegovy-canada/"/>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/weight-loss/image-41.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/weight-loss/image-39.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/how-to-save-money-on-prescriptions-canada/</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/how-to-save-money-on-prescriptions-canada/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/how-to-save-money-on-prescriptions-canada/"/>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/prescription-refill/13-819x1024.jpeg</image:loc>
     </image:image>
   </url>
 </urlset>

@@ -70,7 +70,7 @@ export default function BookAppointmentPage() {
 
       {/* Form */}
       <section style={{ background: "#fef7ff", padding: "48px 0 80px" }}>
-        <div className="container-main" style={{ maxWidth: 900, margin: "0 auto" }}>
+        <div className="container-main" style={{ maxWidth: 1200, margin: "0 auto" }}>
           <div
             style={{
               background: "#fff",
