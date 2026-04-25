@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TelePlus Care - core, core-services sitemap -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://telepluscare.com/</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/"/>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/Group-37520.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/logo-1.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/about/</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/about/"/>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/blog/</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/blog/"/>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/careers/</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/careers/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/careers/"/>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/contact-us/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/contact-us/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/contact-us/"/>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/faq/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/faq/"/>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/how-telehealth-works/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/how-telehealth-works/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/how-telehealth-works/"/>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/location/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/location/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/location/"/>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/our-doctors/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/our-doctors/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/our-doctors/"/>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/pricing/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/pricing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/pricing/"/>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/privacy-policy/</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/privacy-policy/"/>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/services/</loc>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/services/"/>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/terms-of-service/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/terms-of-service/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/terms-of-service/"/>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/general-health/</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/general-health/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/general-health/"/>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/OBJECTS.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/Rectangle-1090-3.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/Group-9482.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/Group-9528.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/Rectangle-1090-20.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/online-doctor-alberta/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/online-doctor-alberta/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/online-doctor-alberta/"/>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/OBJECTS.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/Group-37520.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/Rectangle-1116.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/Group-37522.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/Group-1.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/skin-conditions/</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/skin-conditions/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/skin-conditions/"/>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/skin-conditions/section-1.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-dermatologist-in-edmonton/section-2.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/skin-conditions/rashes.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/skin-conditions/rosacea.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/skin-conditions/nail-fungus.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/virtual-doctor-appointment-alberta/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/virtual-doctor-appointment-alberta/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/virtual-doctor-appointment-alberta/"/>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/OBJECTS.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/Group-37520.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/Group-37522.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/Rectangle-1090-3.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/image-43.png</image:loc>
+    </image:image>
+  </url>
+</urlset>

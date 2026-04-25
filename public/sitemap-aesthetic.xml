@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TelePlus Care - aesthetic sitemap -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://telepluscare.com/aesthetic/</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/aesthetic/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/aesthetic/"/>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/aesthetic/hero.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-botox-treatment-in-edmonton/section-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/aesthetic/injectables.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/aesthetic/prp.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/aesthetic/microneedling.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/best-botox-treatment-in-edmonton/</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/best-botox-treatment-in-edmonton/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/best-botox-treatment-in-edmonton/"/>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-botox-treatment-in-edmonton/hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-botox-treatment-in-edmonton/section-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-botox-treatment-in-edmonton/section-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-botox-treatment-in-edmonton/section-3.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-botox-treatment-in-edmonton/promo-dermatology.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/best-dermatologist-in-edmonton/</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/best-dermatologist-in-edmonton/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/best-dermatologist-in-edmonton/"/>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-dermatologist-in-edmonton/hero.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-dermatologist-in-edmonton/section-1.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/image-3.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-dermatologist-in-edmonton/section-2.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-dermatologist-in-edmonton/section-3.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/best-injectable-treatments-in-edmonton/</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/best-injectable-treatments-in-edmonton/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/best-injectable-treatments-in-edmonton/"/>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-injectable-treatments-in-edmonton/hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-injectable-treatments-in-edmonton/section-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-injectable-treatments-in-edmonton/section-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-injectable-treatments-in-edmonton/section-3.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-injectable-treatments-in-edmonton/section-4.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/hair-loss-treatment-clinic-in-calgary/</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/hair-loss-treatment-clinic-in-calgary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/hair-loss-treatment-clinic-in-calgary/"/>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-botox-treatment-in-edmonton/section-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-botox-treatment-in-edmonton/section-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-botox-treatment-in-edmonton/section-3.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-botox-treatment-in-edmonton/section-4.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-injectable-treatments-in-edmonton/section-2.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/hair-loss-treatment-clinic-in-edmonton/</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/hair-loss-treatment-clinic-in-edmonton/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/hair-loss-treatment-clinic-in-edmonton/"/>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-injectable-treatments-in-edmonton/section-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-botox-treatment-in-edmonton/section-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-botox-treatment-in-edmonton/section-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-botox-treatment-in-edmonton/section-3.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-botox-treatment-in-edmonton/section-4.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/prp-treatment-in-calgary/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/prp-treatment-in-calgary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/prp-treatment-in-calgary/"/>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-botox-treatment-in-edmonton/section-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-botox-treatment-in-edmonton/section-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-botox-treatment-in-edmonton/section-3.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-botox-treatment-in-edmonton/section-4.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-injectable-treatments-in-edmonton/section-2.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/prp-treatment-in-edmonton/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/prp-treatment-in-edmonton/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/prp-treatment-in-edmonton/"/>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-botox-treatment-in-edmonton/section-3.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-botox-treatment-in-edmonton/section-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-botox-treatment-in-edmonton/section-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-botox-treatment-in-edmonton/section-4.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://telepluscare.com/images/best-injectable-treatments-in-edmonton/section-2.jpg</image:loc>
+    </image:image>
+  </url>
+</urlset>

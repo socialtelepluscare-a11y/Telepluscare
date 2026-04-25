@@ -1,13 +1,10 @@
+# TelePlus Care robots.txt
+
 User-agent: *
 Allow: /
-Disallow: /_next/
-Disallow: /api/
 
-# AI Search Crawlers - Allowed
+# AI search crawlers — explicit allow
 User-agent: GPTBot
-Allow: /
-
-User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ClaudeBot
@@ -16,17 +13,29 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
+User-agent: OAI-SearchBot
+Allow: /
+
 User-agent: Google-Extended
 Allow: /
 
-# AI Training Crawlers - Blocked
-User-agent: CCBot
-Disallow: /
-
 User-agent: anthropic-ai
+Allow: /
+
+# AI training crawlers — block
+User-agent: CCBot
 Disallow: /
 
 User-agent: Bytespider
 Disallow: /
 
+# Disallow paths
+User-agent: *
+Disallow: /_next/
+Disallow: /api/
+Disallow: /book-appointment-alberta/
+Disallow: /book-aesthetic/
+Disallow: /book-doctors-note/
+
+# Sitemap index
 Sitemap: https://telepluscare.com/sitemap.xml
