@@ -59,15 +59,19 @@ export default function RootLayout({
     <html lang="en" className={dmSans.variable}>
       <head>
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-H8N70SYLLJ"
+          src="https://www.googletagmanager.com/gtag/js?id=GT-PBKWW2Z3"
           strategy="afterInteractive"
         />
-        <Script id="ga4-config" strategy="afterInteractive">
+        <Script id="gtag-config" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-H8N70SYLLJ');
+            gtag('config', 'GT-PBKWW2Z3');
+            gtag('config', 'GT-57VM66BT');
+            gtag('config', 'G-58C92ZKMLF');
+            gtag('config', 'G-BX1XH0H8PL');
+            gtag('config', 'AW-17266051997');
           `}
         </Script>
         <Script id="ms-clarity" strategy="afterInteractive">
