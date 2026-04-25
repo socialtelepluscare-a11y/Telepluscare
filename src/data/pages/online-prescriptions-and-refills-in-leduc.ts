@@ -3,19 +3,19 @@ import type { LandingPageData } from "@/types/landing-page";
 export const pageData: LandingPageData = {
   metaTitle: "Online Prescriptions & Refills in Leduc, Alberta | TelePlusCare",
   metaDescription:
-    "Same-day virtual prescriptions for Leduc residents and YEG airport workers. CPSA-licensed MDs send refills to Leduc Common, Discovery Place pharmacies. AHCIP covered.",
+    "Same-day virtual prescriptions for Leduc residents and YEG airport workers. CPSA-licensed MDs issue refills you can fill at Leduc Common, Discovery Place pharmacies. AHCIP covered.",
   title: "Online Prescriptions and Refills in Leduc",
   heroDescription:
-    "Whether you're working a shift at YEG, raising a family near Telford Lake, or commuting daily to Edmonton, Leduc residents can connect with a CPSA-licensed virtual MD between meetings or before mid-shift. Prescriptions are sent electronically to your Leduc pharmacy in minutes — no walk-in needed at Leduc Common.",
+    "Whether you're working a shift at YEG, raising a family near Telford Lake, or commuting daily to Edmonton, Leduc residents can connect with a CPSA-licensed virtual MD between meetings or before mid-shift. Prescriptions can be filled at your Leduc pharmacy in minutes — no walk-in needed at Leduc Common.",
   heroImage: "/images/image-6.png",
   heroImageAlt: "Online prescriptions and refills in Leduc Alberta",
   bookingUrl: "/book-appointment-alberta",
   lastReviewed: "2026-04-25",
   reviewedBy: "Dr. Maher Jerudi, MD",
   summary:
-    "TelePlusCare provides fast prescription refills for Leduc residents through virtual MD video visits. Scripts are sent to Alberta pharmacies including Leduc Common Shoppers, Discovery Place Pharmasave, and Tribute Centre area locations. AHCIP-eligible Leduc patients are fully covered, no referral required, ideal for YEG airport shift workers.",
+    "TelePlusCare provides fast prescription refills for Leduc residents through virtual MD video visits. Scripts can be filled at Alberta pharmacies including Leduc Common Shoppers, Discovery Place Pharmasave, and Tribute Centre area locations. AHCIP-eligible Leduc patients are fully covered, no referral required, ideal for YEG airport shift workers.",
   keyFacts: [
-    "Leduc has roughly 8 community pharmacies serving the city plus more in nearby Beaumont and Devon, all accepting TelePlusCare e-prescriptions.",
+    "Leduc has roughly 8 community pharmacies serving the city plus more in nearby Beaumont and Devon, all accepting TelePlusCare prescriptions.",
     "Edmonton International Airport (YEG) staff working in Leduc can fit a TelePlusCare visit into a 20-minute break.",
     "AHCIP covers virtual physician consultations for Leduc residents with a valid Alberta PHN — no referral needed.",
     "Most Leduc patients receive their refilled medication at their pharmacy within 1–2 hours of booking.",
@@ -56,19 +56,19 @@ export const pageData: LandingPageData = {
     {
       title: "How Leduc Online Prescriptions Work",
       content:
-        "TelePlusCare's three-step model fits Leduc's workforce perfectly. Step 1 — Book your virtual appointment online from your phone at Nisku, your home in Tribute Heights, or the YEG breakroom; enter your Alberta PHN and preferred Leduc pharmacy. Step 2 — Connect by encrypted video with a CPSA-registered family physician; visits are typically 12–18 minutes, ideal for fitting into a break. Step 3 — Once approved, your prescription is e-faxed to your Leduc pharmacy. You can pick it up after your shift.",
+        "TelePlusCare's three-step model fits Leduc's workforce perfectly. Step 1 — Book your virtual appointment online from your phone at Nisku, your home in Tribute Heights, or the YEG breakroom; enter your Alberta PHN and preferred Leduc pharmacy. Step 2 — Connect by encrypted video with a CPSA-registered family physician; visits are typically 12–18 minutes, ideal for fitting into a break. Step 3 — Once approved, your physician issues a prescription you can fill at your Leduc pharmacy. You can pick it up after your shift.",
       bullets: [
         "Step 1 — Book online with your Alberta PHN",
         "Step 2 — 12–18 minute video visit, fits into a break",
-        "Step 3 — E-prescription sent to your Leduc pharmacy",
+        "Step 3 — Receive your prescription to fill at your Leduc pharmacy",
       ],
       image: "/images/prescription-refill/111-819x1024.jpeg",
       imageAlt: "Three-step Leduc online prescription process",
     },
     {
-      title: "Prescription Delivered to Your Local Leduc Pharmacy",
+      title: "Fill Your Prescription at Your Local Leduc Pharmacy",
       content:
-        "Your TelePlusCare prescription can be sent to any pharmacy in Leduc and the surrounding region. The Shoppers Drug Mart at Leduc Common is the busiest, with extended hours that work well for shift returners. The Pharmasave at Discovery Place is a long-standing community favourite. The Sobeys Pharmacy and Co-op Pharmacy serve families on the west side. Independent pharmacies near the Tribute Centre offer personalized service. We can also send to Beaumont, Nisku, Devon, or Calmar pharmacies for residents living just outside Leduc proper.",
+        "Your TelePlusCare prescription can be filled at any pharmacy in Leduc and the surrounding region. The Shoppers Drug Mart at Leduc Common is the busiest, with extended hours that work well for shift returners. The Pharmasave at Discovery Place is a long-standing community favourite. The Sobeys Pharmacy and Co-op Pharmacy serve families on the west side. Independent pharmacies near the Tribute Centre offer personalized service. Patients living just outside Leduc proper can also fill prescriptions at Beaumont, Nisku, Devon, or Calmar pharmacies.",
       bullets: [
         "Shoppers Drug Mart — Leduc Common (extended hours)",
         "Pharmasave — Discovery Place",
@@ -77,7 +77,7 @@ export const pageData: LandingPageData = {
         "Beaumont, Nisku, Devon, Calmar regional pharmacies",
       ],
       image: "/images/Rectangle-1090-20.png",
-      imageAlt: "Leduc pharmacies receiving e-prescriptions",
+      imageAlt: "Leduc pharmacies that accept TelePlusCare prescriptions",
     },
     {
       title: "Built for YEG Airport and Nisku Workers",
@@ -126,7 +126,7 @@ export const pageData: LandingPageData = {
         "Yes. Many of our Leduc patients are airport ground crew, Air Canada, WestJet, or Swissport employees who book a 15-minute video visit from a quiet break space and receive their prescription before the shift ends.",
     },
     {
-      question: "Which Leduc pharmacies accept TelePlusCare e-prescriptions?",
+      question: "Which Leduc pharmacies accept TelePlusCare prescriptions?",
       answer:
         "All of them — including Leduc Common Shoppers Drug Mart, Discovery Place Pharmasave, Sobeys Pharmacy, Co-op Pharmacy, and independents near the Tribute Centre.",
     },

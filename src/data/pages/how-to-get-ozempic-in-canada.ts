@@ -11,7 +11,7 @@ export const pageData: LandingPageData = {
   heroImageAlt: "How to get Ozempic in Canada — semaglutide pen and prescription",
   bookingUrl: "/book-appointment-alberta",
   summary:
-    "To get Ozempic in Canada, you need a prescription from a licensed physician. As of 2026, Health Canada approves it for type 2 diabetes; weight-loss use is off-label. Two paths exist: a family doctor (long waitlists) or a virtual clinic such as TelePlus Care, which can provide same-day assessment, blood work review, and e-prescription to your local pharmacy.",
+    "To get Ozempic in Canada, you need a prescription from a licensed physician. As of 2026, Health Canada approves it for type 2 diabetes; weight-loss use is off-label. Two paths exist: a family doctor (long waitlists) or a virtual clinic such as TelePlus Care, which can provide same-day assessment, blood work review, and a prescription you can fill at your local pharmacy.",
   keyFacts: [
     "Health Canada approved Ozempic (semaglutide) for type 2 diabetes via Notice of Compliance in January 2018; Wegovy (high-dose semaglutide) for weight loss followed in 2021.",
     "Ozempic costs CA$300-450 per 4-week pen as of 2026, depending on dose (0.25 mg, 0.5 mg, 1 mg, 2 mg) and pharmacy.",
@@ -58,7 +58,7 @@ export const pageData: LandingPageData = {
     {
       title: "Path 2: Virtual Telemedicine — The Fastest Legal Route",
       content:
-        "Virtual telemedicine clinics are now the primary access point for most Canadians. Provincial colleges have permitted virtual prescribing of GLP-1 medications since 2020, and the standards are identical to in-person care: a licensed Canadian physician, a documented clinical assessment, review of recent labs, and an e-prescription transmitted directly to your chosen pharmacy. Same-day or next-day service is realistic. TelePlus Care, for example, conducts the consultation by video, reviews any blood work you upload, and sends the prescription electronically — all within one or two business days. The fee covers the assessment; the medication is paid separately at the pharmacy under your insurance plan.",
+        "Virtual telemedicine clinics are now the primary access point for most Canadians. Provincial colleges have permitted virtual prescribing of GLP-1 medications since 2020, and the standards are identical to in-person care: a licensed Canadian physician, a documented clinical assessment, review of recent labs, and a prescription you can fill at your chosen pharmacy. Same-day or next-day service is realistic. TelePlus Care, for example, conducts the consultation by video, reviews any blood work you upload, and issues your prescription — all within one or two business days. The fee covers the assessment; the medication is paid separately at the pharmacy under your insurance plan.",
       image: "/images/online-doctors-notes-in-edmonton/section-2.jpg",
       imageAlt: "Virtual telemedicine consultation for Ozempic in Canada",
     },
@@ -129,7 +129,7 @@ export const pageData: LandingPageData = {
     {
       title: "How Quickly Can I Start Ozempic Through TelePlus Care?",
       content:
-        "If your blood work is recent and you meet eligibility, TelePlus Care can complete the entire process within 24 to 48 hours: virtual consultation booked the same day, physician review and prescription dispatched electronically, and pharmacy pickup the next morning. If you need fresh labs, add 3 to 7 days for the requisition, draw, and result. Compared with the typical 6-to-12-week journey through walk-in clinics and waitlisted family practices, virtual care compresses access significantly without compromising clinical rigour. Every prescription is written by a CPSA-registered physician, documented in your medical chart, and shared with your family doctor on request.",
+        "If your blood work is recent and you meet eligibility, TelePlus Care can complete the entire process within 24 to 48 hours: virtual consultation booked the same day, physician review and prescription issued, and pharmacy pickup the next morning. If you need fresh labs, add 3 to 7 days for the requisition, draw, and result. Compared with the typical 6-to-12-week journey through walk-in clinics and waitlisted family practices, virtual care compresses access significantly without compromising clinical rigour. Every prescription is written by a CPSA-registered physician, documented in your medical chart, and shared with your family doctor on request.",
       image: "/images/Group-37520.png",
       imageAlt: "TelePlus Care same-day Ozempic consultation Canada",
     },
@@ -145,7 +145,7 @@ export const pageData: LandingPageData = {
     {
       question: "Can I get Ozempic in Canada without a family doctor?",
       answer:
-        "Yes. Virtual telemedicine clinics with CPSA, CPSO, or CPSBC-licensed physicians can assess, prescribe, and send a legal e-prescription to your local pharmacy without you ever needing a family doctor. This is the route most of the 6.5 million Canadians without a regular GP now use.",
+        "Yes. Virtual telemedicine clinics with CPSA, CPSO, or CPSBC-licensed physicians can assess and issue a legal prescription you can fill at your local pharmacy without you ever needing a family doctor. This is the route most of the 6.5 million Canadians without a regular GP now use.",
     },
     {
       question: "Is Ozempic available over the counter in Canada?",

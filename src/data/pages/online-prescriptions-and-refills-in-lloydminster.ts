@@ -6,7 +6,7 @@ export const pageData: LandingPageData = {
     "Border city virtual prescription service. CPSA-licensed Alberta MDs send refills to Lloydminster pharmacies — AB and SK side. AHCIP covered for Alberta residents.",
   title: "Online Prescriptions and Refills in Lloydminster",
   heroDescription:
-    "Lloydminster is North America's only city straddling a provincial border, and that creates unique pharmacy and prescription dynamics. TelePlusCare connects Alberta-side Lloyd residents with a CPSA-licensed virtual MD by video and sends prescriptions to either AB or SK side pharmacies — including Husky-area locations and the Co-op Pharmacy.",
+    "Lloydminster is North America's only city straddling a provincial border, and that creates unique pharmacy and prescription dynamics. TelePlusCare connects Alberta-side Lloyd residents with a CPSA-licensed virtual MD by video, and prescriptions can be filled at either AB or SK side pharmacies — including Husky-area locations and the Co-op Pharmacy.",
   heroImage: "/images/Rectangle-1090-3.png",
   heroImageAlt: "Online prescriptions and refills in Lloydminster Alberta",
   bookingUrl: "/book-appointment-alberta",
@@ -56,11 +56,11 @@ export const pageData: LandingPageData = {
     {
       title: "How Lloydminster Online Prescriptions Work",
       content:
-        "TelePlusCare's three-step process is built for Lloyd's cross-border practicalities. Step 1 — Book your virtual appointment online and provide your Alberta PHN, the medication you need, and your preferred pharmacy — note whether you want it sent to the AB or SK side. Step 2 — Connect by encrypted video with a CPSA-licensed Alberta family physician for a 12–18 minute consultation. Step 3 — Once approved, your prescription is e-faxed to your selected Lloyd pharmacy. Most Saskatchewan-side pharmacies in Lloyd will fill an Alberta script without complications.",
+        "TelePlusCare's three-step process is built for Lloyd's cross-border practicalities. Step 1 — Book your virtual appointment online and provide your Alberta PHN, the medication you need, and your preferred pharmacy — note whether you want it sent to the AB or SK side. Step 2 — Connect by encrypted video with a CPSA-licensed Alberta family physician for a 12–18 minute consultation. Step 3 — Once approved, your physician issues a prescription you can fill at your selected Lloyd pharmacy. Most Saskatchewan-side pharmacies in Lloyd will fill an Alberta script without complications.",
       bullets: [
         "Step 1 — Book online with your Alberta PHN; specify pharmacy",
         "Step 2 — 12–18 minute video visit with a CPSA-licensed Alberta MD",
-        "Step 3 — E-prescription to your AB or SK side Lloyd pharmacy",
+        "Step 3 — Receive your prescription to fill at your AB or SK side Lloyd pharmacy",
       ],
       image: "/images/prescription-refill/13-819x1024.jpeg",
       imageAlt: "Three-step Lloydminster online prescription process",
@@ -68,7 +68,7 @@ export const pageData: LandingPageData = {
     {
       title: "Cross-Border Pharmacy: Both AB and SK Sides",
       content:
-        "Lloydminster pharmacies sit on both sides of 50th Avenue (Meridian Avenue), which marks the AB-SK provincial border. The Walmart Pharmacy is on the Saskatchewan side; the Sobeys Pharmacy and Lloyd Mall Shoppers can be on either. The Co-op Pharmacy at the Lloydminster Co-op is a long-standing community choice. We will send your e-prescription to whichever side you prefer; the practical difference is mainly in drug plan coverage — Alberta drug plans typically only reimburse at Alberta-side pharmacies. If you have AHCIP coverage and want maximum reimbursement, choosing an Alberta-side pharmacy is often simpler.",
+        "Lloydminster pharmacies sit on both sides of 50th Avenue (Meridian Avenue), which marks the AB-SK provincial border. The Walmart Pharmacy is on the Saskatchewan side; the Sobeys Pharmacy and Lloyd Mall Shoppers can be on either. The Co-op Pharmacy at the Lloydminster Co-op is a long-standing community choice. You can fill your prescription on whichever side you prefer; the practical difference is mainly in drug plan coverage — Alberta drug plans typically only reimburse at Alberta-side pharmacies. If you have AHCIP coverage and want maximum reimbursement, choosing an Alberta-side pharmacy is often simpler.",
       bullets: [
         "Walmart Pharmacy — Saskatchewan side",
         "Sobeys Pharmacy — both sides",
@@ -136,7 +136,7 @@ export const pageData: LandingPageData = {
         "Only if you officially reside on the Alberta side and have a valid Alberta PHN. Saskatchewan-side residents would use SK Health Card coverage and should confirm before booking with TelePlusCare.",
     },
     {
-      question: "Which Lloydminster pharmacies accept TelePlusCare e-prescriptions?",
+      question: "Which Lloydminster pharmacies accept TelePlusCare prescriptions?",
       answer:
         "All of them — Lloyd Mall Shoppers Drug Mart, Co-op Pharmacy, Sobeys Pharmacy, Walmart Pharmacy (SK side), and independents. We can send to either side at your request.",
     },

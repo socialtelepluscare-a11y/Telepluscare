@@ -72,7 +72,7 @@ export const pageData: LandingPageData = {
     {
       title: "How to Get Your Abbotsford Doctor's Note Online \u2014 3 Steps",
       content:
-        "Most patients finish the process before they would reach the front of the line at a South Fraser Way walk-in.\n\nStep 1 \u2014 Book your appointment through our secure online form; pick a time window that suits your shift or farm schedule.\n\nStep 2 \u2014 Meet your CPSBC-registered physician via encrypted video or text chat. The typical visit is 10\u201315 minutes and covers symptoms, medications, and documentation needs.\n\nStep 3 \u2014 Receive your signed note by email, ready to send to HR, your registrar, or an insurer. Prescriptions go to your chosen Abbotsford pharmacy.",
+        "Most patients finish the process before they would reach the front of the line at a South Fraser Way walk-in.\n\nStep 1 \u2014 Book your appointment through our secure online form; pick a time window that suits your shift or farm schedule.\n\nStep 2 \u2014 Meet your CPSBC-registered physician via encrypted video or text chat. The typical visit is 10\u201315 minutes and covers symptoms, medications, and documentation needs.\n\nStep 3 \u2014 Receive your signed note by email, ready to send to HR, your registrar, or an insurer. You can fill prescriptions at your chosen Abbotsford pharmacy.",
       image: "/images/online-doctors-notes-in-edmonton/section-5.jpg",
       imageAlt: "Three-step online doctor's note process in Abbotsford",
     },

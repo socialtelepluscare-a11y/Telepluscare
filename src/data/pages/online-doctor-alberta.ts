@@ -42,7 +42,7 @@ export const pageData: LandingPageData = {
     {
       title: "How It Works — See an Online Doctor in Alberta",
       content:
-        "Getting medical care with TelePlusCare takes just three simple steps.\n\nStep 1 — Book Your Appointment: Visit telepluscare.com or call 587-442-4898 to schedule your online doctor appointment. Same-day bookings are available and no referral is ever required.\n\nStep 2 — Connect with Your Doctor: Speak with a fully licensed Alberta physician through a secure video or phone call. Describe your symptoms, share your medical history, and receive a professional assessment — all from the comfort of your home.\n\nStep 3 — Receive Your Treatment Plan: Your online doctor will provide a diagnosis and treatment plan the same day. Prescriptions are sent electronically to your preferred Alberta pharmacy, and any sick notes, referrals, or lab requisitions are delivered to you digitally.",
+        "Getting medical care with TelePlusCare takes just three simple steps.\n\nStep 1 — Book Your Appointment: Visit telepluscare.com or call 587-442-4898 to schedule your online doctor appointment. Same-day bookings are available and no referral is ever required.\n\nStep 2 — Connect with Your Doctor: Speak with a fully licensed Alberta physician through a secure video or phone call. Describe your symptoms, share your medical history, and receive a professional assessment — all from the comfort of your home.\n\nStep 3 — Receive Your Treatment Plan: Your online doctor will provide a diagnosis and treatment plan the same day. You can fill prescriptions at your preferred Alberta pharmacy, and any sick notes, referrals, or lab requisitions are delivered to you digitally.",
       image: "/images/Group-37522.png",
       imageAlt: "How online doctor works in Alberta",
     },
@@ -165,7 +165,7 @@ export const pageData: LandingPageData = {
       question:
         "Can an online doctor in Alberta prescribe medication?",
       answer:
-        "Yes. TelePlusCare's online doctors can prescribe a wide range of medications and send prescriptions electronically to your preferred Alberta pharmacy the same day.",
+        "Yes. TelePlusCare's online doctors can prescribe a wide range of medications, and you can fill prescriptions at your preferred Alberta pharmacy the same day.",
     },
     {
       question:

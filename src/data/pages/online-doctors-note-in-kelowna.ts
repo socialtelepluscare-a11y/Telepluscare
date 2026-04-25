@@ -72,7 +72,7 @@ export const pageData: LandingPageData = {
     {
       title: "How to Get Your Kelowna Doctor's Note Online \u2014 3 Steps",
       content:
-        "Most patients complete the process faster than it takes to drive from Rutland to Downtown Kelowna on a summer Friday.\n\nStep 1 \u2014 Book your appointment online; pick a slot that fits around your shift or class schedule.\n\nStep 2 \u2014 Meet your CPSBC-registered physician via secure video or chat. A typical visit lasts 10\u201315 minutes and covers your symptoms, medications, and the documentation needed.\n\nStep 3 \u2014 Receive your signed note by email, ready to send to HR, a registrar, or an insurer. Prescriptions go electronically to your preferred Kelowna pharmacy.",
+        "Most patients complete the process faster than it takes to drive from Rutland to Downtown Kelowna on a summer Friday.\n\nStep 1 \u2014 Book your appointment online; pick a slot that fits around your shift or class schedule.\n\nStep 2 \u2014 Meet your CPSBC-registered physician via secure video or chat. A typical visit lasts 10\u201315 minutes and covers your symptoms, medications, and the documentation needed.\n\nStep 3 \u2014 Receive your signed note by email, ready to send to HR, a registrar, or an insurer. You can fill prescriptions at your preferred Kelowna pharmacy.",
       image: "/images/online-doctors-notes-in-edmonton/section-5.jpg",
       imageAlt: "Three-step online doctor's note process in Kelowna",
     },

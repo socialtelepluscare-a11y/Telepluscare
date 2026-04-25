@@ -3,7 +3,7 @@ import type { LandingPageData } from "@/types/landing-page";
 export const pageData: LandingPageData = {
   metaTitle: "UTI Appointment Alberta | Province-Wide Virtual UTI Doctor",
   metaDescription:
-    "Book a same-day virtual UTI appointment anywhere in Alberta. CPSA-licensed physicians prescribe antibiotics electronically to your local pharmacy. AHCIP-eligible consultation for Alberta residents.",
+    "Book a same-day virtual UTI appointment anywhere in Alberta. CPSA-licensed physicians issue antibiotic prescriptions you can fill at your local pharmacy. AHCIP-eligible consultation for Alberta residents.",
   title: "Province-Wide Virtual UTI Appointments Across Alberta",
   heroDescription:
     "Whether you live in Edmonton, Calgary, Red Deer, Lethbridge, Fort McMurray, Medicine Hat, Grande Prairie, St. Albert, Sherwood Park, or Airdrie, TelePlus Care connects every Alberta resident with a same-day virtual UTI consultation. CPSA-licensed physicians treat uncomplicated UTIs without an in-person visit.",
@@ -12,7 +12,7 @@ export const pageData: LandingPageData = {
   bookingUrl: "/book-appointment-alberta",
   conditionType: "Urinary Tract Infection",
   summary:
-    "Alberta residents experiencing UTI symptoms such as burning urination, urgency, and pelvic pressure can book a same-day virtual visit with TelePlus Care from any community in the province. CPSA-licensed physicians treat uncomplicated UTIs in 15 to 20 minutes and send antibiotic prescriptions to any Alberta pharmacy. The consultation may be covered by Alberta Health Care for eligible Alberta residents.",
+    "Alberta residents experiencing UTI symptoms such as burning urination, urgency, and pelvic pressure can book a same-day virtual visit with TelePlus Care from any community in the province. CPSA-licensed physicians treat uncomplicated UTIs in 15 to 20 minutes and issue antibiotic prescriptions you can fill at any Alberta pharmacy. The consultation may be covered by Alberta Health Care for eligible Alberta residents.",
   keyFacts: [
     "Available province-wide to roughly 4.6 million Alberta residents",
     "Same-day UTI appointment available within 30 minutes",
@@ -78,7 +78,7 @@ export const pageData: LandingPageData = {
         "Step 1: Submit a confidential symptom intake form online",
         "Step 2: Your file is reviewed by a CPSA-licensed Alberta physician",
         "Step 3: Speak by phone or video for a 15 to 20 minute consultation",
-        "Step 4: Antibiotic prescription is e-sent to your chosen Alberta pharmacy",
+        "Step 4: Receive your antibiotic prescription to fill at your chosen Alberta pharmacy",
         "Step 5: Receive a follow-up email with prevention guidance",
       ],
       image: "/images/Rectangle-1090-16.png",
@@ -120,7 +120,7 @@ export const pageData: LandingPageData = {
     {
       question: "Which pharmacies in Alberta can receive my UTI prescription?",
       answer:
-        "Any pharmacy in Alberta. Your antibiotic prescription is electronically transmitted to the location you choose, including Shoppers Drug Mart, Rexall, Save-On-Foods Pharmacy, Loblaws, Co-op Pharmacy, and independent local pharmacies.",
+        "Any pharmacy in Alberta. Your physician issues an antibiotic prescription you can fill at the location you choose, including Shoppers Drug Mart, Rexall, Save-On-Foods Pharmacy, Loblaws, Co-op Pharmacy, and independent local pharmacies.",
     },
     {
       question: "Do I need a referral from a family doctor?",

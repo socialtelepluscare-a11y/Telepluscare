@@ -144,7 +144,7 @@ export const pageData: LandingPageData = {
     {
       title: "Talk to a Canadian Physician About the Right GLP-1 for You",
       content:
-        "TelePlus Care offers virtual GLP-1 consultations with physicians registered with the College of Physicians and Surgeons of Alberta. We assess your goals, review your blood work and medical history, discuss insurance coverage with your DIN, and prescribe the medication that fits your situation — Ozempic, Wegovy, or Mounjaro. Same-day appointments are available, prescriptions are sent electronically to your chosen pharmacy, and follow-up visits are scheduled to monitor response and adjust dose.",
+        "TelePlus Care offers virtual GLP-1 consultations with physicians registered with the College of Physicians and Surgeons of Alberta. We assess your goals, review your blood work and medical history, discuss insurance coverage with your DIN, and prescribe the medication that fits your situation — Ozempic, Wegovy, or Mounjaro. Same-day appointments are available, prescriptions can be filled at your chosen pharmacy, and follow-up visits are scheduled to monitor response and adjust dose.",
       image: "/images/Group-37520.png",
       imageAlt: "Book GLP-1 consultation Canadian physician TelePlus Care",
     },

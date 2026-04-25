@@ -3,19 +3,19 @@ import type { LandingPageData } from "@/types/landing-page";
 export const pageData: LandingPageData = {
   metaTitle: "Online Prescriptions & Refills in Alberta | TelePlusCare",
   metaDescription:
-    "Get online prescriptions and refills in Alberta from CPSA-licensed virtual doctors. Same-day scripts sent to any Alberta pharmacy. AHCIP accepted, no referral.",
+    "Get online prescriptions and refills in Alberta from CPSA-licensed virtual doctors. Same-day scripts you can fill at any Alberta pharmacy. AHCIP accepted, no referral.",
   title: "Online Prescriptions and Refills Across Alberta",
   heroDescription:
-    "TelePlusCare connects every Albertan, from downtown Calgary to remote hamlets in Mackenzie County, with CPSA-licensed family physicians by secure video. Receive same-day prescriptions or chronic refills sent electronically to any Alberta pharmacy without leaving home or queuing in a walk-in clinic.",
+    "TelePlusCare connects every Albertan, from downtown Calgary to remote hamlets in Mackenzie County, with CPSA-licensed family physicians by secure video. Receive same-day prescriptions or chronic refills you can fill at any Alberta pharmacy without leaving home or queuing in a walk-in clinic.",
   heroImage: "/images/Rectangle-1090-3.png",
   heroImageAlt: "Online prescriptions and refills in Alberta",
   bookingUrl: "/book-appointment-alberta",
   lastReviewed: "2026-04-25",
   reviewedBy: "Dr. Maher Jerudi, MD",
   summary:
-    "TelePlusCare offers online prescription refills province-wide in Alberta through virtual MD video visits. CPSA-licensed physicians issue new scripts and refills sent electronically to any of Alberta's 1,500+ pharmacies. AHCIP-eligible visits are covered, no referral needed, and most consults complete in under 20 minutes.",
+    "TelePlusCare offers online prescription refills province-wide in Alberta through virtual MD video visits. CPSA-licensed physicians issue new scripts and refills you can fill at any of Alberta's 1,500+ pharmacies. AHCIP-eligible visits are covered, no referral needed, and most consults complete in under 20 minutes.",
   keyFacts: [
-    "CPSA-licensed Alberta physicians prescribe to all 1,500+ Alberta community pharmacies via secure e-fax or PrescribeIT.",
+    "CPSA-licensed Alberta physicians issue prescriptions you can fill at all 1,500+ Alberta community pharmacies.",
     "AHCIP covers virtual physician visits for Alberta residents with a valid Personal Health Number; no referral required.",
     "Most TelePlusCare prescription appointments are completed within 20 minutes of booking during clinic hours.",
     "Schedule II, III, and unscheduled medications can be prescribed virtually; controlled drugs follow CPSA Standard 22.",
@@ -58,19 +58,19 @@ export const pageData: LandingPageData = {
     {
       title: "How Online Prescription Refills Work in Alberta",
       content:
-        "Getting your prescription through TelePlusCare follows three simple steps designed around Alberta's regulatory framework. Step 1 — Book your virtual appointment online and provide your Alberta Personal Health Number (PHN), date of birth, and the pharmacy you want to use. Step 2 — Connect with your CPSA-registered physician by secure video; they will review your medication history, current symptoms, and any recent bloodwork or vitals. Step 3 — Once approved, your prescription is transmitted electronically to your nominated Alberta pharmacy, usually within minutes of the consultation ending.",
+        "Getting your prescription through TelePlusCare follows three simple steps designed around Alberta's regulatory framework. Step 1 — Book your virtual appointment online and provide your Alberta Personal Health Number (PHN), date of birth, and the pharmacy you want to use. Step 2 — Connect with your CPSA-registered physician by secure video; they will review your medication history, current symptoms, and any recent bloodwork or vitals. Step 3 — Once approved, your physician issues a prescription you can fill at your nominated Alberta pharmacy, usually within minutes of the consultation ending.",
       bullets: [
         "Step 1 — Book online and enter your Alberta PHN",
         "Step 2 — Video consult with a CPSA-licensed Alberta physician",
-        "Step 3 — Prescription sent electronically to your chosen pharmacy",
+        "Step 3 — Receive your prescription to fill at your chosen pharmacy",
       ],
       image: "/images/prescription-refill/13-819x1024.jpeg",
       imageAlt: "Three-step Alberta online prescription process",
     },
     {
-      title: "Prescription Delivered to Your Local Alberta Pharmacy",
+      title: "Fill Your Prescription at Your Local Alberta Pharmacy",
       content:
-        "Your TelePlusCare prescription can be sent to any licensed pharmacy in Alberta — there are over 1,500 community pharmacies regulated by the Alberta College of Pharmacy. Major chains including Shoppers Drug Mart, Rexall, London Drugs, Save-On-Foods Pharmacy, Safeway, Sobeys, Loblaws, Pharmasave, Co-op, and Costco all accept e-prescriptions from our physicians. We also work with hundreds of independent pharmacies in smaller towns. If your community has only a single pharmacy, we will send the script there directly. Many pharmacies in Edmonton, Calgary, and Red Deer also offer same-day home delivery.",
+        "Your TelePlusCare prescription can be filled at any licensed pharmacy in Alberta — there are over 1,500 community pharmacies regulated by the Alberta College of Pharmacy. Major chains including Shoppers Drug Mart, Rexall, London Drugs, Save-On-Foods Pharmacy, Safeway, Sobeys, Loblaws, Pharmasave, Co-op, and Costco all accept TelePlusCare prescriptions. Independent pharmacies in smaller towns accept them too. If your community has only a single pharmacy, you can fill the script there. Many pharmacies in Edmonton, Calgary, and Red Deer also offer same-day home delivery.",
       bullets: [
         "Shoppers Drug Mart, Rexall, London Drugs province-wide",
         "Co-op Pharmacy, Save-On-Foods, Safeway, Sobeys",
@@ -78,7 +78,7 @@ export const pageData: LandingPageData = {
         "Same-day delivery available in major cities",
       ],
       image: "/images/image-4.png",
-      imageAlt: "Alberta pharmacies receiving e-prescriptions",
+      imageAlt: "Alberta pharmacies that accept TelePlusCare prescriptions",
     },
     {
       title: "Why Albertans Choose TelePlusCare",
@@ -109,7 +109,7 @@ export const pageData: LandingPageData = {
     {
       title: "Privacy, Security, and CPSA Compliance",
       content:
-        "TelePlusCare's virtual care platform is built to meet Alberta's Personal Information Protection Act (PIPA) and the Health Information Act. All video consultations are end-to-end encrypted, prescription transmissions use secure e-fax or PrescribeIT integration, and patient charts are stored on Canadian servers. Every prescription includes the physician's CPSA registration number, full name, signature, and contact information so any Alberta pharmacist can verify legitimacy instantly.",
+        "TelePlusCare's virtual care platform is built to meet Alberta's Personal Information Protection Act (PIPA) and the Health Information Act. All video consultations are end-to-end encrypted, and patient charts are stored on Canadian servers. Every prescription includes the physician's CPSA registration number, full name, signature, and contact information so any Alberta pharmacist can verify legitimacy instantly.",
       image: "/images/image-6.png",
       imageAlt: "CPSA compliance and patient privacy",
     },
@@ -126,9 +126,9 @@ export const pageData: LandingPageData = {
         "No referral is required. Any Alberta resident with a valid PHN can book directly through TelePlusCare and consult a physician the same day.",
     },
     {
-      question: "Can my prescription be sent to a rural Alberta pharmacy?",
+      question: "Can I fill my prescription at a rural Alberta pharmacy?",
       answer:
-        "Yes. We send prescriptions electronically to any pharmacy in Alberta, including independent rural pharmacies in towns like Bow Island, Hanna, Edson, and Slave Lake.",
+        "Yes. You can fill TelePlusCare prescriptions at any pharmacy in Alberta, including independent rural pharmacies in towns like Bow Island, Hanna, Edson, and Slave Lake.",
     },
     {
       question: "Can I get controlled substances prescribed online in Alberta?",

@@ -78,7 +78,7 @@ export const pageData: LandingPageData = {
     {
       title: "Online Prescription Refills for Calgary Patients",
       content:
-        "Insulin, Metformin, Ozempic, Mounjaro, Jardiance, Trulicity, and other diabetes medications can be refilled virtually and sent to any Calgary pharmacy of your choice — same-day in most cases.",
+        "Insulin, Metformin, Ozempic, Mounjaro, Jardiance, Trulicity, and other diabetes medications can be refilled virtually and filled at any Calgary pharmacy of your choice — same-day in most cases.",
       image: "/images/best-diabetes-doctor-in-calgary/section-8.png",
       imageAlt: "Calgary diabetes prescription refills",
     },

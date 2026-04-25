@@ -65,7 +65,7 @@ export const pageData: LandingPageData = {
     {
       title: "How to Get a Doctor's Note Online in London in 3 Steps",
       content:
-        "Step 1: Book a virtual appointment in under two minutes from your phone or laptop — pick a time that works around classes at Western, a shift at LHSC, or a meeting downtown.\n\nStep 2: Meet your Ontario-licensed physician by secure video or phone. They'll assess your symptoms and confirm whether a note is appropriate.\n\nStep 3: Receive your signed sick note by email — ready to forward to HR, a Western academic advisor, or your Fanshawe instructor. If a prescription is appropriate, we can send it directly to your preferred London pharmacy, including Shoppers Drug Mart on Richmond Row, the Rexall in Masonville Place, Walmart Pharmacy on Wellington, or the Costco Pharmacy in White Oaks.",
+        "Step 1: Book a virtual appointment in under two minutes from your phone or laptop — pick a time that works around classes at Western, a shift at LHSC, or a meeting downtown.\n\nStep 2: Meet your Ontario-licensed physician by secure video or phone. They'll assess your symptoms and confirm whether a note is appropriate.\n\nStep 3: Receive your signed sick note by email — ready to forward to HR, a Western academic advisor, or your Fanshawe instructor. If a prescription is appropriate, you can fill it at your preferred London pharmacy, including Shoppers Drug Mart on Richmond Row, the Rexall in Masonville Place, Walmart Pharmacy on Wellington, or the Costco Pharmacy in White Oaks.",
       image: "/images/online-doctors-notes-in-edmonton/section-5.jpg",
       imageAlt: "How to get a doctor's note in London in 3 steps",
     },

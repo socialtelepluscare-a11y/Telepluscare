@@ -117,7 +117,7 @@ export const pageData: LandingPageData = {
         "Step 1: Schedule your consultation -- Book a virtual appointment through our website. Choose a time that works for your schedule, with same-day availability often offered.",
         "Step 2: Share your health history -- Complete a detailed intake form covering your medical history, current medications, previous weight loss attempts, and health goals.",
         "Step 3: Virtual physician assessment -- Connect with a licensed physician via secure video or phone. Your physician will review your BMI, health history, and eligibility for Wegovy.",
-        "Step 4: Prescription and pharmacy coordination -- If Wegovy is prescribed, your prescription will be sent electronically to your preferred pharmacy. Your pharmacy team will help coordinate supply.",
+        "Step 4: Prescription and pharmacy coordination -- If Wegovy is prescribed, you can fill your prescription at your preferred pharmacy. Your pharmacy team will help coordinate supply.",
         "Step 5: Injection training and support -- Your physician or pharmacist will provide guidance on self-administering the weekly injection, including proper injection technique and storage.",
         "Step 6: Ongoing follow-up -- Regular virtual check-ins allow your physician to monitor your weight loss, manage any side effects, and adjust your treatment plan as needed.",
       ],

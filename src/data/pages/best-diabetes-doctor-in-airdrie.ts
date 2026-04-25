@@ -88,9 +88,9 @@ export const pageData: LandingPageData = {
         "Most Airdrie patients are seen within 3–5 business days. Same-day urgent appointments are often available.",
     },
     {
-      question: "Can you send my prescription to an Airdrie pharmacy?",
+      question: "Can I fill my prescription at an Airdrie pharmacy?",
       answer:
-        "Yes. We transmit prescriptions to any Airdrie pharmacy you choose — Shoppers Drug Mart, Sobeys, Save-On-Foods, Rexall, or independents.",
+        "Yes. You can fill your prescription at any Airdrie pharmacy you choose — Shoppers Drug Mart, Sobeys, Save-On-Foods, Rexall, or independents.",
     },
     {
       question: "Is this covered by AHCIP for Airdrie residents?",

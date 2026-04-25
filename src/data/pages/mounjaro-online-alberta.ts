@@ -17,7 +17,7 @@ export const pageData: LandingPageData = {
     "Dual GIP/GLP-1 mechanism — only one of its kind in Canada",
     "Up to 22.5% body weight reduction at 15 mg over 72 weeks",
     "HbA1c reduction of 2.0-2.6 percentage points (highest among GLP-1s)",
-    "Same-week appointments with electronic prescription to Alberta pharmacies",
+    "Same-week appointments — fill your prescription at any Alberta pharmacy",
   ],
   sections: [
     {
@@ -130,7 +130,7 @@ export const pageData: LandingPageData = {
         "Step 1: Book your virtual consultation -- Use our online booking system to schedule a convenient appointment time. Same-day and next-day appointments are often available.",
         "Step 2: Complete your health intake -- Before your appointment, fill out a comprehensive medical questionnaire covering your health history, medications, and goals.",
         "Step 3: Consult with your physician -- Meet with a licensed Alberta physician via secure video or phone call. Your physician will evaluate whether Mounjaro is appropriate for your needs.",
-        "Step 4: Prescription and pharmacy -- If prescribed, your Mounjaro prescription will be sent electronically to your preferred Alberta pharmacy for pickup or delivery.",
+        "Step 4: Prescription and pharmacy -- If prescribed, your Mounjaro prescription will be issued for you to fill at your preferred Alberta pharmacy for pickup or delivery.",
         "Step 5: Follow-up care -- Schedule regular follow-up appointments to monitor progress, manage side effects, and adjust your dosage. Your physician will be available for ongoing guidance.",
       ],
           image: "/images/best-diabetes-doctor-in-edmonton/section-5.png",
@@ -199,7 +199,7 @@ export const pageData: LandingPageData = {
     {
       question: "Is Mounjaro available in Canada?",
       answer:
-        "Yes, Mounjaro (tirzepatide) has been approved by Health Canada and is available at pharmacies across Alberta and the rest of Canada. Availability may vary by pharmacy, and some locations may need to order the medication. Your TelePlus Care physician will send your prescription electronically to your preferred pharmacy, and the pharmacy team can advise on current stock and expected delivery times.",
+        "Yes, Mounjaro (tirzepatide) has been approved by Health Canada and is available at pharmacies across Alberta and the rest of Canada. Availability may vary by pharmacy, and some locations may need to order the medication. Your TelePlus Care physician will issue your prescription for you to fill at your preferred pharmacy, and the pharmacy team can advise on current stock and expected delivery times.",
     },
   ],
   locations:

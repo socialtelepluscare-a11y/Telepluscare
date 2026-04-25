@@ -72,7 +72,7 @@ export const pageData: LandingPageData = {
     {
       title: "How to Get Your Coquitlam Doctor's Note Online \u2014 3 Steps",
       content:
-        "Most patients finish the process faster than a round-trip on the Evergreen Line from Lafarge Lake\u2013Douglas to Lougheed Town Centre.\n\nStep 1 \u2014 Book your appointment online; pick a slot that fits around your commute or work-from-home block.\n\nStep 2 \u2014 Meet your CPSBC-registered physician via encrypted video or text chat. The typical visit runs 10\u201315 minutes, covering symptoms, medications, and the documentation you need.\n\nStep 3 \u2014 Receive your signed doctor's note by email, ready to forward to HR or your school. Prescriptions are sent electronically to your preferred Coquitlam pharmacy.",
+        "Most patients finish the process faster than a round-trip on the Evergreen Line from Lafarge Lake\u2013Douglas to Lougheed Town Centre.\n\nStep 1 \u2014 Book your appointment online; pick a slot that fits around your commute or work-from-home block.\n\nStep 2 \u2014 Meet your CPSBC-registered physician via encrypted video or text chat. The typical visit runs 10\u201315 minutes, covering symptoms, medications, and the documentation you need.\n\nStep 3 \u2014 Receive your signed doctor's note by email, ready to forward to HR or your school. You can fill prescriptions at your preferred Coquitlam pharmacy.",
       image: "/images/online-doctors-notes-in-edmonton/section-5.jpg",
       imageAlt: "Three-step online doctor's note process in Coquitlam",
     },

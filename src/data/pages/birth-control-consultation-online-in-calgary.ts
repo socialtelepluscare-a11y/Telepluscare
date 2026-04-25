@@ -6,14 +6,14 @@ export const pageData: LandingPageData = {
     "Calgary online birth control — same-day prescriptions for U of C students, downtown professionals, multi-ethnic patients. Pill, patch, ring, IUD referrals.",
   title: "Birth Control Consultation Online in Calgary",
   heroDescription:
-    "Calgary's birth control patients range from U of C undergraduates seeking a first prescription to downtown professionals adjusting methods after 10 years on the same pill, plus a growing multi-ethnic population whose contraception preferences vary by background. Our virtual physicians prescribe same-day, send to any Calgary pharmacy, and coordinate IUD insertion referrals.",
+    "Calgary's birth control patients range from U of C undergraduates seeking a first prescription to downtown professionals adjusting methods after 10 years on the same pill, plus a growing multi-ethnic population whose contraception preferences vary by background. Our virtual physicians prescribe same-day for you to fill at any Calgary pharmacy, and coordinate IUD insertion referrals.",
   heroImage: "/images/Group-37520.png",
   heroImageAlt: "Birth control consultation online in Calgary",
   bookingUrl: "/book-appointment-alberta",
   summary:
     "TelePlus Care offers Calgary residents same-day virtual birth control consultations and prescriptions — including combined oral contraceptives, progestin-only pills, the patch, the ring, emergency contraception, and IUD insertion referrals. Our Alberta-licensed physicians serve U of C students, downtown professionals, and Calgary's diverse multi-ethnic patient base with culturally informed contraceptive counselling.",
   keyFacts: [
-    "Same-day Calgary virtual consultations with prescriptions sent to any pharmacy.",
+    "Same-day Calgary virtual consultations with prescriptions you can fill at any pharmacy.",
     "Roughly 38% of Canadian women aged 18–44 use hormonal contraception; method preferences vary by demographic.",
     "Long-acting reversible contraception (IUDs, implants) reduces unintended pregnancy by 99% versus 91% with the pill.",
     "U of C health services see thousands of contraception-related visits annually — virtual access fills extended-hours gaps.",
@@ -25,7 +25,7 @@ export const pageData: LandingPageData = {
         "Birth control isn't one-size-fits-all. Our Calgary physicians adapt counselling to your age, medical history, lifestyle, and cultural context — whether you're a U of C student starting your first pill, a marathon runner needing extended-cycle dosing, or evaluating IUD options for the first time.",
       bullets: [
         "Same-day virtual consultations — typically within 1–2 hours during business hours",
-        "Prescriptions transmitted to any Calgary pharmacy of your choice",
+        "Prescriptions you can fill at any Calgary pharmacy of your choice",
         "IUD insertion referrals to Calgary OB/Gyn and women's health partners",
         "Culturally informed counselling for Calgary's diverse patient population",
       ],
@@ -79,7 +79,7 @@ export const pageData: LandingPageData = {
     {
       question: "How fast can I get a birth control prescription in Calgary?",
       answer:
-        "Same-day in most cases. Prescriptions are typically transmitted to your chosen Calgary pharmacy within hours of your virtual consultation.",
+        "Same-day in most cases. You can typically fill your prescription at your chosen Calgary pharmacy within hours of your virtual consultation.",
     },
     {
       question: "Is the consultation covered by AHCIP?",

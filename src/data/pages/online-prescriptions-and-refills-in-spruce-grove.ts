@@ -6,19 +6,19 @@ export const pageData: LandingPageData = {
     "Same-day virtual prescriptions for Spruce Grove and Stony Plain commuters. CPSA-licensed MDs send refills to Westgrove, Spruce Crossing pharmacies. AHCIP covered.",
   title: "Online Prescriptions and Refills in Spruce Grove",
   heroDescription:
-    "Spruce Grove residents and Stony Plain commuters can skip the morning drive into Edmonton just for a refill. Connect with a CPSA-licensed virtual MD by video and have your prescription sent electronically to your preferred pharmacy at Westgrove, Spruce Crossing, or anywhere across the Tri-Region — typically before lunch.",
+    "Spruce Grove residents and Stony Plain commuters can skip the morning drive into Edmonton just for a refill. Connect with a CPSA-licensed virtual MD by video and fill your prescription at your preferred pharmacy at Westgrove, Spruce Crossing, or anywhere across the Tri-Region — typically before lunch.",
   heroImage: "/images/image-5.png",
   heroImageAlt: "Online prescriptions and refills in Spruce Grove Alberta",
   bookingUrl: "/book-appointment-alberta",
   lastReviewed: "2026-04-25",
   reviewedBy: "Dr. Maher Jerudi, MD",
   summary:
-    "TelePlusCare provides fast online prescription refills for Spruce Grove residents and Edmonton-metro commuters via virtual MD video visits. Scripts are e-faxed to Spruce Grove pharmacies including Westgrove, Spruce Crossing, and Stony Plain locations. AHCIP covers physician consultations for Alberta PHN holders, no referral needed.",
+    "TelePlusCare provides fast online prescription refills for Spruce Grove residents and Edmonton-metro commuters via virtual MD video visits. Scripts can be filled at Spruce Grove pharmacies including Westgrove, Spruce Crossing, and Stony Plain locations. AHCIP covers physician consultations for Alberta PHN holders, no referral needed.",
   keyFacts: [
-    "Spruce Grove and surrounding Stony Plain area host roughly 12 community pharmacies that accept TelePlusCare e-prescriptions.",
+    "Spruce Grove and surrounding Stony Plain area host roughly 12 community pharmacies that accept TelePlusCare prescriptions.",
     "Most Spruce Grove patients commute to Edmonton for work — TelePlusCare eliminates the need to add a clinic visit to the drive.",
     "AHCIP covers virtual physician consultations for Spruce Grove residents with a valid Alberta PHN — no referral required.",
-    "Same-day appointments are available seven days a week, with prescriptions typically delivered within 1–2 hours.",
+    "Same-day appointments are available seven days a week, with prescriptions typically issued within 1–2 hours.",
   ],
   sections: [
     {
@@ -56,19 +56,19 @@ export const pageData: LandingPageData = {
     {
       title: "How Spruce Grove Online Prescriptions Work",
       content:
-        "TelePlusCare's three-step process is designed for busy Tri-Region commuters. Step 1 — Book your virtual appointment online from your home in Westgrove or Spruce Ridge; provide your Alberta PHN and preferred local pharmacy. Step 2 — Connect by encrypted video with a CPSA-registered family physician for a 12–18 minute visit, often before your morning Edmonton commute. Step 3 — Once approved, your prescription is e-faxed to your selected Spruce Grove pharmacy. Pick it up after work on your way home.",
+        "TelePlusCare's three-step process is designed for busy Tri-Region commuters. Step 1 — Book your virtual appointment online from your home in Westgrove or Spruce Ridge; provide your Alberta PHN and preferred local pharmacy. Step 2 — Connect by encrypted video with a CPSA-registered family physician for a 12–18 minute visit, often before your morning Edmonton commute. Step 3 — Once approved, your physician issues a prescription you can fill at your selected Spruce Grove pharmacy. Pick it up after work on your way home.",
       bullets: [
         "Step 1 — Book online with your Alberta PHN",
         "Step 2 — 12–18 minute video visit with an Alberta-licensed MD",
-        "Step 3 — E-prescription to your Spruce Grove pharmacy",
+        "Step 3 — Receive your prescription to fill at your Spruce Grove pharmacy",
       ],
       image: "/images/prescription-refill/13-819x1024.jpeg",
       imageAlt: "Three-step Spruce Grove online prescription process",
     },
     {
-      title: "Prescription Delivered to Your Local Spruce Grove Pharmacy",
+      title: "Fill Your Prescription at Your Local Spruce Grove Pharmacy",
       content:
-        "We send prescriptions to every pharmacy in Spruce Grove and the surrounding Tri-Region. The Shoppers Drug Mart at Westgrove and at Spruce Crossing are the busiest, with extended hours that work for commuter schedules. The Sobeys Pharmacy and Save-On-Foods Pharmacy serve residential west and south sides. Pharmasave on McLeod Avenue is a long-standing community favourite. We also send to Stony Plain pharmacies — including the Shoppers Drug Mart at the Stony Plain Walmart and the Pharmasave on Highway 16A — and to Parkland County and Spring Lake locations.",
+        "Our physicians issue prescriptions you can fill at every pharmacy in Spruce Grove and the surrounding Tri-Region. The Shoppers Drug Mart at Westgrove and at Spruce Crossing are the busiest, with extended hours that work for commuter schedules. The Sobeys Pharmacy and Save-On-Foods Pharmacy serve residential west and south sides. Pharmasave on McLeod Avenue is a long-standing community favourite. Patients in Stony Plain can also fill prescriptions at the Shoppers Drug Mart at the Stony Plain Walmart, the Pharmasave on Highway 16A, IDA, and at Parkland County and Spring Lake locations.",
       bullets: [
         "Shoppers Drug Mart — Westgrove, Spruce Crossing",
         "Sobeys Pharmacy and Save-On-Foods Pharmacy",
@@ -77,7 +77,7 @@ export const pageData: LandingPageData = {
         "Parkland County and Spring Lake locations",
       ],
       image: "/images/Rectangle-1090-20.png",
-      imageAlt: "Spruce Grove pharmacies receiving e-prescriptions",
+      imageAlt: "Spruce Grove pharmacies that accept TelePlusCare prescriptions",
     },
     {
       title: "Built for Edmonton-Metro Commuters",
@@ -123,10 +123,10 @@ export const pageData: LandingPageData = {
     {
       question: "Can Stony Plain residents use the Spruce Grove TelePlusCare service?",
       answer:
-        "Absolutely. We serve the entire Tri-Region. Your prescription will be sent to your nearest pharmacy in Spruce Grove, Stony Plain, Parkland County, or wherever you prefer.",
+        "Absolutely. We serve the entire Tri-Region. You can fill your prescription at your nearest pharmacy in Spruce Grove, Stony Plain, Parkland County, or wherever you prefer.",
     },
     {
-      question: "Which Spruce Grove pharmacies accept TelePlusCare e-prescriptions?",
+      question: "Which Spruce Grove pharmacies accept TelePlusCare prescriptions?",
       answer:
         "Every pharmacy — Shoppers Drug Mart at Westgrove and Spruce Crossing, Sobeys Pharmacy, Save-On-Foods Pharmacy, Pharmasave on McLeod Avenue, and all independents.",
     },

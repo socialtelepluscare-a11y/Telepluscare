@@ -6,16 +6,16 @@ export const pageData: LandingPageData = {
     "Central Alberta's virtual prescription service. CPSA-licensed MDs send refills to Bower Mall, Parkland Mall, and downtown Red Deer pharmacies. AHCIP covered.",
   title: "Online Prescriptions and Refills in Red Deer",
   heroDescription:
-    "Red Deer is the heart of central Alberta, serving Sylvan Lake, Innisfail, Lacombe, and Blackfalds. Whether you live in Riverside Meadows, Anders, or commute from Penhold, TelePlusCare connects you with a CPSA-licensed virtual MD by video and sends your prescription to your preferred Red Deer pharmacy at Bower Mall, Parkland Mall, or downtown.",
+    "Red Deer is the heart of central Alberta, serving Sylvan Lake, Innisfail, Lacombe, and Blackfalds. Whether you live in Riverside Meadows, Anders, or commute from Penhold, TelePlusCare connects you with a CPSA-licensed virtual MD by video, and you can fill your prescription at your preferred Red Deer pharmacy at Bower Mall, Parkland Mall, or downtown.",
   heroImage: "/images/image-4.png",
   heroImageAlt: "Online prescriptions and refills in Red Deer Alberta",
   bookingUrl: "/book-appointment-alberta",
   lastReviewed: "2026-04-25",
   reviewedBy: "Dr. Maher Jerudi, MD",
   summary:
-    "TelePlusCare delivers same-day prescription refills to Red Deer residents through virtual MD video visits. Scripts are sent electronically to Red Deer pharmacies including Bower Mall, Parkland Mall, and Gaetz Avenue locations. AHCIP covers the physician fee for valid Alberta PHN holders, no referral, and we serve the entire central Alberta hub.",
+    "TelePlusCare delivers same-day prescription refills to Red Deer residents through virtual MD video visits. Scripts can be filled at Red Deer pharmacies including Bower Mall, Parkland Mall, and Gaetz Avenue locations. AHCIP covers the physician fee for valid Alberta PHN holders, no referral, and we serve the entire central Alberta hub.",
   keyFacts: [
-    "Red Deer has approximately 35 community pharmacies serving the city plus more in surrounding Sylvan Lake, Innisfail, and Lacombe — all accept TelePlusCare e-prescriptions.",
+    "Red Deer has approximately 35 community pharmacies serving the city plus more in surrounding Sylvan Lake, Innisfail, and Lacombe — all accept TelePlusCare prescriptions.",
     "Red Deer serves as central Alberta's healthcare hub for nearly 300,000 people across the broader region.",
     "AHCIP fully covers virtual physician consultations for Red Deer residents with a valid Alberta PHN — no referral required.",
     "TelePlusCare offers same-day Red Deer appointments seven days a week with prescription delivery typically within 1–2 hours.",
@@ -56,19 +56,19 @@ export const pageData: LandingPageData = {
     {
       title: "How Red Deer Online Prescriptions Work",
       content:
-        "TelePlusCare's three-step model is straightforward. Step 1 — Book your virtual appointment online and provide your Alberta PHN, the medication you need, and your preferred Red Deer pharmacy. Step 2 — Connect by encrypted video with a CPSA-registered family physician for a 12–18 minute consultation. Step 3 — Once approved, your prescription is e-faxed to your selected pharmacy, whether that's the Shoppers at Bower Mall, the Pharmasave on Gaetz Avenue, or the Sobeys Pharmacy in Lacombe.",
+        "TelePlusCare's three-step model is straightforward. Step 1 — Book your virtual appointment online and provide your Alberta PHN, the medication you need, and your preferred Red Deer pharmacy. Step 2 — Connect by encrypted video with a CPSA-registered family physician for a 12–18 minute consultation. Step 3 — Once approved, your physician issues a prescription you can fill at your selected pharmacy, whether that's the Shoppers at Bower Mall, the Pharmasave on Gaetz Avenue, or the Sobeys Pharmacy in Lacombe.",
       bullets: [
         "Step 1 — Book online with your Alberta PHN",
         "Step 2 — 12–18 minute video visit with a CPSA-licensed MD",
-        "Step 3 — E-prescription sent to your Red Deer pharmacy",
+        "Step 3 — Receive your prescription to fill at your Red Deer pharmacy",
       ],
       image: "/images/prescription-refill/111-819x1024.jpeg",
       imageAlt: "Three-step Red Deer online prescription process",
     },
     {
-      title: "Prescription Delivered to Your Local Red Deer Pharmacy",
+      title: "Fill Your Prescription at Your Local Red Deer Pharmacy",
       content:
-        "We send prescriptions to every pharmacy in Red Deer and the surrounding region. The Shoppers Drug Mart at Bower Mall and at Parkland Mall are the busiest, with extended hours that work well for working families. The Rexall on Gaetz Avenue downtown is convenient for those near Red Deer Regional Hospital. The Save-On-Foods Pharmacy at Riverlands and the Sobeys Pharmacy at Bower Place serve residential west and south side. Independent pharmacies on 50th Street offer personalized service. We also send to Sylvan Lake, Innisfail, Lacombe, Blackfalds, and Penhold pharmacies for regional patients.",
+        "Our physicians issue prescriptions you can fill at every pharmacy in Red Deer and the surrounding region. The Shoppers Drug Mart at Bower Mall and at Parkland Mall are the busiest, with extended hours that work well for working families. The Rexall on Gaetz Avenue downtown is convenient for those near Red Deer Regional Hospital. The Save-On-Foods Pharmacy at Riverlands and the Sobeys Pharmacy at Bower Place serve residential west and south side. Independent pharmacies on 50th Street offer personalized service. Patients from Sylvan Lake, Innisfail, Lacombe, Blackfalds, and Penhold can also fill prescriptions at their local pharmacies.",
       bullets: [
         "Shoppers Drug Mart — Bower Mall, Parkland Mall",
         "Rexall — Gaetz Avenue downtown",
@@ -78,12 +78,12 @@ export const pageData: LandingPageData = {
         "Sylvan Lake, Innisfail, Lacombe regional pharmacies",
       ],
       image: "/images/Rectangle-1090-20.png",
-      imageAlt: "Red Deer pharmacies receiving e-prescriptions",
+      imageAlt: "Red Deer pharmacies that accept TelePlusCare prescriptions",
     },
     {
       title: "Serving Central Alberta from Red Deer",
       content:
-        "Red Deer functions as central Alberta's healthcare hub. Patients from Sylvan Lake (often weekend cabin residents), Innisfail, Lacombe, Blackfalds, Penhold, Bowden, Olds, Rocky Mountain House, Stettler, and Ponoka frequently use Red Deer-based services. TelePlusCare extends that reach further: rather than driving an hour into Red Deer for a refill, patients in these surrounding communities can book a virtual visit and have their prescription sent to their nearest local pharmacy — including in towns where the pharmacy is the only healthcare-adjacent business open after 5pm.",
+        "Red Deer functions as central Alberta's healthcare hub. Patients from Sylvan Lake (often weekend cabin residents), Innisfail, Lacombe, Blackfalds, Penhold, Bowden, Olds, Rocky Mountain House, Stettler, and Ponoka frequently use Red Deer-based services. TelePlusCare extends that reach further: rather than driving an hour into Red Deer for a refill, patients in these surrounding communities can book a virtual visit and fill their prescription at their nearest local pharmacy — including in towns where the pharmacy is the only healthcare-adjacent business open after 5pm.",
       bullets: [
         "Sylvan Lake — cottage owners and year-round residents",
         "Innisfail, Bowden, Olds — agricultural communities",
@@ -124,12 +124,12 @@ export const pageData: LandingPageData = {
     {
       question: "Can patients in Sylvan Lake or Innisfail use TelePlusCare?",
       answer:
-        "Yes. We serve all central Alberta communities. Your prescription will be sent to whichever local pharmacy is closest — Sylvan Lake, Innisfail, Lacombe, Penhold, Blackfalds, or any other community in the region.",
+        "Yes. We serve all central Alberta communities. You can fill your prescription at whichever local pharmacy is closest — Sylvan Lake, Innisfail, Lacombe, Penhold, Blackfalds, or any other community in the region.",
     },
     {
-      question: "Which Red Deer pharmacies accept TelePlusCare e-prescriptions?",
+      question: "Which Red Deer pharmacies accept TelePlusCare prescriptions?",
       answer:
-        "Every pharmacy in Red Deer accepts our e-prescriptions, including Shoppers Drug Mart at Bower Mall and Parkland Mall, Rexall, Save-On-Foods Pharmacy, Sobeys, and downtown independents.",
+        "Every pharmacy in Red Deer accepts our prescriptions, including Shoppers Drug Mart at Bower Mall and Parkland Mall, Rexall, Save-On-Foods Pharmacy, Sobeys, and downtown independents.",
     },
     {
       question: "How fast can I get a prescription in Red Deer?",

@@ -51,7 +51,7 @@ export const pageData: LandingPageData = {
     {
       title: "Serving Central Alberta Agricultural Communities",
       content:
-        "Red Deer is the regional hub for Lacombe, Sylvan Lake, Innisfail, Penhold, Blackfalds, Olds, and Stettler. Farm and ranch families can avoid a long drive into town and complete the UTI visit by phone or video. Prescriptions are e-sent to a pharmacy in Red Deer, or to a local pharmacy in your home community when available.",
+        "Red Deer is the regional hub for Lacombe, Sylvan Lake, Innisfail, Penhold, Blackfalds, Olds, and Stettler. Farm and ranch families can avoid a long drive into town and complete the UTI visit by phone or video. After your consultation, your physician issues a prescription you can fill at any pharmacy in Red Deer or your home community.",
       image: "/images/Rectangle-1090-16.png",
       imageAlt: "Central Alberta agricultural community telehealth coverage",
     },
@@ -77,7 +77,7 @@ export const pageData: LandingPageData = {
         "Step 1: Complete a quick online symptom intake form",
         "Step 2: A CPSA-licensed Alberta physician reviews your case",
         "Step 3: Speak by phone or video for a 15 to 20 minute visit",
-        "Step 4: Prescription is e-sent to your chosen Red Deer pharmacy",
+        "Step 4: Receive your prescription to fill at your chosen Red Deer pharmacy",
         "Step 5: Receive a follow-up note with prevention tips",
       ],
       image: "/images/Rectangle-1090-19.png",
@@ -100,12 +100,12 @@ export const pageData: LandingPageData = {
     {
       question: "Which Red Deer pharmacies receive my UTI prescription?",
       answer:
-        "Your antibiotic prescription is electronically sent to any pharmacy you choose, including Shoppers Drug Mart on Bower Place, Rexall at Parkland Mall, Save-On-Foods Pharmacy on 67 Street, or independent pharmacies near Red Deer Regional Hospital.",
+        "Your physician will issue an antibiotic prescription you can fill at any pharmacy you choose in Red Deer, including Shoppers Drug Mart on Bower Place, Rexall at Parkland Mall, Save-On-Foods Pharmacy on 67 Street, or independent pharmacies near Red Deer Regional Hospital.",
     },
     {
       question: "Can I use this service if I live outside Red Deer?",
       answer:
-        "Yes. Patients across Central Alberta, including Sylvan Lake, Lacombe, Innisfail, Blackfalds, and Olds, regularly use TelePlus Care. Prescriptions can be sent to a pharmacy in your home community or in Red Deer.",
+        "Yes. Patients across Central Alberta, including Sylvan Lake, Lacombe, Innisfail, Blackfalds, and Olds, regularly use TelePlus Care. You can fill your prescription at any pharmacy in your home community or in Red Deer.",
     },
     {
       question: "Is the consultation covered by Alberta Health Care?",

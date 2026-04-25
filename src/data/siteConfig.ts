@@ -22,5 +22,5 @@ export const siteConfig = {
   tagline: "Virtual Healthcare Services in Alberta",
   description:
     "TelePlus Care is a modern healthcare solution, offering convenient virtual medical care designed for everyone across Alberta.",
-  whatsapp: "https://wa.me/15974321216",
+  whatsapp: "https://wa.me/5974321216",
 } as const;

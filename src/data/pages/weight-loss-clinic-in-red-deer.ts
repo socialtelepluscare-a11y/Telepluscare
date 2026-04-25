@@ -88,9 +88,9 @@ export const pageData: LandingPageData = {
         "Most Central Alberta patients are seen within 3–5 business days. Same-day visits are often available.",
     },
     {
-      question: "Can you send Mounjaro to my Red Deer pharmacy?",
+      question: "Can I fill a Mounjaro prescription at my Red Deer pharmacy?",
       answer:
-        "Yes. We transmit prescriptions to any Red Deer-area pharmacy and handle prior authorization paperwork.",
+        "Yes. You can fill prescriptions at any Red Deer-area pharmacy, and we handle prior authorization paperwork.",
     },
     {
       question: "What if I live on a farm outside Red Deer?",

@@ -84,7 +84,7 @@ export const pageData: LandingPageData = {
         "Book your appointment -- Select a convenient time through our website. Choose a video or phone consultation based on your preference.",
         "Complete your intake form -- Before your appointment, fill out a confidential health questionnaire covering your symptoms, medical history, current medications, and treatment goals.",
         "Meet with your physician -- During your consultation, your physician will conduct a clinical assessment, discuss your symptoms in detail, and explore treatment options including medication and therapy.",
-        "Receive your prescription -- If medication is deemed appropriate, your prescription is sent directly to your pharmacy. Your physician will explain the medication, expected timeline, and potential side effects.",
+        "Receive your prescription -- If medication is deemed appropriate, you can fill your prescription at your pharmacy of choice. Your physician will explain the medication, expected timeline, and potential side effects.",
         "Follow-up care -- An initial follow-up is typically scheduled within 2 to 4 weeks to assess your response to medication. Ongoing follow-ups are scheduled to monitor progress and make adjustments as needed.",
         "Crisis support -- If you are experiencing a mental health crisis, please call 988 (Suicide Crisis Helpline), go to your nearest emergency department, or call 911.",
       ],

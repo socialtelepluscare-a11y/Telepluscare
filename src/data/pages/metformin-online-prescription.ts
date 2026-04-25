@@ -100,7 +100,7 @@ export const pageData: LandingPageData = {
         "Licensed Alberta physicians -- Our doctors have extensive experience in diabetes management and metabolic health.",
         "Comprehensive assessments -- Your virtual consultation includes a review of your medical history, current medications, lab results, and treatment goals.",
         "Lab coordination -- We can order blood work including HbA1c, fasting glucose, kidney function, and B12 levels to monitor your health and guide treatment.",
-        "Prescription convenience -- Your Metformin prescription is sent directly to the pharmacy of your choice across Alberta.",
+        "Prescription convenience -- You can fill your Metformin prescription at the pharmacy of your choice across Alberta.",
         "Ongoing monitoring -- We schedule regular follow-up appointments to track your blood sugar control, adjust dosing, and ensure the medication remains safe and effective.",
       ],
           image: "/images/Rectangle-1090-22.png",
@@ -138,7 +138,7 @@ export const pageData: LandingPageData = {
     {
       question: "How does the virtual consultation process work?",
       answer:
-        "Book an appointment on our website and complete a health intake form that includes your medical history, current medications, and recent lab results if available. During your video or phone consultation, your physician will review your information, discuss your symptoms and goals, and determine if Metformin is appropriate. If prescribed, the prescription is sent to your pharmacy, and follow-up care is scheduled to monitor your progress.",
+        "Book an appointment on our website and complete a health intake form that includes your medical history, current medications, and recent lab results if available. During your video or phone consultation, your physician will review your information, discuss your symptoms and goals, and determine if Metformin is appropriate. If prescribed, you can fill the prescription at your pharmacy of choice, and follow-up care is scheduled to monitor your progress.",
     },
   ],
   locations:

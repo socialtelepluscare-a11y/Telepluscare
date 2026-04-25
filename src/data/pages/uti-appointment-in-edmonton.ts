@@ -3,19 +3,19 @@ import type { LandingPageData } from "@/types/landing-page";
 export const pageData: LandingPageData = {
   metaTitle: "UTI Appointment Edmonton | Same-Day Online UTI Treatment",
   metaDescription:
-    "Edmonton residents: book a same-day virtual UTI appointment with an Alberta-licensed physician. Antibiotic prescriptions sent to your nearest pharmacy in minutes.",
+    "Edmonton residents: book a same-day virtual UTI appointment with an Alberta-licensed physician. Antibiotic prescriptions you can fill at your nearest pharmacy in minutes.",
   title: "Same-Day Online UTI Appointment in Edmonton",
   heroDescription:
-    "Edmonton residents experiencing burning urination, urgency, or pelvic discomfort can connect with an Alberta-licensed physician within minutes. From Whyte Avenue to Mill Woods, we treat uncomplicated UTIs virtually and send prescriptions directly to pharmacies near the U of A Hospital, Royal Alex, or your home neighborhood.",
+    "Edmonton residents experiencing burning urination, urgency, or pelvic discomfort can connect with an Alberta-licensed physician within minutes. From Whyte Avenue to Mill Woods, we treat uncomplicated UTIs virtually and issue prescriptions you can fill at pharmacies near the U of A Hospital, Royal Alex, or your home neighborhood.",
   heroImage: "/images/urinary-tract-infection-treatments.jpg",
   heroImageAlt: "Same-day UTI appointment for Edmonton patients",
   bookingUrl: "/book-appointment-alberta",
   conditionType: "Urinary Tract Infection",
   summary:
-    "Edmonton patients experiencing UTI symptoms such as burning urination, frequent urgency, or pelvic pain can book a same-day virtual visit with TelePlus Care. Alberta-licensed physicians diagnose uncomplicated UTIs in 15 to 20 minutes and electronically send antibiotic prescriptions to any Edmonton pharmacy. The consultation may be covered by Alberta Health Care for eligible Alberta residents.",
+    "Edmonton patients experiencing UTI symptoms such as burning urination, frequent urgency, or pelvic pain can book a same-day virtual visit with TelePlus Care. Alberta-licensed physicians diagnose uncomplicated UTIs in 15 to 20 minutes and issue antibiotic prescriptions you can fill at any Edmonton pharmacy. The consultation may be covered by Alberta Health Care for eligible Alberta residents.",
   keyFacts: [
     "Same-day UTI appointment with an Edmonton-area physician within 30 minutes",
-    "Prescription sent electronically to Shoppers Drug Mart, Rexall, Save-On-Foods, or any Edmonton pharmacy",
+    "Fill your prescription at Shoppers Drug Mart, Rexall, Save-On-Foods, or any Edmonton pharmacy",
     "The consultation may be covered by Alberta Health Care for eligible Alberta residents",
     "All physicians are CPSA registered and licensed to practise in Alberta",
   ],
@@ -44,7 +44,7 @@ export const pageData: LandingPageData = {
     {
       title: "Edmonton Neighborhoods and Pharmacies We Serve",
       content:
-        "TelePlus Care patients across Edmonton receive prescriptions at the pharmacy of their choice. Whether you live near Whyte Ave in Old Strathcona, work downtown near the Royal Alex Hospital, or are based in Mill Woods or Windermere, your antibiotic prescription is e-faxed within minutes.\n\nSupported pharmacy chains across Edmonton include Shoppers Drug Mart, Rexall, Save-On-Foods Pharmacy, Loblaws, and independent neighborhood pharmacies near the U of A Hospital.",
+        "TelePlus Care patients across Edmonton fill prescriptions at the pharmacy of their choice. Whether you live near Whyte Ave in Old Strathcona, work downtown near the Royal Alex Hospital, or are based in Mill Woods or Windermere, your antibiotic prescription is issued within minutes.\n\nSupported pharmacy chains across Edmonton include Shoppers Drug Mart, Rexall, Save-On-Foods Pharmacy, Loblaws, and independent neighborhood pharmacies near the U of A Hospital.",
       image: "/images/Rectangle-1090-7.png",
       imageAlt: "Edmonton pharmacy locations for UTI prescriptions",
     },
@@ -70,7 +70,7 @@ export const pageData: LandingPageData = {
         "Step 1: Complete the secure intake form describing your symptoms",
         "Step 2: A CPSA-registered Alberta physician reviews your case",
         "Step 3: Connect by video or phone for a 15 to 20 minute consultation",
-        "Step 4: Antibiotic prescription is sent to your chosen Edmonton pharmacy",
+        "Step 4: Receive your antibiotic prescription to fill at your chosen Edmonton pharmacy",
         "Step 5: Receive a follow-up message with prevention guidance",
       ],
       image: "/images/Rectangle-1090-16.png",
@@ -107,7 +107,7 @@ export const pageData: LandingPageData = {
     {
       question: "Which Edmonton pharmacies receive my UTI prescription?",
       answer:
-        "Your antibiotic prescription is electronically transmitted to any Edmonton pharmacy of your choice, including Shoppers Drug Mart on Whyte Ave, Rexall in Mill Woods, Save-On-Foods Pharmacy downtown, or independent pharmacies near the U of A Hospital.",
+        "Your physician issues an antibiotic prescription you can fill at any Edmonton pharmacy of your choice, including Shoppers Drug Mart on Whyte Ave, Rexall in Mill Woods, Save-On-Foods Pharmacy downtown, or independent pharmacies near the U of A Hospital.",
     },
     {
       question: "Is the UTI consultation covered by Alberta Health Care?",

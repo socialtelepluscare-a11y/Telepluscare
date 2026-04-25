@@ -90,7 +90,7 @@ export const pageData: LandingPageData = {
       bullets: [
         "Licensed Alberta physicians -- Our doctors are experienced in diagnosing and treating male pattern hair loss and will create a personalized treatment plan.",
         "Quick virtual consultations -- Complete your assessment in as little as 15 minutes from your phone, tablet, or computer.",
-        "Direct-to-pharmacy prescriptions -- Once approved, your Finasteride prescription is sent directly to the pharmacy of your choice.",
+        "Fill at your pharmacy -- Once approved, you can fill your Finasteride prescription at the pharmacy of your choice.",
         "Follow-up care -- We schedule follow-up appointments to monitor your progress and adjust your treatment plan if necessary.",
         "Confidential service -- All consultations are private and conducted through our secure telemedicine platform.",
       ],
@@ -125,7 +125,7 @@ export const pageData: LandingPageData = {
       question:
         "How does the virtual consultation for Finasteride work?",
       answer:
-        "Book an appointment through our website and complete a health intake questionnaire that includes your medical history and hair loss concerns. During your virtual consultation, your physician will review your information, discuss your hair loss pattern, and determine if Finasteride is appropriate for you. If prescribed, the prescription is sent directly to your pharmacy, and a follow-up is scheduled to assess your progress.",
+        "Book an appointment through our website and complete a health intake questionnaire that includes your medical history and hair loss concerns. During your virtual consultation, your physician will review your information, discuss your hair loss pattern, and determine if Finasteride is appropriate for you. If prescribed, you can fill the prescription at your pharmacy of choice, and a follow-up is scheduled to assess your progress.",
     },
     {
       question: "Is Finasteride covered by insurance in Alberta?",

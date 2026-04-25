@@ -7,7 +7,7 @@ export const pageData: LandingPageData = {
     "Get yeast infection treatment online in Alberta. Consult a licensed doctor, receive a fluconazole prescription, and get relief fast. Private telehealth clinic.",
   title: "Yeast Infection Treatment Online in Alberta",
   heroDescription:
-    "Dealing with uncomfortable yeast infection symptoms?\n\nBook a same-day virtual appointment with a licensed Alberta doctor and get yeast infection treatment online. Receive a prescription for fluconazole or other antifungal medication sent directly to your local pharmacy.\n\nOur discreet, secure telehealth platform makes diagnosis and treatment private, fast, and convenient from anywhere in Alberta.",
+    "Dealing with uncomfortable yeast infection symptoms?\n\nBook a same-day virtual appointment with a licensed Alberta doctor and get yeast infection treatment online. Receive a prescription for fluconazole or other antifungal medication you can fill at your local pharmacy.\n\nOur discreet, secure telehealth platform makes diagnosis and treatment private, fast, and convenient from anywhere in Alberta.",
   heroImage: "/images/ChatGPT-Image-Nov-3-2025-04_36_39-PM-1024x683.png",
   heroImageAlt: "Yeast infection treatment online Alberta",
   sections: [
@@ -54,7 +54,7 @@ export const pageData: LandingPageData = {
     {
       title: "How Online Yeast Infection Treatment Works",
       content:
-        "Getting yeast infection treatment online is discreet and efficient:\n\nStep 1: Book a virtual appointment in under 2 minutes.\n\nStep 2: Consult with a licensed Alberta doctor via secure video or chat. Discuss your symptoms, medical history, and any previous yeast infections.\n\nStep 3: Receive your diagnosis and prescription. If antifungal medication is appropriate, it is sent electronically to your preferred Alberta pharmacy.\n\nStep 4: Begin treatment right away. Most patients experience significant relief within 1 to 3 days.\n\nPrescriptions can be filled at any Alberta pharmacy including Shoppers Drug Mart, Rexall, Safeway, Walmart, Costco, and local pharmacies.",
+        "Getting yeast infection treatment online is discreet and efficient:\n\nStep 1: Book a virtual appointment in under 2 minutes.\n\nStep 2: Consult with a licensed Alberta doctor via secure video or chat. Discuss your symptoms, medical history, and any previous yeast infections.\n\nStep 3: Receive your diagnosis and prescription. If antifungal medication is appropriate, your physician issues a prescription you can fill at your preferred Alberta pharmacy.\n\nStep 4: Begin treatment right away. Most patients experience significant relief within 1 to 3 days.\n\nPrescriptions can be filled at any Alberta pharmacy including Shoppers Drug Mart, Rexall, Safeway, Walmart, Costco, and local pharmacies.",
       image: "/images/image_2024_02_21T09_52_57_321Z.png",
       imageAlt: "How online yeast infection treatment works",
     },
@@ -98,7 +98,7 @@ export const pageData: LandingPageData = {
         "Same-day virtual appointments available 7 days a week",
         "Licensed Alberta physicians experienced in women's health",
         "Discreet, private consultations from the comfort of your home",
-        "Prescriptions for fluconazole and other antifungals sent to any Alberta pharmacy",
+        "Prescriptions for fluconazole and other antifungals you can fill at any Alberta pharmacy",
         "No embarrassing waiting room visits",
         "Secure, PIPEDA-compliant telehealth platform",
         "Affordable care with Alberta Health coverage for eligible visits",
@@ -116,7 +116,7 @@ export const pageData: LandingPageData = {
     {
       question: "Can I get fluconazole prescribed online?",
       answer:
-        "Yes. If your doctor determines that fluconazole is appropriate for your yeast infection, the prescription will be sent electronically to your chosen Alberta pharmacy. It is typically ready for pickup within 1 to 2 hours.",
+        "Yes. If your doctor determines that fluconazole is appropriate for your yeast infection, your physician issues a prescription you can fill at your chosen Alberta pharmacy. It is typically ready for pickup within 1 to 2 hours.",
     },
     {
       question: "How long does it take for a yeast infection to clear up?",

@@ -111,7 +111,7 @@ export const pageData: LandingPageData = {
       question:
         "Can I get a prescription for ADHD medication during my virtual visit?",
       answer:
-        "Yes, if your provider determines that medication is appropriate for your condition, they can prescribe it during your virtual consultation. Prescriptions are sent to your pharmacy of choice for convenient pickup.",
+        "Yes, if your provider determines that medication is appropriate for your condition, they can prescribe it during your virtual consultation. You can fill your prescription at your pharmacy of choice for convenient pickup.",
     },
   ],
   locations:

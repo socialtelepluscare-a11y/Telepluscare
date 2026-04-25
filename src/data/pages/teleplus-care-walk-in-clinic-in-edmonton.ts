@@ -11,7 +11,7 @@ export const pageData: LandingPageData = {
   heroImageAlt: "TelePlus walk-in clinic in Edmonton",
   bookingUrl: "/book-appointment-alberta",
   summary:
-    "TelePlus Care provides Edmonton residents with same-day virtual walk-in clinic access — an alternative to 6+ hour Royal Alex and U of A Hospital ER waits for non-urgent care. Our Alberta-licensed physicians handle UTIs, prescription refills, sick notes, rashes, sinus infections, and minor injuries via secure video, with prescriptions transmitted to your preferred Edmonton pharmacy.",
+    "TelePlus Care provides Edmonton residents with same-day virtual walk-in clinic access — an alternative to 6+ hour Royal Alex and U of A Hospital ER waits for non-urgent care. Our Alberta-licensed physicians handle UTIs, prescription refills, sick notes, rashes, sinus infections, and minor injuries via secure video, with prescriptions you can fill at your preferred Edmonton pharmacy.",
   keyFacts: [
     "Edmonton emergency departments report median wait times of 4–6 hours; long-stay admissions exceed 24 hours.",
     "Roughly 60% of ER visits in Edmonton are for issues treatable virtually — UTIs, refills, rashes, sick notes.",
@@ -42,7 +42,7 @@ export const pageData: LandingPageData = {
     {
       title: "Prescription Refills, Repeat Medications & Lab Orders",
       content:
-        "Lost your blood pressure medication? Need a Ventolin refill before a flight? Our Edmonton physicians can review your file, order labs through any Edmonton DynaLIFE or AHS site, and send prescriptions to any Alberta pharmacy.",
+        "Lost your blood pressure medication? Need a Ventolin refill before a flight? Our Edmonton physicians can review your file, order labs through any Edmonton DynaLIFE or AHS site, and issue prescriptions you can fill at any Alberta pharmacy.",
       image: "/images/Group-37523.png",
       imageAlt: "Edmonton prescription refill walk-in",
     },

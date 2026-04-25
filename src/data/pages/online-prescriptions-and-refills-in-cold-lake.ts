@@ -7,14 +7,14 @@ export const pageData: LandingPageData = {
     "Need a fast and reliable way to get online prescriptions and refills in cold lake? TelePlusCare connects you with licensed Alberta healthcare providers through secure virtual appointments.",
   title: "Online Prescriptions and Refills in cold lake – Same Day",
   heroDescription:
-    "Need a fast and reliable way to get online prescriptions and refills in cold lake? TelePlusCare connects you with licensed Alberta healthcare providers through secure virtual appointments — so you can get the medication you need without visiting a clinic. Whether you need a new prescription, a refill, or medical advice, our virtual healthcare platform is designed for convenience, speed, and trusted Alberta care. Book your virtual appointment today and get your prescription sent to your pharmacy — often within minutes.",
+    "Need a fast and reliable way to get online prescriptions and refills in cold lake? TelePlusCare connects you with licensed Alberta healthcare providers through secure virtual appointments — so you can get the medication you need without visiting a clinic. Whether you need a new prescription, a refill, or medical advice, our virtual healthcare platform is designed for convenience, speed, and trusted Alberta care. Book your virtual appointment today and fill your prescription at your pharmacy of choice — often within minutes.",
   heroImage: "/images/2.jpg",
   heroImageAlt: "Medical weight loss assessments and treatments",
   sections: [
     {
       title: "Online Prescriptions and Refills in cold lake",
       content:
-        "Running low on your medication? Skip the line, skip the waiting room, and refill your prescription from home — available 24/7 across Alberta.\n\nAt TelePlusCare, you can easily request online prescription refills in cold lake, and our healthcare providers will review your request quickly. If medically appropriate, your prescription will be renewed and sent to your preferred pharmacy the same day.",
+        "Running low on your medication? Skip the line, skip the waiting room, and refill your prescription from home — available 24/7 across Alberta.\n\nAt TelePlusCare, you can easily request online prescription refills in cold lake, and our healthcare providers will review your request quickly. If medically appropriate, your prescription will be renewed and you can fill it at your preferred pharmacy the same day.",
       image: "/images/2.jpg",
       imageAlt: "Medical weight loss assessments and treatments",
     },
@@ -98,7 +98,7 @@ export const pageData: LandingPageData = {
     {
       title: "Refill Your Medication Online in cold lake",
       content:
-        "Running low on your medication? Request a prescription refill online and avoid long clinic wait times, scheduling conflicts, last-minute rushes, and missing doses.\n\nOur Alberta providers can quickly renew your medication if appropriate — sent directly to your pharmacy.",
+        "Running low on your medication? Request a prescription refill online and avoid long clinic wait times, scheduling conflicts, last-minute rushes, and missing doses.\n\nOur Alberta providers can quickly renew your medication if appropriate — fill it at your pharmacy of choice.",
       bullets: [
         "Long clinic wait times",
         "Scheduling conflicts",
@@ -111,7 +111,7 @@ export const pageData: LandingPageData = {
     {
       title: "How It Works",
       content:
-        "Step 1: Book a virtual appointment (takes less than 2 minutes)\n\nStep 2: Speak to a certified Alberta doctor via secure video or chat\n\nStep 3: Receive your prescription sent to your pharmacy — ready to pick up or have delivered\n\n100% legal and accepted. Safe, encrypted, and confidential. Mobile and desktop friendly.",
+        "Step 1: Book a virtual appointment (takes less than 2 minutes)\n\nStep 2: Speak to a certified Alberta doctor via secure video or chat\n\nStep 3: Receive your prescription to fill at your pharmacy — ready to pick up\n\n100% legal and accepted. Safe, encrypted, and confidential. Mobile and desktop friendly.",
       image: "/images/image-9963535-819x1024.jpeg",
       imageAlt: "Doctor note in cold lake",
     },
@@ -141,7 +141,7 @@ export const pageData: LandingPageData = {
     {
       question: "Can I really get a prescription online in cold lake?",
       answer:
-        "Yes. TelePlusCare allows you to meet with a licensed Alberta healthcare provider online and, if medically appropriate, receive a prescription. This includes new prescriptions and refills. Your prescription can be sent to any cold lake pharmacy or delivered to your home.",
+        "Yes. TelePlusCare allows you to meet with a licensed Alberta healthcare provider online and, if medically appropriate, receive a prescription. This includes new prescriptions and refills. You can fill your prescription at any cold lake pharmacy.",
     },
     {
       question: "Is it legal to get prescriptions online in Alberta?",
@@ -161,7 +161,7 @@ export const pageData: LandingPageData = {
     {
       question: "Can I get a prescription refill online in cold lake?",
       answer:
-        "Yes. TelePlusCare offers quick and convenient prescription refills online. If you're running out of your medication, our providers can renew your prescription and send it to your preferred pharmacy in cold lake.",
+        "Yes. TelePlusCare offers quick and convenient prescription refills online. If you're running out of your medication, our providers can renew your prescription, and you can fill it at your preferred pharmacy in cold lake.",
     },
     {
       question: "How fast can I get my prescription or refill?",
@@ -180,7 +180,7 @@ export const pageData: LandingPageData = {
     },
     {
       question:
-        "Can you send my prescription to any pharmacy in cold lake?",
+        "Can I fill my prescription at any pharmacy in cold lake?",
       answer:
         "Yes. You can choose any local cold lake pharmacy, including Shoppers Drug Mart, Rexall, Loblaw/Superstore pharmacies, Save-On Foods, Costco, and independent pharmacies. You may also request medication delivery if offered by the pharmacy.",
     },

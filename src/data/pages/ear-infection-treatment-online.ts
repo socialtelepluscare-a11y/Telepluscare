@@ -53,7 +53,7 @@ export const pageData: LandingPageData = {
     {
       title: "How Online Ear Infection Treatment Works",
       content:
-        "Getting ear infection treatment online is straightforward:\n\nStep 1: Book a virtual appointment in under 2 minutes.\n\nStep 2: Consult with a licensed Alberta doctor via secure video or chat. Describe your symptoms, their duration, and any relevant history.\n\nStep 3: Receive your diagnosis and treatment plan. If antibiotics or ear drops are needed, your prescription is sent electronically to your preferred Alberta pharmacy.\n\nStep 4: Start treatment right away and follow up if symptoms do not improve.\n\nPrescriptions can be filled at any Alberta pharmacy, including Shoppers Drug Mart, Rexall, Safeway, Walmart, and local pharmacies.",
+        "Getting ear infection treatment online is straightforward:\n\nStep 1: Book a virtual appointment in under 2 minutes.\n\nStep 2: Consult with a licensed Alberta doctor via secure video or chat. Describe your symptoms, their duration, and any relevant history.\n\nStep 3: Receive your diagnosis and treatment plan. If antibiotics or ear drops are needed, your physician issues a prescription you can fill at your preferred Alberta pharmacy.\n\nStep 4: Start treatment right away and follow up if symptoms do not improve.\n\nPrescriptions can be filled at any Alberta pharmacy, including Shoppers Drug Mart, Rexall, Safeway, Walmart, and local pharmacies.",
       image: "/images/image_2024_02_21T09_52_57_321Z.png",
       imageAlt: "How online ear infection treatment works",
     },
@@ -80,7 +80,7 @@ export const pageData: LandingPageData = {
       bullets: [
         "Same-day virtual appointments available 7 days a week",
         "Licensed Alberta physicians experienced in diagnosing ear infections",
-        "Prescriptions for antibiotics and ear drops sent to any Alberta pharmacy",
+        "Prescriptions for antibiotics and ear drops you can fill at any Alberta pharmacy",
         "Pediatric-friendly consultations for parents with young children",
         "No waiting rooms, no exposure to other sick patients",
         "Private, secure, PIPEDA-compliant telehealth platform",
@@ -109,7 +109,7 @@ export const pageData: LandingPageData = {
     {
       question: "Can I get ear drops prescribed online?",
       answer:
-        "Yes. If your doctor determines that antibiotic or anti-inflammatory ear drops are appropriate, the prescription will be sent electronically to your preferred pharmacy in Alberta.",
+        "Yes. If your doctor determines that antibiotic or anti-inflammatory ear drops are appropriate, your physician issues a prescription you can fill at your preferred pharmacy in Alberta.",
     },
     {
       question: "When should I go to the ER for an ear infection?",

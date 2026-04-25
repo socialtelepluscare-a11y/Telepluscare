@@ -9,10 +9,10 @@ export const pageData: LandingPageData = {
   heroDescription:
     "Running out of medication can break your day. Our Edmonton clinic makes prescription refills simple, fast, and stress-free. Whether you need a routine refill, a renewal, or a quick telehealth review, our licensed providers are here to help you get back on track.\n\nWe offer easy online prescription refill appointments, same-day support, and secure medical care for all ages. No long waits. No confusion. Just simple, safe refills when you need them.",
   summary:
-    "Online prescription refills in Edmonton cover antibiotics, allergy medications, antihypertensives, statins, diabetes medications (Metformin, insulin, GLP-1s), thyroid hormones, SSRIs, asthma inhalers, oral contraceptives, and proton pump inhibitors. TelePlus Care licensed Alberta physicians review medical history and renew non-controlled prescriptions in 15-30 minutes — sent directly to any Edmonton pharmacy. Controlled substances and stimulants excluded.",
+    "Online prescription refills in Edmonton cover antibiotics, allergy medications, antihypertensives, statins, diabetes medications (Metformin, insulin, GLP-1s), thyroid hormones, SSRIs, asthma inhalers, oral contraceptives, and proton pump inhibitors. TelePlus Care licensed Alberta physicians review medical history and renew non-controlled prescriptions in 15-30 minutes — fill at any Edmonton pharmacy. Controlled substances and stimulants excluded.",
   keyFacts: [
     "Most non-controlled refills issued within 15-30 minutes of consultation",
-    "Sent electronically to any Edmonton pharmacy or delivery service",
+    "Fill at any Edmonton pharmacy of your choice",
     "The consultation may be covered by Alberta Health Care for eligible Alberta residents",
     "Cannot refill: opioids, benzodiazepines, ADHD stimulants, or sleeping pills",
   ],
@@ -68,7 +68,7 @@ export const pageData: LandingPageData = {
       bullets: [
         "Book a Virtual Appointment – Choose a time that works for you and connect with one of our experienced doctors or nurse practitioners online.",
         "Discuss Your Symptoms – During the secure video consultation, explain your medical history and current concerns.",
-        "Get Your Prescription – If appropriate, our provider will issue a prescription or refill, sent directly to your preferred pharmacy or delivered to your home.",
+        "Get Your Prescription – If appropriate, our provider will issue a prescription or refill that you can fill at your preferred pharmacy.",
       ],
       image: "/images/prescription-refill/13-819x1024.jpeg",
       imageAlt: "How prescription refills work at TelePlusCare",
@@ -78,7 +78,7 @@ export const pageData: LandingPageData = {
     {
       question: "Can I really get a prescription refill online in Edmonton?",
       answer:
-        "Yes. TelePlusCare allows you to meet with a licensed Alberta healthcare provider online and, if medically appropriate, receive a prescription refill. Your prescription can be sent to any Edmonton pharmacy or delivered to your home.",
+        "Yes. TelePlusCare allows you to meet with a licensed Alberta healthcare provider online and, if medically appropriate, receive a prescription refill. You can fill your prescription at any Edmonton pharmacy.",
     },
     {
       question: "Is it legal to get prescriptions refilled online in Alberta?",
@@ -106,7 +106,7 @@ export const pageData: LandingPageData = {
         "The consultation may be covered by Alberta Health Care for eligible Alberta residents, but you can still use TelePlusCare even if you don't have an Alberta Health Card. Fees may apply for uninsured services.",
     },
     {
-      question: "Can you send my prescription to any pharmacy in Edmonton?",
+      question: "Can I fill my prescription at any pharmacy in Edmonton?",
       answer:
         "Yes. You can choose any local Edmonton pharmacy, including Shoppers Drug Mart, Rexall, Loblaw/Superstore pharmacies, Save-On Foods, Costco, and independent pharmacies. You may also request medication delivery if offered by the pharmacy.",
     },

@@ -12,12 +12,12 @@ export const pageData: LandingPageData = {
   heroImageAlt: "Ozempic online prescription consultation in Alberta",
   bookingUrl: "/book-appointment-alberta",
   summary:
-    "Ozempic (semaglutide) is a once-weekly GLP-1 receptor agonist injection approved by Health Canada for Type 2 diabetes management, with off-label use for weight loss producing 12-15% body weight reduction in clinical trials. TelePlus Care provides virtual Ozempic consultations across Alberta, with licensed physicians assessing eligibility and electronically transmitting prescriptions to local pharmacies.",
+    "Ozempic (semaglutide) is a once-weekly GLP-1 receptor agonist injection approved by Health Canada for Type 2 diabetes management, with off-label use for weight loss producing 12-15% body weight reduction in clinical trials. TelePlus Care provides virtual Ozempic consultations across Alberta, with licensed physicians assessing eligibility and issuing prescriptions you can fill at local pharmacies.",
   keyFacts: [
     "Health Canada-approved semaglutide via licensed Alberta physicians",
     "Average 12-15% body weight loss over 68 weeks (STEP trials)",
     "Reduces HbA1c by 1.0-1.8 percentage points in Type 2 diabetes",
-    "Same-day virtual visits with prescription sent to your pharmacy",
+    "Same-day virtual visits — fill your prescription at your pharmacy of choice",
   ],
   sections: [
     {
@@ -118,7 +118,7 @@ export const pageData: LandingPageData = {
         "Step 1: Book your appointment -- Visit our website and select a convenient time for your virtual consultation. Our online booking system is available 24/7.",
         "Step 2: Complete your intake form -- Before your appointment, fill out a brief medical questionnaire covering your health history, current medications, and weight management goals.",
         "Step 3: Meet with your physician -- Connect with a licensed Alberta physician via secure video or phone consultation. Your physician will review your health profile and discuss whether Ozempic is right for you.",
-        "Step 4: Receive your prescription -- If Ozempic is deemed appropriate, your physician will send the prescription electronically to your preferred pharmacy in Alberta.",
+        "Step 4: Receive your prescription -- If Ozempic is deemed appropriate, your physician will issue a prescription you can fill at your preferred pharmacy in Alberta.",
         "Step 5: Ongoing monitoring -- Schedule follow-up appointments to track your progress, manage side effects, and adjust your dosage as needed. Our physicians are available for ongoing support throughout your treatment.",
       ],
           image: "/images/best-diabetes-doctor-in-edmonton/section-2.png",

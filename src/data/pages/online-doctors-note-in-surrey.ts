@@ -109,7 +109,7 @@ export const pageData: LandingPageData = {
     {
       title: "About Our Virtual Clinic Serving Surrey",
       content:
-        "TelePlusCare is a BC-licensed telemedicine provider with a physician roster registered by the College of Physicians and Surgeons of British Columbia. Our Surrey coverage extends from the established neighbourhoods around South Surrey and Cloverdale to the fast-growing communities in Newton and Guildford, and to the busy core around Surrey Central and Whalley.\n\nOur physicians have backgrounds in family medicine, urgent care, occupational health, and mental health. If a prescription is clinically appropriate, your BC doctor can send it directly to Shoppers Drug Mart, London Drugs, Save-On-Foods Pharmacy, or Safeway Pharmacy locations across Surrey.",
+        "TelePlusCare is a BC-licensed telemedicine provider with a physician roster registered by the College of Physicians and Surgeons of British Columbia. Our Surrey coverage extends from the established neighbourhoods around South Surrey and Cloverdale to the fast-growing communities in Newton and Guildford, and to the busy core around Surrey Central and Whalley.\n\nOur physicians have backgrounds in family medicine, urgent care, occupational health, and mental health. If a prescription is clinically appropriate, you can fill it at Shoppers Drug Mart, London Drugs, Save-On-Foods Pharmacy, or Safeway Pharmacy locations across Surrey.",
       bullets: [
         "Serving Guildford, Cloverdale, Newton, South Surrey, and Whalley",
         "Available across Metro Vancouver: Delta, Langley, White Rock, and beyond",

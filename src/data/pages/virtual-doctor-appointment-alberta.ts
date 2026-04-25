@@ -28,7 +28,7 @@ export const pageData: LandingPageData = {
     {
       title: "What to Expect During Your Virtual Doctor Appointment",
       content:
-        "Your virtual doctor appointment with TelePlusCare follows the same professional standards as an in-person clinic visit. Here is what happens during your consultation.\n\nYour doctor will ask about your current symptoms, medical history, medications, and any allergies. They will perform a visual assessment via video if relevant to your concern. Based on their evaluation, they will provide a diagnosis and discuss treatment options with you. If medication is needed, your prescription is sent electronically to your preferred Alberta pharmacy. If you need a sick note, referral, or lab requisition, it is prepared and delivered to you digitally the same day.\n\nMost virtual doctor appointments at TelePlusCare last between 10 and 20 minutes, though your doctor will take as much time as needed to address your concerns thoroughly.",
+        "Your virtual doctor appointment with TelePlusCare follows the same professional standards as an in-person clinic visit. Here is what happens during your consultation.\n\nYour doctor will ask about your current symptoms, medical history, medications, and any allergies. They will perform a visual assessment via video if relevant to your concern. Based on their evaluation, they will provide a diagnosis and discuss treatment options with you. If medication is needed, your physician issues a prescription you can fill at your preferred Alberta pharmacy. If you need a sick note, referral, or lab requisition, it is prepared and delivered to you digitally the same day.\n\nMost virtual doctor appointments at TelePlusCare last between 10 and 20 minutes, though your doctor will take as much time as needed to address your concerns thoroughly.",
           image: "/images/Rectangle-1090-3.png",
       imageAlt: "What to Expect During Your Virtual Doctor Appointment",
 },
@@ -53,7 +53,7 @@ export const pageData: LandingPageData = {
       content:
         "TelePlusCare's virtual doctor appointments cover a comprehensive range of medical services across Alberta.",
       bullets: [
-        "Prescriptions & Medication Refills — New prescriptions and same-day refills sent to your Alberta pharmacy electronically.",
+        "Prescriptions & Medication Refills — New prescriptions and same-day refills you can fill at your Alberta pharmacy.",
         "Sick Notes & Medical Certificates — Official documentation for work, school, or other obligations.",
         "Mental Health Consultations — Support for anxiety, depression, stress, ADHD, insomnia, and more.",
         "Chronic Disease Management — Regular check-ins for diabetes, hypertension, asthma, and other ongoing conditions.",
@@ -126,7 +126,7 @@ export const pageData: LandingPageData = {
       question:
         "Can a virtual doctor prescribe medication in Alberta?",
       answer:
-        "Yes. TelePlusCare's licensed Alberta physicians can prescribe medication during your virtual appointment and send prescriptions electronically to your preferred Alberta pharmacy the same day.",
+        "Yes. TelePlusCare's licensed Alberta physicians can prescribe medication during your virtual appointment, and you can fill your prescription at your preferred Alberta pharmacy the same day.",
     },
     {
       question:
@@ -168,7 +168,7 @@ export const pageData: LandingPageData = {
     "Same-day virtual appointments — often booked within hours",
     "The consultation may be covered by Alberta Health Care for eligible Alberta residents",
     "10-20 minute consultations via encrypted video or phone",
-    "Electronic prescriptions, sick notes, and referrals delivered same day",
+    "Same-day prescriptions, sick notes, and referrals you can fill or share immediately",
   ],
   lastReviewed: "2026-04-25",
   reviewedBy: "Dr. Maher Jerudi, MD",

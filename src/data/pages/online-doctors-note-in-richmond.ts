@@ -72,7 +72,7 @@ export const pageData: LandingPageData = {
     {
       title: "How to Get Your Doctor's Note Online \u2014 3 Steps",
       content:
-        "The entire process is designed to finish faster than driving from Steveston to Richmond Centre during rush hour.\n\nStep 1 \u2014 Book a virtual appointment using our secure booking form; choose a time window that fits your shift or class schedule.\n\nStep 2 \u2014 Meet your CPSBC-registered physician by video or chat. A typical visit lasts 10\u201315 minutes; the doctor will ask about your symptoms, current medications, and the documentation you need.\n\nStep 3 \u2014 Receive your signed doctor's note by email, ready to forward to HR, your school registrar, or your insurer. If a prescription is needed, we send it electronically to your preferred Richmond pharmacy.",
+        "The entire process is designed to finish faster than driving from Steveston to Richmond Centre during rush hour.\n\nStep 1 \u2014 Book a virtual appointment using our secure booking form; choose a time window that fits your shift or class schedule.\n\nStep 2 \u2014 Meet your CPSBC-registered physician by video or chat. A typical visit lasts 10\u201315 minutes; the doctor will ask about your symptoms, current medications, and the documentation you need.\n\nStep 3 \u2014 Receive your signed doctor's note by email, ready to forward to HR, your school registrar, or your insurer. If a prescription is needed, your physician issues one for you to fill at your preferred Richmond pharmacy.",
       image: "/images/online-doctors-notes-in-edmonton/section-5.jpg",
       imageAlt: "Three steps to an online doctor's note in Richmond",
     },

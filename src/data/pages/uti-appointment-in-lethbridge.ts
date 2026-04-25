@@ -3,7 +3,7 @@ import type { LandingPageData } from "@/types/landing-page";
 export const pageData: LandingPageData = {
   metaTitle: "UTI Appointment Lethbridge | Online Same-Day UTI Doctor",
     metaDescription:
-    "Book a same-day virtual UTI appointment in Lethbridge. Alberta-licensed physicians prescribe antibiotics electronically to your local pharmacy. AHCIP-eligible consultation for Alberta residents.",
+    "Book a same-day virtual UTI appointment in Lethbridge. Alberta-licensed physicians issue antibiotic prescriptions you can fill at your local pharmacy. AHCIP-eligible consultation for Alberta residents.",
   title: "Virtual UTI Appointment in Lethbridge",
   heroDescription:
     "Lethbridge residents in Westside, Riverside Heights, and Fairmont, plus University of Lethbridge students and patients near Chinook Regional Hospital, can connect with a CPSA-licensed physician within 30 minutes. Skip the windy drive across the High Level Bridge for routine UTI care.",
@@ -12,7 +12,7 @@ export const pageData: LandingPageData = {
   bookingUrl: "/book-appointment-alberta",
   conditionType: "Urinary Tract Infection",
   summary:
-    "Lethbridge patients with UTI symptoms including painful urination, urgency, and pelvic pressure can book a same-day virtual visit with TelePlus Care. CPSA-licensed Alberta physicians complete consultations in 15 to 20 minutes and send antibiotic prescriptions to any Lethbridge pharmacy. The consultation may be covered by Alberta Health Care for eligible Alberta residents.",
+    "Lethbridge patients with UTI symptoms including painful urination, urgency, and pelvic pressure can book a same-day virtual visit with TelePlus Care. CPSA-licensed Alberta physicians complete consultations in 15 to 20 minutes and issue antibiotic prescriptions you can fill at any Lethbridge pharmacy. The consultation may be covered by Alberta Health Care for eligible Alberta residents.",
   keyFacts: [
     "Same-day UTI appointment for Lethbridge patients within 30 minutes",
     "Virtual UTI consultation lasts 15 to 20 minutes from a Westside or Northside home",
@@ -77,7 +77,7 @@ export const pageData: LandingPageData = {
         "Step 1: Submit a confidential online intake form",
         "Step 2: Your information is reviewed by a CPSA-registered physician",
         "Step 3: Speak by video or phone for a 15 to 20 minute visit",
-        "Step 4: Antibiotic prescription is e-sent to a pharmacy in Lethbridge",
+        "Step 4: Receive your antibiotic prescription to fill at a pharmacy in Lethbridge",
         "Step 5: Receive a follow-up email with prevention guidance",
       ],
       image: "/images/Rectangle-1090-16.png",
@@ -100,7 +100,7 @@ export const pageData: LandingPageData = {
     {
       question: "Which Lethbridge pharmacies will receive my UTI prescription?",
       answer:
-        "Your prescription is electronically transmitted to any Lethbridge pharmacy of your choice, including Shoppers Drug Mart on Mayor Magrath Drive, Rexall at Park Place Mall, Save-On-Foods Pharmacy, and pharmacies near Chinook Regional Hospital.",
+        "Your physician issues a prescription you can fill at any Lethbridge pharmacy of your choice, including Shoppers Drug Mart on Mayor Magrath Drive, Rexall at Park Place Mall, Save-On-Foods Pharmacy, and pharmacies near Chinook Regional Hospital.",
     },
     {
       question: "Is the UTI consultation covered under AHCIP for Lethbridge residents?",

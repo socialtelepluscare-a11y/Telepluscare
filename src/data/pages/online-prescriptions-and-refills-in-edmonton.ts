@@ -3,22 +3,22 @@ import type { LandingPageData } from "@/types/landing-page";
 export const pageData: LandingPageData = {
   metaTitle: "Online Prescriptions & Refills in Edmonton, Alberta | TelePlusCare",
   metaDescription:
-    "Edmonton's same-day virtual prescription service. CPSA-licensed MDs send refills to Whyte Ave, West Ed, Mill Woods and downtown pharmacies. AHCIP covered.",
+    "Edmonton's same-day virtual prescription service. CPSA-licensed MDs issue refills you can fill at Whyte Ave, West Ed, Mill Woods and downtown pharmacies. AHCIP covered.",
   title: "Online Prescriptions and Refills in Edmonton",
   heroDescription:
-    "Skip the walk-in clinic queue on Jasper Avenue or 124 Street. Edmontonians can connect with a CPSA-licensed virtual MD by video and have a prescription delivered electronically to their preferred pharmacy in West Edmonton, Mill Woods, Whyte Ave, or anywhere across the YEG metro within minutes.",
+    "Skip the walk-in clinic queue on Jasper Avenue or 124 Street. Edmontonians can connect with a CPSA-licensed virtual MD by video and fill a prescription at their preferred pharmacy in West Edmonton, Mill Woods, Whyte Ave, or anywhere across the YEG metro within minutes.",
   heroImage: "/images/image-4.png",
   heroImageAlt: "Online prescriptions and refills in Edmonton Alberta",
   bookingUrl: "/book-appointment-alberta",
   lastReviewed: "2026-04-25",
   reviewedBy: "Dr. Maher Jerudi, MD",
   summary:
-    "TelePlusCare offers same-day prescription refill consultations for Edmonton residents through licensed virtual MDs. Scripts are sent electronically to Edmonton-area pharmacies including Shoppers, Rexall, Save-On-Foods, and London Drugs. AHCIP covers physician visits for Albertans with a valid PHN, and no referral is required.",
+    "TelePlusCare offers same-day prescription refill consultations for Edmonton residents through licensed virtual MDs. Scripts can be filled at Edmonton-area pharmacies including Shoppers, Rexall, Save-On-Foods, and London Drugs. AHCIP covers physician visits for Albertans with a valid PHN, and no referral is required.",
   keyFacts: [
-    "Edmonton has more than 220 community pharmacies across the metro that receive e-prescriptions from TelePlusCare physicians.",
+    "Edmonton has more than 220 community pharmacies across the metro that accept TelePlusCare prescriptions.",
     "Average TelePlusCare appointment for an Edmonton patient takes 12–18 minutes from booking to e-script.",
     "Virtual MD visits are AHCIP-covered for Edmonton residents with a valid Alberta PHN — no referral needed.",
-    "Edmonton pharmacies in West Ed, Whyte Ave, Mill Woods, and downtown all accept secure e-prescriptions from CPSA-licensed virtual physicians.",
+    "Edmonton pharmacies in West Ed, Whyte Ave, Mill Woods, and downtown all accept prescriptions from CPSA-licensed virtual physicians.",
   ],
   sections: [
     {
@@ -56,17 +56,17 @@ export const pageData: LandingPageData = {
     {
       title: "How Edmonton Online Prescriptions Work",
       content:
-        "Booking with TelePlusCare is built around three steps. Step 1 — Choose your appointment slot online and enter your Alberta PHN, the medication(s) you need, and your preferred Edmonton pharmacy. Step 2 — Connect by secure video with a CPSA-registered family physician; the visit averages 12–18 minutes. Step 3 — Once approved, your prescription is electronically transmitted to the pharmacy you selected — whether that's the Shoppers at Southgate, the Rexall on Jasper Avenue, the Save-On-Foods Pharmacy in Windermere, or your local independent.",
+        "Booking with TelePlusCare is built around three steps. Step 1 — Choose your appointment slot online and enter your Alberta PHN, the medication(s) you need, and your preferred Edmonton pharmacy. Step 2 — Connect by secure video with a CPSA-registered family physician; the visit averages 12–18 minutes. Step 3 — Once approved, your physician issues a prescription you can fill at the pharmacy you selected — whether that's the Shoppers at Southgate, the Rexall on Jasper Avenue, the Save-On-Foods Pharmacy in Windermere, or your local independent.",
       bullets: [
         "Step 1 — Book online with your Alberta PHN",
         "Step 2 — 12–18 minute video visit with an Edmonton-licensed MD",
-        "Step 3 — E-prescription sent to your chosen Edmonton pharmacy",
+        "Step 3 — Receive your prescription to fill at your chosen Edmonton pharmacy",
       ],
       image: "/images/prescription-refill/111-819x1024.jpeg",
       imageAlt: "Three-step Edmonton prescription process",
     },
     {
-      title: "Prescription Delivered to Your Local Edmonton Pharmacy",
+      title: "Fill Your Prescription at Your Local Edmonton Pharmacy",
       content:
         "TelePlusCare prescriptions can go to any of the 220+ pharmacies serving Edmonton and surrounding suburbs. Downtown patients often choose the Shoppers Drug Mart at 102 Avenue, the Rexall on Jasper Avenue, or London Drugs at City Centre. West Edmonton residents typically use the West Edmonton Mall pharmacies, the Save-On-Foods at Lewis Estates, or Pharmasave on Stony Plain Road. Mill Woods, Whyte Ave (Old Strathcona), Sherwood Park, and Riverbend patients all have multiple options. Same-day home delivery is widely available across the metro through Shoppers, Pharmasave, and several independents.",
       bullets: [
@@ -77,12 +77,12 @@ export const pageData: LandingPageData = {
         "Sobeys, Loblaws, Pharmasave Edmonton-wide",
       ],
       image: "/images/Rectangle-1090-20.png",
-      imageAlt: "Edmonton pharmacies receiving e-prescriptions",
+      imageAlt: "Edmonton pharmacies that accept TelePlusCare prescriptions",
     },
     {
       title: "Local Pharmacy Partners Across Edmonton",
       content:
-        "We work directly with all major chains and dozens of independent pharmacies serving distinct Edmonton neighbourhoods. North Edmonton residents often use Castle Downs and Northgate locations. Patients in Mill Woods and the south side rely on Mill Woods Town Centre and South Edmonton Common pharmacies. University students in Garneau use the Whyte Avenue locations. Albertans visiting NAIT or working at the Royal Alexandra Hospital area have several nearby options on Kingsway. We also send prescriptions to St. Albert, Sherwood Park, Beaumont, and Leduc pharmacies for greater Edmonton commuters.",
+        "We work directly with all major chains and dozens of independent pharmacies serving distinct Edmonton neighbourhoods. North Edmonton residents often use Castle Downs and Northgate locations. Patients in Mill Woods and the south side rely on Mill Woods Town Centre and South Edmonton Common pharmacies. University students in Garneau use the Whyte Avenue locations. Albertans visiting NAIT or working at the Royal Alexandra Hospital area have several nearby options on Kingsway. Greater Edmonton commuters can also fill prescriptions at St. Albert, Sherwood Park, Beaumont, and Leduc pharmacies.",
       bullets: [
         "Castle Downs, Northgate, Clareview pharmacies (north)",
         "Mill Woods Town Centre, South Edmonton Common (south)",
@@ -127,9 +127,9 @@ export const pageData: LandingPageData = {
         "Most Edmonton patients receive their prescription at their pharmacy within 1–2 hours of booking, often sooner during weekday clinic hours.",
     },
     {
-      question: "Which Edmonton pharmacies accept TelePlusCare e-prescriptions?",
+      question: "Which Edmonton pharmacies accept TelePlusCare prescriptions?",
       answer:
-        "Every licensed pharmacy in Edmonton accepts our e-prescriptions, including Shoppers Drug Mart, Rexall, London Drugs, Save-On-Foods, Sobeys, Loblaws, Pharmasave, and all independents.",
+        "Every licensed pharmacy in Edmonton accepts our prescriptions, including Shoppers Drug Mart, Rexall, London Drugs, Save-On-Foods, Sobeys, Loblaws, Pharmasave, and all independents.",
     },
     {
       question: "Is the virtual visit covered by Alberta Health for Edmonton residents?",

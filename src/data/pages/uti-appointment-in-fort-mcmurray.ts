@@ -3,7 +3,7 @@ import type { LandingPageData } from "@/types/landing-page";
 export const pageData: LandingPageData = {
   metaTitle: "UTI Appointment Fort McMurray | Virtual Same-Day UTI Care",
   metaDescription:
-    "Fort McMurray and oilsands camp workers can book a same-day virtual UTI visit with an Alberta physician. Antibiotic prescriptions sent to any RMWB pharmacy.",
+    "Fort McMurray and oilsands camp workers can book a same-day virtual UTI visit with an Alberta physician. Antibiotic prescriptions you can fill at any RMWB pharmacy.",
   title: "Same-Day Virtual UTI Appointment in Fort McMurray",
   heroDescription:
     "From Thickwood and Timberlea to Beacon Hill and the oilsands camps north of town, Fort McMurray patients can connect with a CPSA-licensed physician within 30 minutes. Avoid long waits at Northern Lights Regional Health Centre and get treated wherever you happen to be on rotation.",
@@ -12,11 +12,11 @@ export const pageData: LandingPageData = {
   bookingUrl: "/book-appointment-alberta",
   conditionType: "Urinary Tract Infection",
   summary:
-    "Fort McMurray residents and fly-in-fly-out workers experiencing UTI symptoms such as burning urination and pelvic pressure can book a same-day virtual visit with TelePlus Care. CPSA-licensed Alberta physicians complete consultations in 15 to 20 minutes and send antibiotic prescriptions to any RMWB pharmacy. The consultation may be covered by Alberta Health Care for eligible Alberta residents.",
+    "Fort McMurray residents and fly-in-fly-out workers experiencing UTI symptoms such as burning urination and pelvic pressure can book a same-day virtual visit with TelePlus Care. CPSA-licensed Alberta physicians complete consultations in 15 to 20 minutes and issue antibiotic prescriptions you can fill at any RMWB pharmacy. The consultation may be covered by Alberta Health Care for eligible Alberta residents.",
   keyFacts: [
     "Same-day virtual UTI appointment within 30 minutes for Fort McMurray patients",
     "Designed for fly-in-fly-out oilsands rotation schedules and remote camp workers",
-    "Prescription sent electronically to any Fort McMurray pharmacy",
+    "Fill your prescription at any Fort McMurray pharmacy",
     "Licensed Alberta physicians (CPSA registered) available seven days a week",
   ],
   sections: [
@@ -70,7 +70,7 @@ export const pageData: LandingPageData = {
         "Step 1: Complete a quick online intake form on your phone or laptop",
         "Step 2: A CPSA-licensed Alberta physician reviews your case",
         "Step 3: Connect by phone or video for a 15 to 20 minute consultation",
-        "Step 4: Prescription is e-sent to your chosen Fort McMurray pharmacy",
+        "Step 4: Receive your prescription to fill at your chosen Fort McMurray pharmacy",
         "Step 5: Receive a follow-up email with prevention guidance",
       ],
       image: "/images/Rectangle-1090-16.png",
@@ -107,7 +107,7 @@ export const pageData: LandingPageData = {
     {
       question: "Which Fort McMurray pharmacies receive my UTI prescription?",
       answer:
-        "Your prescription is electronically sent to any Fort McMurray pharmacy of your choice, including Shoppers Drug Mart in Peter Pond Mall, Rexall on Franklin Avenue, Save-On-Foods Pharmacy in Eagle Ridge, and pharmacies near Northern Lights Regional Health Centre.",
+        "Your physician issues a prescription you can fill at any Fort McMurray pharmacy of your choice, including Shoppers Drug Mart in Peter Pond Mall, Rexall on Franklin Avenue, Save-On-Foods Pharmacy in Eagle Ridge, and pharmacies near Northern Lights Regional Health Centre.",
     },
     {
       question: "Is the UTI consultation covered for RMWB residents?",

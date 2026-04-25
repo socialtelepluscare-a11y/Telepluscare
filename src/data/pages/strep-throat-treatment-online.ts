@@ -7,7 +7,7 @@ export const pageData: LandingPageData = {
     "Get fast strep throat treatment online in Alberta. Speak with a licensed doctor, receive antibiotics, and start recovery today. Secure telehealth clinic.",
   title: "Strep Throat Treatment Online in Alberta",
   heroDescription:
-    "Sore throat making it hard to swallow?\n\nBook a same-day virtual appointment with a licensed Alberta doctor and get strep throat treatment online. Skip the walk-in clinic wait and receive your antibiotic prescription sent directly to your local pharmacy.\n\nOur secure telehealth platform makes strep throat diagnosis and treatment fast, private, and convenient from anywhere in Alberta.",
+    "Sore throat making it hard to swallow?\n\nBook a same-day virtual appointment with a licensed Alberta doctor and get strep throat treatment online. Skip the walk-in clinic wait and receive an antibiotic prescription you can fill at your local pharmacy.\n\nOur secure telehealth platform makes strep throat diagnosis and treatment fast, private, and convenient from anywhere in Alberta.",
   heroImage: "/images/ChatGPT-Image-Nov-3-2025-04_36_39-PM-1024x683.png",
   heroImageAlt: "Strep throat treatment online Alberta",
   sections: [
@@ -53,7 +53,7 @@ export const pageData: LandingPageData = {
     {
       title: "How Online Strep Throat Treatment Works",
       content:
-        "Getting treated for strep throat online is simple and fast:\n\nStep 1: Book your virtual appointment in under 2 minutes.\n\nStep 2: Speak with a certified Alberta doctor via secure video or chat. Describe your symptoms and share any photos of your throat if requested.\n\nStep 3: Receive your diagnosis and, if appropriate, an antibiotic prescription sent electronically to your preferred Alberta pharmacy.\n\nStep 4: Start treatment immediately. Most patients feel better within 24 to 48 hours of starting antibiotics.\n\nYour prescription can be filled at any pharmacy in Alberta, including Shoppers Drug Mart, Rexall, Safeway, Walmart, Costco, and local independent pharmacies.",
+        "Getting treated for strep throat online is simple and fast:\n\nStep 1: Book your virtual appointment in under 2 minutes.\n\nStep 2: Speak with a certified Alberta doctor via secure video or chat. Describe your symptoms and share any photos of your throat if requested.\n\nStep 3: Receive your diagnosis and, if appropriate, an antibiotic prescription you can fill at your preferred Alberta pharmacy.\n\nStep 4: Start treatment immediately. Most patients feel better within 24 to 48 hours of starting antibiotics.\n\nYour prescription can be filled at any pharmacy in Alberta, including Shoppers Drug Mart, Rexall, Safeway, Walmart, Costco, and local independent pharmacies.",
       image: "/images/image_2024_02_21T09_52_57_321Z.png",
       imageAlt: "How online strep throat treatment works",
     },
@@ -79,7 +79,7 @@ export const pageData: LandingPageData = {
       bullets: [
         "Same-day appointments available 7 days a week",
         "Licensed Alberta physicians with telehealth expertise",
-        "Prescriptions sent electronically to any Alberta pharmacy",
+        "Prescriptions you can fill at any Alberta pharmacy",
         "No need to leave home when you are feeling unwell",
         "Private, encrypted, and PIPEDA-compliant consultations",
         "Affordable care with Alberta Health coverage for eligible visits",
@@ -98,7 +98,7 @@ export const pageData: LandingPageData = {
     {
       question: "How quickly can I get antibiotics for strep throat?",
       answer:
-        "Most patients receive a same-day prescription. After your virtual appointment, the prescription is sent electronically to your chosen pharmacy and is typically ready for pickup within 1 to 2 hours.",
+        "Most patients receive a same-day prescription. After your virtual appointment, your physician issues a prescription you can fill at your chosen pharmacy and it is typically ready for pickup within 1 to 2 hours.",
     },
     {
       question: "What happens if strep throat is left untreated?",

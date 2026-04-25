@@ -51,7 +51,7 @@ export const pageData: LandingPageData = {
     {
       title: "How Online Pink Eye Treatment Works",
       content:
-        "Getting pink eye treatment online is simple and efficient:\n\nStep 1: Book a virtual appointment in under 2 minutes.\n\nStep 2: Consult with a licensed Alberta doctor via secure video or chat. Share your symptoms, photos of the affected eye, and any relevant history.\n\nStep 3: Receive a diagnosis. If antibiotic eye drops or other medications are needed, your prescription is sent directly to your preferred Alberta pharmacy.\n\nStep 4: Begin treatment immediately and follow up if symptoms persist beyond the expected timeline.\n\nPrescriptions are accepted at all Alberta pharmacies including Shoppers Drug Mart, Rexall, Safeway, Walmart, Costco, and local pharmacies.",
+        "Getting pink eye treatment online is simple and efficient:\n\nStep 1: Book a virtual appointment in under 2 minutes.\n\nStep 2: Consult with a licensed Alberta doctor via secure video or chat. Share your symptoms, photos of the affected eye, and any relevant history.\n\nStep 3: Receive a diagnosis. If antibiotic eye drops or other medications are needed, your physician issues a prescription you can fill at your preferred Alberta pharmacy.\n\nStep 4: Begin treatment immediately and follow up if symptoms persist beyond the expected timeline.\n\nPrescriptions are accepted at all Alberta pharmacies including Shoppers Drug Mart, Rexall, Safeway, Walmart, Costco, and local pharmacies.",
       image: "/images/image_2024_02_21T09_52_57_321Z.png",
       imageAlt: "How online pink eye treatment works",
     },
@@ -77,7 +77,7 @@ export const pageData: LandingPageData = {
       bullets: [
         "Same-day virtual appointments available 7 days a week",
         "Licensed Alberta physicians experienced in diagnosing eye conditions",
-        "Prescriptions for antibiotic drops and allergy medications sent to any Alberta pharmacy",
+        "Prescriptions for antibiotic drops and allergy medications you can fill at any Alberta pharmacy",
         "Photo-based assessment for accurate remote diagnosis",
         "No need to visit a clinic and risk spreading the infection",
         "Private, secure, PIPEDA-compliant telehealth platform",
@@ -106,7 +106,7 @@ export const pageData: LandingPageData = {
     {
       question: "Can I get antibiotic eye drops prescribed online?",
       answer:
-        "Yes. If your doctor determines that your pink eye is bacterial and requires antibiotics, the prescription for eye drops will be sent electronically to your chosen Alberta pharmacy.",
+        "Yes. If your doctor determines that your pink eye is bacterial and requires antibiotics, your physician issues a prescription for eye drops that you can fill at your chosen Alberta pharmacy.",
     },
     {
       question: "Should I keep my child home from school with pink eye?",

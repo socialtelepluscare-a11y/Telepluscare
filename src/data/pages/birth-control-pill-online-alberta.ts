@@ -112,7 +112,7 @@ export const pageData: LandingPageData = {
       question:
         "How soon can I start taking birth control pills after my consultation?",
       answer:
-        "Once your physician prescribes your birth control pills, the prescription is sent directly to your pharmacy. You can typically pick up your medication the same day or the next day. Your physician will advise you on when to start taking the pills, which may be on the first day of your next period (Day 1 start) or immediately (Quick Start method), depending on your situation.",
+        "Once your physician prescribes your birth control pills, you can fill the prescription at your pharmacy of choice. You can typically pick up your medication the same day or the next day. Your physician will advise you on when to start taking the pills, which may be on the first day of your next period (Day 1 start) or immediately (Quick Start method), depending on your situation.",
     },
     {
       question: "What if I experience side effects from my pill?",

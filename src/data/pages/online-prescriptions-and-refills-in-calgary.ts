@@ -13,12 +13,12 @@ export const pageData: LandingPageData = {
   lastReviewed: "2026-04-25",
   reviewedBy: "Dr. Maher Jerudi, MD",
   summary:
-    "TelePlusCare delivers same-day prescription refills to Calgary residents via virtual MD consultations. CPSA-licensed physicians issue scripts electronically to Calgary pharmacies including Shoppers, Rexall, Co-op, Costco, and Safeway. Alberta Health (AHCIP) covers the physician fee for residents with a valid PHN, and no referral is required.",
+    "TelePlusCare delivers same-day prescription refills to Calgary residents via virtual MD consultations. CPSA-licensed physicians issue scripts you can fill at Calgary pharmacies including Shoppers, Rexall, Co-op, Costco, and Safeway. Alberta Health (AHCIP) covers the physician fee for residents with a valid PHN, and no referral is required.",
   keyFacts: [
-    "Calgary has more than 280 community pharmacies that accept e-prescriptions from TelePlusCare's CPSA-licensed virtual physicians.",
+    "Calgary has more than 280 community pharmacies that accept prescriptions from TelePlusCare's CPSA-licensed virtual physicians.",
     "TelePlusCare offers same-day Calgary appointments seven days a week, including evenings and weekends.",
     "AHCIP fully covers virtual physician consultations for Calgary residents with a valid Alberta PHN — no referral required.",
-    "Calgary Co-op Pharmacy, Costco Wholesale Pharmacy, and major chains all accept secure e-prescriptions transmitted by TelePlusCare physicians.",
+    "Calgary Co-op Pharmacy, Costco Wholesale Pharmacy, and major chains all accept prescriptions issued by TelePlusCare physicians.",
   ],
   sections: [
     {
@@ -56,19 +56,19 @@ export const pageData: LandingPageData = {
     {
       title: "How Calgary Online Prescriptions Work",
       content:
-        "TelePlusCare uses a streamlined three-step model. Step 1 — Book online and provide your Alberta PHN, the medications you need, and your preferred Calgary pharmacy. Step 2 — A CPSA-registered family physician connects with you by encrypted video for a 12–18 minute consult; the doctor reviews your medical history, current symptoms, and any relevant labs. Step 3 — Once approved, your prescription is sent electronically to your selected pharmacy, whether it's the Co-op Pharmacy in Mission, the Costco at Heritage, or the Shoppers in Kensington.",
+        "TelePlusCare uses a streamlined three-step model. Step 1 — Book online and provide your Alberta PHN, the medications you need, and your preferred Calgary pharmacy. Step 2 — A CPSA-registered family physician connects with you by encrypted video for a 12–18 minute consult; the doctor reviews your medical history, current symptoms, and any relevant labs. Step 3 — Once approved, your physician issues a prescription you can fill at your selected pharmacy, whether it's the Co-op Pharmacy in Mission, the Costco at Heritage, or the Shoppers in Kensington.",
       bullets: [
         "Step 1 — Book online with Alberta PHN",
         "Step 2 — Video visit with a Calgary-licensed MD (12–18 min)",
-        "Step 3 — E-prescription to your Calgary pharmacy",
+        "Step 3 — Receive your prescription to fill at your Calgary pharmacy",
       ],
       image: "/images/prescription-refill/13-819x1024.jpeg",
       imageAlt: "Three-step Calgary online prescription process",
     },
     {
-      title: "Prescription Delivered to Your Local Calgary Pharmacy",
+      title: "Fill Your Prescription at Your Local Calgary Pharmacy",
       content:
-        "Our prescriptions go to any of the 280+ Calgary pharmacies. Beltline and downtown patients commonly use the Shoppers Drug Mart at Eighth Avenue Place, the Rexall on Stephen Avenue, or Pharmasave 17th Avenue. Mission and Cliff Bungalow patients prefer Co-op Pharmacy on Mission Road or Shoppers at 4th Street SW. Kensington residents use the Pharmasave on Kensington Road. Inglewood and Bridgeland have several independents. Suburban patients in Tuscany, McKenzie Towne, Mahogany, Cranston, Sage Hill, and Evanston have full chain coverage including Costco at Heritage, Sobeys, Safeway, and Save-On-Foods Pharmacy.",
+        "Our prescriptions can be filled at any of the 280+ Calgary pharmacies. Beltline and downtown patients commonly use the Shoppers Drug Mart at Eighth Avenue Place, the Rexall on Stephen Avenue, or Pharmasave 17th Avenue. Mission and Cliff Bungalow patients prefer Co-op Pharmacy on Mission Road or Shoppers at 4th Street SW. Kensington residents use the Pharmasave on Kensington Road. Inglewood and Bridgeland have several independents. Suburban patients in Tuscany, McKenzie Towne, Mahogany, Cranston, Sage Hill, and Evanston have full chain coverage including Costco at Heritage, Sobeys, Safeway, and Save-On-Foods Pharmacy.",
       bullets: [
         "Calgary Co-op Pharmacy locations across the city",
         "Costco Wholesale Pharmacy — Heritage, Beddington, Eastfield",
@@ -77,7 +77,7 @@ export const pageData: LandingPageData = {
         "Independent pharmacies in Inglewood, Bridgeland, Marda Loop",
       ],
       image: "/images/Rectangle-1090-20.png",
-      imageAlt: "Calgary pharmacies receiving e-prescriptions",
+      imageAlt: "Calgary pharmacies that accept TelePlusCare prescriptions",
     },
     {
       title: "Local Pharmacy Partners in Calgary",
@@ -126,9 +126,9 @@ export const pageData: LandingPageData = {
         "Yes. The vast majority of Calgary appointments produce a prescription within hours. Most patients have it at their pharmacy by mid-afternoon if booked before noon.",
     },
     {
-      question: "Does TelePlusCare send prescriptions to Calgary Co-op or Costco?",
+      question: "Can I fill my TelePlusCare prescription at Calgary Co-op or Costco?",
       answer:
-        "Yes. We e-prescribe to all Calgary Co-op Pharmacy locations and to Costco Wholesale Pharmacies at Heritage, Beddington, and Northeast Calgary.",
+        "Yes. You can fill TelePlusCare prescriptions at all Calgary Co-op Pharmacy locations and at Costco Wholesale Pharmacies at Heritage, Beddington, and Northeast Calgary.",
     },
     {
       question: "Will AHCIP cover my virtual visit if I live in Calgary?",
@@ -143,7 +143,7 @@ export const pageData: LandingPageData = {
     {
       question: "Do I need to come into a clinic in Calgary for my refill?",
       answer:
-        "No. The entire visit is virtual. Calgarians complete the consultation by video and receive their prescription electronically — no clinic visit, no parking downtown.",
+        "No. The entire visit is virtual. Calgarians complete the consultation by video and receive their prescription to fill at any pharmacy — no clinic visit, no parking downtown.",
     },
   ],
   locations:

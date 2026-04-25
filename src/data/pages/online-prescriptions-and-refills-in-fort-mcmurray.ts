@@ -3,19 +3,19 @@ import type { LandingPageData } from "@/types/landing-page";
 export const pageData: LandingPageData = {
   metaTitle: "Online Prescriptions & Refills in Fort McMurray, Alberta | TelePlusCare",
   metaDescription:
-    "Critical for FIFO oilsands workers. Virtual MD prescription refills sent to Fort McMurray pharmacies in Thickwood, Timberlea, Eagle Ridge. AHCIP covered.",
+    "Critical for FIFO oilsands workers. Virtual MD prescription refills you can fill at Fort McMurray pharmacies in Thickwood, Timberlea, Eagle Ridge. AHCIP covered.",
   title: "Online Prescriptions and Refills in Fort McMurray",
   heroDescription:
-    "Whether you're rotating in and out of Suncor, CNRL, or Syncrude camps, or living year-round in Thickwood, Timberlea, or Eagle Ridge, Fort McMurray residents and FIFO workers can connect with a CPSA-licensed virtual MD by video. Prescriptions are sent to your local pharmacy or arranged for camp delivery.",
+    "Whether you're rotating in and out of Suncor, CNRL, or Syncrude camps, or living year-round in Thickwood, Timberlea, or Eagle Ridge, Fort McMurray residents and FIFO workers can connect with a CPSA-licensed virtual MD by video. You can fill prescriptions at your local pharmacy.",
   heroImage: "/images/Rectangle-1090-3.png",
   heroImageAlt: "Online prescriptions and refills in Fort McMurray Alberta",
   bookingUrl: "/book-appointment-alberta",
   lastReviewed: "2026-04-25",
   reviewedBy: "Dr. Maher Jerudi, MD",
   summary:
-    "TelePlusCare provides virtual prescription refills for Fort McMurray residents and FIFO oilsands workers. Scripts are sent electronically to Fort Mac pharmacies in Thickwood, Timberlea, and Eagle Ridge, with mail delivery to remote camps possible. AHCIP-covered virtual MD visits, no referral, ideal for 14/7 rotation schedules.",
+    "TelePlusCare provides virtual prescription refills for Fort McMurray residents and FIFO oilsands workers. Scripts can be filled at Fort Mac pharmacies in Thickwood, Timberlea, and Eagle Ridge. AHCIP-covered virtual MD visits, no referral, ideal for 14/7 rotation schedules.",
   keyFacts: [
-    "Fort McMurray's main pharmacy hubs are in Thickwood Plaza, Timberlea, Eagle Ridge, and downtown — all accept TelePlusCare e-prescriptions.",
+    "Fort McMurray's main pharmacy hubs are in Thickwood Plaza, Timberlea, Eagle Ridge, and downtown — all accept TelePlusCare prescriptions.",
     "FIFO workers can book a TelePlusCare visit from camp via Wi-Fi during a day-off rotation; some pharmacies will mail prescriptions to camp post offices.",
     "AHCIP covers virtual physician consultations for Fort McMurray residents with a valid Alberta PHN — no referral required.",
     "TelePlusCare offers evening and weekend appointments, ideal for 14-and-7 or 7-and-7 oilsands rotations.",
@@ -56,19 +56,19 @@ export const pageData: LandingPageData = {
     {
       title: "How Fort McMurray Online Prescriptions Work",
       content:
-        "TelePlusCare's three-step model is built for the realities of FIFO life. Step 1 — Book your virtual appointment online from camp Wi-Fi or your home in Timberlea; provide your Alberta PHN and preferred Fort Mac pharmacy. Step 2 — Connect by encrypted video with a CPSA-registered family physician for a 12–18 minute consult; the doctor reviews your medications and any new symptoms. Step 3 — Once approved, your prescription is e-faxed to your selected Fort McMurray pharmacy. Some camps with mail service can arrange direct shipment from the pharmacy.",
+        "TelePlusCare's three-step model is built for the realities of FIFO life. Step 1 — Book your virtual appointment online from camp Wi-Fi or your home in Timberlea; provide your Alberta PHN and preferred Fort Mac pharmacy. Step 2 — Connect by encrypted video with a CPSA-registered family physician for a 12–18 minute consult; the doctor reviews your medications and any new symptoms. Step 3 — Once approved, your physician issues a prescription you can fill at your selected Fort McMurray pharmacy. Some camps with mail service can arrange direct shipment from the pharmacy.",
       bullets: [
         "Step 1 — Book online from camp or home",
         "Step 2 — 12–18 minute video visit with an Alberta-licensed MD",
-        "Step 3 — E-prescription to Fort Mac pharmacy or camp mail",
+        "Step 3 — Receive your prescription to fill at a Fort Mac pharmacy",
       ],
       image: "/images/prescription-refill/13-819x1024.jpeg",
       imageAlt: "Three-step Fort McMurray online prescription process",
     },
     {
-      title: "Prescription Delivered to Your Local Fort McMurray Pharmacy",
+      title: "Fill Your Prescription at Your Local Fort McMurray Pharmacy",
       content:
-        "We send prescriptions to every pharmacy in Fort McMurray. The most popular among our patients are Shoppers Drug Mart in Thickwood Plaza and at Eagle Ridge, the Pharmasave in Timberlea, the Sobeys Pharmacy at the Eagle Ridge Commons, and the Save-On-Foods Pharmacy. Independent pharmacies serving downtown Fort McMurray also accept e-prescriptions and often offer faster blister-pack preparation. For workers in remote camps, we can arrange mail-delivery prescriptions through participating pharmacies — useful when you're rotating through Fort Hills or Horizon and won't be in town for two weeks.",
+        "Our physicians issue prescriptions you can fill at every pharmacy in Fort McMurray. The most popular among our patients are Shoppers Drug Mart in Thickwood Plaza and at Eagle Ridge, the Pharmasave in Timberlea, the Sobeys Pharmacy at the Eagle Ridge Commons, and the Save-On-Foods Pharmacy. Independent pharmacies serving downtown Fort McMurray also accept TelePlusCare prescriptions and often offer faster blister-pack preparation. For workers in remote camps, participating pharmacies may offer mail-delivery options — useful when you're rotating through Fort Hills or Horizon and won't be in town for two weeks.",
       bullets: [
         "Shoppers Drug Mart — Thickwood Plaza, Eagle Ridge",
         "Pharmasave — Timberlea",
@@ -77,7 +77,7 @@ export const pageData: LandingPageData = {
         "Mail delivery to camps possible (Suncor, CNRL, Syncrude)",
       ],
       image: "/images/Rectangle-1090-22.png",
-      imageAlt: "Fort McMurray pharmacies receiving e-prescriptions",
+      imageAlt: "Fort McMurray pharmacies that accept TelePlusCare prescriptions",
     },
     {
       title: "Prescriptions Mailed to Oilsands Camps",
@@ -131,7 +131,7 @@ export const pageData: LandingPageData = {
         "Yes, with the right pharmacy partner. Several Fort McMurray pharmacies will mail prescriptions to camp post offices at Suncor, CNRL Horizon, Fort Hills, and Imperial Kearl, typically arriving in 2–5 business days.",
     },
     {
-      question: "Which Fort McMurray pharmacies accept e-prescriptions from TelePlusCare?",
+      question: "Which Fort McMurray pharmacies accept prescriptions from TelePlusCare?",
       answer:
         "All of them — Shoppers Drug Mart in Thickwood and Eagle Ridge, Pharmasave in Timberlea, Sobeys Pharmacy, Save-On-Foods, and downtown independents.",
     },

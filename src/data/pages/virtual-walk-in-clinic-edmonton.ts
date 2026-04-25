@@ -16,7 +16,7 @@ export const pageData: LandingPageData = {
     "Same-day virtual walk-in appointments across the Edmonton metro area",
     "The consultation may be covered by Alberta Health Care for eligible Alberta residents",
     "CPSA-licensed Alberta physicians serving downtown to Sherwood Park",
-    "No referral needed; prescriptions sent to your Edmonton pharmacy",
+    "No referral needed; fill prescriptions at your Edmonton pharmacy of choice",
   ],
   sections: [
     {
@@ -171,7 +171,7 @@ export const pageData: LandingPageData = {
       question:
         "Can a virtual walk-in clinic in Edmonton prescribe medication?",
       answer:
-        "Yes. Our licensed Alberta doctors at TelePlusCare's virtual walk-in clinic can prescribe medication for a wide range of conditions and send prescriptions directly to your Edmonton pharmacy the same day.",
+        "Yes. Our licensed Alberta doctors at TelePlusCare's virtual walk-in clinic can prescribe medication for a wide range of conditions, and you can fill prescriptions at your Edmonton pharmacy the same day.",
     },
     {
       question:

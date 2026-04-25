@@ -55,7 +55,7 @@ export const pageData: LandingPageData = {
     {
       title: "How Online Insomnia Treatment Works",
       content:
-        "Getting insomnia treatment online connects you with expert care conveniently:\n\nStep 1: Book a virtual appointment in under 2 minutes.\n\nStep 2: Consult with a licensed Alberta doctor via secure video or chat. Discuss your sleep patterns, symptoms, medical history, and lifestyle factors.\n\nStep 3: Receive a personalized treatment plan that may include sleep hygiene recommendations, cognitive behavioural therapy for insomnia (CBT-I) strategies, or medication if appropriate.\n\nStep 4: Follow up as needed to monitor progress and adjust your treatment plan.\n\nIf medication is prescribed, it is sent electronically to your preferred Alberta pharmacy.",
+        "Getting insomnia treatment online connects you with expert care conveniently:\n\nStep 1: Book a virtual appointment in under 2 minutes.\n\nStep 2: Consult with a licensed Alberta doctor via secure video or chat. Discuss your sleep patterns, symptoms, medical history, and lifestyle factors.\n\nStep 3: Receive a personalized treatment plan that may include sleep hygiene recommendations, cognitive behavioural therapy for insomnia (CBT-I) strategies, or medication if appropriate.\n\nStep 4: Follow up as needed to monitor progress and adjust your treatment plan.\n\nIf medication is prescribed, you can fill the prescription at your preferred Alberta pharmacy.",
       image: "/images/image_2024_02_21T09_52_57_321Z.png",
       imageAlt: "How online insomnia treatment works",
     },
@@ -100,7 +100,7 @@ export const pageData: LandingPageData = {
         "Licensed Alberta physicians experienced in sleep medicine",
         "Comprehensive assessment of sleep patterns and contributing factors",
         "CBT-I strategies and sleep hygiene coaching",
-        "Prescriptions for sleep medications sent to any Alberta pharmacy when appropriate",
+        "Prescriptions for sleep medications you can fill at any Alberta pharmacy when appropriate",
         "Follow-up appointments to monitor progress and adjust treatment",
         "Private, secure, PIPEDA-compliant telehealth platform",
         "Affordable care with Alberta Health coverage for eligible visits",

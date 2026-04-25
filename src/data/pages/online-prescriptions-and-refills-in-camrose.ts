@@ -6,7 +6,7 @@ export const pageData: LandingPageData = {
     "Battle River region's virtual prescription service. CPSA-licensed MDs send refills to Camrose Co-op, Shoppers, IDA pharmacies. AHCIP covered, no referral.",
   title: "Online Prescriptions and Refills in Camrose",
   heroDescription:
-    "Camrose serves the Battle River region — a rural agricultural community where access to family physicians is limited and harvest schedules don't align with clinic hours. TelePlusCare connects Camrose residents and surrounding farmers with a CPSA-licensed virtual MD by video and sends prescriptions to your local Co-op, Shoppers, or IDA pharmacy.",
+    "Camrose serves the Battle River region — a rural agricultural community where access to family physicians is limited and harvest schedules don't align with clinic hours. TelePlusCare connects Camrose residents and surrounding farmers with a CPSA-licensed virtual MD by video, and you can fill prescriptions at your local Co-op, Shoppers, or IDA pharmacy.",
   heroImage: "/images/image-6.png",
   heroImageAlt: "Online prescriptions and refills in Camrose Alberta",
   bookingUrl: "/book-appointment-alberta",
@@ -15,7 +15,7 @@ export const pageData: LandingPageData = {
   summary:
     "TelePlusCare serves Camrose and the Battle River region with virtual prescription refills via licensed MD video visits. Scripts are sent to Alberta pharmacies including Camrose Co-op, Shoppers, and IDA Pharmacy. AHCIP covers physician consultations for Alberta PHN holders, no referral required, ideal for the rural agricultural community.",
   keyFacts: [
-    "Camrose has roughly 5–6 community pharmacies serving the city plus regional pharmacies in Tofield, Daysland, and Bashaw — all accept TelePlusCare e-prescriptions.",
+    "Camrose has roughly 5–6 community pharmacies serving the city plus regional pharmacies in Tofield, Daysland, and Bashaw — all accept TelePlusCare prescriptions.",
     "Battle River farmers can book a TelePlusCare visit during harvest season without losing a half-day to drive into town.",
     "AHCIP covers virtual physician consultations for Camrose residents with a valid Alberta PHN — no referral required.",
     "TelePlusCare offers evening and weekend Camrose appointments — perfect for agricultural schedules.",
@@ -56,19 +56,19 @@ export const pageData: LandingPageData = {
     {
       title: "How Camrose Online Prescriptions Work",
       content:
-        "TelePlusCare's three-step process is built for Camrose's rural reality. Step 1 — Book your virtual appointment online from your home, your tractor cab, or wherever you have cell service; provide your Alberta PHN and preferred Camrose pharmacy. Step 2 — Connect by encrypted video with a CPSA-registered family physician for a 12–18 minute visit — short enough to fit between farm chores. Step 3 — Once approved, your prescription is e-faxed to your local pharmacy. Pick it up next time you're in town.",
+        "TelePlusCare's three-step process is built for Camrose's rural reality. Step 1 — Book your virtual appointment online from your home, your tractor cab, or wherever you have cell service; provide your Alberta PHN and preferred Camrose pharmacy. Step 2 — Connect by encrypted video with a CPSA-registered family physician for a 12–18 minute visit — short enough to fit between farm chores. Step 3 — Once approved, your physician issues a prescription you can fill at your local pharmacy. Pick it up next time you're in town.",
       bullets: [
         "Step 1 — Book online with your Alberta PHN",
         "Step 2 — 12–18 minute video visit, fits between farm chores",
-        "Step 3 — E-prescription sent to your Camrose pharmacy",
+        "Step 3 — Receive your prescription to fill at your Camrose pharmacy",
       ],
       image: "/images/prescription-refill/111-819x1024.jpeg",
       imageAlt: "Three-step Camrose online prescription process",
     },
     {
-      title: "Prescription Delivered to Your Local Camrose Pharmacy",
+      title: "Fill Your Prescription at Your Local Camrose Pharmacy",
       content:
-        "We send prescriptions to every pharmacy in Camrose and the surrounding Battle River region. The Camrose Co-op Pharmacy on 48th Avenue is a community staple — many farming families have used it for decades. The Shoppers Drug Mart on 50th Street is the busiest chain location, with extended hours that work for farmers coming into town after evening work. The IDA Pharmacy and Pharmasave round out the options. We also send prescriptions to regional pharmacies in Tofield, Daysland, Bashaw, Killam, and Sedgewick for patients in surrounding villages.",
+        "Our physicians issue prescriptions you can fill at every pharmacy in Camrose and the surrounding Battle River region. The Camrose Co-op Pharmacy on 48th Avenue is a community staple — many farming families have used it for decades. The Shoppers Drug Mart on 50th Street is the busiest chain location, with extended hours that work for farmers coming into town after evening work. The IDA Pharmacy and Pharmasave round out the options. Patients can also fill prescriptions at regional pharmacies in Tofield, Daysland, Bashaw, Killam, and Sedgewick if they live in surrounding villages.",
       bullets: [
         "Camrose Co-op Pharmacy — 48th Avenue community staple",
         "Shoppers Drug Mart — 50th Street, extended hours",
@@ -76,7 +76,7 @@ export const pageData: LandingPageData = {
         "Regional: Tofield, Daysland, Bashaw, Killam, Sedgewick",
       ],
       image: "/images/Rectangle-1090-20.png",
-      imageAlt: "Camrose pharmacies receiving e-prescriptions",
+      imageAlt: "Camrose pharmacies that accept TelePlusCare prescriptions",
     },
     {
       title: "Built for the Battle River Agricultural Community",
@@ -125,7 +125,7 @@ export const pageData: LandingPageData = {
         "Yes — as long as you have cell service or Wi-Fi, you can complete the visit from a tractor cab, farm office, or anywhere on the property. Many of our Camrose patients book mid-harvest visits this way.",
     },
     {
-      question: "Which Camrose pharmacies accept TelePlusCare e-prescriptions?",
+      question: "Which Camrose pharmacies accept TelePlusCare prescriptions?",
       answer:
         "All of them — Camrose Co-op Pharmacy, Shoppers Drug Mart on 50th Street, IDA, and Pharmasave. We also send to regional pharmacies in Tofield, Daysland, Bashaw, and Sedgewick.",
     },

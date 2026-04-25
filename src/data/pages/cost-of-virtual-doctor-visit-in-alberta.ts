@@ -82,7 +82,7 @@ export const pageData: LandingPageData = {
     {
       title: "Prescription Refills — Always Covered Under AHCIP",
       content:
-        "Prescription renewals are considered medically necessary by Alberta Health and are fully covered under AHCIP whether handled virtually or in person. Whether you need a refill of birth control, blood pressure medication, an asthma inhaler, antidepressants, or any other ongoing prescription, your virtual physician can issue the refill electronically to your pharmacy at no cost. There are clinical limits — controlled substances, opioids, stimulants for ADHD, and benzodiazepines often require additional documentation or in-person review under CPSA Standards of Practice — but routine maintenance medications are straightforward.",
+        "Prescription renewals are considered medically necessary by Alberta Health and are fully covered under AHCIP whether handled virtually or in person. Whether you need a refill of birth control, blood pressure medication, an asthma inhaler, antidepressants, or any other ongoing prescription, your virtual physician can issue the refill for you to fill at your pharmacy at no cost. There are clinical limits — controlled substances, opioids, stimulants for ADHD, and benzodiazepines often require additional documentation or in-person review under CPSA Standards of Practice — but routine maintenance medications are straightforward.",
       image: "/images/prescription-refill/13-819x1024.jpeg",
       imageAlt: "Prescription refill virtual visit AHCIP free Alberta",
     },
@@ -165,7 +165,7 @@ export const pageData: LandingPageData = {
     {
       question: "Will I be charged for a virtual visit if I just need a prescription refill?",
       answer:
-        "No. Prescription refills are considered medically necessary and are fully covered under AHCIP for Albertans. The physician will conduct a brief assessment to confirm the medication is still appropriate, then send the prescription to your pharmacy at no charge.",
+        "No. Prescription refills are considered medically necessary and are fully covered under AHCIP for Albertans. The physician will conduct a brief assessment to confirm the medication is still appropriate, then issue the prescription for you to fill at your pharmacy at no charge.",
     },
     {
       question: "Can I claim my out-of-pocket virtual visits on my taxes?",

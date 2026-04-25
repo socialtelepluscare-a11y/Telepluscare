@@ -6,16 +6,16 @@ export const pageData: LandingPageData = {
     "Brooks-area virtual prescription service for JBS workers and farmers. CPSA-licensed MDs send refills to Brooks pharmacies. AHCIP covered, no referral needed.",
   title: "Online Prescriptions and Refills in Brooks",
   heroDescription:
-    "Brooks is the agricultural and meat-processing capital of southeastern Alberta — home to the JBS Foods plant, Bassano-area ranchers, and farming families across Newell County. TelePlusCare connects you with a CPSA-licensed virtual MD by video and sends prescriptions to your local Brooks pharmacy, regardless of your shift schedule or harvest demands.",
+    "Brooks is the agricultural and meat-processing capital of southeastern Alberta — home to the JBS Foods plant, Bassano-area ranchers, and farming families across Newell County. TelePlusCare connects you with a CPSA-licensed virtual MD by video, and you can fill prescriptions at your local Brooks pharmacy, regardless of your shift schedule or harvest demands.",
   heroImage: "/images/image-5.png",
   heroImageAlt: "Online prescriptions and refills in Brooks Alberta",
   bookingUrl: "/book-appointment-alberta",
   lastReviewed: "2026-04-25",
   reviewedBy: "Dr. Maher Jerudi, MD",
   summary:
-    "TelePlusCare provides virtual prescription refills for Brooks residents — JBS plant workers, Newell County farmers, and area families — through CPSA-licensed MD video visits. Scripts are e-faxed to Brooks pharmacies and surrounding Bassano, Tilley, and Duchess locations. AHCIP covers Alberta PHN holders, no referral required, evenings and weekends available.",
+    "TelePlusCare provides virtual prescription refills for Brooks residents — JBS plant workers, Newell County farmers, and area families — through CPSA-licensed MD video visits. Scripts can be filled at Brooks pharmacies and surrounding Bassano, Tilley, and Duchess locations. AHCIP covers Alberta PHN holders, no referral required, evenings and weekends available.",
   keyFacts: [
-    "Brooks has approximately 5 community pharmacies plus regional locations in Bassano, Tilley, and Duchess — all accept TelePlusCare e-prescriptions.",
+    "Brooks has approximately 5 community pharmacies plus regional locations in Bassano, Tilley, and Duchess — all accept TelePlusCare prescriptions.",
     "JBS Foods Brooks employs over 2,500 workers across rotating shifts; TelePlusCare offers evening and weekend slots that fit JBS schedules.",
     "AHCIP covers virtual physician consultations for Brooks residents with a valid Alberta PHN — no referral required.",
     "Brooks serves a diverse multilingual community, particularly newcomers working at JBS — TelePlusCare is accessible to all Alberta residents regardless of how recently they arrived.",
@@ -56,19 +56,19 @@ export const pageData: LandingPageData = {
     {
       title: "How Brooks Online Prescriptions Work",
       content:
-        "TelePlusCare's three-step process is built for Brooks's working population. Step 1 — Book your virtual appointment online from home, the JBS breakroom, or your truck cab; provide your Alberta PHN and preferred Brooks pharmacy. Step 2 — Connect by encrypted video with a CPSA-licensed Alberta family physician for a 12–18 minute visit — fits between JBS shifts or harvest tasks. Step 3 — Once approved, your prescription is e-faxed to your selected Brooks pharmacy. Pick it up after your shift or next time you're in town.",
+        "TelePlusCare's three-step process is built for Brooks's working population. Step 1 — Book your virtual appointment online from home, the JBS breakroom, or your truck cab; provide your Alberta PHN and preferred Brooks pharmacy. Step 2 — Connect by encrypted video with a CPSA-licensed Alberta family physician for a 12–18 minute visit — fits between JBS shifts or harvest tasks. Step 3 — Once approved, your physician issues a prescription you can fill at your selected Brooks pharmacy. Pick it up after your shift or next time you're in town.",
       bullets: [
         "Step 1 — Book online with your Alberta PHN",
         "Step 2 — 12–18 minute video visit, fits between shifts or chores",
-        "Step 3 — E-prescription to your Brooks pharmacy",
+        "Step 3 — Receive your prescription to fill at your Brooks pharmacy",
       ],
       image: "/images/prescription-refill/111-819x1024.jpeg",
       imageAlt: "Three-step Brooks online prescription process",
     },
     {
-      title: "Prescription Delivered to Your Local Brooks Pharmacy",
+      title: "Fill Your Prescription at Your Local Brooks Pharmacy",
       content:
-        "We send prescriptions to every pharmacy in Brooks and the surrounding Newell County region. The Shoppers Drug Mart at the Brooks Walmart Supercentre is the busiest, with extended hours that work well for JBS shift workers. The Sobeys Pharmacy and IDA Pharmacy on Centre Street round out the major chains. Pharmasave is a long-standing community option. We also send prescriptions to Bassano, Tilley, and Duchess pharmacies for outlying-area patients, and to Medicine Hat or Strathmore for those who prefer a different community.",
+        "Our physicians issue prescriptions you can fill at every pharmacy in Brooks and the surrounding Newell County region. The Shoppers Drug Mart at the Brooks Walmart Supercentre is the busiest, with extended hours that work well for JBS shift workers. The Sobeys Pharmacy and IDA Pharmacy on Centre Street round out the major chains. Pharmasave is a long-standing community option. Patients in outlying areas can also fill prescriptions at Bassano, Tilley, and Duchess pharmacies, or in Medicine Hat or Strathmore.",
       bullets: [
         "Shoppers Drug Mart — Brooks Walmart Supercentre",
         "Sobeys Pharmacy and IDA Pharmacy — Centre Street",
@@ -77,7 +77,7 @@ export const pageData: LandingPageData = {
         "Medicine Hat and Strathmore for travelling patients",
       ],
       image: "/images/Rectangle-1090-20.png",
-      imageAlt: "Brooks pharmacies receiving e-prescriptions",
+      imageAlt: "Brooks pharmacies that accept TelePlusCare prescriptions",
     },
     {
       title: "Built for JBS Shift Workers and Newcomer Communities",
@@ -126,7 +126,7 @@ export const pageData: LandingPageData = {
         "Yes — many of our Brooks patients are JBS employees who book a 15-minute video visit during a meal break or between shifts. Your prescription is at the Brooks Walmart Shoppers before you finish work.",
     },
     {
-      question: "Which Brooks pharmacies accept TelePlusCare e-prescriptions?",
+      question: "Which Brooks pharmacies accept TelePlusCare prescriptions?",
       answer:
         "All of them — Shoppers Drug Mart at Walmart, Sobeys Pharmacy, IDA Pharmacy, and Pharmasave. We also send to Bassano, Tilley, and Duchess locations.",
     },

@@ -92,9 +92,9 @@ export const pageData: LandingPageData = {
         "Most Fort McMurray-area patients connect within 1–2 hours during regular hours; same-day evening and weekend appointments are routinely available.",
     },
     {
-      question: "Can you send prescriptions to my home pharmacy out of Fort McMurray?",
+      question: "Can I fill prescriptions at my home pharmacy out of Fort McMurray?",
       answer:
-        "Yes. We can transmit prescriptions to any Alberta pharmacy and to many provinces; we'll confirm jurisdictional rules during your visit.",
+        "Yes. You can fill prescriptions at any Alberta pharmacy and at many out-of-province ones; we'll confirm jurisdictional rules during your visit.",
     },
     {
       question: "Is this a substitute for the Northern Lights ER?",

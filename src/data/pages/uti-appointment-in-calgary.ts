@@ -12,7 +12,7 @@ export const pageData: LandingPageData = {
   bookingUrl: "/book-appointment-alberta",
   conditionType: "Urinary Tract Infection",
   summary:
-    "Calgary residents with UTI symptoms including painful urination, urgency, and lower-abdomen pressure can book a same-day virtual visit with a TelePlus Care physician. Visits last 15 to 20 minutes, prescriptions are e-sent to any Calgary pharmacy, and consultations are covered under Alberta Health Care for AHCIP holders.",
+    "Calgary residents with UTI symptoms including painful urination, urgency, and lower-abdomen pressure can book a same-day virtual visit with a TelePlus Care physician. Visits last 15 to 20 minutes, prescriptions can be filled at any Calgary pharmacy, and consultations are covered under Alberta Health Care for AHCIP holders.",
   keyFacts: [
     "Same-day UTI appointment available within 30 minutes for Calgary patients",
     "Roughly 90 percent of uncomplicated UTIs resolve with a single 3 to 5 day antibiotic course",
@@ -44,7 +44,7 @@ export const pageData: LandingPageData = {
     {
       title: "Calgary Neighborhoods, Hospitals, and Pharmacies We Serve",
       content:
-        "Whether you live in Mission, Bridgeland, Kensington, the Beltline, or commute in from Airdrie or Cochrane, your prescription is delivered to the pharmacy of your choice. Patients regularly use pharmacies near Foothills Medical Centre, Peter Lougheed Centre, and the Sheldon Chumir Health Centre, plus locations of Shoppers Drug Mart, Rexall, Save-On-Foods, and Co-op Pharmacy across all four Calgary quadrants.",
+        "Whether you live in Mission, Bridgeland, Kensington, the Beltline, or commute in from Airdrie or Cochrane, you can fill your prescription at the pharmacy of your choice. Patients regularly use pharmacies near Foothills Medical Centre, Peter Lougheed Centre, and the Sheldon Chumir Health Centre, plus locations of Shoppers Drug Mart, Rexall, Save-On-Foods, and Co-op Pharmacy across all four Calgary quadrants.",
       image: "/images/Rectangle-1090-19.png",
       imageAlt: "Calgary pharmacy and hospital coverage map",
     },
@@ -70,7 +70,7 @@ export const pageData: LandingPageData = {
         "Step 1: Submit a short symptom intake form online",
         "Step 2: Your file is reviewed by a CPSA-licensed Alberta physician",
         "Step 3: Speak with the physician by video or phone within 30 minutes",
-        "Step 4: Antibiotic prescription is e-sent to your Calgary pharmacy",
+        "Step 4: Receive your antibiotic prescription to fill at your Calgary pharmacy",
         "Step 5: Receive prevention and follow-up guidance by secure email",
       ],
       image: "/images/Group-37522.png",
@@ -105,9 +105,9 @@ export const pageData: LandingPageData = {
         "From booking to prescription, most Calgary patients are done within 45 to 60 minutes. The actual physician consultation lasts 15 to 20 minutes.",
     },
     {
-      question: "Can I get a UTI prescription delivered to my Calgary pharmacy after hours?",
+      question: "Can I fill a UTI prescription at my Calgary pharmacy after hours?",
       answer:
-        "Yes. Prescriptions are electronically transmitted to your selected Calgary pharmacy. If your usual pharmacy is closed, choose a 24-hour Shoppers Drug Mart location such as the one on Macleod Trail or 16th Ave NW.",
+        "Yes. You can fill prescriptions at your selected Calgary pharmacy. If your usual pharmacy is closed, choose a 24-hour Shoppers Drug Mart location such as the one on Macleod Trail or 16th Ave NW.",
     },
     {
       question: "Is the UTI appointment covered by Alberta Health Care?",

@@ -91,7 +91,7 @@ export const pageData: LandingPageData = {
         "Licensed Alberta physicians -- All consultations are conducted by physicians licensed to practise in Alberta who have experience prescribing weight management medications.",
         "Convenient virtual visits -- No need to travel to a clinic. Complete your assessment from home using your phone, tablet, or computer.",
         "Ongoing support -- We provide follow-up appointments to monitor your progress, adjust dosing, and address any concerns throughout your treatment.",
-        "Prescription sent to your pharmacy -- Once approved, your Saxenda prescription is sent directly to the pharmacy of your choice in Alberta.",
+        "Fill at your pharmacy -- Once approved, you can fill your Saxenda prescription at the pharmacy of your choice in Alberta.",
       ],
           image: "/images/diabetes-chronic-disease/section-1.png",
       imageAlt: "Why Choose TelePlus Care for Saxenda?",
@@ -121,7 +121,7 @@ export const pageData: LandingPageData = {
     {
       question: "How does the virtual consultation for Saxenda work?",
       answer:
-        "The process is straightforward. Book an appointment through our website, complete a health intake questionnaire, and attend your virtual consultation via video or phone. Your physician will review your medical history, current medications, BMI, and weight loss goals to determine if Saxenda is appropriate. If approved, your prescription is sent directly to your chosen pharmacy, and a follow-up appointment is scheduled to monitor your progress.",
+        "The process is straightforward. Book an appointment through our website, complete a health intake questionnaire, and attend your virtual consultation via video or phone. Your physician will review your medical history, current medications, BMI, and weight loss goals to determine if Saxenda is appropriate. If approved, you can fill your prescription at your chosen pharmacy, and a follow-up appointment is scheduled to monitor your progress.",
     },
     {
       question: "Can I drink alcohol while taking Saxenda?",

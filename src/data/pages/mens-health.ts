@@ -14,7 +14,7 @@ export const pageData: LandingPageData = {
   keyFacts: [
     "Confidential virtual consultations with board-certified Alberta physicians",
     "Lab requisitions for testosterone, PSA, and STI screening included",
-    "Same-day prescriptions for ED, hair loss, and UTIs sent to your pharmacy",
+    "Same-day prescriptions for ED, hair loss, and UTIs you can fill at your pharmacy",
     "PIPEDA and Alberta HIA-compliant secure telemedicine platform",
   ],
   sections: [
@@ -165,7 +165,7 @@ export const pageData: LandingPageData = {
       question:
         "Can I get a prescription during my virtual visit?",
       answer:
-        "Yes, if your provider determines that medication is necessary, they can prescribe it during your virtual consultation. Prescriptions are sent to your pharmacy of choice.",
+        "Yes, if your provider determines that medication is necessary, they can prescribe it during your virtual consultation. You can fill your prescription at your pharmacy of choice.",
     },
     {
       question: "What are the costs associated with virtual visits?",

@@ -109,7 +109,7 @@ export const pageData: LandingPageData = {
     {
       title: "About Our Virtual Clinic Serving Burnaby",
       content:
-        "TelePlusCare is a BC telemedicine provider built around physicians registered by the College of Physicians and Surgeons of British Columbia. Our Burnaby coverage spans every neighbourhood in the city, from the high-rise cores of Metrotown and Brentwood, to the quieter streets of Burnaby Heights, to the student corridor around SFU on Burnaby Mountain.\n\nOur physicians have backgrounds in family medicine, occupational health, urgent care, and mental health. If your visit concludes with a prescription, your BC doctor can send it directly to Shoppers Drug Mart, London Drugs, Save-On-Foods Pharmacy, or Safeway Pharmacy locations throughout Burnaby.",
+        "TelePlusCare is a BC telemedicine provider built around physicians registered by the College of Physicians and Surgeons of British Columbia. Our Burnaby coverage spans every neighbourhood in the city, from the high-rise cores of Metrotown and Brentwood, to the quieter streets of Burnaby Heights, to the student corridor around SFU on Burnaby Mountain.\n\nOur physicians have backgrounds in family medicine, occupational health, urgent care, and mental health. If your visit concludes with a prescription, you can fill it at Shoppers Drug Mart, London Drugs, Save-On-Foods Pharmacy, or Safeway Pharmacy locations throughout Burnaby.",
       bullets: [
         "Serving Metrotown, Brentwood, Lougheed, North Burnaby, and Burnaby Heights",
         "Available across Metro Vancouver including New Westminster, Coquitlam, and Port Moody",

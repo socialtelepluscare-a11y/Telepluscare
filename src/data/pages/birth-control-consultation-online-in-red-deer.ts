@@ -15,7 +15,7 @@ export const pageData: LandingPageData = {
   keyFacts: [
     "Central Alberta women's health service hours are typically 30–40% shorter than urban Edmonton or Calgary equivalents.",
     "IUD insertion wait times in Red Deer can reach 4–8 weeks; we coordinate referrals to reduce delays.",
-    "Same-day Red Deer virtual consultations with prescriptions sent to any local pharmacy.",
+    "Same-day Red Deer virtual consultations with prescriptions you can fill at any local pharmacy.",
     "Long-acting reversible contraception is 99% effective at preventing unintended pregnancy versus 91% for the pill with typical use.",
   ],
   sections: [
@@ -79,7 +79,7 @@ export const pageData: LandingPageData = {
     {
       question: "Do I need to drive into Edmonton or Calgary?",
       answer:
-        "No. Our virtual physicians serve Red Deer and rural Central Alberta from your home; prescriptions transmit to any local pharmacy.",
+        "No. Our virtual physicians serve Red Deer and rural Central Alberta from your home; you can fill your prescription at any local pharmacy.",
     },
     {
       question: "How fast is the prescription?",
