@@ -71,7 +71,7 @@ export default function PopularArticles() {
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"
                     className="service-card-img"
-                    style={{ objectFit: "cover", transition: "transform 0.5s" }}
+                    style={{ objectFit: "cover", objectPosition: "center top", transition: "transform 0.5s" }}
                   />
                   {/* Category Badge */}
                   <span

@@ -117,7 +117,7 @@ export default function ServiceCards() {
                   alt={service.title}
                   fill
                   sizes="200px"
-                  style={{ objectFit: "cover", transition: "transform 0.5s ease" }}
+                  style={{ objectFit: "cover", objectPosition: "center top", transition: "transform 0.5s ease" }}
                   className="service-card-img"
                 />
               </div>

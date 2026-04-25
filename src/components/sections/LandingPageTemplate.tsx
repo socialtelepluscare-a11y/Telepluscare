@@ -278,7 +278,7 @@ export default function LandingPageTemplate({
                         alt={section.imageAlt || section.title}
                         width={560}
                         height={400}
-                        style={{ borderRadius: 18, width: "100%", height: "auto", maxHeight: 400, objectFit: "cover" }}
+                        style={{ borderRadius: 18, width: "100%", height: "auto" }}
                       />
                     </div>
                   </div>
