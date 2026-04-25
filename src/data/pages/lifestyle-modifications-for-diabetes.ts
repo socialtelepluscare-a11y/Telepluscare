@@ -36,7 +36,9 @@ export const pageData: LandingPageData = {
       title: "Easy Lab Test Requisitions",
       content:
         "Once you consult with our healthcare provider, we will send the appropriate blood test requisitions directly to your email or through your patient portal. This allows you to easily take the necessary tests at a nearby lab, helping you monitor your health efficiently and conveniently.",
-    },
+          image: "/images/diabetes-chronic-disease/type1-diabetes.png",
+      imageAlt: "Easy Lab Test Requisitions",
+},
     {
       title: "Weight Loss & Diabetes Management",
       content:
@@ -55,7 +57,9 @@ export const pageData: LandingPageData = {
         "Hypertension -- High blood pressure is often linked to being overweight or having diabetes. Our virtual healthcare service offers treatment plans that include lifestyle advice and medication to control blood pressure, reducing your risk for complications like heart disease or stroke.",
         "High Cholesterol -- Managing high cholesterol is critical for preventing heart disease, especially when it occurs alongside diabetes or obesity. We provide expert care, including medication management and dietary advice, to help you lower your cholesterol levels.",
       ],
-    },
+          image: "/images/diabetes-chronic-disease/type2-diabetes.png",
+      imageAlt: "What We Treat",
+},
     {
       title: "Why Choose TelePlus Care for Your Health Needs In Alberta?",
       content:
@@ -66,7 +70,9 @@ export const pageData: LandingPageData = {
         "Holistic Support -- We believe in treating the whole person, not just the condition. Our comprehensive services include dietary counseling, exercise recommendations, and ongoing support to help you make sustainable lifestyle changes.",
         "Empathy & Understanding -- We recognize that everyone's journey is different, and we're here to listen and provide encouragement as you work towards your health goals.",
       ],
-    },
+          image: "/images/diabetes-chronic-disease/nafld.png",
+      imageAlt: "Why Choose TelePlus Care for Your Health Needs In Alberta?",
+},
     {
       title: "How Does It Work?",
       content:
@@ -77,7 +83,9 @@ export const pageData: LandingPageData = {
         "Receive Confirmation -- Once you've booked your appointment, you'll receive a confirmation email or call with detailed instructions for your upcoming virtual visit.",
         "Attend Your Appointment -- On the day of your virtual visit, connect with your provider using any electronic device\u2014whether it's a smartphone, tablet, or computer. Our healthcare professionals will assess your condition and create a personalized care plan.",
       ],
-    },
+          image: "/images/diabetes-chronic-disease/hypertension.png",
+      imageAlt: "How Does It Work?",
+},
   ],
   faqs: [
     {
@@ -109,4 +117,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

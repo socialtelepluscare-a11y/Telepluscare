@@ -1,220 +1,149 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle:
-    "Online Doctor's Notes in Lethbridge | Same-Day Sick Note",
+  metaTitle: "Online Doctor's Note Lethbridge | Same-Day AHC Sick Note",
   metaDescription:
-    "Need an Online Doctor's Notes in Lethbridge? Get a certified online doctor note in Lethbridge fast\u2014no waiting room. Free with Alberta Health Card. Start in minutes!",
-  title: "Online Doctor\u2019s Notes in Lethbridge | Same-Day Sick Note",
+    "Lethbridge residents can get a same-day virtual sick note from CPSA-licensed physicians. AHC-covered. Accepted by U of L, Lethbridge College, and Chinook School Division.",
+  title: "Online Doctor's Note in Lethbridge — Same-Day Virtual Sick Notes",
   heroDescription:
-    "If you need a doctor\u2019s note in Lethbridge, you can get one online without visiting a clinic. TelePlusCare connects you with Alberta-licensed physicians who assess your condition through a secure virtual consultation and, when medically appropriate, issue a legally valid doctor\u2019s note for work, school, travel, or other needs\u2014often within minutes.\n\nOur service follows Alberta Health and CPSA guidelines, ensuring your medical documentation is professional, confidential, and widely accepted across Alberta.\n\nNo waiting rooms. No unnecessary delays. 100% online.",
-  heroImage: "/images/online-doctors-notes-in-lethbridge/hero.jpg",
-  heroImageAlt: "Online Doctor's Notes in Lethbridge",
+    "From the U of L campus on the west side to agricultural operations south of Highway 3, Lethbridge residents can speak with an Alberta-licensed physician without leaving home and receive a signed sick note the same day. Accepted by Chinook School Division, the Coca-Cola plant, and every major southern Alberta employer.",
+  heroImage: "/images/online-doctors-notes-in-edmonton/hero.jpg",
+  heroImageAlt: "Lethbridge resident booking a same-day virtual doctor's note",
+  bookingUrl: "/book-appointment-alberta",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
+  summary:
+    "Lethbridge patients can secure a legally valid online doctor's note from a CPSA-registered physician without travelling to a clinic. The consultation is covered by Alberta Health Care, the note satisfies Alberta Employment Standards Code Section 53.97 (five unpaid sick days), and it is accepted by the University of Lethbridge, Lethbridge College, Chinook School Division, and local employers.",
+  keyFacts: [
+    "Lethbridge is southern Alberta's largest city with approximately 104,000 residents.",
+    "Section 53.97 of the Alberta Employment Standards Code grants 5 unpaid job-protected sick days per year.",
+    "All TelePlusCare physicians are registered with the College of Physicians & Surgeons of Alberta (CPSA).",
+    "Same-day note delivery typically takes under 30 minutes from consultation to email.",
+  ],
   sections: [
     {
-      title: "What Is an Online Doctor\u2019s Note?",
+      title: "What Is an Online Doctor's Note in Lethbridge?",
       content:
-        "An online doctor\u2019s note is an official medical document issued by a licensed physician after a virtual medical consultation. During the appointment, the doctor reviews your symptoms, medical concern, or situation and determines whether medical documentation is appropriate.\n\nOnce approved, your doctor\u2019s note is:\n\nOnline doctor\u2019s notes have the same legal validity as in-clinic notes when issued by licensed Alberta doctors.",
+        "An online doctor's note in Lethbridge is a digitally signed medical document issued by a physician licensed in Alberta after a virtual assessment. For southern Alberta residents — many of whom commute long distances or work seasonal agricultural shifts — the online format avoids hours lost to clinic waiting rooms on Mayor Magrath Drive or 13th Street.\n\nLegally, the note is identical to one issued at the Chinook Regional Hospital outpatient department or any private practice in the city.",
       bullets: [
-        "Issued by an Alberta-licensed physician",
-        "Delivered securely to your email",
-        "Accepted by employers, schools, and institutions",
-        "Fully compliant with provincial medical standards",
+        "Issued by a CPSA-registered Alberta physician",
+        "Delivered as a signed PDF straight to your email",
+        "Carries the physician's CPSA registration number and signature",
+        "Accepted by U of L, Lethbridge College, and Chinook School Division",
       ],
-      image: "/images/online-doctors-notes-in-lethbridge/section-1.png",
-      imageAlt: "Online Doctor's Note",
+      image: "/images/online-doctors-notes-in-edmonton/section-1.webp",
+      imageAlt: "Lethbridge digital doctor's note PDF",
     },
     {
-      title: "When Do You Need a Doctor\u2019s Note in Lethbridge?",
+      title: "When You Need a Sick Note in Lethbridge",
       content:
-        "A doctor\u2019s note may be required for many everyday situations, including:\n\nOur physicians understand these needs and issue documentation that suits your specific situation while protecting your privacy.",
+        "Lethbridge's economy mixes agriculture, food processing (including the local Coca-Cola facility), education, and a meaningful population of cross-border commuters travelling to Montana for work. Each of these workplaces has different documentation expectations, but most request a sick note for absences beyond a day or two.",
       bullets: [
-        "Time off work due to illness",
-        "School or college absence verification",
-        "Mental health days",
-        "Fitness-to-work documentation",
-        "Travel or flight recovery clearance",
-        "Post-COVID or medical return-to-work confirmation",
+        "Missed shifts at Chinook Regional Hospital",
+        "Absence from University of Lethbridge or Lethbridge College classes",
+        "Time off in agriculture, food processing, or seasonal harvest work",
+        "Chinook School Division absence verification",
+        "Recovery for cross-border commuters travelling to Sweet Grass, Montana",
       ],
-      image: "/images/online-doctors-notes-in-lethbridge/section-2.jpg",
-      imageAlt: "Doctor's Note in Lethbridge",
+      image: "/images/online-doctors-notes-in-edmonton/section-2.jpg",
+      imageAlt: "Lethbridge agriculture worker resting at home",
     },
     {
-      title:
-        "Need a Sick Note Now in Lethbridge? We\u2019ve Got You Covered.",
+      title: "What's Included in Your Lethbridge Note",
       content:
-        "Whether you\u2019re feeling unwell, need to take a mental health day, or require documentation for your employer or school, our team is here to help. We offer fast, reliable online doctor\u2019s notes\u2014with full validity across Alberta.\n\nAvailable 24/7. Serving Lethbridge & surrounding areas. Alberta Health coverage may apply for eligible consultations. Documentation fees may apply for doctor\u2019s notes.",
-      image: "/images/online-doctors-notes-in-lethbridge/hero.jpg",
-      imageAlt: "Sick Note in Lethbridge",
-    },
-    {
-      title: "What Information Is Included in a Doctor\u2019s Note?",
-      content:
-        "Every doctor\u2019s note issued through TelePlusCare includes:\n\nAll documentation complies with Alberta medical documentation guidelines.",
+        "Each note follows the format Lethbridge HR teams and school administrators expect. Diagnosis details are deliberately excluded under Alberta's privacy legislation; the note confirms you were medically assessed and outlines the period you should be off.",
       bullets: [
-        "Patient name",
-        "Date of medical consultation",
-        "Brief medical recommendation (without private diagnosis details)",
-        "Physician\u2019s name, license number, and digital signature",
-        "Verification contact information",
+        "Patient legal name and consultation date",
+        "Confirmation of physician assessment",
+        "Inclusive dates you cannot attend work or school",
+        "Anticipated return-to-work or return-to-class date",
+        "Any temporary work restrictions",
+        "Physician name, CPSA number, signature, and HR verification line",
       ],
-      image: "/images/online-doctors-notes-in-lethbridge/section-3.jpg",
-      imageAlt: "Doctor Note Online in Lethbridge",
+      image: "/images/online-doctors-notes-in-edmonton/section-3.jpg",
+      imageAlt: "Lethbridge HR document review",
     },
     {
-      title:
-        "Why Choose TelePlusCare for Online Doctor Notes in Lethbridge?",
+      title: "Same-Day Issuance for Lethbridge Patients",
       content:
-        "TelePlusCare provides fast, professional, and fully valid online doctor\u2019s notes for Lethbridge residents.",
+        "Booking takes about two minutes through our online intake. A physician calls you back, conducts the assessment, and emails your signed note from a Canadian-hosted secure platform. No appointment with a Lethbridge walk-in is required.",
       bullets: [
-        "Licensed Alberta Physicians -- All notes are issued by doctors registered with the College of Physicians & Surgeons of Alberta (CPSA)",
-        "Fast Turnaround -- Most patients receive their note within 15\u201330 minutes",
-        "Accepted for Work, School & Travel -- Use your documentation with confidence across Alberta",
-        "Private & Secure -- Encrypted consultations with strict privacy standards",
-        "Alberta Health Card Accepted -- Most services are covered where eligible",
+        "Step 1 — Submit the online intake (about 2 minutes)",
+        "Step 2 — Speak with a CPSA-registered physician by phone or video",
+        "Step 3 — Receive your signed PDF note by email — typically within 30 minutes",
       ],
-      image: "/images/online-doctors-notes-in-lethbridge/section-4.jpg",
-      imageAlt: "Online Doctor Notes in Lethbridge",
+      image: "/images/online-doctors-notes-in-edmonton/section-4.jpg",
+      imageAlt: "Lethbridge same-day virtual sick note flow",
     },
     {
-      title: "How to Get a Doctor\u2019s Note Online in Lethbridge",
+      title: "Alberta Employment Standards: Lethbridge Workers' Rights",
       content:
-        "Step 1: Book a virtual appointment (takes less than 2 minutes)\n\nStep 2: Speak to a certified Alberta doctor via secure video or chat\n\nStep 3: Receive your doctor\u2019s note by email\u2014ready to print or share\n\n100% legal and accepted. Safe, encrypted, and confidential. Mobile and desktop friendly.",
-      image: "/images/online-doctors-notes-in-lethbridge/section-5.jpg",
-      imageAlt: "Online Doctor Note in Lethbridge",
-    },
-    {
-      title: "Who Can Use This Service?",
-      content:
-        "Our online doctor\u2019s note service is available to a wide range of individuals across Lethbridge and Alberta.",
+        "Section 53.97 of the Alberta Employment Standards Code provides Lethbridge employees with 90 days of continuous service up to five unpaid, job-protected sick days each calendar year. Workers in agriculture, education, and unionised food-processing roles often have additional paid sick leave through collective agreements.\n\nEmployers may request medical documentation but not a diagnosis. Our notes respect this distinction.",
       bullets: [
-        "Employees: Needing a sick note for missed work",
-        "Students: Requiring a note for absence from classes or exams",
-        "Parents: Caring for a sick child or family member",
-        "Travelers: Requiring fitness to fly or recovery documentation",
-        "Remote Workers: Who need proof of unwell status",
+        "5 unpaid sick days per year, job-protected (ESC s.53.97)",
+        "Eligibility begins after 90 days of continuous employment",
+        "Employer may request a note but not a diagnosis",
+        "Many Lethbridge collective agreements add paid sick leave",
       ],
-      image: "/images/online-doctors-notes-in-lethbridge/section-6.png",
-      imageAlt: "Doctor Note Service in Lethbridge",
+      image: "/images/online-doctors-notes-in-edmonton/section-5.jpg",
+      imageAlt: "Alberta sick leave entitlement reference",
     },
     {
-      title: "Employer Sick Note Requirements in Alberta",
+      title: "Who Uses This Service in Lethbridge",
       content:
-        "Under Alberta employment standards:\n\nYour doctor\u2019s note confirms medical assessment while protecting your privacy.",
+        "Lethbridge patients booking with TelePlusCare include U of L students juggling research deadlines, Lethbridge College apprentices in trades programs, agricultural workers during planting and harvest seasons, frontline staff at Chinook Regional Hospital, and cross-border commuters who can't easily make it to an Alberta clinic during the work week.",
       bullets: [
-        "Employers may request medical documentation after 3 consecutive days of absence",
-        "Some workplaces have different internal policies",
-        "Doctors are not required to disclose diagnoses",
-        "Employees are entitled to reasonable medical accommodation",
+        "University of Lethbridge and Lethbridge College students",
+        "Chinook Regional Hospital staff",
+        "Agricultural and food-processing workers",
+        "Chinook School Division parents",
+        "Cross-border commuters working in Montana",
       ],
-      image: "/images/online-doctors-notes-in-lethbridge/section-7.png",
-      imageAlt: "Online Doctor's Note in Lethbridge",
+      image: "/images/online-doctors-notes-in-edmonton/section-6.jpg",
+      imageAlt: "Lethbridge resident accessing telemedicine",
     },
     {
-      title:
-        "Understanding Your Rights: Employer Sick Note Requirements in Alberta",
+      title: "Why Lethbridge Patients Choose TelePlusCare",
       content:
-        "When Can Your Employer Request a Doctor\u2019s Note?\n\nUnder Alberta employment standards:\n\nYour Note Should Include:\n\nYour privacy is protected \u2013 doctors do not have to disclose your specific diagnosis to your employer.",
+        "Southern Alberta has unique scheduling realities — long agricultural shifts, seasonal harvest peaks, and limited evening clinic capacity in smaller surrounding towns. Our service is designed to fit those windows: same-day notes, AHCIP-billed consultations, and CPSA-registered physicians who understand local employer documentation expectations.",
       bullets: [
-        "Employers can request medical documentation after 3 consecutive days of absence",
-        "Some workplaces have different policies in their employment agreements",
-        "You have the right to reasonable accommodation for medical conditions",
-        "Confirmation that you were assessed by a physician",
-        "The dates you are unable to work",
-        "Expected return-to-work date (if known)",
-        "Any necessary work restrictions",
+        "100% CPSA-registered Alberta physicians",
+        "AHCIP-billed consults — no fee for valid AHC cardholders",
+        "Same-day notes, seven days a week",
+        "Tailored for southern Alberta scheduling realities",
+        "Encrypted Canadian-hosted PHI infrastructure",
       ],
-      image: "/images/online-doctors-notes-in-lethbridge/section-8.jpg",
-      imageAlt: "Employer Sick Note Requirements in Lethbridge",
-    },
-    {
-      title: "Why Lethbridge Residents Choose Online Doctor Notes",
-      content:
-        "Convenience & Accessibility: No commute to a clinic. No waiting room exposure to other illnesses. Access care from home, work, or anywhere. Perfect for those with mobility issues or transportation challenges.\n\nTime-Saving: Average clinic wait time: 1\u20132 hours. Average virtual appointment: 15\u201320 minutes total. Get back to resting and recovering faster.\n\nCost-Effective: No parking fees. No transportation costs. No time off work for appointment travel. Covered by Alberta Health Card in most cases.\n\nQuality Care: Same licensed doctors as in-person clinics. Thorough assessment and consultation. Follow-up care available. Prescription services when needed.",
-      image: "/images/online-doctors-notes-in-lethbridge/section-9.jpg",
-      imageAlt: "Doctor Note Online in Lethbridge",
-    },
-    {
-      title: "Medically Reviewed & Physician-Led Care",
-      content:
-        "All consultations and documentation at TelePlusCare are conducted by physicians licensed with the College of Physicians & Surgeons of Alberta (CPSA).\n\nOur doctors have experience in:\n\nYour care is professional, secure, and medically appropriate.",
-      bullets: [
-        "Family medicine",
-        "Urgent care",
-        "Mental health assessments",
-        "Occupational health documentation",
-        "Travel medicine",
-      ],
-      image: "/images/online-doctors-notes-in-lethbridge/section-10.jpg",
-      imageAlt: "Doctor's Notes",
-    },
-    {
-      title: "About Our Virtual Medical Clinic",
-      content:
-        "We are a fully licensed telemedicine provider serving Lethbridge and all of Alberta. Our team of certified physicians is committed to providing:\n\nOur doctors are experienced in:",
-      bullets: [
-        "Accessible healthcare for all Albertans",
-        "Timely medical documentation when you need it",
-        "Professional, compassionate care in every consultation",
-        "Privacy-first approach to your medical information",
-        "Family medicine",
-        "Urgent care consultations",
-        "Mental health assessments",
-        "Occupational health documentation",
-        "Travel medicine",
-      ],
-      image: "/images/online-doctors-notes-in-lethbridge/section-11.jpg",
-      imageAlt: "Doctor Note in Lethbridge",
+      image: "/images/online-doctors-notes-in-edmonton/section-7.jpg",
+      imageAlt: "TelePlusCare Lethbridge virtual clinic team",
     },
   ],
   faqs: [
     {
-      question:
-        "Is this doctor\u2019s note valid in Lethbridge and Alberta?",
+      question: "Is an online doctor's note valid in Lethbridge?",
       answer:
-        "Yes. All notes are issued by Alberta-licensed physicians and are legally valid across Lethbridge and the rest of Alberta.",
+        "Yes. A note signed by a CPSA-registered physician is fully valid in Lethbridge and is accepted by employers, the University of Lethbridge, Lethbridge College, and Chinook School Division.",
     },
     {
-      question:
-        "How long does it take to receive my note?",
+      question: "Is my Alberta Health Care card accepted?",
       answer:
-        "Most patients receive their doctor\u2019s note within 15\u201330 minutes after consultation.",
+        "Yes. Lethbridge residents with a valid AHCIP card pay nothing for the consultation. A small documentation fee may apply for the note depending on its type.",
     },
     {
-      question: "Do I need an Alberta Health Card?",
+      question: "How quickly will I get the note?",
       answer:
-        "Most visits are covered by an Alberta Health Card. Private options are available if needed.",
+        "Most Lethbridge patients receive a signed PDF note within 30 minutes of completing the consultation. Same-day delivery is the norm when booking before 6 PM Mountain Time.",
     },
     {
-      question: "Can I get a backdated note?",
+      question: "Will my Lethbridge employer accept this note?",
       answer:
-        "It depends on the situation. For any backdated note request, we\u2019ll need to review your case properly, so we kindly ask you to book an appointment. Once it\u2019s scheduled, our team will connect with you and guide you through the next steps.",
+        "Yes. Local employers — including the University of Lethbridge, Chinook Regional Hospital, the Coca-Cola plant, and Chinook School Division — accept notes from CPSA-registered virtual physicians. The note includes a verification line for HR.",
     },
     {
-      question:
-        "Will my employer or school accept an online doctor\u2019s note?",
+      question: "Can I get a note for my child's Chinook School Division absence?",
       answer:
-        "Yes. Virtual healthcare is legally recognized in Alberta. Our notes contain all required elements including the doctor\u2019s CPSA license number and contact information for verification.",
-    },
-    {
-      question:
-        "Can I use this service for mental health days?",
-      answer:
-        "Absolutely. Our physicians understand the importance of mental health and can provide appropriate documentation for stress, anxiety, burnout, or other mental health concerns\u2014without disclosing specific private details.",
-    },
-    {
-      question:
-        "Do you provide notes for work-related injuries?",
-      answer:
-        "For workplace injuries covered by WCB (Workers\u2019 Compensation Board), you should follow your employer\u2019s specific reporting procedures. For general illness or non-work-related medical issues, we can certainly help.",
-    },
-    {
-      question:
-        "What are the costs associated with virtual visits?",
-      answer:
-        "Fees for an online doctor note in Lethbridge vary based on the type of note you need. Standard medical notes are available at an affordable flat rate, which includes the online consultation with an Alberta doctor and the digital delivery of your note. There are no hidden fees\u2014you pay only once for the visit. All pricing is shown upfront before your appointment begins.",
+        "Yes. A parent or guardian can book on behalf of a child enrolled in any Chinook School Division school, Holy Spirit Catholic, or private school in Lethbridge. The physician assesses the child by video and issues a note in the child's name.",
     },
   ],
   locations:
-    "Lethbridge, Coaldale, Coalhurst, Picture Butte, Taber, Raymond, Cardston, and surrounding southern Alberta communities.",
+    "Lethbridge, Coaldale, Coalhurst, Picture Butte, Magrath, Raymond, Cardston, Taber, and surrounding southern Alberta communities.",
 };

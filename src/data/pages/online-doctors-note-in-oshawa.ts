@@ -151,4 +151,6 @@ export const pageData: LandingPageData = {
   locations:
     "Oshawa, Whitby, Ajax, Pickering, Clarington, Bowmanville, and the wider Durham Region.",
   bookingUrl: "/book-doctors-note",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

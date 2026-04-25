@@ -318,12 +318,56 @@ export default function AboutPage() {
             </div>
             <div style={{ flex: 1, minWidth: 300, display: "flex", justifyContent: "center" }}>
               <Image
-                src="/images/image.jpg"
-                alt="TelePlus Care Healthcare Team"
+                src="/images/about-health-wellness.png"
+                alt="TelePlus Care Healthcare and Wellness"
                 width={560}
-                height={400}
-                style={{ borderRadius: 18, maxWidth: "100%", height: "auto" }}
+                height={620}
+                style={{ maxWidth: "100%", height: "auto" }}
               />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ===== FEATURED DOCTOR ===== */}
+      <section style={{ background: "#fef7ff", padding: "80px 0" }}>
+        <div className="container-main">
+          <div style={{ textAlign: "center", marginBottom: 48 }}>
+            <span className="badge-primary">Meet Our Lead Physician</span>
+            <h2 className="section-title" style={{ textAlign: "center", marginTop: 12 }}>
+              Led by <span style={{ color: "var(--primary)" }}>Dr. Maher Jerudi, MD</span>
+            </h2>
+            <div className="decorative-line" style={{ margin: "12px auto 0" }} />
+          </div>
+          <div className="content-row" style={{ display: "flex", alignItems: "center", gap: 48, maxWidth: 1000, margin: "0 auto" }}>
+            <div style={{ flex: 1, minWidth: 300, display: "flex", justifyContent: "center" }}>
+              <div style={{ borderRadius: 18, overflow: "hidden", boxShadow: "0 8px 32px rgba(98,28,114,0.15)", maxWidth: 460 }}>
+                <Image
+                  src="/images/dr-maher-jerudi.jpg"
+                  alt="Dr. Maher Jerudi, MD - American Board Certified Internal Medicine & Obesity Medicine"
+                  width={460}
+                  height={620}
+                  style={{ width: "100%", height: "auto", display: "block" }}
+                />
+              </div>
+            </div>
+            <div style={{ flex: 1, minWidth: 300 }}>
+              <h3 style={{ fontSize: 28, fontWeight: 700, color: "var(--dark)", marginBottom: 12 }}>
+                Dr. Maher Jerudi, MD
+              </h3>
+              <ul className="check-list" style={{ marginBottom: 24 }}>
+                <li>American Board Certified Internal Medicine</li>
+                <li>American Board Certified Obesity Medicine</li>
+                <li>Fellowship in Stroke &amp; Cerebrovascular Disease</li>
+                <li>Decades of clinical experience in primary and chronic care</li>
+                <li>Specializing in metabolic health, weight management, and preventive medicine</li>
+              </ul>
+              <p className="body-text" style={{ marginBottom: 24 }}>
+                Dr. Jerudi leads our medical team with a patient-first approach, combining evidence-based medicine with personalized virtual care. His expertise spans internal medicine, obesity medicine, and stroke prevention &mdash; bringing world-class care directly to patients across Alberta.
+              </p>
+              <a href="/book-appointment-alberta" className="btn-primary" style={{ fontSize: 16, padding: "14px 32px" }}>
+                Book Consultation
+              </a>
             </div>
           </div>
         </div>

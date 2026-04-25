@@ -13,7 +13,6 @@ import FAQAccordion from "@/components/sections/FAQAccordion";
 import CTASection from "@/components/sections/CTASection";
 import PopularArticles from "@/components/sections/PopularArticles";
 import InstagramFeed from "@/components/sections/InstagramFeed";
-import StickyBottomBar from "@/components/sections/StickyBottomBar";
 import { homepageFAQs } from "@/data/faq";
 
 export const metadata = {
@@ -37,7 +36,6 @@ export default function Page() {
       <FadeInSection><CTASection /></FadeInSection>
       <FadeInSection><PopularArticles /></FadeInSection>
       <FadeInSection><InstagramFeed /></FadeInSection>
-      <StickyBottomBar />
     </>
   );
 }

@@ -146,4 +146,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Moose Jaw, Downtown, Palliser Heights, Westmount, Sunningdale, Hillcrest, 15 Wing, and surrounding southern Saskatchewan communities.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

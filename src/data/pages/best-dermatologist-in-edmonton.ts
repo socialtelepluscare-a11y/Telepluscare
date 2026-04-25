@@ -2,6 +2,14 @@ import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
   bookingUrl: "/book-aesthetic",
+  summary:
+    "Virtual dermatology in Edmonton addresses acne, eczema, rosacea, peri-oral dermatitis, fungal nail infections, and unexplained rashes through secure video consultations and high-resolution photo review. Board-certified dermatologists at TelePlus Care prescribe topical retinoids, antifungals, oral antibiotics, and isotretinoin when clinically indicated — bypassing typical 3-6 month wait times for in-person Edmonton dermatology referrals.",
+  keyFacts: [
+    "Board-certified dermatologists assessing skin remotely via video and photos",
+    "Bypasses typical 3-6 month Edmonton dermatology referral wait lists",
+    "Prescribing retinoids, antifungals, isotretinoin, and oral antibiotics",
+    "Same-week virtual appointments for the Edmonton metro area",
+  ],
   metaTitle: "Best Dermatologist in Edmonton",
   metaDescription:
     "Our team is committed to addressing a wide range of skin conditions. Our approach focuses on understanding your specific needs and crafting individualized treatment plans that fit seamlessly into your lifestyle.",
@@ -22,7 +30,9 @@ export const pageData: LandingPageData = {
       title: "Comprehensive Skin Care Services In Edmonton",
       content:
         "Our team is committed to addressing a wide range of skin conditions. Our approach focuses on understanding your specific needs and crafting individualized treatment plans that fit seamlessly into your lifestyle. Here are the conditions we treat in Alberta, Canada:",
-    },
+          image: "/images/image-3.png",
+      imageAlt: "Comprehensive Skin Care Services In Edmonton",
+},
     {
       title: "Rashes Treatment in Edmonton",
       content:
@@ -75,7 +85,9 @@ export const pageData: LandingPageData = {
         "Receive Confirmation \u2014 Once you\u2019ve booked your appointment, you\u2019ll receive a confirmation email or call with detailed instructions for your upcoming virtual visit.",
         "Attend Your Appointment \u2014 On the day of your virtual visit, connect with your provider using any electronic device\u2014whether it\u2019s a smartphone, tablet, or computer. Our healthcare professionals will assess your condition and create a personalized care plan.",
       ],
-    },
+          image: "/images/image-3.jpg",
+      imageAlt: "How Does It Work?",
+},
   ],
   faqs: [
     {
@@ -106,4 +118,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Sherwood Park, St. Albert, Leduc, Spruce Grove, Fort Saskatchewan, Beaumont, and surrounding areas.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

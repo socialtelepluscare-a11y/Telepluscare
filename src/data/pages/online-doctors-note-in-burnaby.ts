@@ -151,4 +151,6 @@ export const pageData: LandingPageData = {
   locations:
     "Burnaby, New Westminster, Coquitlam, Port Moody, Vancouver, and surrounding Metro Vancouver communities.",
   bookingUrl: "/book-doctors-note",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

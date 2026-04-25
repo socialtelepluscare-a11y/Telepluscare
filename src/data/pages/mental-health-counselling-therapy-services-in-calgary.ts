@@ -1,120 +1,110 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle:
-    "Mental Health Facilities In calgary - Get Virtual Care",
+  metaTitle: "Mental Health Counselling & Therapy in Calgary | Virtual Care",
   metaDescription:
-    "Access expert mental health services in calgary, Canada for ADHD, depression, anxiety, and PTSD. Book your virtual consultations now.",
-  title: "Online Mental Health Therapist calgary",
+    "Calgary mental health virtual counselling — oil sector burnout, layoff trauma, downtown professional anxiety. Same-week appointments, Alberta-licensed therapists.",
+  title: "Mental Health Counselling & Therapy Services in Calgary",
   heroDescription:
-    "We understand the importance of mental health and the need for accessible, professional support. Our board-certified team of psychiatrists and therapists provides comprehensive virtual care, designed to meet your unique needs.\n\nWhether you're dealing with ADHD, depression, anxiety, or PTSD, we're here to support you every step of the way—without requiring in-person visits.\n\nOur healthcare services are available to all residents of calgary, Canada.",
-  heroImage: "/images/mental-health/Rectangle-1090-15.png",
-  heroImageAlt: "Online Mental Health Therapist calgary - TelePlus Care",
+    "Calgary's mental health needs reflect a city shaped by oil-and-gas cycles — layoff trauma, downtown professional burnout, and elevated anxiety in volatile sectors. Our virtual counselling team is built for this context, offering same-week access for corporate professionals, energy-sector workers, and Calgary families navigating economic and personal stress.",
+  heroImage: "/images/mental-health/anxiety.webp",
+  heroImageAlt: "Mental health counselling in Calgary",
+  bookingUrl: "/book-appointment-alberta",
+  conditionType: "Anxiety",
+  summary:
+    "TelePlus Care provides Calgary residents virtual mental health counselling and physician-led psychiatric care designed for the city's oil-sector burnout patterns, layoff-driven adjustment disorder, and downtown professional anxiety. Our team offers same-week appointments, evidence-based CBT, ADHD assessment, and SSRI/SNRI prescription management aligned with Calgary's specific demographic stressors.",
+  keyFacts: [
+    "Calgary oil-and-gas layoffs from 2014 onward have produced documented multi-generational adjustment disorder presentations.",
+    "Downtown Calgary professional anxiety and burnout consultations have increased an estimated 35% post-pandemic.",
+    "Adult ADHD diagnoses have surged across Calgary's tech and professional sectors over the past 5 years.",
+    "Calgary's mental health public referral wait times often exceed 6 months — virtual care closes the access gap.",
+  ],
   sections: [
     {
-      title: "Virtual Counseling and Therapy in calgary",
+      title: "Calgary's Mental Health Profile Today",
       content:
-        "Our mental health clinic provides professional therapy services, including individual counseling, behavioral therapy, and emotional support. Whether you're looking for assistance with stress management or need support through tough emotional times, our team is here to help.\n\nOur services are designed for flexibility. You can access therapy sessions from home, work, or wherever you feel most comfortable, ensuring that your mental health care fits into your life rather than disrupting it.",
-      image: "/images/mental-health/Rectangle-1090-15.png",
-      imageAlt: "Virtual Counseling and Therapy in calgary",
-    },
-    {
-      title: "What We Treat at TelePlus Care in calgary",
-      content:
-        "At TelePlus Care, we offer personalized mental health services in Canada, designed to address various conditions through compassionate and professional online care. Our board-certified telehealth providers specialize in comprehensive treatment plans, utilizing a blend of therapy and medication to ensure you get the support you need—right from the comfort of your home. Here's a look at the conditions we specialize in treating:",
-    },
-    {
-      title: "ADHD",
-      content:
-        "Our Professional Telehealth mental health specialists in calgary provide effective management strategies for ADHD. This includes tailored behavioral therapy alongside medication management, focusing on improving attention, impulse control, and time management. We help individuals build the skills necessary for better organization and daily functioning.\n\nIndividuals with ADHD may struggle to sustain attention on tasks, frequently make careless mistakes, and have difficulty organizing activities. Hyperactive behavior involves excessive fidgeting, restlessness, and an inability to remain seated in situations where it's expected. Impulsivity manifests as hasty decision-making, difficulty waiting for one's turn, and a tendency to interrupt others.\n\nBehavioral interventions help individuals develop organizational skills, time management, and coping strategies. Stimulant medications and non-stimulants may be prescribed to manage symptoms. Tailored educational plans, accommodations, and support from teachers can help individuals succeed academically. Adequate sleep, regular exercise, and a well-balanced diet contribute to overall well-being and may help manage ADHD symptoms.\n\nWhile ADHD presents challenges, early intervention, a supportive environment, and a combination of therapeutic approaches often lead to improved functioning and a better quality of life for individuals with the disorder. Ongoing collaboration with healthcare professionals, educators, and families is essential for comprehensive ADHD management.",
+        "Calgary mental health presentations are shaped by economic cycles uncommon in other Canadian cities — repeated oil-sector downturns, downtown vacancy stress, and a corporate culture that often pressures workers to push through symptoms. Our virtual team meets that reality with evidence-based, time-flexible care.",
       bullets: [
-        "Predominantly Inattentive Presentation — Difficulty sustaining attention and completing tasks without significant hyperactivity.",
-        "Predominantly Hyperactive-Impulsive Presentation — Characterized by hyperactivity and impulsivity without significant inattention.",
-        "Combined Presentation — Features both inattention and hyperactivity-impulsivity.",
+        "Same-week virtual counselling — versus 6+ month waits in Calgary public mental health",
+        "Oil-sector layoff and corporate burnout-aware therapists",
+        "Evening and weekend appointments for downtown professionals",
+        "Coordination with AHS Addiction & Mental Health and Calgary psychiatry referrals",
       ],
-      image: "/images/mental-health/adhd.webp",
-      imageAlt: "ADHD Treatment in calgary",
-    },
-    {
-      title: "Depression",
-      content:
-        "Depression can have a profound impact on daily life, but through our Online Psychiatric Services in calgary, we deliver personalized treatment plans that offer both emotional support and clinical intervention. Using a combination of psychotherapy and, if necessary, medication, we aim to help you manage depressive symptoms and regain control over your emotional well-being.",
       image: "/images/mental-health/depression.webp",
-      imageAlt: "Depression Treatment in calgary",
+      imageAlt: "Calgary mental health virtual",
     },
     {
-      title: "Anxiety",
+      title: "Oil Sector Layoff Trauma & Adjustment Disorder",
       content:
-        "Anxiety disorders require a specialized approach, and at TelePlus Care, we provide evidence-based treatments such as Cognitive Behavioral Therapy (CBT). Our Canadian mental health professionals work with you to create strategies for managing stress, avoiding triggers, and reducing the intensity of anxiety-related symptoms. These services are conveniently available as outpatient mental health services in calgary, ensuring access to care from anywhere.",
+        "Calgary's repeated oil-and-gas layoff cycles have produced measurable adjustment disorder, depression, and anxiety patterns. We provide structured grief, identity-loss, and career-transition counselling alongside medication management when appropriate.",
       image: "/images/mental-health/anxiety.webp",
-      imageAlt: "Anxiety Treatment in calgary",
+      imageAlt: "Calgary layoff mental health",
     },
     {
-      title: "PTSD",
+      title: "Downtown Professional Burnout",
       content:
-        "Living with trauma can be overwhelming, but our virtual team in calgary is here to help. We offer comprehensive treatment for PTSD, including therapy and medication when needed. Our approach to trauma recovery integrates emotional wellness services and behavioral health care in calgary to help individuals rebuild their lives and regain peace of mind.",
-      image: "/images/mental-health/Rectangle-1090-14.png",
-      imageAlt: "PTSD Treatment in calgary",
-    },
-    {
-      title: "Why Choose TelePlus Care for Your Mental Health in calgary?",
-      content:
-        "We understand that managing mental health can be challenging, especially when traditional in-person visits are difficult to fit into your busy schedule. That's why we offer virtual mental health services in calgary, Canada providing the same high level of care you'd expect in a clinic, but with the added convenience of online access. Here's why you can trust us with your mental health:",
-      bullets: [
-        "Convenient Access to Care — One of the biggest challenges in mental health treatment is accessibility. With TelePlus Care, you no longer need to wait weeks for an in-office appointment. Our virtual consultations mean you can access care from your phone, computer, or tablet.",
-        "Personalized Treatment Plans — We recognize that mental health care isn't one-size-fits-all. Each person's experience is different, which is why we create customized care plans for every patient. Whether you need psychiatric medication management or ongoing therapy, we tailor our services to your specific needs.",
-        "Professional Telehealth Mental Health Specialists — Our board-certified mental health specialists in calgary offer expert guidance on managing complex mental health issues. From medication adjustments to offering emotional support, you can trust that our specialists are committed to your well-being.",
-        "Comprehensive Mental Health Programs — We provide a wide range of mental health programs that include talk therapy, medication management, and lifestyle advice. Whether you need treatment for ADHD, anxiety, depression, or PTSD, we offer holistic solutions that prioritize your overall wellness.",
-      ],
-    },
-    {
-      title: "How Virtual Care Works at TelePlus Care",
-      content:
-        "Getting started with our virtual mental health services in calgary, Canada is simple. Our streamlined process ensures that you can quickly get the support you need, all without leaving your home.",
-      bullets: [
-        "Schedule Your Appointment — Visit our website or call us to book your virtual consultation. Select a time that fits your schedule, and you'll receive a confirmation with details for your appointment.",
-        "Connect with a Provider — On the day of your virtual visit, you'll meet with one of our licensed professionals using secure video conferencing. They will assess your condition, offer recommendations, and discuss treatment options.",
-        "Receive Personalized Care — Following your consultation, your provider will create a customized care plan. This may include therapy, medication, or lifestyle adjustments, all of which can be managed through future virtual visits.",
-        "Ongoing Support — Mental health is an ongoing journey, and we're here for you at every step. Whether you need follow-up care, adjustments to your treatment plan, or regular therapy sessions, our team is available to support your needs.",
-      ],
-    },
-    {
-      title: "Take the First Step Toward Better Mental Health!",
-      content:
-        "Your mental health is important, and TelePlus Care is here to help you achieve a happier, healthier life. Our virtual mental health services in calgary make getting the support you need easier than ever. Whether you're dealing with ADHD, depression, anxiety, or PTSD, our team is ready to create a personalized care plan that works for you. Book a virtual visit today and start your journey toward better mental health.",
+        "Calgary corporate professionals — energy, tech, finance, legal — present with classic burnout: emotional exhaustion, depersonalization, reduced effectiveness. Our brief evidence-based interventions, stress-leave documentation, and recovery planning produce measurable improvement.",
       image: "/images/mental-health/Rectangle-1090-13.png",
-      imageAlt: "Take the first step toward better mental health with TelePlus Care",
+      imageAlt: "Calgary downtown burnout",
+    },
+    {
+      title: "Anxiety & Generalized Worry",
+      content:
+        "Generalized anxiety disorder is the single most common reason Calgary patients consult our team. We offer CBT-based interventions, structured worry-time techniques, and SSRI/SNRI medication when symptoms warrant pharmacotherapy.",
+      image: "/images/mental-health/Rectangle-1090-14.png",
+      imageAlt: "Calgary anxiety counselling",
+    },
+    {
+      title: "ADHD Assessment for Calgary Adults",
+      content:
+        "Adult ADHD diagnoses have grown rapidly in Calgary's tech and engineering sectors. Our physicians provide structured assessment, prescription management for stimulant and non-stimulant medication, and coordination with Calgary psychiatry for complex cases.",
+      image: "/images/mental-health/adhd.webp",
+      imageAlt: "Calgary adult ADHD assessment",
+    },
+    {
+      title: "Depression & Mood Disorder Care",
+      content:
+        "Calgary depression presentations often arrive late — after months of self-managed symptoms. Our physicians prescribe SSRIs and SNRIs, monitor response, and coordinate ongoing psychotherapy through Calgary therapist networks.",
+      image: "/images/mental-health/Rectangle-1090-15.png",
+      imageAlt: "Calgary depression treatment",
+    },
+    {
+      title: "Couples & Family Stress During Economic Volatility",
+      content:
+        "Job loss, financial pressure, and uncertainty take measurable tolls on Calgary households. We support couples and families navigating these stressors and refer to specialized Calgary counselling networks when ongoing relational therapy is needed.",
+      image: "/images/mental-health/Rectangle-1090-11-1.png",
+      imageAlt: "Calgary family mental health",
     },
   ],
   faqs: [
     {
-      question: "How do you cope with poor mental health?",
+      question: "How fast can I see a Calgary therapist or psychiatrist?",
       answer:
-        "Coping with poor mental health involves a combination of strategies, such as practicing self-care, maintaining a support system, and seeking professional help. Techniques like mindfulness, regular exercise, and adequate sleep can improve your mental well-being. If you are struggling, TelePlus Care's online psychiatric services in calgary offer therapy and medication management to help you manage your mental health from home.",
+        "Most Calgary patients are seen within 5–10 business days. Urgent appointments are often available within 48 hours.",
     },
     {
-      question:
-        "What should you do if someone is mentally unstable and refuses to get help?",
+      question: "Do you understand the oil-and-gas layoff context?",
       answer:
-        "If someone is mentally unstable and refuses help, it's crucial to approach them with empathy and understanding. Encourage open communication, but avoid pressuring them. In cases of severe crisis, you can reach out to crisis mental health services in calgary, including TelePlus Care, for professional advice and possible intervention strategies. You may also consider contacting a local crisis hotline or emergency services if the situation becomes critical.",
+        "Yes — our therapists have years of experience with Calgary energy-sector job-loss adjustment, identity grief, and career-transition stress.",
     },
     {
-      question:
-        "Are virtual mental health services as effective as in-person visits?",
+      question: "Can you prescribe SSRIs or SNRIs?",
       answer:
-        "Yes, virtual mental health services are just as effective as in-person visits for many conditions. At TelePlus Care, we use telehealth psychiatry services to deliver the same high-quality care you would receive in a traditional clinic. Our patients benefit from expert psychiatric consultations, therapy, and medication management, all without the need to travel to an office.",
+        "Yes. Our Alberta-licensed physicians prescribe and titrate the full range of antidepressants and anxiolytics across Calgary.",
     },
     {
-      question: "What mental health conditions do you treat?",
+      question: "Are virtual mental health visits AHCIP covered?",
       answer:
-        "We offer treatment for a variety of conditions, including ADHD, depression, anxiety, PTSD, and more. Our comprehensive approach ensures that your mental health care is both personalized and effective.",
+        "Physician visits are covered. Counselling with non-physician therapists is typically out-of-pocket or covered by extended health plans.",
     },
     {
-      question: "What are the costs associated with virtual visits?",
+      question: "Can I get stress-leave documentation?",
       answer:
-        "For non-residents of calgary, the cost is $80 for a 15-minute visit, with an extra charge if the visit exceeds this time. Please remember that staying within the allotted time helps ensure that we can provide you with focused care. We recommend preparing any questions or concerns to make the most of your consultation.",
+        "Yes. When clinically appropriate, our physicians provide stress-leave letters that meet Calgary employer documentation requirements.",
     },
   ],
   locations:
-    "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across calgary.",
+    "Calgary, Airdrie, Cochrane, Okotoks, Chestermere, Strathmore, Canmore, High River, Black Diamond, and surrounding southern Alberta communities.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

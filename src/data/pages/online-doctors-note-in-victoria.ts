@@ -150,4 +150,6 @@ export const pageData: LandingPageData = {
   bookingUrl: "/book-doctors-note",
   locations:
     "Victoria, Downtown, Fairfield, Oak Bay, Saanich, James Bay, Esquimalt, Sidney, Langford, Sooke, and surrounding Capital Regional District communities.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

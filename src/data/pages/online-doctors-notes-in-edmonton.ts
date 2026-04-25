@@ -1,177 +1,149 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle:
-    "Online Doctor's Notes in Edmonton | Same-Day Sick Note",
+  metaTitle: "Online Doctor's Note Edmonton | Same-Day AHC Sick Note",
   metaDescription:
-    "Get a legal Online Doctor's Notes in Edmonton from licensed Alberta physicians. Same-day service. Accepted for work, school & travel.",
-  title: "Online Doctor's Notes in Edmonton | Same-Day Sick Note",
+    "Get a same-day online doctor's note in Edmonton from CPSA-licensed physicians. Covered by Alberta Health Care. Accepted by employers, U of A, and NAIT.",
+  title: "Online Doctor's Note in Edmonton — Same-Day, AHC-Covered Sick Notes",
   heroDescription:
-    "If you need a doctor's note in Edmonton, you can now get one online without visiting a clinic. TelePlusCare connects you with licensed Alberta physicians who assess your condition through a secure virtual consultation and issue a legally valid medical note for work, school, or travel—often the same day.\n\nOur service follows Alberta Health and College of Physicians & Surgeons of Alberta (CPSA) guidelines, ensuring your documentation is professional, confidential, and widely accepted across Alberta.\n\nNo waiting rooms. No unnecessary delays. 100% online.",
+    "Edmonton residents can speak with an Alberta-licensed family physician from home and receive a legally valid sick note the same day. Whether you work downtown, study at the University of Alberta, or commute from Sherwood Park, our virtual clinic delivers documentation employers across the capital region accept without question.",
   heroImage: "/images/online-doctors-notes-in-edmonton/hero.jpg",
-  heroImageAlt: "Online Doctor's Notes in Edmonton",
+  heroImageAlt: "Edmonton patient receiving an online doctor's note via secure video consultation",
+  bookingUrl: "/book-appointment-alberta",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
+  summary:
+    "Online doctor's notes in Edmonton are legally valid when issued by a CPSA-licensed physician after a virtual assessment. TelePlusCare provides same-day delivery, costs nothing with a valid Alberta Health Care card, and meets Alberta Employment Standards Code Section 53.97 — five unpaid sick days yearly — accepted by every major Edmonton employer.",
+  keyFacts: [
+    "Edmonton population exceeds 1 million, making it Alberta's second-largest virtual care market.",
+    "Alberta Employment Standards Code Section 53.97 grants five unpaid job-protected sick days per year.",
+    "TelePlusCare physicians are registered with the College of Physicians & Surgeons of Alberta (CPSA).",
+    "Same-day notes are typically delivered by encrypted email within 30 minutes of the consultation.",
+  ],
   sections: [
     {
-      title:
-        "Need a Sick Note in Edmonton Today? We've Got You Covered.",
+      title: "What Is an Online Doctor's Note in Edmonton?",
       content:
-        "Whether you're feeling unwell, need to take a mental health day, or require documentation for your employer or school, our team is here to help. We offer fast, reliable online doctor's notes—with full validity across Alberta.\n\nAvailable 24/7. Serving Edmonton & surrounding areas. Alberta Health coverage may apply for eligible consultations. Documentation fees may apply for doctor's notes.",
-      image: "/images/online-doctors-notes-in-edmonton/hero.jpg",
-      imageAlt: "Online Doctor's Notes in Edmonton",
-    },
-    {
-      title: "What is an Online Doctor Note?",
-      content:
-        "An online doctor's note is an official medical document issued by a licensed physician after a virtual medical consultation. During the appointment, the doctor reviews your symptoms, medical concern, or situation and determines whether medical documentation is appropriate.\n\nOnce approved, the doctor's note is:\n\nOnline doctor's notes offer the same validity as in-clinic notes—without the inconvenience of travel or long wait times.",
+        "An online doctor's note is a digitally signed medical document issued by an Alberta-licensed physician after a secure video or phone assessment. For Edmontonians, this removes the need to travel to walk-in clinics on Whyte Avenue, Jasper Avenue, or West Edmonton — particularly useful during winter weather, transit disruptions, or when you're contagious.\n\nThe note carries the same legal weight as one written at the Royal Alexandra Hospital outpatient clinic or any south-side family practice, because it is signed by a physician registered with the College of Physicians & Surgeons of Alberta (CPSA).",
       bullets: [
-        "Issued by an Alberta-licensed physician",
-        "Delivered securely to your email",
-        "Accepted by employers, schools, and institutions",
-        "Compliant with provincial medical standards",
+        "Issued by a CPSA-registered family physician based in Alberta",
+        "Delivered as a PDF to your inbox — print, forward, or store digitally",
+        "Includes the physician's full name, CPSA registration number, and signature",
+        "Recognised by Edmonton Public Schools, Catholic Schools, post-secondaries, and private employers",
       ],
       image: "/images/online-doctors-notes-in-edmonton/section-1.webp",
-      imageAlt: "Online Doctor Note",
+      imageAlt: "PDF doctor's note issued for an Edmonton patient",
     },
     {
-      title: "What Information Is Included in a Online Doctor's Notes?",
+      title: "When You Need a Sick Note in Edmonton",
       content:
-        "All notes comply with Alberta's medical documentation guidelines.",
+        "Edmonton's mix of oil-sector head offices, public service, healthcare, and post-secondary education means employer documentation requirements vary. Most large employers — including those at Manulife Place, Edmonton Tower, and the Alberta Health Services regional offices — request a note after a short period of absence, and most Edmonton schools require one for any extended absence from class.",
       bullets: [
-        "Patient name",
-        "Date of consultation",
-        "Brief medical recommendation (without private health details)",
-        "Doctor's name, license number, and signature",
-        "Contact info for verification",
+        "Missed shifts at Royal Alexandra, University of Alberta Hospital, or Misericordia Community Hospital",
+        "Absence from University of Alberta or NAIT classes, midterms, or labs",
+        "Time off work in oil and gas, construction, or hospitality on Whyte Avenue",
+        "Edmonton Public Schools or Edmonton Catholic Schools attendance verification",
+        "Recovery time after Edmonton International Airport (YEG) travel illness",
       ],
       image: "/images/online-doctors-notes-in-edmonton/section-2.jpg",
-      imageAlt: "Online doctor note in Edmonton",
+      imageAlt: "Edmonton worker calling in sick from home",
     },
     {
-      title:
-        "Why Choose TelePlusCare for Online Doctor's Notes in Edmonton?",
+      title: "What's Included in Your Edmonton Sick Note",
       content:
-        "TelePlusCare provides fast, professional, and fully valid online doctor's notes for Edmonton residents.",
+        "Every note we issue contains the elements Alberta employers and educational institutions expect. We deliberately omit your specific diagnosis to protect your privacy under PIPA and PHIPA — your employer is entitled to know that you were assessed and how long you should be off, but not the underlying medical reason.",
       bullets: [
-        "Licensed Alberta Physicians -- Real doctors registered with the CPSA",
-        "Fast Turnaround -- Notes often issued within 15-30 minutes",
-        "Valid for Work, School & Travel -- Accepted across Alberta",
-        "Secure & Confidential -- Encrypted consultations and document delivery",
-        "Alberta Health Card Coverage -- Most visits covered when eligible",
+        "Patient legal name and date of consultation",
+        "Statement that you were assessed by a licensed physician",
+        "Dates you are unable to attend work or school",
+        "Expected return-to-work or return-to-class date",
+        "Any temporary work restrictions (lifting, screen time, driving)",
+        "Physician name, CPSA number, signature, and verification phone line",
       ],
       image: "/images/online-doctors-notes-in-edmonton/section-3.jpg",
-      imageAlt: "Sick Note In Edmonton",
+      imageAlt: "Sample contents of an Edmonton sick note",
     },
     {
-      title: "How to Get a Doctor's Note Online in Edmonton",
+      title: "Same-Day Issuance: How It Works",
       content:
-        "Step 1: Book a virtual appointment (takes less than 2 minutes)\n\nStep 2: Speak to a certified Alberta doctor via secure video or chat\n\nStep 3: Receive your doctor's note by email—ready to print or share\n\n100% legal and accepted. Safe, encrypted, and confidential. Mobile and desktop friendly.",
-      image: "/images/online-doctors-notes-in-edmonton/section-4.jpg",
-      imageAlt: "Doctor note in Edmonton",
-    },
-    {
-      title: "Employer Sick Note Requirements in Alberta",
-      content:
-        "When Can Your Employer Request a Doctor's Note?\n\nUnder Alberta employment standards:\n\nYour Note Should Include:\n\nYour privacy is protected -- doctors do not have to disclose your specific diagnosis to your employer.",
+        "Most Edmonton patients book in the morning and have a signed note before lunch. Booking takes under two minutes through our online intake form, which collects your symptoms, contact details, and Alberta Health Care number. A physician calls you back, conducts the assessment, and emails the note from a secure Canadian-hosted platform.\n\nThere is no in-person visit, no parking at Kingsway, and no waiting room — important during cold and flu season when transmission risk is high.",
       bullets: [
-        "Employers can request medical documentation after 3 consecutive days of absence",
-        "Some workplaces have different policies in their employment agreements",
-        "You have the right to reasonable accommodation for medical conditions",
-        "Confirmation that you were assessed by a physician",
-        "The dates you are unable to work",
-        "Expected return-to-work date (if known)",
-        "Any necessary work restrictions",
+        "Step 1 — Complete the booking form (2 minutes)",
+        "Step 2 — Speak to an Alberta physician by phone or secure video",
+        "Step 3 — Receive your signed PDF note by email, often within 30 minutes",
+      ],
+      image: "/images/online-doctors-notes-in-edmonton/section-4.jpg",
+      imageAlt: "Same-day virtual doctor consultation in Edmonton",
+    },
+    {
+      title: "Alberta Employment Standards: Your Sick Leave Rights",
+      content:
+        "Under Section 53.97 of the Alberta Employment Standards Code, employees who have worked for the same employer for at least 90 days are entitled to up to five unpaid, job-protected sick days per calendar year for personal illness or injury. Some Edmonton employers — particularly in healthcare, education, and unionised oil and gas — offer additional paid sick leave through collective agreements.\n\nEmployers may request reasonable medical documentation, but they cannot demand details of your diagnosis. Our notes confirm assessment and expected absence without disclosing private health information.",
+      bullets: [
+        "5 unpaid job-protected sick days per year (ESC s.53.97)",
+        "Eligibility begins after 90 days of continuous employment",
+        "Employer may request a note but not your diagnosis",
+        "Additional paid sick leave often available via collective agreements or HR policy",
       ],
       image: "/images/online-doctors-notes-in-edmonton/section-5.jpg",
-      imageAlt: "Online doctor note in Edmonton",
+      imageAlt: "Alberta Employment Standards Code reference",
     },
     {
-      title: "Who Can Use an Online Doctor's Note?",
+      title: "Who Uses Online Doctor's Notes in Edmonton",
       content:
-        "Our online doctor's note service is available to a wide range of individuals across Edmonton and Alberta.",
+        "Our patient base reflects Edmonton's economy. Many bookings come from frontline staff at Royal Alexandra and the University of Alberta Hospital who cannot leave their post for a clinic visit. Students at U of A, NAIT, MacEwan, and Concordia book before midterms when illness threatens an exam. Parents in Riverbend, Terwillegar, and Sherwood Park request notes for school-aged children, and Whyte Ave service-industry workers use the service for fast-turnaround documentation between shifts.",
       bullets: [
-        "Employees: Needing a sick note for missed work",
-        "Students: Requiring a note for absence from classes or exams",
-        "Parents: Caring for a sick child or family member",
-        "Travelers: Requiring fitness to fly or recovery documentation",
-        "Remote Workers: Who need proof of unwell status",
+        "Healthcare workers across AHS Edmonton Zone",
+        "U of A, NAIT, MacEwan, and Concordia students",
+        "Edmonton Public and Catholic School parents",
+        "Whyte Avenue and ICE District hospitality and retail workers",
+        "Downtown professionals at Manulife Place, ATB Place, and Edmonton Tower",
       ],
-      image: "/images/online-doctors-notes-in-edmonton/section-6.png",
-      imageAlt: "Doctor note in Edmonton",
+      image: "/images/online-doctors-notes-in-edmonton/section-6.jpg",
+      imageAlt: "Edmonton students and workers using telemedicine",
     },
     {
-      title: "Why Edmonton Residents Choose Online Doctor Notes",
+      title: "Why Edmontonians Choose TelePlusCare",
       content:
-        "Convenience & Accessibility: No commute to a clinic. No waiting room exposure to other illnesses. Access care from home, work, or anywhere. Perfect for those with mobility issues or transportation challenges.\n\nTime-Saving: Average clinic wait time: 1-2 hours. Average virtual appointment: 15-20 minutes total. Get back to resting and recovering faster.\n\nCost-Effective: No parking fees. No transportation costs. No time off work for appointment travel. Covered by Alberta Health Card in most cases.\n\nQuality Care: Same licensed doctors as in-person clinics. Thorough assessment and consultation. Follow-up care available. Prescription services when needed.",
+        "We're built specifically for Alberta. Every physician on our roster holds a current CPSA registration, our intake forms are calibrated to AHCIP billing rules, and our after-hours coverage spans Edmonton's typical work and school hours. We also recognise the Edmonton context — winter mobility, river-valley commutes, and the realities of shift work at the Refinery Row complex east of the city.",
+      bullets: [
+        "100% CPSA-registered Alberta family physicians",
+        "AHCIP-billed consultations — no fee for eligible Albertans",
+        "Same-day notes, every day of the week",
+        "Mobile-friendly booking — works on Edmonton transit Wi-Fi",
+        "Encrypted, Canadian-hosted PHI infrastructure",
+      ],
       image: "/images/online-doctors-notes-in-edmonton/section-7.jpg",
-      imageAlt: "Doctor note online",
-    },
-    {
-      title: "Medically Reviewed & Physician-Led Care",
-      content:
-        "All medical consultations and documentation at TelePlusCare are conducted by physicians licensed with the College of Physicians & Surgeons of Alberta (CPSA).\n\nOur doctors have experience in:\n\nYour care is confidential, secure, and medically appropriate.",
-      bullets: [
-        "Family medicine",
-        "Urgent care",
-        "Mental health assessments",
-        "Occupational health documentation",
-      ],
-      image: "/images/online-doctors-notes-in-edmonton/section-8.jpg",
-      imageAlt: "Doctor's Notes",
-    },
-    {
-      title: "About Our Virtual Medical Clinic",
-      content:
-        "TelePlusCare is a licensed Canadian telemedicine provider serving Edmonton and all of Alberta. Our mission is to deliver accessible, professional healthcare when you need it most.\n\nWe are committed to:",
-      bullets: [
-        "Timely medical documentation",
-        "Compassionate, physician-led care",
-        "Privacy-first medical services",
-      ],
-      image: "/images/online-doctors-notes-in-edmonton/section-9.jpg",
-      imageAlt: "Doctor note in Edmonton",
+      imageAlt: "TelePlusCare Edmonton virtual clinic team",
     },
   ],
   faqs: [
     {
-      question:
-        "Is this doctor's note valid in Edmonton and Alberta?",
+      question: "Is an online doctor's note legally valid in Edmonton?",
       answer:
-        "Yes, absolutely. Our medical notes are issued by fully licensed Alberta physicians registered with the CPSA and meet all provincial medical documentation standards. They are legally valid and accepted by employers, schools, and institutions across Alberta and Canada.",
+        "Yes. A note signed by a CPSA-registered physician carries identical legal weight to one issued at a walk-in clinic on Jasper Avenue or any Edmonton family practice. Employers and Edmonton schools accept it as official medical documentation.",
     },
     {
-      question: "Do I need an Alberta Health Card?",
+      question: "Does Alberta Health Care cover the consultation?",
       answer:
-        "Yes, we accept Alberta Health coverage. If you're uninsured, you can still get a note for a small fee.",
+        "The medical consultation itself is billed to AHCIP for residents with a valid Alberta Health Care card, so there is no charge for the visit. A nominal documentation fee may apply for the note itself depending on the type required.",
     },
     {
-      question: "How long does it take?",
+      question: "How fast can I get the note in Edmonton?",
       answer:
-        "Most notes are delivered within 15-30 minutes after your virtual consultation.",
+        "Most patients booking before 6 PM Mountain Time receive their signed PDF the same day, typically within 30 minutes of the physician consultation. Notes are emailed directly so you can forward them to your Edmonton employer or school immediately.",
     },
     {
-      question: "Can I get a backdated note?",
+      question: "Will my Edmonton employer accept this note?",
       answer:
-        "It depends on the situation. For any backdated note request, we'll need to review your case properly, so we kindly ask you to book an appointment. Once it's scheduled, our team will connect with you and guide you through the next steps.",
+        "Yes. Alberta Health Services, Edmonton Public Schools, the City of Edmonton, and major private employers including Suncor, ATCO, and Stantec routinely accept notes from Alberta-licensed virtual physicians. The note includes a verification phone line if HR needs to confirm authenticity.",
     },
     {
-      question:
-        "Will my employer or school accept an online doctor's note?",
+      question: "Can I get a note for my child's Edmonton school absence?",
       answer:
-        "Yes. Virtual healthcare is legally recognized in Alberta. Our notes contain all required elements including the doctor's CPSA license number and contact information for verification.",
-    },
-    {
-      question:
-        "Can I use this service for mental health days?",
-      answer:
-        "Absolutely. Our physicians understand the importance of mental health and can provide appropriate documentation for stress, anxiety, burnout, or other mental health concerns—without disclosing specific private details.",
-    },
-    {
-      question:
-        "Do you provide notes for work-related injuries?",
-      answer:
-        "For workplace injuries covered by WCB (Workers' Compensation Board), you should follow your employer's specific reporting procedures. For general illness or non-work-related medical issues, we can certainly help.",
+        "Yes — a parent or guardian can book on behalf of a child enrolled in Edmonton Public Schools, Edmonton Catholic Schools, or any private school. The physician will assess the child by video and issue an absence note in the child's name.",
     },
   ],
   locations:
-    "Edmonton, St. Albert, Sherwood Park, Beaumont, Fort Saskatchewan, Leduc, Spruce Grove, and surrounding Alberta communities.",
+    "Edmonton, Sherwood Park, St. Albert, Spruce Grove, Stony Plain, Leduc, Fort Saskatchewan, Beaumont, and the surrounding Edmonton Metropolitan Region.",
 };

@@ -1,177 +1,149 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle:
-    "Online Doctor's Notes in Airdrie | Same-Day Sick Note",
+  metaTitle: "Online Doctor's Note Airdrie | Same-Day Sick Note, AHC",
   metaDescription:
-    "Get a legal Online Doctor's Notes in Airdrie from licensed Alberta physicians. Same-day service. Accepted for work, school & travel.",
-  title: "Online Doctor's Notes in Airdrie | Same-Day Sick Note",
+    "Airdrie residents and Calgary commuters can get a same-day virtual sick note from CPSA-licensed physicians. AHC-covered. Accepted by Rocky View Schools and area employers.",
+  title: "Get Your Online Doctor's Note in Airdrie — Same-Day Virtual Sick Notes",
   heroDescription:
-    "If you need a doctor's note in Airdrie, you can now get one online without visiting a clinic. TelePlusCare connects you with licensed Alberta physicians who assess your condition through a secure virtual consultation and issue a legally valid medical note for work, school, or travel—often the same day.\n\nOur service follows Alberta Health and College of Physicians & Surgeons of Alberta (CPSA) guidelines, ensuring your documentation is professional, confidential, and widely accepted across Alberta.\n\nNo waiting rooms. No unnecessary delays. 100% online.",
-  heroImage: "/images/online-doctors-notes-in-airdrie/hero.jpg",
-  heroImageAlt: "Online Doctor's Notes in Airdrie",
+    "If your morning commute runs from Airdrie down the QEII into Calgary, you've already lost enough time to traffic without sitting in a clinic on Main Street or 8th Street. Speak to a CPSA-licensed physician from home, get assessed in minutes, and receive a signed sick note your Calgary or Airdrie employer will accept the same day.",
+  heroImage: "/images/online-doctors-notes-in-edmonton/hero.jpg",
+  heroImageAlt: "Airdrie commuter on a virtual sick note appointment",
+  bookingUrl: "/book-appointment-alberta",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
+  summary:
+    "Airdrie patients can secure a legally valid online doctor's note from a CPSA-registered physician without driving down the QEII to Calgary or queuing at a local walk-in. The visit is covered by Alberta Health Care, the note satisfies Alberta Employment Standards Code Section 53.97 (five unpaid sick days), and it is accepted by Rocky View Schools, the Airdrie Regional Health Centre, and Calgary-area employers.",
+  keyFacts: [
+    "Airdrie has approximately 80,000 residents and is one of Alberta's fastest-growing cities.",
+    "Most working Airdrie residents commute to Calgary along the QEII.",
+    "Section 53.97 of the Alberta Employment Standards Code provides 5 unpaid job-protected sick days per year.",
+    "TelePlusCare physicians are registered with the College of Physicians & Surgeons of Alberta (CPSA).",
+  ],
   sections: [
     {
-      title:
-        "Need a Sick Note in Airdrie Today? We've Got You Covered.",
+      title: "What Is an Online Doctor's Note in Airdrie?",
       content:
-        "Whether you're feeling unwell, need to take a mental health day, or require documentation for your employer or school, our team is here to help. We offer fast, reliable online doctor's notes—with full validity across Alberta.\n\nAvailable 24/7. Serving Airdrie & surrounding areas. Alberta Health coverage may apply for eligible consultations. Documentation fees may apply for doctor's notes.",
-      image: "/images/online-doctors-notes-in-airdrie/hero.jpg",
-      imageAlt: "Online Doctor's Notes in Airdrie",
-    },
-    {
-      title: "What is an Online Doctor Note?",
-      content:
-        "An online doctor's note is an official medical document issued by a licensed physician after a virtual medical consultation. During the appointment, the doctor reviews your symptoms, medical concern, or situation and determines whether medical documentation is appropriate.\n\nOnce approved, the doctor's note is:\n\nOnline doctor's notes offer the same validity as in-clinic notes—without the inconvenience of travel or long wait times.",
+        "An online doctor's note in Airdrie is a digitally signed medical document issued by an Alberta-licensed physician after a virtual consultation by phone or video. For Airdrie residents — many of whom commute into Calgary daily — telemedicine eliminates the choice between missing a half-day of work for a clinic visit or pushing through illness and risking infecting colleagues at the office.\n\nLegally, the note is identical to one issued at the Airdrie Regional Health Centre or any local family practice.",
       bullets: [
-        "Issued by an Alberta-licensed physician",
-        "Delivered securely to your email",
-        "Accepted by employers, schools, and institutions",
-        "Compliant with provincial medical standards",
+        "Issued by a CPSA-registered Alberta physician",
+        "Delivered as a digitally signed PDF to your inbox",
+        "Includes the physician's CPSA registration number and signature",
+        "Accepted by Rocky View Schools and Calgary-area employers",
       ],
-      image: "/images/online-doctors-notes-in-airdrie/section-1.webp",
-      imageAlt: "Online Doctor Note",
+      image: "/images/online-doctors-notes-in-edmonton/section-1.webp",
+      imageAlt: "Airdrie virtual sick note PDF",
     },
     {
-      title: "What Information Is Included in a Online Doctor's Notes?",
+      title: "When You Need a Sick Note in Airdrie",
       content:
-        "All notes comply with Alberta's medical documentation guidelines.",
+        "Airdrie's economy mixes a growing local retail and service sector with a heavy population of Calgary commuters. Most large Calgary employers — and many Airdrie-based retailers and service businesses — request a sick note for absences extending beyond a couple of days. Rocky View Schools, which serves Airdrie alongside Cochrane and the surrounding region, asks for medical documentation for extended student absences.",
       bullets: [
-        "Patient name",
-        "Date of consultation",
-        "Brief medical recommendation (without private health details)",
-        "Doctor's name, license number, and signature",
-        "Contact info for verification",
+        "Missed shifts at the Airdrie Regional Health Centre",
+        "Time off Calgary commute jobs in oil and gas, finance, or healthcare",
+        "Rocky View Schools or Calgary Catholic absence verification",
+        "Recovery from illness affecting QEII commuters",
+        "Local retail and service-sector roles along Main Street and 8th Street",
       ],
-      image: "/images/online-doctors-notes-in-airdrie/section-2.jpg",
-      imageAlt: "Online doctor note in Airdrie",
+      image: "/images/online-doctors-notes-in-edmonton/section-2.jpg",
+      imageAlt: "Airdrie commuter recovering at home",
     },
     {
-      title:
-        "Why Choose TelePlusCare for Online Doctor's Notes in Airdrie?",
+      title: "What's Included in Your Airdrie Sick Note",
       content:
-        "TelePlusCare provides fast, professional, and fully valid online doctor's notes for Airdrie residents.",
+        "Each note follows the format Calgary and Airdrie HR teams expect. Diagnosis is excluded under Alberta privacy law — the note confirms a physician assessment and recommends an appropriate absence period.",
       bullets: [
-        "Licensed Alberta Physicians -- Real doctors registered with the CPSA",
-        "Fast Turnaround -- Notes often issued within 15-30 minutes",
-        "Valid for Work, School & Travel -- Accepted across Alberta",
-        "Secure & Confidential -- Encrypted consultations and document delivery",
-        "Alberta Health Card Coverage -- Most visits covered when eligible",
+        "Patient legal name and consultation date",
+        "Confirmation of assessment by a licensed Alberta physician",
+        "Inclusive dates you cannot work or attend school",
+        "Anticipated return-to-work date",
+        "Any temporary work restrictions",
+        "Physician name, CPSA number, signature, and HR verification line",
       ],
-      image: "/images/online-doctors-notes-in-airdrie/section-3.jpg",
-      imageAlt: "Sick Note In Airdrie",
+      image: "/images/online-doctors-notes-in-edmonton/section-3.jpg",
+      imageAlt: "Airdrie HR receiving a digital sick note",
     },
     {
-      title: "How to Get a Doctor's Note Online in Airdrie",
+      title: "Same-Day Issuance for Airdrie Patients",
       content:
-        "Step 1: Book a virtual appointment (takes less than 2 minutes)\n\nStep 2: Speak to a certified Alberta doctor via secure video or chat\n\nStep 3: Receive your doctor's note by email—ready to print or share\n\n100% legal and accepted. Safe, encrypted, and confidential. Mobile and desktop friendly.",
-      image: "/images/online-doctors-notes-in-airdrie/section-4.jpg",
-      imageAlt: "Doctor note in Airdrie",
-    },
-    {
-      title: "Employer Sick Note Requirements in Alberta",
-      content:
-        "When Can Your Employer Request a Doctor's Note?\n\nUnder Alberta employment standards:\n\nYour Note Should Include:\n\nYour privacy is protected -- doctors do not have to disclose your specific diagnosis to your employer.",
+        "The intake form takes about two minutes and you can complete it from your kitchen table before the morning commute would have started. A CPSA physician calls you back, conducts the consultation, and emails the signed note from a Canadian-hosted secure platform — typically before traffic on the QEII would have cleared.",
       bullets: [
-        "Employers can request medical documentation after 3 consecutive days of absence",
-        "Some workplaces have different policies in their employment agreements",
-        "You have the right to reasonable accommodation for medical conditions",
-        "Confirmation that you were assessed by a physician",
-        "The dates you are unable to work",
-        "Expected return-to-work date (if known)",
-        "Any necessary work restrictions",
+        "Step 1 — Complete the online intake (about 2 minutes)",
+        "Step 2 — Speak with a CPSA-registered Alberta physician",
+        "Step 3 — Receive your signed PDF note by email — typically within 30 minutes",
       ],
-      image: "/images/online-doctors-notes-in-airdrie/section-5.jpg",
-      imageAlt: "Online doctor note in Airdrie",
+      image: "/images/online-doctors-notes-in-edmonton/section-4.jpg",
+      imageAlt: "Airdrie virtual consultation flow",
     },
     {
-      title: "Who Can Use an Online Doctor's Note?",
+      title: "Alberta Employment Standards: Airdrie Workers' Sick Leave Rights",
       content:
-        "Our online doctor's note service is available to a wide range of individuals across Airdrie and Alberta.",
+        "Under Section 53.97 of the Alberta Employment Standards Code, Airdrie employees with 90 days of continuous service — whether they work locally or commute into Calgary — are entitled to up to five unpaid, job-protected sick days each calendar year. Many Calgary-based employers add paid sick leave through HR policy or collective agreements.\n\nEmployers may request medical documentation but cannot demand a diagnosis. Our notes respect that boundary.",
       bullets: [
-        "Employees: Needing a sick note for missed work",
-        "Students: Requiring a note for absence from classes or exams",
-        "Parents: Caring for a sick child or family member",
-        "Travelers: Requiring fitness to fly or recovery documentation",
-        "Remote Workers: Who need proof of unwell status",
+        "5 unpaid job-protected sick days per year (ESC s.53.97)",
+        "Available after 90 days of continuous employment",
+        "Most Calgary-based collective agreements add paid sick leave",
+        "Employer may request a note — not a diagnosis",
       ],
-      image: "/images/online-doctors-notes-in-airdrie/section-6.png",
-      imageAlt: "Doctor note in Airdrie",
+      image: "/images/online-doctors-notes-in-edmonton/section-5.jpg",
+      imageAlt: "Alberta sick leave law reference",
     },
     {
-      title: "Why Airdrie Residents Choose Online Doctor Notes",
+      title: "Who Uses This Service in Airdrie",
       content:
-        "Convenience & Accessibility: No commute to a clinic. No waiting room exposure to other illnesses. Access care from home, work, or anywhere. Perfect for those with mobility issues or transportation challenges.\n\nTime-Saving: Average clinic wait time: 1-2 hours. Average virtual appointment: 15-20 minutes total. Get back to resting and recovering faster.\n\nCost-Effective: No parking fees. No transportation costs. No time off work for appointment travel. Covered by Alberta Health Card in most cases.\n\nQuality Care: Same licensed doctors as in-person clinics. Thorough assessment and consultation. Follow-up care available. Prescription services when needed.",
-      image: "/images/online-doctors-notes-in-airdrie/section-7.jpg",
-      imageAlt: "Doctor note online",
-    },
-    {
-      title: "Medically Reviewed & Physician-Led Care",
-      content:
-        "All medical consultations and documentation at TelePlusCare are conducted by physicians licensed with the College of Physicians & Surgeons of Alberta (CPSA).\n\nOur doctors have experience in:\n\nYour care is confidential, secure, and medically appropriate.",
+        "Our Airdrie patients are predominantly Calgary commuters in oil and gas, finance, and healthcare, working parents managing absences for children at Rocky View Schools, local retail and service-sector workers, frontline staff at the Airdrie Regional Health Centre, and growing families in newer neighbourhoods like Cooper's Crossing, King's Heights, and Bayview.",
       bullets: [
-        "Family medicine",
-        "Urgent care",
-        "Mental health assessments",
-        "Occupational health documentation",
+        "Calgary commuters in oil and gas, finance, and healthcare",
+        "Rocky View Schools parents",
+        "Local retail and service workers along Main Street and Yankee Valley",
+        "Airdrie Regional Health Centre staff",
+        "Growing families in Cooper's Crossing, King's Heights, and Bayview",
       ],
-      image: "/images/online-doctors-notes-in-airdrie/section-8.jpg",
-      imageAlt: "Doctor's Notes",
+      image: "/images/online-doctors-notes-in-edmonton/section-6.jpg",
+      imageAlt: "Airdrie family using telemedicine",
     },
     {
-      title: "About Our Virtual Medical Clinic",
+      title: "Why Airdrie Patients Choose TelePlusCare",
       content:
-        "TelePlusCare is a licensed Canadian telemedicine provider serving Airdrie and all of Alberta. Our mission is to deliver accessible, professional healthcare when you need it most.\n\nWe are committed to:",
+        "We understand the Airdrie commuter reality. Same-day notes, AHCIP-billed consultations, and CPSA-registered physicians who recognise that getting documentation shouldn't mean adding another hour to a QEII commute day. The whole process can wrap up before traffic clears at the Calgary city limit.",
       bullets: [
-        "Timely medical documentation",
-        "Compassionate, physician-led care",
-        "Privacy-first medical services",
+        "100% CPSA-registered Alberta physicians",
+        "AHCIP-billed consults — no fee with a valid Alberta Health Care card",
+        "Same-day notes seven days a week",
+        "Built for Calgary commuters and growing Airdrie families",
+        "Encrypted Canadian-hosted PHI infrastructure",
       ],
-      image: "/images/online-doctors-notes-in-airdrie/section-9.jpg",
-      imageAlt: "Doctor note in Airdrie",
+      image: "/images/online-doctors-notes-in-edmonton/section-7.jpg",
+      imageAlt: "TelePlusCare Airdrie virtual care team",
     },
   ],
   faqs: [
     {
-      question:
-        "Is this doctor's note valid in Airdrie and Alberta?",
+      question: "Is an online doctor's note valid in Airdrie?",
       answer:
-        "Yes, absolutely. Our medical notes are issued by fully licensed Alberta physicians registered with the CPSA and meet all provincial medical documentation standards. They are legally valid and accepted by employers, schools, and institutions across Alberta and Canada.",
+        "Yes. A note signed by a CPSA-registered Alberta physician is legally valid in Airdrie and accepted by Rocky View Schools, Airdrie-based employers, and Calgary HR teams alike.",
     },
     {
-      question: "Do I need an Alberta Health Card?",
+      question: "Will my Calgary employer accept the note even though I live in Airdrie?",
       answer:
-        "Yes, we accept Alberta Health coverage. If you're uninsured, you can still get a note for a small fee.",
+        "Yes. Calgary employers — including major energy, finance, and healthcare firms — accept notes from CPSA-registered virtual physicians regardless of which Alberta city the patient lives in. The note carries a verification line for HR.",
     },
     {
-      question: "How long does it take?",
+      question: "Is the consult covered by Alberta Health Care?",
       answer:
-        "Most notes are delivered within 15-30 minutes after your virtual consultation.",
+        "Yes. Airdrie residents with a valid AHCIP card pay nothing for the medical consultation. A small documentation fee may apply for some types of notes.",
     },
     {
-      question: "Can I get a backdated note?",
+      question: "How fast can I get the note?",
       answer:
-        "It depends on the situation. For any backdated note request, we'll need to review your case properly, so we kindly ask you to book an appointment. Once it's scheduled, our team will connect with you and guide you through the next steps.",
+        "Most Airdrie patients receive their signed PDF within 30 minutes of completing the consultation. Booking earlier in the day virtually guarantees same-day delivery.",
     },
     {
-      question:
-        "Will my employer or school accept an online doctor's note?",
+      question: "Can I book for my child at a Rocky View school?",
       answer:
-        "Yes. Virtual healthcare is legally recognized in Alberta. Our notes contain all required elements including the doctor's CPSA license number and contact information for verification.",
-    },
-    {
-      question:
-        "Can I use this service for mental health days?",
-      answer:
-        "Absolutely. Our physicians understand the importance of mental health and can provide appropriate documentation for stress, anxiety, burnout, or other mental health concerns—without disclosing specific private details.",
-    },
-    {
-      question:
-        "Do you provide notes for work-related injuries?",
-      answer:
-        "For workplace injuries covered by WCB (Workers' Compensation Board), you should follow your employer's specific reporting procedures. For general illness or non-work-related medical issues, we can certainly help.",
+        "Yes. A parent or guardian can book on behalf of a child enrolled in any Rocky View Schools, Calgary Catholic, or private school. The physician will assess the child by video and issue the note in the child's name for the school office.",
     },
   ],
   locations:
-    "Airdrie, St. Albert, Sherwood Park, Beaumont, Fort Saskatchewan, Leduc, Spruce Grove, and surrounding Alberta communities.",
+    "Airdrie, Crossfield, Cochrane, Balzac, Beddington Heights, and the northern reaches of the Calgary Metropolitan Region.",
 };

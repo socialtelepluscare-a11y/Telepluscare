@@ -10,6 +10,14 @@ export const pageData: LandingPageData = {
     "We understand the importance of mental health and the need for accessible, professional support. Our board-certified team of psychiatrists and therapists provides comprehensive virtual care, designed to meet your unique needs.\n\nWhether you're dealing with ADHD, depression, anxiety, or PTSD, we're here to support you every step of the way—without requiring in-person visits.\n\nOur healthcare services are available to all residents of Alberta, Canada.",
   heroImage: "/images/mental-health/Rectangle-1090-15.png",
   heroImageAlt: "Online Mental Health Therapist Alberta - TelePlus Care",
+  summary:
+    "Online mental health care in Alberta covers ADHD, depression, generalized anxiety, panic disorder, and PTSD through evidence-based therapy and pharmacotherapy including SSRIs, SNRIs, and stimulants. TelePlus Care board-certified physicians deliver virtual psychiatric assessments, medication management, and CBT-aligned care plans across the province — connecting Albertans with treatment without long wait times typical of in-person psychiatry.",
+  keyFacts: [
+    "Board-certified physicians treating ADHD, depression, anxiety, and PTSD",
+    "Virtual SSRI/SNRI prescribing and stimulant medication management",
+    "Faster access than typical 6-12 month Alberta psychiatry wait lists",
+    "Encrypted, HIA-compliant platform with continuity of provider for follow-ups",
+  ],
   sections: [
     {
       title: "Virtual Counseling and Therapy in Alberta",
@@ -22,7 +30,9 @@ export const pageData: LandingPageData = {
       title: "What We Treat at TelePlus Care in Alberta",
       content:
         "At TelePlus Care, we offer personalized mental health services in Canada, designed to address various conditions through compassionate and professional online care. Our board-certified telehealth providers specialize in comprehensive treatment plans, utilizing a blend of therapy and medication to ensure you get the support you need—right from the comfort of your home. Here's a look at the conditions we specialize in treating:",
-    },
+          image: "/images/Rectangle-1090-21.png",
+      imageAlt: "What We Treat at TelePlus Care in Alberta",
+},
     {
       title: "ADHD",
       content:
@@ -66,7 +76,9 @@ export const pageData: LandingPageData = {
         "Professional Telehealth Mental Health Specialists — Our board-certified mental health specialists in Alberta offer expert guidance on managing complex mental health issues. From medication adjustments to offering emotional support, you can trust that our specialists are committed to your well-being.",
         "Comprehensive Mental Health Programs — We provide a wide range of mental health programs that include talk therapy, medication management, and lifestyle advice. Whether you need treatment for ADHD, anxiety, depression, or PTSD, we offer holistic solutions that prioritize your overall wellness.",
       ],
-    },
+          image: "/images/Rectangle-1090-3.png",
+      imageAlt: "Why Choose TelePlus Care for Your Mental Health in Alberta?",
+},
     {
       title: "How Virtual Care Works at TelePlus Care",
       content:
@@ -77,7 +89,9 @@ export const pageData: LandingPageData = {
         "Receive Personalized Care — Following your consultation, your provider will create a customized care plan. This may include therapy, medication, or lifestyle adjustments, all of which can be managed through future virtual visits.",
         "Ongoing Support — Mental health is an ongoing journey, and we're here for you at every step. Whether you need follow-up care, adjustments to your treatment plan, or regular therapy sessions, our team is available to support your needs.",
       ],
-    },
+          image: "/images/Rectangle-1090-6.png",
+      imageAlt: "How Virtual Care Works at TelePlus Care",
+},
     {
       title: "Take the First Step Toward Better Mental Health!",
       content:
@@ -117,4 +131,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

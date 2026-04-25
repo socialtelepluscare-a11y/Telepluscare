@@ -93,4 +93,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Leduc, St. Albert, Sherwood Park, Beaumont, Fort Saskatchewan, Leduc, Spruce Grove, and surrounding Alberta communities.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

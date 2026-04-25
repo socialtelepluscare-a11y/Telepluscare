@@ -1,105 +1,132 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle:
-    "UTI Appointment in fort mcmurray | Same-Day Online UTI Treatment",
+  metaTitle: "UTI Appointment Fort McMurray | Virtual Same-Day UTI Care",
   metaDescription:
-    "Need fast UTI treatment in fort mcmurray? Book a same-day online UTI appointment. Get antibiotics & doctor notes quickly. Private & secure telehealth clinic.",
-  title: "Book a UTI Appointment in fort mcmurray",
+    "Fort McMurray and oilsands camp workers can book a same-day virtual UTI visit with an Alberta physician. Antibiotic prescriptions sent to any RMWB pharmacy.",
+  title: "Same-Day Virtual UTI Appointment in Fort McMurray",
   heroDescription:
-    "UTI symptoms? Get fast relief today.\n\nBook a same-day UTI appointment in fort mcmurray and speak with a licensed Alberta doctor online. Skip long walk-in clinic waits and get your UTI prescription sent to a nearby fort mcmurray pharmacy within minutes.\n\nIf you're searching for a UTI appointment in fort mcmurray, our secure virtual care makes treatment quick, private, and convenient.",
-  heroImage: "/images/ChatGPT-Image-Nov-3-2025-04_36_39-PM-1024x683.png",
-  heroImageAlt: "UTI appointment in fort mcmurray",
+    "From Thickwood and Timberlea to Beacon Hill and the oilsands camps north of town, Fort McMurray patients can connect with a CPSA-licensed physician within 30 minutes. Avoid long waits at Northern Lights Regional Health Centre and get treated wherever you happen to be on rotation.",
+  heroImage: "/images/urinary-tract-infection-treatments.jpg",
+  heroImageAlt: "Fort McMurray virtual UTI appointment for RMWB patients",
+  bookingUrl: "/book-appointment-alberta",
+  conditionType: "Urinary Tract Infection",
+  summary:
+    "Fort McMurray residents and fly-in-fly-out workers experiencing UTI symptoms such as burning urination and pelvic pressure can book a same-day virtual visit with TelePlus Care. CPSA-licensed Alberta physicians complete consultations in 15 to 20 minutes, send antibiotic prescriptions to any RMWB pharmacy, and bill through Alberta Health Care.",
+  keyFacts: [
+    "Same-day virtual UTI appointment within 30 minutes for Fort McMurray patients",
+    "Designed for fly-in-fly-out oilsands rotation schedules and remote camp workers",
+    "Prescription delivered to any Fort McMurray pharmacy under Alberta Health Care",
+    "Licensed Alberta physicians (CPSA registered) available seven days a week",
+  ],
   sections: [
     {
-      title: "Common UTI Symptoms",
+      title: "UTI Symptoms Fort McMurray Patients Should Watch For",
       content:
-        "If you have any of the symptoms below, book a UTI appointment in fort mcmurray right away:\n\nOur fort mcmurray UTI doctors online can assess your symptoms and provide UTI medication in fort mcmurray through a telehealth visit.",
+        "UTIs come on quickly and can be especially disruptive on a 14-and-7 oilsands rotation. Book a virtual visit if you experience:",
       bullets: [
-        "Burning or pain during urination",
-        "Frequent urge to urinate",
-        "Lower abdominal / pelvic pain",
-        "Cloudy, bloody, or foul-smelling urine",
-        "Fever, chills, or back pain (advanced UTI)",
+        "Burning or stinging during urination",
+        "Strong, frequent urge to urinate with little urine produced",
+        "Cloudy, dark, or strong-smelling urine",
+        "Lower abdominal or pelvic pressure",
+        "Pinkish or trace blood in the urine",
       ],
-      image: "/images/ChatGPT-Image-Nov-3-2025-04_36_39-PM-1024x683.png",
-      imageAlt: "UTI appointment in fort mcmurray",
+      image: "/images/urinary-tract-infection-treatments.jpg",
+      imageAlt: "Fort McMurray UTI symptom checklist",
     },
     {
-      title: "What Is a UTI?",
+      title: "Built for Fly-In-Fly-Out and Camp Workers",
       content:
-        "A urinary tract infection (UTI) is a common bacterial infection affecting the bladder, urethra, or kidneys.\n\nIf you're looking for a UTI appointment in fort mcmurray near you, our licensed physicians can diagnose and treat UTIs virtually — no walk-in clinic required.\n\nWe offer:",
+        "Many Fort McMurray patients work rotational schedules at sites like Suncor Base Mine, Syncrude Mildred Lake, Fort Hills, Albian Sands, and Kearl Lake. TelePlus Care is designed for these realities. Whenever you have a wifi or cell signal, you can book and complete a UTI visit, then pick up your antibiotic at a Fort McMurray pharmacy on the way back through town to the airport or your bus.",
+      image: "/images/Group-37522.png",
+      imageAlt: "Fort McMurray oilsands camp worker telehealth visit",
+    },
+    {
+      title: "Fort McMurray Neighborhoods and Pharmacies We Serve",
+      content:
+        "Patients in Thickwood, Timberlea, Beacon Hill, Abasand, Waterways, and downtown Fort McMurray receive prescriptions at the pharmacy of their choice. Common Fort McMurray pickup locations include Shoppers Drug Mart in Peter Pond Mall, Rexall on Franklin Avenue, Save-On-Foods Pharmacy in Eagle Ridge, and pharmacies near Northern Lights Regional Health Centre.",
+      image: "/images/Rectangle-1090-19.png",
+      imageAlt: "Fort McMurray pharmacy locations for UTI prescriptions",
+    },
+    {
+      title: "When to Visit Northern Lights Regional Health Centre",
+      content:
+        "Most uncomplicated UTIs are well treated by virtual care, but the following signs warrant in-person evaluation at Northern Lights Regional Health Centre's emergency department.",
       bullets: [
-        "Same-day UTI appointments in fort mcmurray",
-        "Online UTI diagnosis",
-        "Virtual UTI prescriptions",
-        "Fast symptom relief",
+        "Fever above 38.5 C with shaking chills",
+        "Severe back or flank pain (possible kidney infection)",
+        "Persistent vomiting that prevents oral antibiotics",
+        "Pregnancy with UTI symptoms",
+        "Symptoms worsening 48 hours after starting antibiotics",
       ],
       image: "/images/PHOTO-2025-07-05-11-18-45-819x1024.jpg",
-      imageAlt: "Sick Note In fort mcmurray",
+      imageAlt: "Fort McMurray UTI red flag symptoms for hospital",
     },
     {
-      title: "Who Can Use This Service?",
+      title: "How Your Fort McMurray UTI Visit Works",
       content:
-        "Our online UTI appointment service is available to a wide range of individuals across fort mcmurray and Alberta.",
+        "Booking is fast and works on cell-data alone for camp-based workers.",
       bullets: [
-        "Employees: Needing a sick note for missed work",
-        "Students: Requiring a note for absence from classes or exams",
-        "Parents: Caring for a sick child or family member",
-        "Travelers: Requiring fitness to fly or recovery documentation",
-        "Remote Workers: Who need proof of unwell status",
+        "Step 1: Complete a quick online intake form on your phone or laptop",
+        "Step 2: A CPSA-licensed Alberta physician reviews your case",
+        "Step 3: Connect by phone or video for a 15 to 20 minute consultation",
+        "Step 4: Prescription is e-sent to your chosen Fort McMurray pharmacy",
+        "Step 5: Receive a follow-up email with prevention guidance",
       ],
-      image: "/images/Group-37522.png",
-      imageAlt: "Doctor note in fort mcmurray",
+      image: "/images/Rectangle-1090-16.png",
+      imageAlt: "Fort McMurray TelePlus Care UTI workflow",
     },
     {
-      title: "How It Works",
+      title: "Preventing UTIs on Long Shifts and in Camps",
       content:
-        "Step 1: Book a virtual appointment (takes less than 2 minutes)\n\nStep 2: Speak to a certified Alberta doctor via secure video or chat\n\nStep 3: Receive your doctor's note by email — ready to print or share\n\n100% legal and accepted. Safe, encrypted, and confidential. Mobile and desktop friendly.",
-      image: "/images/urinary-tract-infection-treatments.jpg",
-      imageAlt: "Urinary tract infection treatments",
-    },
-    {
-      title: "Why Choose Us for UTI Care in fort mcmurray",
-      content:
-        "Choosing the right UTI clinic in fort mcmurray matters. Here's why patients trust our virtual care:\n\nWhether you're looking for a virtual UTI doctor in fort mcmurray, online UTI prescription, or a telehealth UTI consultation, we deliver fast, trusted medical care.",
+        "Long shifts, full PPE, limited bathroom breaks, and dehydration in dry winter air can all contribute to UTI risk for Fort McMurray workers. Practical prevention strategies include:",
       bullets: [
-        "Same-day UTI appointments in fort mcmurray -- Get treatment fast when you're uncomfortable",
-        "Virtual UTI diagnosis & prescription -- Skip walk-in clinics & avoid long waits",
-        "Alberta-licensed doctors -- Trusted care from Canadian medical professionals",
-        "Prescription sent to any fort mcmurray pharmacy -- Shoppers, Rexall, Safeway, Walmart & local pharmacies",
-        "Private & secure telehealth consults -- Confidential UTI care from home",
-        "Convenient, fast, affordable care -- Best alternative to walk-in UTI clinics in fort mcmurray",
+        "Carry a full water bottle and drink consistently through every shift",
+        "Use the washroom as soon as practical, do not hold urine for hours",
+        "Choose breathable cotton base layers under FR coveralls when possible",
+        "Empty your bladder within 15 minutes after sexual activity",
+        "Speak with a physician about prophylactic strategies if UTIs recur",
       ],
+      image: "/images/image-3.jpg",
+      imageAlt: "UTI prevention tips for Fort McMurray oilsands workers",
+    },
+    {
+      title: "About TelePlus Care Serving Fort McMurray",
+      content:
+        "TelePlus Care is an Alberta virtual clinic providing same-day care to patients in Fort McMurray and across the Regional Municipality of Wood Buffalo (RMWB). Our physicians are licensed by the College of Physicians and Surgeons of Alberta. Visits are billed through Alberta Health Care for AHCIP holders, and the platform is fully PIPEDA compliant for confidential care.",
+      image: "/images/ChatGPT-Image-Nov-3-2025-04_36_39-PM-1024x683.png",
+      imageAlt: "TelePlus Care serving Fort McMurray and RMWB",
     },
   ],
   faqs: [
     {
-      question: "How quickly can I book a UTI appointment?",
+      question: "Can fly-in-fly-out oilsands workers use TelePlus Care?",
       answer:
-        "Most patients receive a same-day UTI appointment and treatment within hours.",
+        "Yes. As long as you have a valid Alberta Health Care card and a cell or wifi signal at site, you can complete a UTI visit from camp and pick up the antibiotic in Fort McMurray on your way home.",
     },
     {
-      question: "Do I need a urine test for a UTI?",
+      question: "Which Fort McMurray pharmacies receive my UTI prescription?",
       answer:
-        "Not always. Many UTIs are diagnosed based on symptoms. If testing is needed, we will send a lab order in fort mcmurray.",
+        "Your prescription is electronically sent to any Fort McMurray pharmacy of your choice, including Shoppers Drug Mart in Peter Pond Mall, Rexall on Franklin Avenue, Save-On-Foods Pharmacy in Eagle Ridge, and pharmacies near Northern Lights Regional Health Centre.",
     },
     {
-      question: "Which pharmacies can fill my UTI prescription?",
+      question: "Is the UTI visit covered for RMWB residents?",
       answer:
-        "Any pharmacy in fort mcmurray — including Shoppers, Rexall, Safeway, Walmart, Costco, and local pharmacies.",
+        "Yes. Fort McMurray and RMWB residents with a valid Alberta Health Care card are covered for medically necessary virtual UTI consultations with our CPSA-licensed physicians.",
     },
     {
-      question: "Is the UTI appointment covered by Alberta Health?",
+      question: "Can I book if I am not from Fort McMurray but working there?",
       answer:
-        "Many visits are covered. We also accept private insurance and self-pay options.",
+        "Patients with active Alberta Health Care coverage can use TelePlus Care anywhere in Alberta. Out-of-province workers may still book on a self-pay basis. Confirm at booking.",
     },
     {
-      question: "When should I visit the ER for a UTI?",
+      question: "How quickly can I get treated when on rotation?",
       answer:
-        "Go to urgent care if you have severe back pain, high fever, vomiting, or symptoms lasting over 2 days untreated, as it may be a kidney infection.",
+        "Most patients are connected with a physician within 30 minutes and finish the visit in another 15 to 20 minutes. The full process typically wraps up well under an hour.",
     },
   ],
   locations:
-    "fort mcmurray, St. Albert, Sherwood Park, Beaumont, Fort Saskatchewan, Leduc, Spruce Grove, and surrounding Alberta communities.",
+    "Fort McMurray, Anzac, Conklin, Janvier, Fort McKay, Saprae Creek, and the wider Regional Municipality of Wood Buffalo (RMWB).",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

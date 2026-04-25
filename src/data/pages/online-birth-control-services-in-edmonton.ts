@@ -47,7 +47,9 @@ export const pageData: LandingPageData = {
         "Holistic Support — We believe in treating the whole person, not just the condition. Our comprehensive services include dietary counseling, exercise recommendations, and ongoing support to help you make sustainable lifestyle changes.",
         "Empathy & Understanding — We recognize that everyone's journey is different, and we're here to listen and provide encouragement as you work towards your health goals.",
       ],
-    },
+          image: "/images/Rectangle-1090-7.png",
+      imageAlt: "Why Choose TelePlusCare for Your Health Needs in Alberta?",
+},
     {
       title: "How Does It Work?",
       content:
@@ -58,18 +60,24 @@ export const pageData: LandingPageData = {
         "Step 3: Attend Your Appointment — On the day of your virtual visit, connect with your provider using any electronic device — whether it's a smartphone, tablet, or computer. Our healthcare professionals will assess your condition and create a personalized care plan.",
         "Step 4: Receive Your Prescription Same Day — Your birth control prescription is sent directly to your preferred Edmonton pharmacy the same day. No waiting, no travel, no stress.",
       ],
-    },
+          image: "/images/Rectangle-1090-16.png",
+      imageAlt: "How Does It Work?",
+},
     {
       title:
         "Online Birth Control Consultation in Edmonton, Alberta — TelePlusCare",
       content:
         "TelePlusCare is Edmonton's trusted online clinic for birth control consultations. Whether you are looking for a birth control pill prescription online, an IUD consultation, or advice on the best contraception for your lifestyle, our licensed Alberta doctors are here to help — without you ever needing to leave home.\n\nGetting access to birth control in Edmonton has never been easier. With TelePlusCare's online birth control service, you can book a same-day consultation, speak with a licensed physician, and have your prescription sent to your local Edmonton pharmacy all in one day.\n\nMany Edmonton women struggle to get timely appointments with their family doctor for birth control prescriptions. Long wait times, busy schedules, and limited availability make accessing contraception harder than it should be. TelePlusCare solves this by offering same-day online birth control prescriptions in Edmonton, available to all Alberta Health cardholders.\n\nIf you are considering an IUD as your birth control method, TelePlusCare provides thorough online IUD consultations in Edmonton. Our doctors will walk you through both hormonal and copper IUD options and refer you to the appropriate provider for insertion — all starting with a simple online consultation.\n\nMost TelePlusCare appointments are covered by the Alberta Health Care Insurance Plan (AHCIP). Edmonton women can access licensed medical advice and birth control prescriptions online without worrying about out-of-pocket consultation costs.",
-    },
+          image: "/images/Rectangle-1090-17.png",
+      imageAlt: "Online Birth Control Consultation in Edmonton, Alberta — TelePlusCare",
+},
     {
       title: "Get Your Birth Control Prescription Online Today",
       content:
         "Same-day consultations available for Edmonton residents. Covered by Alberta Health. 100% private and online.",
-    },
+          image: "/images/Rectangle-1090-18.png",
+      imageAlt: "Get Your Birth Control Prescription Online Today",
+},
   ],
   faqs: [
     {
@@ -111,4 +119,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, St. Albert, Sherwood Park, Beaumont, Fort Saskatchewan, Leduc, Spruce Grove, and surrounding Alberta communities.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

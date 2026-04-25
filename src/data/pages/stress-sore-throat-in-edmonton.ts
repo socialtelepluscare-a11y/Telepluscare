@@ -22,7 +22,9 @@ export const pageData: LandingPageData = {
       title: "What We Offer at TelePlus Care",
       content:
         "At TelePlus Care, we provide a comprehensive range of primary care services in Alberta, Canada designed to meet the diverse healthcare needs of our community. Our experienced healthcare providers are dedicated to delivering personalized care, ensuring that you receive the support you need for optimal health. Here's what we offer:",
-    },
+          image: "/images/best-dermatologist-in-edmonton/section-2.png",
+      imageAlt: "What We Offer at TelePlus Care",
+},
     {
       title: "Sore Throat Treatment",
       content:
@@ -96,7 +98,9 @@ export const pageData: LandingPageData = {
         "Holistic Support -- We believe in treating the whole person, not just the condition. Our comprehensive services include dietary counseling, exercise recommendations, and ongoing support to help you make sustainable lifestyle changes.",
         "Empathy & Understanding -- We recognize that everyone's journey is different, and we're here to listen and provide encouragement as you work towards your health goals.",
       ],
-    },
+          image: "/images/best-dermatologist-in-edmonton/section-3.png",
+      imageAlt: "Why Choose TelePlus Care for Your Health Needs In Alberta?",
+},
     {
       title: "How Does It Work?",
       content:
@@ -107,7 +111,9 @@ export const pageData: LandingPageData = {
         "Receive Confirmation -- Once you've booked your appointment, you'll receive a confirmation email or call with detailed instructions for your upcoming virtual visit.",
         "Attend Your Appointment -- On the day of your virtual visit, connect with your provider using any electronic device\u2014whether it's a smartphone, tablet, or computer. Our healthcare professionals will assess your condition and create a personalized care plan.",
       ],
-    },
+          image: "/images/best-dermatologist-in-edmonton/section-4.png",
+      imageAlt: "How Does It Work?",
+},
   ],
   faqs: [
     {
@@ -141,4 +147,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

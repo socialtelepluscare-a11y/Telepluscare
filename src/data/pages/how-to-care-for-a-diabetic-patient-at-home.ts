@@ -21,7 +21,9 @@ export const pageData: LandingPageData = {
         "Diet control -- Following a doctor-recommended meal plan.",
         "Exercise -- Engaging in safe physical activities.",
       ],
-    },
+          image: "/images/Rectangle-1090-3.png",
+      imageAlt: "Understanding The Essentials Of Diabetes Care",
+},
     {
       title: "Daily Blood Sugar Management",
       content:
@@ -31,7 +33,9 @@ export const pageData: LandingPageData = {
         "Tracking patterns -- Observing trends to detect any irregularities that need medical attention.",
         "Being prepared -- Keeping essential items like glucose tablets, snacks, and water handy, especially during physical activities.",
       ],
-    },
+          image: "/images/Rectangle-1090-6.png",
+      imageAlt: "Daily Blood Sugar Management",
+},
     {
       title: "Exercise: Safe Physical Activities",
       content:
@@ -41,7 +45,9 @@ export const pageData: LandingPageData = {
         "Advise carrying glucose tablets and a diabetes ID card during outdoor activities.",
         "Remind patients to check blood glucose levels before, during, and after exercise.",
       ],
-    },
+          image: "/images/Rectangle-1090-7.png",
+      imageAlt: "Exercise: Safe Physical Activities",
+},
     {
       title: "Dietary Care and Nutrition Planning",
       content:
@@ -51,7 +57,9 @@ export const pageData: LandingPageData = {
         "Hydration -- Encourage the consumption of water and sugar-free drinks to maintain hydration and prevent dry skin. Dehydration is a serious complication of diabetes that can lead to conditions such as hyperglycemic hyperosmolar state (HHS).",
         "Avoiding sugary foods -- Keep sugary foods or high-carb snacks out of reach, as these can spike blood sugar levels quickly.",
       ],
-    },
+          image: "/images/Rectangle-1090-8.png",
+      imageAlt: "Dietary Care and Nutrition Planning",
+},
     {
       title: "Grooming and Hygiene",
       content:
@@ -61,7 +69,9 @@ export const pageData: LandingPageData = {
         "Inspection -- Examine feet daily for blisters, cuts, or red spots using a hand mirror if necessary.",
         "Moisturize -- Apply moisturizer carefully, avoiding the areas between the toes.",
       ],
-    },
+          image: "/images/Rectangle-1090-10.png",
+      imageAlt: "Grooming and Hygiene",
+},
     {
       title: "Bathing and Skin Care",
       content:
@@ -71,7 +81,9 @@ export const pageData: LandingPageData = {
         "Check for wounds -- Daily inspection for any blisters or cuts is essential to prevent infections.",
         "Apply doctor-approved moisturizers regularly.",
       ],
-    },
+          image: "/images/Rectangle-1090-11.png",
+      imageAlt: "Bathing and Skin Care",
+},
     {
       title: "Clothing and Footwear Selection",
       content:
@@ -81,7 +93,9 @@ export const pageData: LandingPageData = {
         "Wear comfortable socks -- Choose socks that maintain circulation without being too tight.",
         "Gradual shoe adjustment -- Break in new shoes gradually to avoid discomfort and blisters.",
       ],
-    },
+          image: "/images/Rectangle-1090-12.png",
+      imageAlt: "Clothing and Footwear Selection",
+},
     {
       title: "Managing Stress and Mental Well-being",
       content:
@@ -91,7 +105,9 @@ export const pageData: LandingPageData = {
         "Practice relaxation techniques -- Deep breathing exercises, mindfulness, and gentle stretching can help reduce stress and stabilize blood sugar levels.",
         "Maintain a positive environment -- Ensure the patient feels heard, supported, and reassured in their daily life.",
       ],
-    },
+          image: "/images/Rectangle-1090-16.png",
+      imageAlt: "Managing Stress and Mental Well-being",
+},
     {
       title: "Diabetes Care Checklist for Caregivers",
       content:
@@ -104,12 +120,16 @@ export const pageData: LandingPageData = {
         "Support Stress Relief -- Activities like gardening or music.",
         "Ensure Oral Hygiene -- Brush and floss regularly.",
       ],
-    },
+          image: "/images/Rectangle-1090-17.png",
+      imageAlt: "Diabetes Care Checklist for Caregivers",
+},
     {
       title: "Let Us Help You Manage Diabetes\u2014Get in Touch Today",
       content:
         "Caring for a diabetic patient at home demands consistency, patience, and understanding. By keeping an eye on daily routines, promoting healthy habits, and addressing potential complications early on, caregivers can significantly improve the patient's quality of life. At TelePlus Care, we provide comprehensive virtual care services for diabetic patients, offering the guidance and support needed to navigate this complex condition. Connect with us today to ensure that your loved ones receive expert care from the comfort of their home.",
-    },
+          image: "/images/Rectangle-1090-18.png",
+      imageAlt: "Let Us Help You Manage Diabetes\u2014Get in Touch Today",
+},
   ],
   faqs: [
     {
@@ -140,4 +160,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

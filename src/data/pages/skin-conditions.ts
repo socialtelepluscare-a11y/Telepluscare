@@ -9,6 +9,14 @@ export const pageData: LandingPageData = {
     "We provide specialized dermatology services delivered through secure virtual consultations, making quality skincare accessible and convenient for residents of Alberta. Our board-certified dermatologists are dedicated to providing personalized care tailored to your unique skin health needs, from common concerns to specialized treatments.",
   heroImage: "/images/skin-conditions/section-1.png",
   heroImageAlt: "Top Dermatology Care in Alberta - TelePlus Care",
+  summary:
+    "Virtual dermatology in Alberta treats acne, eczema, rosacea, psoriasis, fungal nail infections, peri-oral dermatitis, and unexplained rashes. Board-certified dermatologists at TelePlus Care assess skin conditions through high-resolution video and photo review, prescribing topical retinoids, antifungals, corticosteroids, and oral therapy when indicated — replacing 60-80% of routine dermatology visits with same-week virtual care.",
+  keyFacts: [
+    "Board-certified dermatologists assessing skin via secure video and photos",
+    "Same-week appointments versus typical 3-6 month dermatology wait lists",
+    "Prescriptions for retinoids, antifungals, and oral acne therapy sent to pharmacy",
+    "Most non-procedural dermatology consults manageable virtually",
+  ],
   sections: [
     {
       title: "Your Trusted Dermatology Partner in Alberta for Healthy Skin",
@@ -21,7 +29,9 @@ export const pageData: LandingPageData = {
       title: "Comprehensive Skin Care Services In Alberta",
       content:
         "Our team is committed to addressing a wide range of skin conditions. Our approach focuses on understanding your specific needs and crafting individualized treatment plans that fit seamlessly into your lifestyle. Here are the conditions we treat in Alberta, Canada:",
-    },
+          image: "/images/best-dermatologist-in-edmonton/section-2.png",
+      imageAlt: "Comprehensive Skin Care Services In Alberta",
+},
     {
       title: "Rashes",
       content:
@@ -74,7 +84,9 @@ export const pageData: LandingPageData = {
         "Holistic Support \u2014 We believe in treating the whole person, not just the condition. Our comprehensive services include dietary counseling, exercise recommendations, and ongoing support to help you make sustainable lifestyle changes.",
         "Empathy & Understanding \u2014 We recognize that everyone\u2019s journey is different, and we\u2019re here to listen and provide encouragement as you work towards your health goals.",
       ],
-    },
+          image: "/images/best-dermatologist-in-edmonton/section-3.png",
+      imageAlt: "Why Choose TelePlus Care for Your Dermatology Needs In Alberta?",
+},
     {
       title: "How Does It Work?",
       content:
@@ -85,7 +97,9 @@ export const pageData: LandingPageData = {
         "Receive Confirmation \u2014 Once you\u2019ve booked your appointment, you\u2019ll receive a confirmation email or call with detailed instructions for your upcoming virtual visit.",
         "Attend Your Appointment \u2014 On the day of your virtual visit, connect with your provider using any electronic device\u2014whether it\u2019s a smartphone, tablet, or computer. Our healthcare professionals will assess your condition and create a personalized care plan.",
       ],
-    },
+          image: "/images/best-dermatologist-in-edmonton/section-4.png",
+      imageAlt: "How Does It Work?",
+},
     {
       title: "Start Your Journey to Healthy Skin",
       content:
@@ -123,4 +137,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Sherwood Park, St. Albert, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

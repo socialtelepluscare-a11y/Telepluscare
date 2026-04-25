@@ -146,4 +146,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Prince Albert, Downtown, East Hill, West Hill, Riverside, Crescent Heights, and surrounding northern Saskatchewan communities.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

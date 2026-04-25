@@ -11,6 +11,14 @@ export const pageData: LandingPageData = {
   heroImage: "/images/image-2.png",
   heroImageAlt: "Ozempic online prescription consultation in Alberta",
   bookingUrl: "/book-appointment-alberta",
+  summary:
+    "Ozempic (semaglutide) is a once-weekly GLP-1 receptor agonist injection approved by Health Canada for Type 2 diabetes management, with off-label use for weight loss producing 12-15% body weight reduction in clinical trials. TelePlus Care provides virtual Ozempic consultations across Alberta, with licensed physicians assessing eligibility and electronically transmitting prescriptions to local pharmacies.",
+  keyFacts: [
+    "Health Canada-approved semaglutide via licensed Alberta physicians",
+    "Average 12-15% body weight loss over 68 weeks (STEP trials)",
+    "Reduces HbA1c by 1.0-1.8 percentage points in Type 2 diabetes",
+    "Same-day virtual visits with prescription sent to your pharmacy",
+  ],
   sections: [
     {
       title: "What Is Ozempic?",
@@ -30,7 +38,9 @@ export const pageData: LandingPageData = {
         "Reduces appetite -- By acting on appetite centres in the brain, semaglutide reduces hunger signals and cravings, making it easier to eat less without feeling deprived.",
         "Improves satiety -- Patients often report feeling satisfied with smaller portions, which naturally leads to reduced calorie intake over time.",
       ],
-    },
+          image: "/images/weight-loss/image-39.png",
+      imageAlt: "How Does Ozempic Work?",
+},
     {
       title: "Ozempic for Weight Loss",
       content:
@@ -49,7 +59,9 @@ export const pageData: LandingPageData = {
         "Weight management -- Unlike some diabetes medications that cause weight gain, Ozempic promotes weight loss, which further improves insulin sensitivity and metabolic health.",
         "Once-weekly convenience -- A single injection per week provides consistent blood sugar control, improving adherence compared to daily medications.",
       ],
-    },
+          image: "/images/weight-loss/image-40.png",
+      imageAlt: "Ozempic for Type 2 Diabetes",
+},
     {
       title: "Ozempic Dosage Guide",
       content:
@@ -61,7 +73,9 @@ export const pageData: LandingPageData = {
         "Optional escalation: 2 mg once weekly -- For patients who require further glycemic control, the maximum dose of 2 mg may be prescribed. This dose provides the greatest reduction in HbA1c and body weight.",
         "Important: Never adjust your Ozempic dose without consulting your healthcare provider. Dose changes should be made in consultation with your TelePlus Care physician during follow-up appointments.",
       ],
-    },
+          image: "/images/weight-loss/image-41.png",
+      imageAlt: "Ozempic Dosage Guide",
+},
     {
       title: "Side Effects of Ozempic",
       content:
@@ -77,7 +91,9 @@ export const pageData: LandingPageData = {
         "Rare but serious: pancreatitis -- Seek immediate medical attention if you experience severe, persistent abdominal pain that radiates to the back.",
         "Rare but serious: gallbladder problems -- Report any symptoms of gallstones such as upper abdominal pain, fever, or jaundice to your physician.",
       ],
-    },
+          image: "/images/diabetes-chronic-disease/section-1.png",
+      imageAlt: "Side Effects of Ozempic",
+},
     {
       title: "Who Qualifies for Ozempic?",
       content:
@@ -91,7 +107,9 @@ export const pageData: LandingPageData = {
         "No history of pancreatitis -- Patients with a history of pancreatitis should discuss alternative options with their physician.",
         "Not pregnant or breastfeeding -- Ozempic should not be used during pregnancy or while breastfeeding.",
       ],
-    },
+          image: "/images/diabetes-chronic-disease/section-2.png",
+      imageAlt: "Who Qualifies for Ozempic?",
+},
     {
       title: "How to Get Ozempic Online at TelePlus Care",
       content:
@@ -103,7 +121,9 @@ export const pageData: LandingPageData = {
         "Step 4: Receive your prescription -- If Ozempic is deemed appropriate, your physician will send the prescription electronically to your preferred pharmacy in Alberta.",
         "Step 5: Ongoing monitoring -- Schedule follow-up appointments to track your progress, manage side effects, and adjust your dosage as needed. Our physicians are available for ongoing support throughout your treatment.",
       ],
-    },
+          image: "/images/best-diabetes-doctor-in-edmonton/section-2.png",
+      imageAlt: "How to Get Ozempic Online at TelePlus Care",
+},
     {
       title: "Cost of Ozempic in Alberta",
       content:
@@ -161,4 +181,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

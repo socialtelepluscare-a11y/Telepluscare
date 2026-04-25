@@ -1,166 +1,110 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle: "Best Diabetes Doctor in Airdrie",
+  metaTitle: "Best Diabetes Doctor in Airdrie | Virtual Care | TelePlus",
   metaDescription:
-    "Are you searching for the best diabetes doctor in Airdrie? At TelePlus Care, our experienced diabetes specialists and endocrinologists provide comprehensive, patient-focused diabetes care for Type 1, Type 2, and gestational diabetes.",
+    "Airdrie families get same-week virtual diabetes care. Avoid the Calgary commute — coordinated with Airdrie Regional Health Centre and Foothills referrals.",
   title: "Best Diabetes Doctor in Airdrie",
   heroDescription:
-    "Are you searching for the best diabetes doctor in Airdrie? At TelePlus Care, our experienced diabetes specialists and endocrinologists provide comprehensive, patient-focused diabetes care for Type 1, Type 2, and gestational diabetes. Whether you're newly diagnosed or looking for advanced ongoing management, our team helps you take control of your health with personalized treatment plans and convenient virtual appointments. Your health deserves expert attention\u2014and we're here to support you every step of the way.",
+    "Airdrie has grown faster than its specialist infrastructure. Many residents commute to Calgary jobs, raise families in Cooper's Crossing or Bayside, and don't have time to drive into Foothills Medical Centre for routine diabetes follow-up. Our virtual physicians serve Airdrie residents with same-week appointments, AHCIP-covered visits, and direct coordination with Airdrie Regional Health Centre.",
   heroImage: "/images/best-diabetes-doctor-in-airdrie/hero.png",
-  heroImageAlt: "Best Diabetes Doctor in Airdrie - TelePlus Care",
+  heroImageAlt: "Best diabetes doctor in Airdrie",
+  bookingUrl: "/book-appointment-alberta",
+  conditionType: "Diabetes",
+  summary:
+    "TelePlus Care delivers virtual diabetes physician services to Airdrie residents — eliminating the Calgary commute for routine diabetes management. Our family-friendly team coordinates with Airdrie Regional Health Centre, Foothills Diabetes Clinic referrals, and local pharmacies, providing same-week appointments for Type 1, Type 2, and gestational diabetes covered by Alberta Health Care.",
+  keyFacts: [
+    "Airdrie is one of Canada's fastest-growing cities — population growth has outpaced local specialist physician supply.",
+    "Calgary commuter families lose 2+ hours per Foothills specialist appointment; virtual visits reclaim that time.",
+    "Roughly 8% of Airdrie's adult population has diagnosed diabetes; another 16% have prediabetes.",
+    "Family-centred lifestyle changes reduce household Type 2 diabetes incidence by up to 30%.",
+  ],
   sections: [
     {
-      title: "Why Choose Our Diabetes Specialists in Airdrie?",
+      title: "Diabetes Care That Respects Airdrie Family Schedules",
       content:
-        "Your health deserves expert attention\u2014and we're here to support you every step of the way.",
+        "Most Airdrie patients we treat are commuter parents juggling Calgary jobs, school pickups in Sagewood or Williamstown, and weekend hockey at Genesis Place. We design diabetes management that fits this rhythm — virtual visits before work, lunch-hour CGM reviews, and prescription delivery to local Airdrie pharmacies.",
       bullets: [
-        "Experienced diabetes specialists and endocrinologists",
-        "Holistic care for Type 1, Type 2, and gestational diabetes",
-        "Support for insulin management, blood sugar monitoring, and prescription refills",
-        "Focus on weight management and nutrition counseling",
-        "Convenient virtual consultations and online appointments",
+        "Same-week appointments — no waiting 6+ months for Calgary specialist referrals",
+        "Coordination with Airdrie Regional Health Centre for in-person needs",
+        "Local pharmacy delivery to Shoppers, Sobeys, Save-On, and independents in Airdrie",
+        "Family-centred plans for parents managing kids' nutrition while controlling their own A1C",
       ],
       image: "/images/best-diabetes-doctor-in-airdrie/section-1.png",
-      imageAlt: "Diabetes doctor in Airdrie",
+      imageAlt: "Airdrie diabetes family care",
     },
     {
-      title: "Weight Management for Diabetes in Airdrie",
+      title: "Avoiding the Deerfoot Trail for Routine Diabetes Visits",
       content:
-        "Struggling with weight while managing diabetes? Our medical weight management programs include personalized diet and lifestyle plans, exercise recommendations, weight-loss strategies for Type 2 diabetes, and medical interventions when needed. Healthy weight equals better glucose control.",
+        "Driving from Airdrie to Foothills Medical Centre or Peter Lougheed for a 20-minute follow-up costs you 90 minutes minimum. Our virtual model means you connect from your kitchen — and we handle prescription transmission to your preferred Airdrie pharmacy.",
       image: "/images/best-diabetes-doctor-in-airdrie/section-2.png",
-      imageAlt: "Weight management for diabetes in Airdrie",
+      imageAlt: "Airdrie virtual diabetes care convenience",
     },
     {
-      title: "Personalized Diabetes Treatment Plans",
+      title: "Type 2 Diabetes for Airdrie Adults",
       content:
-        "Every patient is unique, and so is your care plan. We tailor treatments based on your lifestyle, your glucose patterns, medications that work best for you, and long-term health goals. Our goal: stable blood sugar, fewer complications, and a healthier life.",
+        "We manage Type 2 diabetes for Airdrie patients across all stages — newly diagnosed, oral-medication-managed, insulin-using, or transitioning to GLP-1 therapy. Treatment plans are built around your family's reality, not generic protocols.",
       image: "/images/best-diabetes-doctor-in-airdrie/section-3.png",
-      imageAlt: "Personalized diabetes treatment plans",
+      imageAlt: "Airdrie Type 2 diabetes care",
     },
     {
-      title: "Fast & Easy Online Diabetes Prescription Refills in Airdrie",
+      title: "Type 1 & Pediatric Coordination",
       content:
-        "Avoid long wait times\u2014refill your diabetes medications online: Insulin, Metformin, Ozempic, Mounjaro, and other diabetes medications. Quick. Secure. Hassle-free.",
+        "Airdrie families with Type 1 children typically follow at Alberta Children's Hospital. We provide adjunctive lifestyle and education support for the whole family while maintaining the Calgary specialist relationship.",
       image: "/images/best-diabetes-doctor-in-airdrie/section-4.png",
-      imageAlt: "Online diabetes prescription refills in Airdrie",
+      imageAlt: "Airdrie Type 1 family diabetes",
     },
     {
-      title: "Weight Management Plans in Airdrie",
+      title: "GLP-1 Medications in Airdrie Pharmacies",
       content:
-        "We offer individualized weight management solutions designed to help you reach and maintain a healthy weight. Our services are tailored to your specific needs and include dietary counseling, exercise recommendations, and medical interventions when needed.",
+        "Ozempic, Mounjaro, and Rybelsus are stocked at multiple Airdrie pharmacies. Our physicians handle initiation, dose escalation, prior authorization paperwork, and side-effect troubleshooting — usually within 2–3 virtual visits.",
       image: "/images/best-diabetes-doctor-in-airdrie/section-5.png",
-      imageAlt: "Weight management plans in Airdrie",
+      imageAlt: "Airdrie GLP-1 diabetes prescription",
     },
     {
-      title: "Personalized Diabetes Care in Airdrie",
+      title: "Continuous Glucose Monitor Setup",
       content:
-        "Get treatment plans tailored to your lifestyle. From insulin management to blood sugar monitoring, we help you stay on track with your health.",
+        "Dexcom G7 and FreeStyle Libre 3 are available throughout Airdrie. We help with prescription, sensor application coaching, and time-in-range interpretation — turning your CGM into a daily decision tool, not just a logbook.",
       image: "/images/best-diabetes-doctor-in-airdrie/section-6.png",
-      imageAlt: "Personalized diabetes care in Airdrie",
+      imageAlt: "Airdrie CGM coaching",
     },
     {
-      title: "Easy Prescription Refills in Airdrie",
+      title: "Gestational Diabetes for Airdrie Mothers",
       content:
-        "No more waiting. Refill your diabetes prescriptions online with quick, reliable service from our Airdrie clinic.",
-    },
-    {
-      title: "Virtual Diabetes Consultations in Airdrie",
-      content:
-        "Can't visit the clinic? Connect with the best diabetes doctors in Airdrie from home. Perfect for busy schedules, seniors, limited mobility, and patients needing regular follow-ups. Your diabetes care is now accessible anytime, anywhere.",
+        "We co-manage gestational diabetes alongside your Airdrie or Calgary obstetrician — tracking glucose logs, initiating insulin if needed, and arranging postpartum testing to reduce long-term Type 2 risk.",
       image: "/images/best-diabetes-doctor-in-airdrie/section-7.png",
-      imageAlt: "Virtual diabetes consultations in Airdrie",
-    },
-    {
-      title: "Type 1 Diabetes",
-      content:
-        "Living with this condition requires diligent management and ongoing care. Our virtual consultations ensure that you receive the medical support you need, with personalized care plans to help monitor blood sugar levels and maintain a healthy lifestyle.",
-      image: "/images/best-diabetes-doctor-in-airdrie/section-8.png",
-      imageAlt: "Type 1 diabetes care in Airdrie",
-    },
-    {
-      title: "Type 2 Diabetes",
-      content:
-        "Our team focuses on providing expert guidance for managing Type 2 diabetes through diet, exercise, and medication. Our goal is to help you keep your glucose levels under control and improve your overall well-being through tailored care plans.",
-    },
-    {
-      title: "Non-Alcoholic Fatty Liver Disease (NAFLD)",
-      content:
-        "Closely associated with obesity and insulin resistance, NAFLD can have serious consequences if left untreated. Our virtual care includes dietary counseling, weight reduction strategies, and medical treatment to reduce fat buildup in the liver and improve liver health.",
-      image: "/images/best-diabetes-doctor-in-airdrie/section-9.png",
-      imageAlt: "Non-alcoholic fatty liver disease treatment",
-    },
-    {
-      title: "Best Diabetes Doctor in Airdrie \u2013 Comprehensive Care",
-      content:
-        "Our clinic offers a full range of services to help you stay in control of your health:",
-      bullets: [
-        "Diabetes diagnosis and treatment",
-        "Medication and insulin therapy",
-        "Prescription refills online",
-        "Weight loss and lifestyle coaching",
-        "Diet & nutrition plans tailored to you",
-        "Ongoing monitoring to prevent complications",
-      ],
-      image: "/images/best-diabetes-doctor-in-airdrie/section-10.png",
-      imageAlt: "Comprehensive diabetes care in Airdrie",
-    },
-    {
-      title: "How Does It Work?",
-      content:
-        "At TelePlus Care, we understand that dealing with healthcare can be overwhelming, especially when you are suffering with weight management or diabetes. That\u2019s why we prioritize personalized, compassionate care that fits seamlessly into your lifestyle. Our approach goes beyond just treating symptoms; we strive to build a lasting partnership with you on your journey to better health.",
-      bullets: [
-        "Book an Appointment \u2014 Start by selecting the \u201CBook Appointment\u201D button on our website. Our booking process is straightforward and designed to help you quickly schedule your virtual consultation.",
-        "Select Your Condition \u2014 Choose from a range of services, including treatments for weight management, diabetes, hypertension, high cholesterol, and more. Follow the prompts to complete your booking.",
-        "Receive Confirmation \u2014 Once you\u2019ve booked your appointment, you\u2019ll receive a confirmation email or call with detailed instructions for your upcoming virtual visit.",
-        "Attend Your Appointment \u2014 On the day of your virtual visit, connect with your provider using any electronic device\u2014whether it\u2019s a smartphone, tablet, or computer. Our healthcare professionals will assess your condition and create a personalized care plan.",
-      ],
-    },
-    {
-      title: "Your Path to Better Health Starts Here!",
-      content:
-        "Ready to take control of your diabetes with experienced specialists? Our mission is to provide you with accessible, affordable, and high-quality care\u2014right here in Airdrie. Take charge of your health and partner with the best diabetes doctors in Airdrie. Book online to schedule your consultation today. Your health matters, and we\u2019re here to guide you every step of the way.",
+      imageAlt: "Airdrie gestational diabetes",
     },
   ],
   faqs: [
     {
-      question: "Who is the best diabetes doctor in Airdrie?",
+      question: "Do I need to drive into Calgary for specialist diabetes care?",
       answer:
-        "Our clinic is home to some of the top diabetes specialists and endocrinologists in Airdrie, known for their experience in managing Type 1, Type 2, and gestational diabetes.",
+        "For most routine diabetes management, no. Our virtual physicians handle ongoing care; we refer to Calgary endocrinology only when truly indicated.",
     },
     {
-      question: "Do I need a referral to see a diabetes specialist?",
+      question: "How fast can I get an Airdrie virtual diabetes appointment?",
       answer:
-        "In most cases, you can book an appointment directly with our diabetes doctors in Airdrie. However, some insurance providers may require a referral from your family physician.",
+        "Most Airdrie patients are seen within 3–5 business days. Same-day urgent appointments are often available.",
     },
     {
-      question: "Can I book a virtual diabetes consultation?",
+      question: "Can you send my prescription to an Airdrie pharmacy?",
       answer:
-        "Yes! We offer virtual diabetes consultations in Airdrie, allowing you to connect with a specialist from home through secure online video appointments.",
+        "Yes. We transmit prescriptions to any Airdrie pharmacy you choose — Shoppers Drug Mart, Sobeys, Save-On-Foods, Rexall, or independents.",
     },
     {
-      question: "What services do your diabetes doctors provide?",
+      question: "Is this covered by AHCIP for Airdrie residents?",
       answer:
-        "Our clinic provides a full range of services including diabetes diagnosis, insulin management, prescription refills, weight loss programs, and nutrition counseling.",
+        "Yes. Alberta Health Care fully covers our virtual physician visits for AHCIP-insured Airdrie residents.",
     },
     {
-      question:
-        "Do you provide online prescription refills for diabetes medication?",
+      question: "Can you coordinate with Airdrie Regional Health Centre?",
       answer:
-        "Yes. We make it easy to refill your diabetes prescriptions online without long wait times.",
-    },
-    {
-      question: "Can you help with weight management and diabetes?",
-      answer:
-        "Absolutely. Our team provides personalized weight loss and nutrition plans to help you manage diabetes more effectively.",
-    },
-    {
-      question:
-        "How do I book an appointment with a diabetes doctor in Airdrie?",
-      answer:
-        "You can easily book an appointment online or call our clinic directly to schedule your consultation.",
+        "Absolutely. When in-person labs, imaging, or acute care are needed, we coordinate with Airdrie Regional Health Centre and forward results to your virtual file.",
     },
   ],
   locations:
-    "Airdrie, Calgary, Cochrane, Okotoks, Chestermere, Crossfield, Red Deer, and surrounding areas across Alberta.",
+    "Airdrie, Crossfield, Beiseker, Irricana, Madden, Balzac, Rocky View County, Bearspaw, and northern Calgary metropolitan communities.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

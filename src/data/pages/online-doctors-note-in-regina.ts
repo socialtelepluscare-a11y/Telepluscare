@@ -146,4 +146,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Regina, Downtown, Cathedral, Harbour Landing, Lakeview, Albert Park, Whitmore Park, and surrounding southern Saskatchewan communities.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

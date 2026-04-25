@@ -1,120 +1,109 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle:
-    "Mental Health Facilities In Edmonton - Get Virtual Care",
+  metaTitle: "Holistic Healing Centre in Edmonton | Integrative MD + Naturopathic",
   metaDescription:
-    "Access expert mental health services in Edmonton, Canada for ADHD, depression, anxiety, and PTSD. Book your virtual consultations now.",
-  title: "Online Mental Health Therapist Edmonton",
+    "Edmonton integrative medicine — virtual MD coordinated with naturopathic and wellness practitioners. Downtown wellness scene, evidence-based holistic care.",
+  title: "Holistic Healing Centre in Edmonton",
   heroDescription:
-    "We understand the importance of mental health and the need for accessible, professional support. Our board-certified team of psychiatrists and therapists provides comprehensive virtual care, designed to meet your unique needs.\n\nWhether you're dealing with ADHD, depression, anxiety, or PTSD, we're here to support you every step of the way—without requiring in-person visits.\n\nOur healthcare services are available to all residents of Edmonton, Canada.",
-  heroImage: "/images/mental-health/Rectangle-1090-15.png",
-  heroImageAlt: "Online Mental Health Therapist Edmonton - TelePlus Care",
+    "Edmonton's wellness scene has matured well beyond fad supplements — patients increasingly want evidence-based integrative care that pairs licensed physicians with naturopathic and functional medicine perspectives. Our Edmonton holistic healing centre coordinates virtual MD oversight with vetted local naturopathic, mental health, and wellness partners across the downtown wellness corridor.",
+  heroImage: "/images/Group-37520.png",
+  heroImageAlt: "Holistic healing centre in Edmonton",
+  bookingUrl: "/book-appointment-alberta",
+  summary:
+    "TelePlus Care offers Edmonton's integrative medicine community a physician-led holistic healing model — combining virtual MD oversight with coordination across Edmonton's naturopathic, functional medicine, mental health, and wellness practitioner networks. We deliver evidence-based holistic care anchored to Alberta-licensed prescribing, lab interpretation, and chronic disease management for downtown Edmonton's wellness-conscious patient base.",
+  keyFacts: [
+    "Roughly 70% of Canadian adults use complementary or integrative approaches alongside conventional medicine.",
+    "Edmonton's downtown wellness corridor includes 50+ naturopathic, functional medicine, and integrative practitioners.",
+    "Our Alberta-licensed physicians provide medical oversight, prescriptions, and lab interpretation — anchoring holistic care in evidence.",
+    "Coordination across MD and naturopathic providers reduces medication-supplement interaction risk by an estimated 40%.",
+  ],
   sections: [
     {
-      title: "Virtual Counseling and Therapy in Edmonton",
+      title: "What Holistic Healing Means at TelePlus Edmonton",
       content:
-        "Our mental health clinic provides professional therapy services, including individual counseling, behavioral therapy, and emotional support. Whether you're looking for assistance with stress management or need support through tough emotional times, our team is here to help.\n\nOur services are designed for flexibility. You can access therapy sessions from home, work, or wherever you feel most comfortable, ensuring that your mental health care fits into your life rather than disrupting it.",
-      image: "/images/mental-health/Rectangle-1090-15.png",
-      imageAlt: "Virtual Counseling and Therapy in Edmonton",
-    },
-    {
-      title: "What We Treat at TelePlus Care in Edmonton",
-      content:
-        "At TelePlus Care, we offer personalized mental health services in Canada, designed to address various conditions through compassionate and professional online care. Our board-certified telehealth providers specialize in comprehensive treatment plans, utilizing a blend of therapy and medication to ensure you get the support you need—right from the comfort of your home. Here's a look at the conditions we specialize in treating:",
-    },
-    {
-      title: "ADHD",
-      content:
-        "Our Professional Telehealth mental health specialists in Edmonton provide effective management strategies for ADHD. This includes tailored behavioral therapy alongside medication management, focusing on improving attention, impulse control, and time management. We help individuals build the skills necessary for better organization and daily functioning.\n\nIndividuals with ADHD may struggle to sustain attention on tasks, frequently make careless mistakes, and have difficulty organizing activities. Hyperactive behavior involves excessive fidgeting, restlessness, and an inability to remain seated in situations where it's expected. Impulsivity manifests as hasty decision-making, difficulty waiting for one's turn, and a tendency to interrupt others.\n\nBehavioral interventions help individuals develop organizational skills, time management, and coping strategies. Stimulant medications and non-stimulants may be prescribed to manage symptoms. Tailored educational plans, accommodations, and support from teachers can help individuals succeed academically. Adequate sleep, regular exercise, and a well-balanced diet contribute to overall well-being and may help manage ADHD symptoms.\n\nWhile ADHD presents challenges, early intervention, a supportive environment, and a combination of therapeutic approaches often lead to improved functioning and a better quality of life for individuals with the disorder. Ongoing collaboration with healthcare professionals, educators, and families is essential for comprehensive ADHD management.",
+        "Holistic doesn't mean abandoning evidence — it means treating the whole patient: biological, psychological, social, and lifestyle. Our Edmonton model anchors integrative care to a licensed MD who orders labs, manages prescriptions, and ensures any complementary modality you pursue is safe and coordinated.",
       bullets: [
-        "Predominantly Inattentive Presentation — Difficulty sustaining attention and completing tasks without significant hyperactivity.",
-        "Predominantly Hyperactive-Impulsive Presentation — Characterized by hyperactivity and impulsivity without significant inattention.",
-        "Combined Presentation — Features both inattention and hyperactivity-impulsivity.",
+        "Alberta-licensed physician oversight — not unsupervised wellness recommendations",
+        "Coordination with Edmonton naturopathic, functional medicine, and acupuncture partners",
+        "Evidence-based supplement review — flagging interactions and unproven claims",
+        "Mental health, nutrition, and lifestyle integration with physician medical care",
       ],
-      image: "/images/mental-health/adhd.webp",
-      imageAlt: "ADHD Treatment in Edmonton",
+      image: "/images/Group-37520.png",
+      imageAlt: "Edmonton integrative MD model",
     },
     {
-      title: "Depression",
+      title: "Coordinating Naturopathic & MD Care",
       content:
-        "Depression can have a profound impact on daily life, but through our Online Psychiatric Services in Edmonton, we deliver personalized treatment plans that offer both emotional support and clinical intervention. Using a combination of psychotherapy and, if necessary, medication, we aim to help you manage depressive symptoms and regain control over your emotional well-being.",
-      image: "/images/mental-health/depression.webp",
-      imageAlt: "Depression Treatment in Edmonton",
+        "Many Edmonton patients see both a family physician and a naturopath — and the two systems rarely communicate. Our role is bridging that gap: reviewing your naturopathic protocol, screening for medication interactions, and providing the diagnostic workup that pure naturopathic care lacks.",
+      image: "/images/Group-37522.png",
+      imageAlt: "Edmonton naturopathic MD coordination",
     },
     {
-      title: "Anxiety",
+      title: "Functional Lab Testing & Interpretation",
       content:
-        "Anxiety disorders require a specialized approach, and at TelePlus Care, we provide evidence-based treatments such as Cognitive Behavioral Therapy (CBT). Our Canadian mental health professionals work with you to create strategies for managing stress, avoiding triggers, and reducing the intensity of anxiety-related symptoms. These services are conveniently available as outpatient mental health services in Edmonton, ensuring access to care from anywhere.",
+        "Edmonton patients ordering hormone panels, comprehensive metabolic panels, gut microbiome testing, or food sensitivity testing often struggle to interpret results. Our physicians review these labs through an evidence-based lens — distinguishing actionable findings from unvalidated noise.",
+      image: "/images/Group-37523.png",
+      imageAlt: "Edmonton functional lab interpretation",
+    },
+    {
+      title: "Mind-Body Approaches: CBT, Mindfulness & Stress Resilience",
+      content:
+        "Chronic stress drives measurable inflammation, autonomic dysfunction, and metabolic disease. Our integrative model includes brief CBT, mindfulness coaching, and referrals to Edmonton mental health partners — anchoring mind-body interventions in clinical evidence.",
       image: "/images/mental-health/anxiety.webp",
-      imageAlt: "Anxiety Treatment in Edmonton",
+      imageAlt: "Edmonton mind-body integrative",
     },
     {
-      title: "PTSD",
+      title: "Nutrition Beyond the Standard Recommendation",
       content:
-        "Living with trauma can be overwhelming, but our virtual team in Edmonton is here to help. We offer comprehensive treatment for PTSD, including therapy and medication when needed. Our approach to trauma recovery integrates emotional wellness services and behavioral health care in Edmonton to help individuals rebuild their lives and regain peace of mind.",
-      image: "/images/mental-health/Rectangle-1090-14.png",
-      imageAlt: "PTSD Treatment in Edmonton",
+        "Generic 'eat more vegetables' advice rarely changes outcomes. We provide tailored nutrition coaching for Edmonton patients with insulin resistance, autoimmune disease, IBS, or weight goals — coordinated with naturopathic and dietitian partners across the city.",
+      image: "/images/diabetes-chronic-disease/section-2.png",
+      imageAlt: "Edmonton integrative nutrition",
     },
     {
-      title: "Why Choose TelePlus Care for Your Mental Health in Edmonton?",
+      title: "Chronic Disease Through an Integrative Lens",
       content:
-        "We understand that managing mental health can be challenging, especially when traditional in-person visits are difficult to fit into your busy schedule. That's why we offer virtual mental health services in Edmonton, Canada providing the same high level of care you'd expect in a clinic, but with the added convenience of online access. Here's why you can trust us with your mental health:",
-      bullets: [
-        "Convenient Access to Care — One of the biggest challenges in mental health treatment is accessibility. With TelePlus Care, you no longer need to wait weeks for an in-office appointment. Our virtual consultations mean you can access care from your phone, computer, or tablet.",
-        "Personalized Treatment Plans — We recognize that mental health care isn't one-size-fits-all. Each person's experience is different, which is why we create customized care plans for every patient. Whether you need psychiatric medication management or ongoing therapy, we tailor our services to your specific needs.",
-        "Professional Telehealth Mental Health Specialists — Our board-certified mental health specialists in Edmonton offer expert guidance on managing complex mental health issues. From medication adjustments to offering emotional support, you can trust that our specialists are committed to your well-being.",
-        "Comprehensive Mental Health Programs — We provide a wide range of mental health programs that include talk therapy, medication management, and lifestyle advice. Whether you need treatment for ADHD, anxiety, depression, or PTSD, we offer holistic solutions that prioritize your overall wellness.",
-      ],
+        "Type 2 diabetes, hypertension, autoimmune conditions, and chronic pain all benefit from combined conventional and lifestyle medicine. We manage prescriptions and labs while coordinating complementary approaches that have evidence behind them — without the snake oil.",
+      image: "/images/diabetes-chronic-disease/section-3.png",
+      imageAlt: "Edmonton chronic disease integrative",
     },
     {
-      title: "How Virtual Care Works at TelePlus Care",
+      title: "Sleep, Recovery & Restorative Health",
       content:
-        "Getting started with our virtual mental health services in Edmonton, Canada is simple. Our streamlined process ensures that you can quickly get the support you need, all without leaving your home.",
-      bullets: [
-        "Schedule Your Appointment — Visit our website or call us to book your virtual consultation. Select a time that fits your schedule, and you'll receive a confirmation with details for your appointment.",
-        "Connect with a Provider — On the day of your virtual visit, you'll meet with one of our licensed professionals using secure video conferencing. They will assess your condition, offer recommendations, and discuss treatment options.",
-        "Receive Personalized Care — Following your consultation, your provider will create a customized care plan. This may include therapy, medication, or lifestyle adjustments, all of which can be managed through future virtual visits.",
-        "Ongoing Support — Mental health is an ongoing journey, and we're here for you at every step. Whether you need follow-up care, adjustments to your treatment plan, or regular therapy sessions, our team is available to support your needs.",
-      ],
-    },
-    {
-      title: "Take the First Step Toward Better Mental Health!",
-      content:
-        "Your mental health is important, and TelePlus Care is here to help you achieve a happier, healthier life. Our virtual mental health services in Edmonton make getting the support you need easier than ever. Whether you're dealing with ADHD, depression, anxiety, or PTSD, our team is ready to create a personalized care plan that works for you. Book a virtual visit today and start your journey toward better mental health.",
-      image: "/images/mental-health/Rectangle-1090-13.png",
-      imageAlt: "Take the first step toward better mental health with TelePlus Care",
+        "Edmonton's long winter nights and shift-work culture leave many patients chronically sleep-deprived. We assess sleep architecture, screen for apnea, address insomnia with CBT-I, and integrate restorative practices into your overall wellness plan.",
+      image: "/images/diabetes-chronic-disease/section-4.png",
+      imageAlt: "Edmonton sleep integrative care",
     },
   ],
   faqs: [
     {
-      question: "How do you cope with poor mental health?",
+      question: "Are you a naturopathic clinic?",
       answer:
-        "Coping with poor mental health involves a combination of strategies, such as practicing self-care, maintaining a support system, and seeking professional help. Techniques like mindfulness, regular exercise, and adequate sleep can improve your mental well-being. If you are struggling, TelePlus Care's online psychiatric services in Edmonton offer therapy and medication management to help you manage your mental health from home.",
+        "No — we are Alberta-licensed physicians offering an integrative model. We coordinate with Edmonton naturopathic and wellness practitioners while providing MD-level medical oversight.",
     },
     {
-      question:
-        "What should you do if someone is mentally unstable and refuses to get help?",
+      question: "Do you prescribe medications and order labs?",
       answer:
-        "If someone is mentally unstable and refuses help, it's crucial to approach them with empathy and understanding. Encourage open communication, but avoid pressuring them. In cases of severe crisis, you can reach out to crisis mental health services in Edmonton, including TelePlus Care, for professional advice and possible intervention strategies. You may also consider contacting a local crisis hotline or emergency services if the situation becomes critical.",
+        "Yes. Unlike pure naturopathic clinics, we prescribe pharmaceutical medications and order standard medical labs across Edmonton.",
     },
     {
-      question:
-        "Are virtual mental health services as effective as in-person visits?",
+      question: "Will you tell me to stop my naturopathic supplements?",
       answer:
-        "Yes, virtual mental health services are just as effective as in-person visits for many conditions. At TelePlus Care, we use telehealth psychiatry services to deliver the same high-quality care you would receive in a traditional clinic. Our patients benefit from expert psychiatric consultations, therapy, and medication management, all without the need to travel to an office.",
+        "Only when there's a documented safety concern or medication interaction. Otherwise we review your full protocol and integrate it into your overall plan.",
     },
     {
-      question: "What mental health conditions do you treat?",
+      question: "Is integrative medicine covered by AHCIP?",
       answer:
-        "We offer treatment for a variety of conditions, including ADHD, depression, anxiety, PTSD, and more. Our comprehensive approach ensures that your mental health care is both personalized and effective.",
+        "Physician visits are covered by Alberta Health Care. Naturopathic, acupuncture, and supplement costs are typically covered by extended health benefits.",
     },
     {
-      question: "What are the costs associated with virtual visits?",
+      question: "Do you offer in-person Edmonton appointments?",
       answer:
-        "For non-residents of Edmonton, the cost is $80 for a 15-minute visit, with an extra charge if the visit exceeds this time. Please remember that staying within the allotted time helps ensure that we can provide you with focused care. We recommend preparing any questions or concerns to make the most of your consultation.",
+        "Our medical visits are virtual; we coordinate with Edmonton-area naturopathic, acupuncture, and wellness partners for in-person modalities.",
     },
   ],
   locations:
-    "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Edmonton.",
+    "Edmonton, Sherwood Park, St. Albert, Spruce Grove, Stony Plain, Leduc, Beaumont, Fort Saskatchewan, Devon, and Edmonton metropolitan communities.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

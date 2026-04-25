@@ -1,203 +1,151 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle:
-    "Online Prescriptions and Refills in lloydminster – Same Day | TelePlus Care",
+  metaTitle: "Online Prescriptions & Refills in Lloydminster, Alberta | TelePlusCare",
   metaDescription:
-    "Need a fast and reliable way to get online prescriptions and refills in lloydminster? TelePlusCare connects you with licensed Alberta healthcare providers through secure virtual appointments.",
-  title: "Online Prescriptions and Refills in lloydminster – Same Day",
+    "Border city virtual prescription service. CPSA-licensed Alberta MDs send refills to Lloydminster pharmacies — AB and SK side. AHCIP covered for Alberta residents.",
+  title: "Online Prescriptions and Refills in Lloydminster",
   heroDescription:
-    "Need a fast and reliable way to get online prescriptions and refills in lloydminster? TelePlusCare connects you with licensed Alberta healthcare providers through secure virtual appointments — so you can get the medication you need without visiting a clinic. Whether you need a new prescription, a refill, or medical advice, our virtual healthcare platform is designed for convenience, speed, and trusted Alberta care. Book your virtual appointment today and get your prescription sent to your pharmacy — often within minutes.",
-  heroImage: "/images/2.jpg",
-  heroImageAlt: "Medical weight loss assessments and treatments",
+    "Lloydminster is North America's only city straddling a provincial border, and that creates unique pharmacy and prescription dynamics. TelePlusCare connects Alberta-side Lloyd residents with a CPSA-licensed virtual MD by video and sends prescriptions to either AB or SK side pharmacies — including Husky-area locations and the Co-op Pharmacy.",
+  heroImage: "/images/Rectangle-1090-3.png",
+  heroImageAlt: "Online prescriptions and refills in Lloydminster Alberta",
+  bookingUrl: "/book-appointment-alberta",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
+  summary:
+    "TelePlusCare delivers virtual prescription refills to Lloydminster's Alberta-side residents through CPSA-licensed MD video visits. Scripts are sent to Lloydminster pharmacies on both the AB and SK sides — important for the unique border city. AHCIP covers Alberta-resident physician visits, no referral needed, ideal for Husky and oilfield workers.",
+  keyFacts: [
+    "Lloydminster is the only Canadian city straddling a provincial border, with pharmacies on both Alberta and Saskatchewan sides — TelePlusCare can send to either.",
+    "Husky Energy (Cenovus) refinery and upgrader workers form a major patient population in Lloyd, with rotating shifts that benefit from virtual care.",
+    "AHCIP covers TelePlusCare virtual physician consultations for Alberta-resident Lloyd patients with a valid Alberta PHN — no referral required.",
+    "Most Lloyd patients receive their prescription at their pharmacy within 1–2 hours of booking, regardless of which side of 50th Avenue (Meridian Avenue) they live on.",
+  ],
   sections: [
     {
-      title: "Online Prescriptions and Refills in lloydminster",
+      title: "What Lloydminster Patients Can Be Prescribed Online",
       content:
-        "Running low on your medication? Skip the line, skip the waiting room, and refill your prescription from home — available 24/7 across Alberta.\n\nAt TelePlusCare, you can easily request online prescription refills in lloydminster, and our healthcare providers will review your request quickly. If medically appropriate, your prescription will be renewed and sent to your preferred pharmacy the same day.",
-      image: "/images/2.jpg",
-      imageAlt: "Medical weight loss assessments and treatments",
-    },
-    {
-      title: "What Makes Our Prescription Refills Convenient?",
-      content:
-        "Our online prescription refill service in lloydminster is designed to save you time and keep you healthy:",
+        "Lloydminster TelePlusCare visits cover the standard range of routine outpatient prescribing. Acute prescriptions for UTIs, sinus infections, strep, and skin infections are issued same-day. Chronic medication renewals — high blood pressure, cholesterol, diabetes, asthma, thyroid — are quick to handle. We prescribe contraception and non-controlled mental health medications. Important note for cross-border Lloyd: our physicians are Alberta-licensed, so prescriptions are written under Alberta authority, but Saskatchewan-side pharmacies in Lloyd readily fill them under standard interprovincial pharmacy practice.",
       bullets: [
-        "Available 24/7 — Anytime, anywhere",
-        "Serving lloydminster, Fort McMurray & surrounding areas",
-        "Covered by Alberta Health Card (where eligible)",
-        "Option for pharmacy delivery",
+        "Antibiotics for UTI, sinusitis, strep, skin infections",
+        "Antihypertensives — Ramipril, Amlodipine, Losartan",
+        "Cholesterol statins (Atorvastatin, Rosuvastatin)",
+        "Diabetes — Metformin, Jardiance, Ozempic",
+        "Asthma inhalers — Symbicort, Advair, Ventolin",
+        "Birth control pills, patches, rings",
+        "SSRIs, SNRIs (non-controlled)",
+        "Thyroid replacement (Synthroid)",
       ],
-      image: "/images/image_2024_04_24T06_38_39_877Z.png",
-      imageAlt: "Virtual care exams",
+      image: "/images/Rectangle-1090-6.png",
+      imageAlt: "Medications prescribed online for Lloydminster patients",
     },
     {
-      title: "What We Prescribe in Online Refill Prescription in lloydminster",
+      title: "Common Refills for Husky Workers and Lloyd Residents",
       content:
-        "Our providers issue a wide range of prescriptions, including:",
+        "Lloyd's economy is anchored by the Cenovus Lloydminster Refinery and Upgrader (formerly Husky), heavy oil operations across the Lloyd-Vermilion-Provost area, and a large agriculture base. The result is a working population with rotating shifts, FIFO contractors, and farming families across both sides of the border. Common refills our Lloyd patients book daily: blood pressure medications, statins for cholesterol, Metformin for diabetes, oral contraceptives, Symbicort for asthma (relevant given refinery and oilfield exposure), and antidepressants for shift-work-disordered moods.",
       bullets: [
-        "Antibiotics for infections",
-        "Birth control pills",
-        "Allergy & sinus medications",
-        "High blood pressure medication",
-        "Cholesterol medication",
-        "Diabetes medication",
-        "Thyroid medication",
-        "Mental health prescriptions",
-        "Asthma & inhalers",
-        "Erectile dysfunction medication",
-        "Skin medications (eczema, acne, dermatitis)",
-        "Cold, flu, throat infections",
-        "UTI & bladder infections (female)",
-        "Travel medications",
+        "Blood pressure refills for shift workers",
+        "Cholesterol management",
+        "Diabetes oral medications",
+        "Birth control pill renewals",
+        "Asthma inhalers (refinery and oilfield exposure)",
+        "Antidepressants for shift-work mental health",
       ],
-      image: "/images/111-819x1024.jpeg",
-      imageAlt: "Prescriptions and Refills in Calgary",
+      image: "/images/Rectangle-1090-20.png",
+      imageAlt: "Common refills for Lloydminster Husky workers",
     },
     {
-      title: "What We Cannot Prescribe Online",
+      title: "How Lloydminster Online Prescriptions Work",
       content:
-        "TelePlusCare does not prescribe the following for safety and legal reasons. We follow all Alberta and Canadian prescription laws.",
+        "TelePlusCare's three-step process is built for Lloyd's cross-border practicalities. Step 1 — Book your virtual appointment online and provide your Alberta PHN, the medication you need, and your preferred pharmacy — note whether you want it sent to the AB or SK side. Step 2 — Connect by encrypted video with a CPSA-licensed Alberta family physician for a 12–18 minute consultation. Step 3 — Once approved, your prescription is e-faxed to your selected Lloyd pharmacy. Most Saskatchewan-side pharmacies in Lloyd will fill an Alberta script without complications.",
       bullets: [
-        "Narcotics",
-        "Controlled substances",
-        "Opioids",
-        "Benzodiazepines (e.g., Xanax, Ativan)",
-        "Sleeping pills",
-        "ADHD stimulants",
-        "Medical marijuana",
+        "Step 1 — Book online with your Alberta PHN; specify pharmacy",
+        "Step 2 — 12–18 minute video visit with a CPSA-licensed Alberta MD",
+        "Step 3 — E-prescription to your AB or SK side Lloyd pharmacy",
       ],
-      image: "/images/3.jpg",
-      imageAlt: "Online Prescriptions and Refills in Alberta",
+      image: "/images/prescription-refill/13-819x1024.jpeg",
+      imageAlt: "Three-step Lloydminster online prescription process",
     },
     {
-      title:
-        "Virtual Healthcare Benefits: Why lloydminster Residents Choose Online Refill Prescription",
+      title: "Cross-Border Pharmacy: Both AB and SK Sides",
       content:
-        "Convenience & Accessibility: No commute to a clinic. No waiting room exposure to other illnesses. Access care from home, work, or anywhere. Perfect for those with mobility issues or transportation challenges.\n\nTime-Saving: Average clinic wait time is 1-2 hours. Average virtual appointment takes just 15-20 minutes total. Get back to resting and recovering faster.\n\nCost-Effective: No parking fees. No transportation costs. No time off work for appointment travel. Covered by Alberta Health Card in most cases.\n\nQuality Care: Same licensed doctors as in-person clinics. Thorough assessment and consultation. Follow-up care available. Prescription services when needed.",
-      image:
-        "/images/tele.pluscare_1762275770_3758564036423165455_74096322945-819x1024.jpg",
-      imageAlt: "Doctor note online",
-    },
-    {
-      title:
-        "Why Choose TelePlusCare in lloydminster for Prescriptions and Refills?",
-      content:
-        "TelePlusCare provides trusted, fast prescription services for lloydminster residents:",
+        "Lloydminster pharmacies sit on both sides of 50th Avenue (Meridian Avenue), which marks the AB-SK provincial border. The Walmart Pharmacy is on the Saskatchewan side; the Sobeys Pharmacy and Lloyd Mall Shoppers can be on either. The Co-op Pharmacy at the Lloydminster Co-op is a long-standing community choice. We will send your e-prescription to whichever side you prefer; the practical difference is mainly in drug plan coverage — Alberta drug plans typically only reimburse at Alberta-side pharmacies. If you have AHCIP coverage and want maximum reimbursement, choosing an Alberta-side pharmacy is often simpler.",
       bullets: [
-        "Real Alberta Doctors: All notes issued by licensed Canadian physicians",
-        "Fast Turnaround: Receive your note in as little as 15 minutes",
-        "Valid for Work, School & Travel: Use it with confidence anywhere in Alberta",
-        "Secure & Private: Your consultation and documents are fully confidential",
-        "Alberta Health Card Accepted: Most services covered — no extra cost",
+        "Walmart Pharmacy — Saskatchewan side",
+        "Sobeys Pharmacy — both sides",
+        "Lloyd Mall Shoppers Drug Mart",
+        "Lloydminster Co-op Pharmacy",
+        "Pick AB-side for simpler AHCIP/Alberta drug plan billing",
       ],
-      image: "/images/13-819x1024.jpeg",
-      imageAlt:
-        "Online Prescriptions and Refills in lloydminster – TelePlusCare",
+      image: "/images/Rectangle-1090-22.png",
+      imageAlt: "Lloydminster cross-border pharmacy options",
     },
     {
-      title: "Refill Your Medication Online in lloydminster",
+      title: "Built for Husky/Cenovus Refinery and Heavy Oil Workers",
       content:
-        "Running low on your medication? Request a prescription refill online and avoid long clinic wait times, scheduling conflicts, last-minute rushes, and missing doses.\n\nOur Alberta providers can quickly renew your medication if appropriate — sent directly to your pharmacy.",
+        "The Cenovus Lloydminster Refinery, the asphalt plant, and the regional heavy oil operations employ thousands across the Lloyd region. Many work rotating shifts that don't align with traditional walk-in clinic hours. TelePlusCare gives these workers access to a real Alberta-licensed physician evenings, weekends, and stat holidays. A 15-minute video visit during a meal break gets your prescription to the Lloyd Mall Shoppers or Co-op Pharmacy before your shift ends. We're particularly experienced with shift-work-related sleep, mood, and chronic disease management.",
       bullets: [
-        "Long clinic wait times",
-        "Scheduling conflicts",
-        "Last-minute rushes",
-        "Missing doses",
+        "Designed for Cenovus refinery rotating shifts",
+        "Heavy oil and oilfield service workers welcome",
+        "Mid-shift video visit possible with stable connection",
+        "Shift-work disorder, mood, sleep medications supported",
       ],
-      image: "/images/Group-37523.png",
-      imageAlt: "Refill your medication online",
+      image: "/images/image-4.png",
+      imageAlt: "TelePlusCare for Lloydminster refinery workers",
     },
     {
-      title: "How It Works",
+      title: "Alberta Health Coverage for Lloydminster (AB-Side)",
       content:
-        "Step 1: Book a virtual appointment (takes less than 2 minutes)\n\nStep 2: Speak to a certified Alberta doctor via secure video or chat\n\nStep 3: Receive your prescription sent to your pharmacy — ready to pick up or have delivered\n\n100% legal and accepted. Safe, encrypted, and confidential. Mobile and desktop friendly.",
-      image: "/images/image-9963535-819x1024.jpeg",
-      imageAlt: "Doctor note in lloydminster",
-    },
-    {
-      title: "Who Can Use This Service?",
-      content:
-        "Our online prescription service is available to a wide range of patients:",
+        "Alberta-resident Lloyd patients with a valid Alberta PHN are AHCIP-covered for the virtual physician consultation. If you live on the Saskatchewan side, you'd typically use Saskatchewan Health Card coverage and our service may not be the right fit — we recommend confirming residency status before booking. Drug coverage for AB-side residents flows through Alberta Blue Cross Non-Group, Coverage for Seniors (auto at 65), and the Adult Health Benefit. Cenovus, oilfield service firms, and the City of Lloydminster all provide extended health benefits with strong drug coverage.",
       bullets: [
-        "Employees: Needing a sick note for missed work",
-        "Students: Requiring a note for absence from classes or exams",
-        "Parents: Caring for a sick child or family member",
-        "Travelers: Requiring fitness to fly or recovery documentation",
-        "Remote Workers: Who need proof of unwell status",
+        "AHCIP covers physician consult for AB-side residents",
+        "SK-side residents should confirm coverage before booking",
+        "Cenovus/Husky and oilfield benefits widely available",
+        "Alberta Blue Cross Non-Group plans",
       ],
-      image: "/images/Group-37522.png",
-      imageAlt: "Doctor note in lloydminster",
+      image: "/images/image-5.png",
+      imageAlt: "Alberta Health coverage for Lloydminster",
     },
     {
-      title: "About Our Virtual Medical Clinic",
+      title: "Why Lloydminster Patients Choose TelePlusCare",
       content:
-        "We are a fully licensed telemedicine provider serving lloydminster and all of Alberta. Our team of certified physicians is committed to providing accessible healthcare for all Albertans, timely medical documentation when you need it, professional and compassionate care in every consultation, and a privacy-first approach to your medical information.\n\nOur doctors are experienced in family medicine, urgent care consultations, mental health assessments, occupational health documentation, and travel medicine.",
+        "Lloyd's family physicians are limited and walk-in clinic queues can run long, particularly during cold-and-flu season. The cross-border nature also means some patients face confusing drug plan coordination. TelePlusCare simplifies it — same-day virtual visits with a real CPSA-licensed Alberta physician, evenings and weekends, with prescription delivery to your pharmacy of choice on either side. Our Lloyd patients include refinery workers, heavy oil contractors, farming families east of town, and city residents who want a reliable refill pathway.",
+      bullets: [
+        "Same-day virtual appointments with Alberta MDs",
+        "Cross-border pharmacy support (AB or SK side)",
+        "Evenings, weekends, mid-shift availability",
+        "100% CPSA-licensed Alberta physicians",
+      ],
+      image: "/images/image-6.png",
+      imageAlt: "Why Lloydminster patients choose TelePlusCare",
     },
   ],
   faqs: [
     {
-      question: "Can I really get a prescription online in lloydminster?",
+      question: "Can a Saskatchewan-side Lloyd pharmacy fill an Alberta-issued prescription?",
       answer:
-        "Yes. TelePlusCare allows you to meet with a licensed Alberta healthcare provider online and, if medically appropriate, receive a prescription. This includes new prescriptions and refills. Your prescription can be sent to any lloydminster pharmacy or delivered to your home.",
+        "Yes. Saskatchewan-side pharmacies in Lloydminster routinely fill Alberta-issued prescriptions. The main practical difference is drug plan coverage — Alberta drug plans are easier to bill at Alberta-side pharmacies.",
     },
     {
-      question: "Is it legal to get prescriptions online in Alberta?",
+      question: "I work at the Cenovus Lloyd refinery on rotating shifts. Can I use TelePlusCare?",
       answer:
-        "Yes. Online prescribing is fully legal in Alberta as long as the prescription is issued by a licensed physician or nurse practitioner. TelePlusCare follows all provincial and federal medical regulations.",
+        "Absolutely. Many of our Lloyd patients are refinery and upgrader workers on rotating schedules. We offer evening and weekend slots so you can fit a 15-minute visit into a day off or meal break.",
     },
     {
-      question: "What medications can be prescribed online?",
+      question: "Is AHCIP coverage valid for me as a Lloyd resident?",
       answer:
-        "Our Alberta providers can prescribe a wide range of medications, including antibiotics, birth control, allergy medications, asthma inhalers, diabetes medications, blood pressure medication, cholesterol medication, thyroid medication, mental health prescriptions, skin medications, erectile dysfunction medication, travel medication, and cold & flu treatments. If it's safe and medically appropriate, we can prescribe it virtually.",
+        "Only if you officially reside on the Alberta side and have a valid Alberta PHN. Saskatchewan-side residents would use SK Health Card coverage and should confirm before booking with TelePlusCare.",
     },
     {
-      question: "What medications cannot be prescribed online?",
+      question: "Which Lloydminster pharmacies accept TelePlusCare e-prescriptions?",
       answer:
-        "For safety and legal reasons, TelePlusCare cannot prescribe narcotics, opioids, controlled substances, ADHD stimulants, benzodiazepines, sleeping pills, or medical marijuana. Your provider will inform you if your medication falls into this category.",
+        "All of them — Lloyd Mall Shoppers Drug Mart, Co-op Pharmacy, Sobeys Pharmacy, Walmart Pharmacy (SK side), and independents. We can send to either side at your request.",
     },
     {
-      question: "Can I get a prescription refill online in lloydminster?",
+      question: "How fast can I get a prescription in Lloydminster?",
       answer:
-        "Yes. TelePlusCare offers quick and convenient prescription refills online. If you're running out of your medication, our providers can renew your prescription and send it to your preferred pharmacy in lloydminster.",
-    },
-    {
-      question: "How fast can I get my prescription or refill?",
-      answer:
-        "Most TelePlusCare patients receive their prescription within 15-30 minutes after their virtual appointment, depending on the complexity of the case and pharmacy availability.",
-    },
-    {
-      question: "Can I get antibiotics online in lloydminster?",
-      answer:
-        "Yes. Providers can prescribe antibiotics for conditions such as strep throat, sinus infections, ear infections, UTIs (for women), and skin infections. Antibiotics are only prescribed when medically appropriate.",
-    },
-    {
-      question: "Do I need an Alberta Health Care number?",
-      answer:
-        "Many virtual services are covered by AHCIP, but you can still use TelePlusCare even if you don't have an Alberta Health Card. Fees may apply for uninsured services.",
-    },
-    {
-      question:
-        "Can you send my prescription to any pharmacy in lloydminster?",
-      answer:
-        "Yes. You can choose any local lloydminster pharmacy, including Shoppers Drug Mart, Rexall, Loblaw/Superstore pharmacies, Save-On Foods, Costco, and independent pharmacies. You may also request medication delivery if offered by the pharmacy.",
-    },
-    {
-      question: "Can I get birth control online in lloydminster?",
-      answer:
-        "Yes. TelePlusCare providers can prescribe or renew birth control pills, patches, rings, or other options depending on your medical history.",
-    },
-    {
-      question: "Can I get an asthma inhaler online?",
-      answer:
-        "Yes. Ventolin, Flovent, and other inhalers can be prescribed or renewed if assessed as medically appropriate.",
-    },
-    {
-      question: "How do I book an appointment with TelePlusCare?",
-      answer:
-        "Click the Book Now button, choose your province (Alberta), select a time, and complete your short intake form. You'll receive a secure link for your virtual visit.",
+        "Most Alberta-side Lloyd patients receive their prescription at their pharmacy within 1–2 hours of booking, often sooner during weekday clinic hours.",
     },
   ],
   locations:
-    "lloydminster, Downtown, Mill Woods, Clareview, West lloydminster, Fort McMurray, and surrounding areas.",
+    "Serving Lloydminster (Alberta side primarily), Marwayne, Kitscoty, Vermilion, Dewberry, Tulliby Lake, Lashburn (SK), Marshall (SK), and the broader Lloyd-Vermilion heavy oil region.",
 };

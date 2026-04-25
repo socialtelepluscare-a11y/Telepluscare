@@ -5,6 +5,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import ScrollToTop from "@/components/ui/ScrollToTop";
 import MedicalDisclaimer from "@/components/ui/MedicalDisclaimer";
+import StickyBottomBar from "@/components/sections/StickyBottomBar";
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -139,6 +140,7 @@ export default function RootLayout({
                 "https://schema.org/Dermatology",
                 "https://schema.org/Psychiatric",
               ],
+              employee: { "@id": "https://telepluscare.com/#dr-maher-jerudi" },
               sameAs: [
                 "https://www.facebook.com/p/TelePlus-Care-Clinic-61565709950691/",
                 "https://www.youtube.com/@telepluscare-alberta",
@@ -147,8 +149,9 @@ export default function RootLayout({
               aggregateRating: {
                 "@type": "AggregateRating",
                 ratingValue: "4.9",
-                reviewCount: "500",
+                reviewCount: "159",
                 bestRating: "5",
+                worstRating: "1",
               },
               potentialAction: {
                 "@type": "ReserveAction",
@@ -182,6 +185,61 @@ export default function RootLayout({
             }),
           }}
         />
+        {/* Lead physician — Person schema for E-E-A-T */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Physician",
+              "@id": "https://telepluscare.com/#dr-maher-jerudi",
+              name: "Dr. Maher Jerudi",
+              honorificPrefix: "Dr.",
+              honorificSuffix: "MD",
+              jobTitle: "Lead Physician",
+              image: "https://telepluscare.com/images/dr-maher-jerudi.jpg",
+              worksFor: {
+                "@id": "https://telepluscare.com/#organization",
+              },
+              medicalSpecialty: [
+                "https://schema.org/InternalMedicine",
+                "https://schema.org/Endocrine",
+              ],
+              hasCredential: [
+                {
+                  "@type": "EducationalOccupationalCredential",
+                  credentialCategory: "Board Certification",
+                  recognizedBy: {
+                    "@type": "Organization",
+                    name: "American Board of Internal Medicine",
+                  },
+                },
+                {
+                  "@type": "EducationalOccupationalCredential",
+                  credentialCategory: "Board Certification",
+                  recognizedBy: {
+                    "@type": "Organization",
+                    name: "American Board of Obesity Medicine",
+                  },
+                },
+                {
+                  "@type": "EducationalOccupationalCredential",
+                  credentialCategory: "Fellowship",
+                  name: "Stroke and Cerebrovascular Disease",
+                },
+              ],
+              knowsAbout: [
+                "Internal Medicine",
+                "Obesity Medicine",
+                "Diabetes Management",
+                "Stroke Prevention",
+                "Cerebrovascular Disease",
+                "Weight Loss",
+                "Metabolic Health",
+              ],
+            }),
+          }}
+        />
       </head>
       <body style={{ fontFamily: "var(--font-dm-sans), 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" }}>
         <Header />
@@ -189,6 +247,7 @@ export default function RootLayout({
         <MedicalDisclaimer />
         <Footer />
         <ScrollToTop />
+        <StickyBottomBar />
       </body>
     </html>
   );

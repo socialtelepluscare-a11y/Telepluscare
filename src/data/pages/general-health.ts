@@ -10,6 +10,14 @@ export const pageData: LandingPageData = {
     "We offer a range of primary care services designed to meet the diverse healthcare needs of residents in Alberta. Our board-certified professionals provide general health services tailored to individuals and families, ensuring that quality care is just a click away. Whether you require routine check-ups or management of chronic conditions, our virtual platform makes accessing healthcare more convenient than ever.\n\nOur healthcare services are available to all residents of Alberta, Canada.",
   heroImage: "/images/OBJECTS.png",
   heroImageAlt: "Comprehensive General Health Services In Alberta",
+  summary:
+    "Virtual primary care in Alberta covers acute concerns (sore throat, flu, cough, migraines), chronic management (osteoporosis, gout, insomnia, GERD), prescription refills, and lab requisitions for blood work. TelePlus Care family medicine physicians provide same-day virtual consultations for the entire household — replacing the majority of routine clinic visits while remaining covered under Alberta Health Care for AHCIP holders.",
+  keyFacts: [
+    "Family medicine physicians treating patients across all ages",
+    "Same-day virtual consultations covered by Alberta Health Care",
+    "Prescription refills, sick notes, and lab requisitions issued same-visit",
+    "Replaces routine in-person visits for most non-emergency concerns",
+  ],
   sections: [
     {
       title: "Comprehensive General Health Services In Alberta",
@@ -22,7 +30,9 @@ export const pageData: LandingPageData = {
       title: "What We Offer at TelePlus Care",
       content:
         "At TelePlus Care, we provide a comprehensive range of primary care services in Alberta, Canada designed to meet the diverse healthcare needs of our community. Our experienced healthcare providers are dedicated to delivering personalized care, ensuring that you receive the support you need for optimal health. Here's what we offer:",
-    },
+          image: "/images/Rectangle-1090-3.png",
+      imageAlt: "What We Offer at TelePlus Care",
+},
     {
       title: "Sore Throat Treatment",
       content:
@@ -96,7 +106,9 @@ export const pageData: LandingPageData = {
         "Holistic Support -- We believe in treating the whole person, not just the condition. Our comprehensive services include dietary counseling, exercise recommendations, and ongoing support to help you make sustainable lifestyle changes.",
         "Empathy & Understanding -- We recognize that everyone's journey is different, and we're here to listen and provide encouragement as you work towards your health goals.",
       ],
-    },
+          image: "/images/Rectangle-1090-6.png",
+      imageAlt: "Why Choose TelePlus Care for Your Health Needs In Alberta?",
+},
     {
       title: "How Does It Work?",
       content:
@@ -107,7 +119,9 @@ export const pageData: LandingPageData = {
         "Receive Confirmation -- Once you've booked your appointment, you'll receive a confirmation email or call with detailed instructions for your upcoming virtual visit.",
         "Attend Your Appointment -- On the day of your virtual visit, connect with your provider using any electronic device\u2014whether it's a smartphone, tablet, or computer. Our healthcare professionals will assess your condition and create a personalized care plan.",
       ],
-    },
+          image: "/images/Rectangle-1090-7.png",
+      imageAlt: "How Does It Work?",
+},
   ],
   faqs: [
     {
@@ -141,4 +155,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

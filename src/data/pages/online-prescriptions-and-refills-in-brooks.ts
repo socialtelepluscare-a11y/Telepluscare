@@ -1,203 +1,151 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle:
-    "Online Prescriptions and Refills in urooks – Same Day | TelePlus Care",
+  metaTitle: "Online Prescriptions & Refills in Brooks, Alberta | TelePlusCare",
   metaDescription:
-    "Need a fast and reliable way to get online prescriptions and refills in urooks? TelePlusCare connects you with licensed Alberta healthcare providers through secure virtual appointments.",
-  title: "Online Prescriptions and Refills in urooks – Same Day",
+    "Brooks-area virtual prescription service for JBS workers and farmers. CPSA-licensed MDs send refills to Brooks pharmacies. AHCIP covered, no referral needed.",
+  title: "Online Prescriptions and Refills in Brooks",
   heroDescription:
-    "Need a fast and reliable way to get online prescriptions and refills in urooks? TelePlusCare connects you with licensed Alberta healthcare providers through secure virtual appointments — so you can get the medication you need without visiting a clinic. Whether you need a new prescription, a refill, or medical advice, our virtual healthcare platform is designed for convenience, speed, and trusted Alberta care. Book your virtual appointment today and get your prescription sent to your pharmacy — often within minutes.",
-  heroImage: "/images/2.jpg",
-  heroImageAlt: "Medical weight loss assessments and treatments",
+    "Brooks is the agricultural and meat-processing capital of southeastern Alberta — home to the JBS Foods plant, Bassano-area ranchers, and farming families across Newell County. TelePlusCare connects you with a CPSA-licensed virtual MD by video and sends prescriptions to your local Brooks pharmacy, regardless of your shift schedule or harvest demands.",
+  heroImage: "/images/image-5.png",
+  heroImageAlt: "Online prescriptions and refills in Brooks Alberta",
+  bookingUrl: "/book-appointment-alberta",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
+  summary:
+    "TelePlusCare provides virtual prescription refills for Brooks residents — JBS plant workers, Newell County farmers, and area families — through CPSA-licensed MD video visits. Scripts are e-faxed to Brooks pharmacies and surrounding Bassano, Tilley, and Duchess locations. AHCIP covers Alberta PHN holders, no referral required, evenings and weekends available.",
+  keyFacts: [
+    "Brooks has approximately 5 community pharmacies plus regional locations in Bassano, Tilley, and Duchess — all accept TelePlusCare e-prescriptions.",
+    "JBS Foods Brooks employs over 2,500 workers across rotating shifts; TelePlusCare offers evening and weekend slots that fit JBS schedules.",
+    "AHCIP covers virtual physician consultations for Brooks residents with a valid Alberta PHN — no referral required.",
+    "Brooks serves a diverse multilingual community, particularly newcomers working at JBS — TelePlusCare is accessible to all Alberta residents regardless of how recently they arrived.",
+  ],
   sections: [
     {
-      title: "Online Prescriptions and Refills in urooks",
+      title: "What Brooks Patients Can Be Prescribed Online",
       content:
-        "Running low on your medication? Skip the line, skip the waiting room, and refill your prescription from home — available 24/7 across Alberta.\n\nAt TelePlusCare, you can easily request online prescription refills in urooks, and our healthcare providers will review your request quickly. If medically appropriate, your prescription will be renewed and sent to your preferred pharmacy the same day.",
-      image: "/images/2.jpg",
-      imageAlt: "Medical weight loss assessments and treatments",
-    },
-    {
-      title: "What Makes Our Prescription Refills Convenient?",
-      content:
-        "Our online prescription refill service in urooks is designed to save you time and keep you healthy:",
+        "Brooks TelePlusCare visits cover the full range of routine outpatient prescribing. Acute prescriptions for UTIs, sinus infections, strep, and skin infections — including the cuts and infections common among meat-plant workers — are issued same-day. Chronic medication renewals cover blood pressure, cholesterol, type 2 diabetes, asthma, and thyroid. We also prescribe contraception and non-controlled mental health medications, which are particularly relevant for newcomer JBS workers adjusting to shift work and rural Alberta life.",
       bullets: [
-        "Available 24/7 — Anytime, anywhere",
-        "Serving urooks, Fort McMurray & surrounding areas",
-        "Covered by Alberta Health Card (where eligible)",
-        "Option for pharmacy delivery",
+        "Antibiotics for UTI, sinusitis, skin infections (relevant for meat-plant workers)",
+        "Antihypertensives — Ramipril, Amlodipine, Losartan",
+        "Cholesterol statins (Atorvastatin, Rosuvastatin)",
+        "Diabetes — Metformin, Jardiance, Ozempic",
+        "Asthma inhalers — Symbicort, Advair, Ventolin",
+        "Birth control pills, patches, rings",
+        "SSRIs, SNRIs (non-controlled mental health)",
+        "Thyroid replacement (Synthroid)",
       ],
-      image: "/images/image_2024_04_24T06_38_39_877Z.png",
-      imageAlt: "Virtual care exams",
+      image: "/images/Rectangle-1090-3.png",
+      imageAlt: "Medications prescribed online for Brooks patients",
     },
     {
-      title: "What We Prescribe in Online Refill Prescription in urooks",
+      title: "Common Refills for JBS Workers and Newell County Farmers",
       content:
-        "Our providers issue a wide range of prescriptions, including:",
+        "Brooks's economy is built on the JBS Foods Brooks beef-processing plant (one of Canada's two largest), an irrigated agriculture base across the Eastern Irrigation District, and significant ranching across Newell County and out toward Bassano, Duchess, and Tilley. The result is a working population with rotating shifts at JBS, multilingual newcomer communities, and farming families. Common refills our Brooks patients book daily: blood pressure medications, statins, Metformin for diabetes (notably elevated rates among the multicultural workforce), oral contraceptives, Ventolin and Symbicort for asthma, and antidepressants for shift work and adjustment-related mood concerns.",
       bullets: [
-        "Antibiotics for infections",
-        "Birth control pills",
-        "Allergy & sinus medications",
-        "High blood pressure medication",
-        "Cholesterol medication",
-        "Diabetes medication",
-        "Thyroid medication",
-        "Mental health prescriptions",
-        "Asthma & inhalers",
-        "Erectile dysfunction medication",
-        "Skin medications (eczema, acne, dermatitis)",
-        "Cold, flu, throat infections",
-        "UTI & bladder infections (female)",
-        "Travel medications",
+        "Blood pressure refills for shift workers",
+        "Cholesterol management",
+        "Diabetes oral medications and GLP-1 agonists",
+        "Birth control pill renewals",
+        "Asthma inhalers (relevant in agricultural dust exposure)",
+        "Antidepressants for shift-work mood support",
       ],
-      image: "/images/111-819x1024.jpeg",
-      imageAlt: "Prescriptions and Refills in Calgary",
+      image: "/images/Rectangle-1090-6.png",
+      imageAlt: "Common refills for Brooks JBS workers and farmers",
     },
     {
-      title: "What We Cannot Prescribe Online",
+      title: "How Brooks Online Prescriptions Work",
       content:
-        "TelePlusCare does not prescribe the following for safety and legal reasons. We follow all Alberta and Canadian prescription laws.",
+        "TelePlusCare's three-step process is built for Brooks's working population. Step 1 — Book your virtual appointment online from home, the JBS breakroom, or your truck cab; provide your Alberta PHN and preferred Brooks pharmacy. Step 2 — Connect by encrypted video with a CPSA-licensed Alberta family physician for a 12–18 minute visit — fits between JBS shifts or harvest tasks. Step 3 — Once approved, your prescription is e-faxed to your selected Brooks pharmacy. Pick it up after your shift or next time you're in town.",
       bullets: [
-        "Narcotics",
-        "Controlled substances",
-        "Opioids",
-        "Benzodiazepines (e.g., Xanax, Ativan)",
-        "Sleeping pills",
-        "ADHD stimulants",
-        "Medical marijuana",
+        "Step 1 — Book online with your Alberta PHN",
+        "Step 2 — 12–18 minute video visit, fits between shifts or chores",
+        "Step 3 — E-prescription to your Brooks pharmacy",
       ],
-      image: "/images/3.jpg",
-      imageAlt: "Online Prescriptions and Refills in Alberta",
+      image: "/images/prescription-refill/111-819x1024.jpeg",
+      imageAlt: "Three-step Brooks online prescription process",
     },
     {
-      title:
-        "Virtual Healthcare Benefits: Why urooks Residents Choose Online Refill Prescription",
+      title: "Prescription Delivered to Your Local Brooks Pharmacy",
       content:
-        "Convenience & Accessibility: No commute to a clinic. No waiting room exposure to other illnesses. Access care from home, work, or anywhere. Perfect for those with mobility issues or transportation challenges.\n\nTime-Saving: Average clinic wait time is 1-2 hours. Average virtual appointment takes just 15-20 minutes total. Get back to resting and recovering faster.\n\nCost-Effective: No parking fees. No transportation costs. No time off work for appointment travel. Covered by Alberta Health Card in most cases.\n\nQuality Care: Same licensed doctors as in-person clinics. Thorough assessment and consultation. Follow-up care available. Prescription services when needed.",
-      image:
-        "/images/tele.pluscare_1762275770_3758564036423165455_74096322945-819x1024.jpg",
-      imageAlt: "Doctor note online",
-    },
-    {
-      title:
-        "Why Choose TelePlusCare in urooks for Prescriptions and Refills?",
-      content:
-        "TelePlusCare provides trusted, fast prescription services for urooks residents:",
+        "We send prescriptions to every pharmacy in Brooks and the surrounding Newell County region. The Shoppers Drug Mart at the Brooks Walmart Supercentre is the busiest, with extended hours that work well for JBS shift workers. The Sobeys Pharmacy and IDA Pharmacy on Centre Street round out the major chains. Pharmasave is a long-standing community option. We also send prescriptions to Bassano, Tilley, and Duchess pharmacies for outlying-area patients, and to Medicine Hat or Strathmore for those who prefer a different community.",
       bullets: [
-        "Real Alberta Doctors: All notes issued by licensed Canadian physicians",
-        "Fast Turnaround: Receive your note in as little as 15 minutes",
-        "Valid for Work, School & Travel: Use it with confidence anywhere in Alberta",
-        "Secure & Private: Your consultation and documents are fully confidential",
-        "Alberta Health Card Accepted: Most services covered — no extra cost",
+        "Shoppers Drug Mart — Brooks Walmart Supercentre",
+        "Sobeys Pharmacy and IDA Pharmacy — Centre Street",
+        "Pharmasave — long-standing community option",
+        "Bassano, Tilley, Duchess regional pharmacies",
+        "Medicine Hat and Strathmore for travelling patients",
       ],
-      image: "/images/13-819x1024.jpeg",
-      imageAlt:
-        "Online Prescriptions and Refills in urooks – TelePlusCare",
+      image: "/images/Rectangle-1090-20.png",
+      imageAlt: "Brooks pharmacies receiving e-prescriptions",
     },
     {
-      title: "Refill Your Medication Online in urooks",
+      title: "Built for JBS Shift Workers and Newcomer Communities",
       content:
-        "Running low on your medication? Request a prescription refill online and avoid long clinic wait times, scheduling conflicts, last-minute rushes, and missing doses.\n\nOur Alberta providers can quickly renew your medication if appropriate — sent directly to your pharmacy.",
+        "JBS Foods Brooks operates around the clock and employs a remarkably diverse workforce, with significant Sudanese, Filipino, Latin American, and other newcomer communities calling Brooks home. Many workers struggle to access traditional walk-in clinics due to shift hours and language preferences. TelePlusCare offers same-day virtual visits with CPSA-licensed Alberta physicians evenings and weekends. A 15-minute video visit between JBS shifts can resolve a refill that previously required a half-day off and a 35-km drive into Medicine Hat.",
       bullets: [
-        "Long clinic wait times",
-        "Scheduling conflicts",
-        "Last-minute rushes",
-        "Missing doses",
+        "Designed for JBS rotating shift schedules",
+        "Same-day evening and weekend slots",
+        "Accessible for newcomer Brooks communities",
+        "Eliminates Medicine Hat clinic drives",
       ],
-      image: "/images/Group-37523.png",
-      imageAlt: "Refill your medication online",
+      image: "/images/Rectangle-1090-22.png",
+      imageAlt: "TelePlusCare for JBS workers and Brooks newcomers",
     },
     {
-      title: "How It Works",
+      title: "Alberta Health Prescription Coverage for Brooks",
       content:
-        "Step 1: Book a virtual appointment (takes less than 2 minutes)\n\nStep 2: Speak to a certified Alberta doctor via secure video or chat\n\nStep 3: Receive your prescription sent to your pharmacy — ready to pick up or have delivered\n\n100% legal and accepted. Safe, encrypted, and confidential. Mobile and desktop friendly.",
-      image: "/images/image-9963535-819x1024.jpeg",
-      imageAlt: "Doctor note in urooks",
-    },
-    {
-      title: "Who Can Use This Service?",
-      content:
-        "Our online prescription service is available to a wide range of patients:",
+        "Brooks patients are AHCIP-covered for the virtual physician consultation. Drug coverage flows through Alberta Blue Cross Non-Group, Coverage for Seniors (auto at 65), the Adult Health Benefit for low-income Brooks residents, and Palliative Coverage. JBS Foods provides extended health benefits to its full-time workforce. Many Newell County farmers carry agriculture-sector benefits or commodity-organization coverage. The City of Brooks and Medicine Hat College students have additional plan options.",
       bullets: [
-        "Employees: Needing a sick note for missed work",
-        "Students: Requiring a note for absence from classes or exams",
-        "Parents: Caring for a sick child or family member",
-        "Travelers: Requiring fitness to fly or recovery documentation",
-        "Remote Workers: Who need proof of unwell status",
+        "AHCIP covers physician consult",
+        "JBS extended health benefits",
+        "Alberta Blue Cross Non-Group plans",
+        "Adult Health Benefit (income-tested)",
       ],
-      image: "/images/Group-37522.png",
-      imageAlt: "Doctor note in urooks",
+      image: "/images/image-4.png",
+      imageAlt: "Brooks Alberta Health drug coverage",
     },
     {
-      title: "About Our Virtual Medical Clinic",
+      title: "Why Brooks Patients Choose TelePlusCare",
       content:
-        "We are a fully licensed telemedicine provider serving urooks and all of Alberta. Our team of certified physicians is committed to providing accessible healthcare for all Albertans, timely medical documentation when you need it, professional and compassionate care in every consultation, and a privacy-first approach to your medical information.\n\nOur doctors are experienced in family medicine, urgent care consultations, mental health assessments, occupational health documentation, and travel medicine.",
+        "Brooks's healthcare resources are limited — the Brooks Health Centre handles most acute care, and walk-in family physician access is constrained. Many residents drive 50 km to Medicine Hat for routine prescription needs. TelePlusCare changes that — same-day virtual visits with a real CPSA-licensed Alberta physician, evenings and weekends. Our Brooks patients include JBS workers, Newell County farmers, ranchers from Bassano and Duchess, and growing families in Brooks proper.",
+      bullets: [
+        "No need to drive to Medicine Hat for routine refills",
+        "Same-day virtual appointments",
+        "Evenings, weekends, mid-shift slots",
+        "100% CPSA-licensed Alberta physicians",
+      ],
+      image: "/images/image-6.png",
+      imageAlt: "Why Brooks patients choose TelePlusCare",
     },
   ],
   faqs: [
     {
-      question: "Can I really get a prescription online in urooks?",
+      question: "Can JBS Brooks workers fit a TelePlusCare visit between shifts?",
       answer:
-        "Yes. TelePlusCare allows you to meet with a licensed Alberta healthcare provider online and, if medically appropriate, receive a prescription. This includes new prescriptions and refills. Your prescription can be sent to any urooks pharmacy or delivered to your home.",
+        "Yes — many of our Brooks patients are JBS employees who book a 15-minute video visit during a meal break or between shifts. Your prescription is at the Brooks Walmart Shoppers before you finish work.",
     },
     {
-      question: "Is it legal to get prescriptions online in Alberta?",
+      question: "Which Brooks pharmacies accept TelePlusCare e-prescriptions?",
       answer:
-        "Yes. Online prescribing is fully legal in Alberta as long as the prescription is issued by a licensed physician or nurse practitioner. TelePlusCare follows all provincial and federal medical regulations.",
+        "All of them — Shoppers Drug Mart at Walmart, Sobeys Pharmacy, IDA Pharmacy, and Pharmasave. We also send to Bassano, Tilley, and Duchess locations.",
     },
     {
-      question: "What medications can be prescribed online?",
+      question: "Is the visit covered by Alberta Health for Brooks residents?",
       answer:
-        "Our Alberta providers can prescribe a wide range of medications, including antibiotics, birth control, allergy medications, asthma inhalers, diabetes medications, blood pressure medication, cholesterol medication, thyroid medication, mental health prescriptions, skin medications, erectile dysfunction medication, travel medication, and cold & flu treatments. If it's safe and medically appropriate, we can prescribe it virtually.",
+        "Yes. AHCIP covers the physician's virtual consultation fee for any Brooks resident with a valid Alberta Personal Health Number. No referral required.",
     },
     {
-      question: "What medications cannot be prescribed online?",
+      question: "Can newcomers to Brooks who recently got their Alberta health card use this?",
       answer:
-        "For safety and legal reasons, TelePlusCare cannot prescribe narcotics, opioids, controlled substances, ADHD stimulants, benzodiazepines, sleeping pills, or medical marijuana. Your provider will inform you if your medication falls into this category.",
+        "Yes. As soon as your Alberta PHN is active, you can book with TelePlusCare. We're commonly used by recent arrivals to the Brooks area working at JBS or in agriculture.",
     },
     {
-      question: "Can I get a prescription refill online in urooks?",
+      question: "How fast can I get a prescription in Brooks?",
       answer:
-        "Yes. TelePlusCare offers quick and convenient prescription refills online. If you're running out of your medication, our providers can renew your prescription and send it to your preferred pharmacy in urooks.",
-    },
-    {
-      question: "How fast can I get my prescription or refill?",
-      answer:
-        "Most TelePlusCare patients receive their prescription within 15-30 minutes after their virtual appointment, depending on the complexity of the case and pharmacy availability.",
-    },
-    {
-      question: "Can I get antibiotics online in urooks?",
-      answer:
-        "Yes. Providers can prescribe antibiotics for conditions such as strep throat, sinus infections, ear infections, UTIs (for women), and skin infections. Antibiotics are only prescribed when medically appropriate.",
-    },
-    {
-      question: "Do I need an Alberta Health Care number?",
-      answer:
-        "Many virtual services are covered by AHCIP, but you can still use TelePlusCare even if you don't have an Alberta Health Card. Fees may apply for uninsured services.",
-    },
-    {
-      question:
-        "Can you send my prescription to any pharmacy in urooks?",
-      answer:
-        "Yes. You can choose any local urooks pharmacy, including Shoppers Drug Mart, Rexall, Loblaw/Superstore pharmacies, Save-On Foods, Costco, and independent pharmacies. You may also request medication delivery if offered by the pharmacy.",
-    },
-    {
-      question: "Can I get birth control online in urooks?",
-      answer:
-        "Yes. TelePlusCare providers can prescribe or renew birth control pills, patches, rings, or other options depending on your medical history.",
-    },
-    {
-      question: "Can I get an asthma inhaler online?",
-      answer:
-        "Yes. Ventolin, Flovent, and other inhalers can be prescribed or renewed if assessed as medically appropriate.",
-    },
-    {
-      question: "How do I book an appointment with TelePlusCare?",
-      answer:
-        "Click the Book Now button, choose your province (Alberta), select a time, and complete your short intake form. You'll receive a secure link for your virtual visit.",
+        "Most Brooks patients receive their prescription at their pharmacy within 1–2 hours of booking, often sooner during weekday clinic hours.",
     },
   ],
   locations:
-    "urooks, Downtown, Mill Woods, Clareview, West urooks, Fort McMurray, and surrounding areas.",
+    "Serving Brooks, Bassano, Tilley, Duchess, Rosemary, Patricia, Rolling Hills, Newell County, Lake Newell, and the broader southeastern Alberta region toward Medicine Hat.",
 };

@@ -151,4 +151,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Kitchener, Downtown Kitchener, Doon, Forest Hill, Pioneer Park, Stanley Park, Waterloo, Cambridge, Guelph, Stratford, and surrounding Waterloo Region communities.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

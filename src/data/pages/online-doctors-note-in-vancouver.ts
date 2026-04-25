@@ -151,4 +151,6 @@ export const pageData: LandingPageData = {
   locations:
     "Vancouver, Burnaby, Richmond, North Vancouver, West Vancouver, New Westminster, and the wider Metro Vancouver region.",
   bookingUrl: "/book-doctors-note",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

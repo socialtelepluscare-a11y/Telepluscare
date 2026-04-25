@@ -15,7 +15,9 @@ export const pageData: LandingPageData = {
       title: "How Can You Maintain Your Health During the Winter Months?",
       content:
         "Here are several strategies to help you stay healthy during winter. From boosting your immune system and staying active to managing stress and eating well, these practical tips will keep you feeling your best all season long.",
-    },
+          image: "/images/Rectangle-1090-3.png",
+      imageAlt: "How Can You Maintain Your Health During the Winter Months?",
+},
     {
       title: "1. Boost Your Immune System",
       content:
@@ -25,7 +27,9 @@ export const pageData: LandingPageData = {
         "Stay Hydrated -- Dehydration can be sneaky in winter since the cold air doesn't make us feel thirsty. Drinking enough water is important for overall health.",
         "Get Enough Sleep -- Sleep plays a crucial role in maintaining a healthy immune system. Aim for 7-9 hours of quality sleep per night.",
       ],
-    },
+          image: "/images/Rectangle-1090-6.png",
+      imageAlt: "1. Boost Your Immune System",
+},
     {
       title: "2. Stay Active",
       content:
@@ -34,7 +38,9 @@ export const pageData: LandingPageData = {
         "Outdoor Activities -- Outdoor winter activities like skiing or snowshoeing, as well as indoor exercises like yoga and aerobics, provide both physical and mental health benefits.",
         "Indoor Workouts -- If the weather is too harsh, try indoor workouts like yoga, pilates, or home fitness routines. Even simple exercises like walking or stretching can keep your body active and your joints flexible.",
       ],
-    },
+          image: "/images/Rectangle-1090-7.png",
+      imageAlt: "2. Stay Active",
+},
     {
       title: "3. Dress Appropriately for the Cold",
       content:
@@ -43,7 +49,9 @@ export const pageData: LandingPageData = {
         "Layer Up -- Dress in layers so you can easily adjust your clothing. Start with moisture-wicking base layers, add insulating layers for warmth, and finish with a waterproof, windproof outer layer.",
         "Wear Warm Accessories -- Don't forget your gloves, hats, scarves, and thick socks. Extremities like your fingers, toes, and ears are particularly vulnerable to cold weather.",
       ],
-    },
+          image: "/images/Rectangle-1090-8.png",
+      imageAlt: "3. Dress Appropriately for the Cold",
+},
     {
       title: "4. Prevent Dry Skin",
       content:
@@ -53,7 +61,9 @@ export const pageData: LandingPageData = {
         "Moisturize -- Apply a rich moisturizer to your skin after washing your hands or taking a shower to lock in moisture.",
         "Protect Your Lips -- The lips are particularly prone to chapping in the winter months. Use a lip balm with SPF and reapply frequently.",
       ],
-    },
+          image: "/images/Rectangle-1090-10.png",
+      imageAlt: "4. Prevent Dry Skin",
+},
     {
       title: "5. Stay Social and Combat Seasonal Depression",
       content:
@@ -63,7 +73,9 @@ export const pageData: LandingPageData = {
         "Consider Light Therapy -- If you struggle with SAD, a light therapy box can mimic natural sunlight and help lift your spirits during the darker months.",
         "Stay Connected -- Don't isolate yourself. Maintain your social connections through regular phone calls, video chats, or safe in-person meetups. Socializing can be a great mood booster.",
       ],
-    },
+          image: "/images/Rectangle-1090-11.png",
+      imageAlt: "5. Stay Social and Combat Seasonal Depression",
+},
     {
       title: "6. Practice Good Hygiene",
       content:
@@ -73,7 +85,9 @@ export const pageData: LandingPageData = {
         "Disinfect Surfaces -- Cold and flu germs can linger on high-touch surfaces like doorknobs, light switches, and cell phones. Clean these areas regularly.",
         "Get Vaccinated -- Annual flu shots can help protect you from seasonal influenza. Check with your healthcare provider to ensure you're up to date on any other necessary vaccinations.",
       ],
-    },
+          image: "/images/Rectangle-1090-12.png",
+      imageAlt: "6. Practice Good Hygiene",
+},
     {
       title: "7. Eat Comforting, Healthy Foods",
       content:
@@ -83,7 +97,9 @@ export const pageData: LandingPageData = {
         "Winter Greens -- Dark leafy greens such as kale, spinach, and collard greens are packed with vitamins and minerals. Add them to soups, casseroles, or smoothies.",
         "Spices and Herbs -- Warming spices like cinnamon, turmeric, ginger, and garlic not only add flavor but also have health benefits, including anti-inflammatory properties.",
       ],
-    },
+          image: "/images/Rectangle-1090-16.png",
+      imageAlt: "7. Eat Comforting, Healthy Foods",
+},
     {
       title: "8. Manage Stress",
       content:
@@ -93,7 +109,9 @@ export const pageData: LandingPageData = {
         "Stay Organized -- The holiday season can be hectic, so staying organized can help you manage your time effectively and reduce feelings of overwhelm.",
         "Take Breaks -- Make time for self-care. Whether it's reading a book, taking a bath, or simply resting, ensure you're taking regular breaks to relax and recharge.",
       ],
-    },
+          image: "/images/Rectangle-1090-17.png",
+      imageAlt: "8. Manage Stress",
+},
     {
       title: "9. Stay Hydrated",
       content:
@@ -102,7 +120,9 @@ export const pageData: LandingPageData = {
         "Drink Warm Beverages -- Herbal teas, hot water with lemon, or even warm soups can help keep you hydrated while also providing comfort in the colder weather.",
         "Eat Water-Rich Foods -- Include hydrating foods in your diet like soups, fruits (apples, pears, oranges), and vegetables (cucumbers, celery).",
       ],
-    },
+          image: "/images/Rectangle-1090-18.png",
+      imageAlt: "9. Stay Hydrated",
+},
     {
       title: "10. Stay Mindful of Winter Weather Risks",
       content:
@@ -111,12 +131,16 @@ export const pageData: LandingPageData = {
         "Watch for Ice -- Be cautious when walking outside. Wear shoes with good traction, and take smaller steps to prevent slipping.",
         "Drive Safely -- If you need to drive in winter weather, make sure your vehicle is equipped with winter tires, and always check the weather forecast before hitting the road.",
       ],
-    },
+          image: "/images/Rectangle-1090-19.png",
+      imageAlt: "10. Stay Mindful of Winter Weather Risks",
+},
     {
       title: "Expert Virtual Care: Stay Healthy This Winter with TelePlus Care",
       content:
         "As winter settles in, maintaining your health can become more challenging, especially for those managing chronic conditions like asthma and arthritis, which can worsen significantly due to the colder weather and reduced activity levels. At TelePlus Care, we recognize the importance of personalized, consistent care during this season. That's why we offer Virtual Primary Care Services In Alberta, providing expert guidance to help you or your loved ones. No matter if it's managing nutrition, boosting immunity, or monitoring blood sugar levels, our team is here to ensure you receive the support you need from the comfort of home. Connect with us today and experience the convenience that comes with expert virtual care.",
-    },
+          image: "/images/Rectangle-1090-20.png",
+      imageAlt: "Expert Virtual Care: Stay Healthy This Winter with TelePlus Care",
+},
   ],
   faqs: [
     {
@@ -147,4 +171,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

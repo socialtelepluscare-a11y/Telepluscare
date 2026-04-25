@@ -10,6 +10,14 @@ export const pageData: LandingPageData = {
     "Are you searching for a virtual walk-in clinic in Edmonton? TelePlusCare is Edmonton's most trusted online walk-in clinic, connecting Alberta residents with licensed doctors from the comfort of home. No waiting rooms, no travel, no long lineups — just fast, professional medical care online, covered by Alberta Health.",
   heroImage: "/images/OBJECTS.png",
   heroImageAlt: "Virtual walk-in clinic Edmonton online doctor consultation",
+  summary:
+    "A virtual walk-in clinic functions identically to a traditional Edmonton walk-in clinic — diagnosis, prescriptions, sick notes, and lab requisitions — but delivered remotely by CPSA-licensed Alberta physicians via secure video or phone. TelePlus Care serves all Edmonton-area communities including Sherwood Park, St. Albert, Leduc, and downtown Edmonton with same-day appointments covered under AHCIP.",
+  keyFacts: [
+    "Same-day virtual walk-in appointments across the Edmonton metro area",
+    "Covered by Alberta Health Care for valid AHCIP cardholders",
+    "CPSA-licensed Alberta physicians serving downtown to Sherwood Park",
+    "No referral needed; prescriptions sent to your Edmonton pharmacy",
+  ],
   sections: [
     {
       title: "What Is a Virtual Walk-In Clinic in Edmonton?",
@@ -32,7 +40,9 @@ export const pageData: LandingPageData = {
         "Sexual Health Consultations — TelePlusCare's virtual walk-in clinic in Edmonton offers discreet, judgment-free sexual health consultations including STI testing requisitions and birth control prescriptions.",
         "Chronic Disease Management — Managing diabetes, high blood pressure, asthma, or other ongoing conditions? Our Edmonton virtual walk-in clinic doctors can help you monitor and manage your chronic health needs conveniently online.",
       ],
-    },
+          image: "/images/Rectangle-1090-3.png",
+      imageAlt: "Services Offered at TelePlusCare Virtual Walk-In Clinic Edmonton",
+},
     {
       title: "General Illness & Infections Online Clinic",
       content:
@@ -93,7 +103,9 @@ export const pageData: LandingPageData = {
       title: "How Our Virtual Walk-In Clinic in Edmonton Works",
       content:
         "Getting medical care from TelePlusCare's Edmonton virtual walk-in clinic takes just minutes.\n\nStep 1 — Book Online or Call Us: Visit telepluscare.com or call 587-442-4898 to book your virtual walk-in clinic appointment in Edmonton. Same-day appointments are available and absolutely no referral is required.\n\nStep 2 — Speak with a Licensed Alberta Doctor: Connect with one of our fully licensed Alberta physicians by secure video or phone call. Your consultation is completely private, confidential, and professional.\n\nStep 3 — Get Your Treatment Plan Same Day: Receive your prescription, sick note, referral, or lab requisition the same day. Prescriptions are sent directly to your preferred Edmonton pharmacy.",
-    },
+          image: "/images/Rectangle-1090-6.png",
+      imageAlt: "How Our Virtual Walk-In Clinic in Edmonton Works",
+},
     {
       title: "Why Choose TelePlusCare Virtual Walk-In Clinic in Edmonton?",
       content:
@@ -106,7 +118,9 @@ export const pageData: LandingPageData = {
         "Bilingual Medical Consultations — TelePlusCare's Edmonton virtual walk-in clinic offers consultations in multiple languages, making quality healthcare accessible to Edmonton's diverse and growing communities.",
         "Private & Confidential — All virtual walk-in consultations with TelePlusCare are completely private and conducted on a fully secure platform. Your personal health information is always protected.",
       ],
-    },
+          image: "/images/Rectangle-1090-7.png",
+      imageAlt: "Why Choose TelePlusCare Virtual Walk-In Clinic in Edmonton?",
+},
     {
       title: "Who Can Use TelePlusCare Virtual Walk-In Clinic Edmonton?",
       content:
@@ -127,18 +141,24 @@ export const pageData: LandingPageData = {
       title: "Virtual Walk-In Clinic Edmonton vs Traditional Walk-In Clinic",
       content:
         "More and more Edmonton residents are making the switch from traditional walk-in clinics to TelePlusCare's virtual walk-in clinic because the advantages are clear.\n\nTraditional walk-in clinics in Edmonton often involve waiting one to three hours or more, limited parking especially in busy areas like downtown Edmonton, exposure to other sick patients in the waiting room, and restricted clinic hours. TelePlusCare's virtual walk-in clinic in Edmonton eliminates all of these frustrations completely. You book online, see a licensed doctor the same day, and receive your prescription or documentation without ever stepping outside your door.\n\nFor non-emergency medical concerns — which represent the overwhelming majority of walk-in clinic visits in Edmonton — a virtual walk-in clinic appointment with TelePlusCare is just as effective, significantly faster, and far more convenient than visiting a traditional Edmonton walk-in clinic.",
-    },
+          image: "/images/Rectangle-1090-8.png",
+      imageAlt: "Virtual Walk-In Clinic Edmonton vs Traditional Walk-In Clinic",
+},
     {
       title: "Virtual Walk-In Clinic Edmonton — Covered by Alberta Health",
       content:
         "A question many Edmonton patients ask is whether virtual walk-in clinic visits are covered by Alberta Health. The answer is yes. TelePlusCare's virtual walk-in clinic consultations in Edmonton are covered by the Alberta Health Care Insurance Plan (AHCIP) for eligible residents. This means most Edmonton patients pay nothing out of pocket for their online doctor consultation with TelePlusCare.\n\nTo use your Alberta Health coverage at TelePlusCare's virtual walk-in clinic in Edmonton, simply have your Alberta Health card ready when you book your appointment.",
-    },
+          image: "/images/Rectangle-1090-10.png",
+      imageAlt: "Virtual Walk-In Clinic Edmonton — Covered by Alberta Health",
+},
     {
       title:
         "Book Your Virtual Walk-In Clinic Appointment in Edmonton Today",
       content:
         "Stop waiting hours at a traditional Edmonton walk-in clinic or weeks for a family doctor. TelePlusCare's virtual walk-in clinic in Edmonton gives you fast, professional, and convenient access to a licensed Alberta doctor the same day.\n\nCall us at 587-442-4898 or visit telepluscare.com/contact-us to book your virtual walk-in clinic appointment in Edmonton today. Same-day appointments available. Covered by Alberta Health. 100% online.",
-    },
+          image: "/images/Rectangle-1090-11.png",
+      imageAlt: "Book Your Virtual Walk-In Clinic Appointment in Edmonton Today",
+},
   ],
   faqs: [
     {
@@ -186,4 +206,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "TelePlusCare's virtual walk-in clinic serves patients across all of Edmonton and the surrounding region including downtown Edmonton, South Edmonton, West Edmonton, North Edmonton, Sherwood Park, St. Albert, Spruce Grove, Leduc, Fort Saskatchewan, Beaumont, Stony Plain, and all other communities in the Edmonton metropolitan area. No matter where you are in or around Edmonton, our online doctors are ready to help.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

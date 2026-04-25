@@ -11,6 +11,14 @@ export const pageData: LandingPageData = {
   heroImage: "/images/OBJECTS.png",
   heroImageAlt: "Wegovy semaglutide online prescription for weight loss",
   bookingUrl: "/book-appointment-alberta",
+  summary:
+    "Wegovy (semaglutide 2.4 mg) is the first GLP-1 receptor agonist specifically approved by Health Canada for chronic weight management, producing 14.9% average body weight loss in the STEP-1 trial over 68 weeks. TelePlus Care connects Alberta adults with BMI 30+ (or 27+ with comorbidities) to licensed physicians via secure virtual consultations for assessment and prescribing.",
+  keyFacts: [
+    "Health Canada-approved specifically for chronic weight management",
+    "14.9% average body weight loss in STEP-1 trial (versus 2.4% placebo)",
+    "20% reduction in major cardiovascular events (SELECT trial)",
+    "16-week dose escalation managed by licensed Alberta physicians",
+  ],
   sections: [
     {
       title: "What Is Wegovy?",
@@ -31,7 +39,9 @@ export const pageData: LandingPageData = {
         "Insulin regulation -- Semaglutide improves insulin sensitivity and helps regulate blood sugar levels, which can reduce the cycle of blood sugar crashes and subsequent overeating.",
         "Reduced caloric intake -- Through these combined mechanisms, patients on Wegovy naturally consume 20\u201335% fewer calories per day without feeling deprived.",
       ],
-    },
+          image: "/images/weight-loss/image-39.png",
+      imageAlt: "How Does Wegovy Work?",
+},
     {
       title: "Wegovy Weight Loss Results: What the Clinical Trials Show",
       content:
@@ -44,7 +54,9 @@ export const pageData: LandingPageData = {
         "SELECT trial -- Semaglutide 2.4 mg reduced the risk of major adverse cardiovascular events (heart attack, stroke, cardiovascular death) by 20% in overweight or obese adults with established cardiovascular disease.",
         "One-third of participants achieved 20% or greater weight loss -- A level of weight reduction previously achievable only through bariatric surgery.",
       ],
-    },
+          image: "/images/weight-loss/image-40.png",
+      imageAlt: "Wegovy Weight Loss Results: What the Clinical Trials Show",
+},
     {
       title: "Wegovy Dosage Schedule",
       content:
@@ -57,7 +69,9 @@ export const pageData: LandingPageData = {
         "Week 17 and beyond: 2.4 mg once weekly -- The full maintenance dose. This is the dose used in clinical trials that produced 15\u201320% body weight reduction.",
         "Important: If you cannot tolerate a dose increase, your physician may extend the current dose period or reduce the dose temporarily. Never adjust your dosage without medical guidance.",
       ],
-    },
+          image: "/images/weight-loss/image-41.png",
+      imageAlt: "Wegovy Dosage Schedule",
+},
     {
       title: "Side Effects of Wegovy",
       content:
@@ -75,7 +89,9 @@ export const pageData: LandingPageData = {
         "Rare but serious: gallbladder disease -- Rapid weight loss can increase the risk of gallstones. Report any upper abdominal pain, nausea, or jaundice to your physician.",
         "Rare but serious: suicidal ideation -- Although rare, any changes in mood or thoughts of self-harm should be reported to your healthcare provider immediately.",
       ],
-    },
+          image: "/images/image-7.png",
+      imageAlt: "Side Effects of Wegovy",
+},
     {
       title: "Who Qualifies for Wegovy?",
       content:
@@ -90,7 +106,9 @@ export const pageData: LandingPageData = {
         "No history of pancreatitis -- Patients with a history of pancreatitis should discuss alternative treatments.",
         "Not pregnant or breastfeeding -- Wegovy should be discontinued at least two months before a planned pregnancy.",
       ],
-    },
+          image: "/images/diabetes-chronic-disease/section-1.png",
+      imageAlt: "Who Qualifies for Wegovy?",
+},
     {
       title: "How to Get Wegovy Online at TelePlus Care",
       content:
@@ -103,7 +121,9 @@ export const pageData: LandingPageData = {
         "Step 5: Injection training and support -- Your physician or pharmacist will provide guidance on self-administering the weekly injection, including proper injection technique and storage.",
         "Step 6: Ongoing follow-up -- Regular virtual check-ins allow your physician to monitor your weight loss, manage any side effects, and adjust your treatment plan as needed.",
       ],
-    },
+          image: "/images/diabetes-chronic-disease/section-2.png",
+      imageAlt: "How to Get Wegovy Online at TelePlus Care",
+},
     {
       title: "Cost of Wegovy in Canada",
       content:
@@ -124,7 +144,9 @@ export const pageData: LandingPageData = {
         "Availability -- Ozempic has been available longer and may be easier to obtain. Wegovy supply has faced intermittent shortages due to high demand.",
         "Same active ingredient -- Both contain semaglutide, so their mechanism of action and side effect profiles are essentially identical.",
       ],
-    },
+          image: "/images/diabetes-chronic-disease/section-3.png",
+      imageAlt: "Wegovy vs Ozempic: Understanding the Difference",
+},
   ],
   faqs: [
     {
@@ -175,4 +197,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta and Canada.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

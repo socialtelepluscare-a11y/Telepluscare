@@ -10,6 +10,14 @@ export const pageData: LandingPageData = {
     "Metformin is the most widely prescribed first-line medication for type 2 diabetes worldwide. At TelePlus Care, our licensed Alberta physicians can assess your condition and prescribe Metformin through a secure virtual consultation, making it easier than ever to manage your diabetes or support your weight management goals.\n\nOur healthcare services are available to all residents of Alberta, Canada.",
   heroImage: "/images/CHRONIC-DISEASES-Healthcare-concept-1024x683.jpg",
   heroImageAlt: "Metformin online prescription for diabetes in Alberta",
+  summary:
+    "Metformin is a biguanide-class oral medication and the first-line pharmacological treatment for Type 2 diabetes recommended by Diabetes Canada, used safely for over 60 years. It reduces hepatic glucose output, improves insulin sensitivity, and lowers diabetes progression risk by approximately 31% in prediabetes. TelePlus Care provides virtual Metformin prescribing across Alberta with optional lab coordination.",
+  keyFacts: [
+    "First-line Type 2 diabetes therapy per Diabetes Canada guidelines",
+    "31% reduction in progression from prediabetes to Type 2 diabetes",
+    "Listed on Alberta Drug Benefit List; generic costs $10-30 monthly",
+    "Virtual prescribing with HbA1c and kidney function monitoring",
+  ],
   sections: [
     {
       title: "What Is Metformin and How Does It Work?",
@@ -30,7 +38,9 @@ export const pageData: LandingPageData = {
         "Take with food -- Always take Metformin with meals to reduce the risk of stomach upset and improve absorption.",
         "Extended-release tablets -- Swallow whole; do not crush, chew, or split extended-release tablets.",
       ],
-    },
+          image: "/images/prescription-refill/13-819x1024.jpeg",
+      imageAlt: "Metformin Dosage and How to Take It",
+},
     {
       title: "Benefits of Metformin Beyond Blood Sugar Control",
       content:
@@ -43,7 +53,9 @@ export const pageData: LandingPageData = {
         "Prediabetes prevention -- Studies have shown that Metformin can reduce the risk of progressing from prediabetes to type 2 diabetes by approximately 31%.",
         "Affordable -- Metformin is available as a low-cost generic medication, making it accessible to most patients regardless of insurance coverage.",
       ],
-    },
+          image: "/images/prescription-refill/111-819x1024.jpeg",
+      imageAlt: "Benefits of Metformin Beyond Blood Sugar Control",
+},
     {
       title: "Who Qualifies for Metformin?",
       content:
@@ -55,7 +67,9 @@ export const pageData: LandingPageData = {
         "Not suitable for -- Metformin should be avoided in patients with severe kidney impairment (eGFR below 30 mL/min), active liver disease, a history of lactic acidosis, or those who consume excessive alcohol regularly.",
         "Temporary discontinuation -- Metformin should be paused before procedures requiring iodinated contrast dye and during acute illness that may affect kidney function.",
       ],
-    },
+          image: "/images/Rectangle-1090-3.png",
+      imageAlt: "Who Qualifies for Metformin?",
+},
     {
       title: "Side Effects of Metformin",
       content:
@@ -68,12 +82,16 @@ export const pageData: LandingPageData = {
         "Vitamin B12 deficiency -- Long-term Metformin use can reduce vitamin B12 absorption. Your physician may recommend periodic B12 level monitoring and supplementation if needed.",
         "Lactic acidosis (very rare) -- An extremely rare but serious complication that occurs primarily in patients with significant kidney impairment. This is why kidney function is monitored before and during treatment.",
       ],
-    },
+          image: "/images/Rectangle-1090-6.png",
+      imageAlt: "Side Effects of Metformin",
+},
     {
       title: "Metformin for Weight Management",
       content:
         "While Metformin is not officially approved as a weight loss medication, it is frequently prescribed off-label to support weight management, particularly in patients with insulin resistance or metabolic syndrome.\n\nMetformin promotes modest weight loss by reducing appetite, decreasing hepatic glucose output, and improving how your body uses insulin. Patients typically lose between 1 and 5 kg over 6 to 12 months, with results varying based on diet, exercise, and individual metabolism.\n\nMetformin is sometimes used in combination with other weight management strategies, including GLP-1 receptor agonists like Saxenda or Ozempic, for enhanced results. Your physician will determine whether Metformin alone or a combination approach is most appropriate for your goals.",
-    },
+          image: "/images/Rectangle-1090-20.png",
+      imageAlt: "Metformin for Weight Management",
+},
     {
       title: "Why Choose TelePlus Care for Your Metformin Prescription?",
       content:
@@ -85,7 +103,9 @@ export const pageData: LandingPageData = {
         "Prescription convenience -- Your Metformin prescription is sent directly to the pharmacy of your choice across Alberta.",
         "Ongoing monitoring -- We schedule regular follow-up appointments to track your blood sugar control, adjust dosing, and ensure the medication remains safe and effective.",
       ],
-    },
+          image: "/images/Rectangle-1090-22.png",
+      imageAlt: "Why Choose TelePlus Care for Your Metformin Prescription?",
+},
   ],
   faqs: [
     {
@@ -123,4 +143,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

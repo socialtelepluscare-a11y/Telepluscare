@@ -30,7 +30,9 @@ export const pageData: LandingPageData = {
         "Weakened Immune System -- Conditions that suppress the immune system can make individuals more vulnerable to UTIs.",
         "Catheter Use -- Urinary catheters can introduce bacteria directly into the bladder, increasing infection risk.",
       ],
-    },
+          image: "/images/urinary-tract-infection-treatments.jpg",
+      imageAlt: "Common Causes of UTIs",
+},
     {
       title: "Symptoms of a UTI",
       content:
@@ -44,7 +46,9 @@ export const pageData: LandingPageData = {
         "Blood in the urine (hematuria)",
         "Fever, chills, or nausea if the infection has spread to the kidneys",
       ],
-    },
+          image: "/images/Group-37522.png",
+      imageAlt: "Symptoms of a UTI",
+},
     {
       title: "UTI Treatment Options",
       content:
@@ -55,7 +59,9 @@ export const pageData: LandingPageData = {
         "Hydration -- Drinking plenty of water helps flush bacteria from the urinary tract and supports recovery.",
         "Follow-Up Care -- For recurrent UTIs, your provider may recommend additional testing or preventive strategies to reduce the risk of future infections.",
       ],
-    },
+          image: "/images/PHOTO-2025-07-05-11-18-45-819x1024.jpg",
+      imageAlt: "UTI Treatment Options",
+},
     {
       title: "Preventing Urinary Tract Infections",
       content:
@@ -68,7 +74,9 @@ export const pageData: LandingPageData = {
         "Avoid potentially irritating feminine products such as douches and powders",
         "Wear breathable, cotton underwear and avoid tight-fitting clothing",
       ],
-    },
+          image: "/images/Rectangle-1090-7.png",
+      imageAlt: "Preventing Urinary Tract Infections",
+},
     {
       title: "Why Choose TelePlus Care for UTI Treatment?",
       content:
@@ -79,7 +87,9 @@ export const pageData: LandingPageData = {
         "Convenient & Private -- Access care from the comfort of your home, avoiding the inconvenience and discomfort of visiting a clinic.",
         "Comprehensive Care -- We provide treatment, follow-up care, and prevention strategies to help you stay healthy.",
       ],
-    },
+          image: "/images/Rectangle-1090-16.png",
+      imageAlt: "Why Choose TelePlus Care for UTI Treatment?",
+},
     {
       title: "How Does It Work?",
       content:
@@ -121,4 +131,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

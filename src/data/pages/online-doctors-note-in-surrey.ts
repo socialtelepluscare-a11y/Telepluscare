@@ -151,4 +151,6 @@ export const pageData: LandingPageData = {
   locations:
     "Surrey, Delta, Langley, White Rock, Cloverdale, Newton, Guildford, South Surrey, Whalley, and the surrounding Fraser Valley communities.",
   bookingUrl: "/book-doctors-note",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

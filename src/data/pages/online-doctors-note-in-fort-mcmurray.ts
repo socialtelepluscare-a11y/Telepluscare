@@ -1,177 +1,149 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle:
-    "Online Doctor's Notes in Fort McMurray | Same-Day Sick Note",
+  metaTitle: "Online Doctor's Note Fort McMurray | Same-Day Sick Note",
   metaDescription:
-    "Get a legal Online Doctor's Notes in Fort McMurray from licensed Alberta physicians. Same-day service. Accepted for work, school & travel.",
-  title: "Online Doctor's Notes in Fort McMurray | Same-Day Sick Note",
+    "Fort McMurray and Wood Buffalo residents can get a same-day virtual sick note from CPSA physicians. Built for shift workers at Suncor, Syncrude, and CNRL.",
+  title: "Online Doctor's Note in Fort McMurray — Built for Shift Workers and Camp Schedules",
   heroDescription:
-    "If you need a doctor's note in Fort McMurray, you can now get one online without visiting a clinic. TelePlusCare connects you with licensed Alberta physicians who assess your condition through a secure virtual consultation and issue a legally valid medical note for work, school, or travel—often the same day.\n\nOur service follows Alberta Health and College of Physicians & Surgeons of Alberta (CPSA) guidelines, ensuring your documentation is professional, confidential, and widely accepted across Alberta.\n\nNo waiting rooms. No unnecessary delays. 100% online.",
-  heroImage: "/images/online-doctors-notes-in-fort-mcmurray/hero.jpg",
-  heroImageAlt: "Online Doctor's Notes in Fort McMurray",
+    "12-hour shifts, fly-in fly-out rotations, and limited weekday clinic capacity make in-person visits hard in Fort McMurray. Speak to an Alberta-licensed physician between shifts, get assessed in minutes, and receive a signed sick note your camp medic, employer, or Wood Buffalo school office will accept.",
+  heroImage: "/images/online-doctors-notes-in-edmonton/hero.jpg",
+  heroImageAlt: "Fort McMurray oil sands worker on a virtual doctor consult between shifts",
+  bookingUrl: "/book-appointment-alberta",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
+  summary:
+    "Fort McMurray patients — including FIFO oil sands workers — can obtain a legally valid online doctor's note from a CPSA-registered physician without leaving camp or home. The consult is covered by Alberta Health Care, the note satisfies Alberta Employment Standards Code Section 53.97 (five unpaid sick days), and it is accepted by Suncor, Syncrude, CNRL, and Wood Buffalo Public School Division.",
+  keyFacts: [
+    "The Regional Municipality of Wood Buffalo has approximately 66,000 residents centred on Fort McMurray.",
+    "Many oil sands workers operate on 7-on/7-off or 14-on/14-off rotations of 12-hour shifts.",
+    "Section 53.97 of the Alberta Employment Standards Code provides 5 unpaid sick days per year.",
+    "TelePlusCare physicians are CPSA-registered and the service is AHCIP-billed for eligible Albertans.",
+  ],
   sections: [
     {
-      title:
-        "Need a Sick Note in Fort McMurray Today? We've Got You Covered.",
+      title: "What Is an Online Doctor's Note in Fort McMurray?",
       content:
-        "Whether you're feeling unwell, need to take a mental health day, or require documentation for your employer or school, our team is here to help. We offer fast, reliable online doctor's notes—with full validity across Alberta.\n\nAvailable 24/7. Serving Fort McMurray & surrounding areas. Alberta Health coverage may apply for eligible consultations. Documentation fees may apply for doctor's notes.",
-      image: "/images/online-doctors-notes-in-fort-mcmurray/hero.jpg",
-      imageAlt: "Online Doctor's Notes in Fort McMurray",
-    },
-    {
-      title: "What is an Online Doctor Note?",
-      content:
-        "An online doctor's note is an official medical document issued by a licensed physician after a virtual medical consultation. During the appointment, the doctor reviews your symptoms, medical concern, or situation and determines whether medical documentation is appropriate.\n\nOnce approved, the doctor's note is:\n\nOnline doctor's notes offer the same validity as in-clinic notes—without the inconvenience of travel or long wait times.",
+        "An online doctor's note in Fort McMurray is a digitally signed medical document issued by an Alberta-licensed physician after a virtual assessment by phone or video. For Fort Mac residents and workers — many of whom are at site or in camp during the work week — telemedicine is often the only realistic way to access a doctor without travelling to Edmonton or taking unpaid time off.\n\nThe note is legally identical to one issued at the Northern Lights Regional Health Centre or any private practice in Fort McMurray.",
       bullets: [
-        "Issued by an Alberta-licensed physician",
-        "Delivered securely to your email",
-        "Accepted by employers, schools, and institutions",
-        "Compliant with provincial medical standards",
+        "Issued by a CPSA-registered Alberta physician",
+        "Delivered as a signed PDF directly to your inbox",
+        "Includes the physician's CPSA registration number and signature",
+        "Accepted at Suncor, Syncrude, CNRL, Imperial Kearl, and other oil sands operators",
       ],
-      image: "/images/online-doctors-notes-in-fort-mcmurray/section-1.webp",
-      imageAlt: "Online Doctor Note",
+      image: "/images/online-doctors-notes-in-edmonton/section-1.webp",
+      imageAlt: "Fort McMurray virtual doctor's note PDF",
     },
     {
-      title: "What Information Is Included in a Online Doctor's Notes?",
+      title: "When You Need a Sick Note in Fort McMurray",
       content:
-        "All notes comply with Alberta's medical documentation guidelines.",
+        "Fort McMurray runs on long shift cycles. Site safety rules at Suncor, Syncrude, CNRL, and Imperial Kearl require fitness-for-duty documentation when illness or injury keeps you off rotation, and Wood Buffalo School Division asks for medical documentation for extended student absences. Many smaller employers in downtown Fort Mac, Timberlea, and Thickwood request a note when an absence stretches beyond a couple of days.",
       bullets: [
-        "Patient name",
-        "Date of consultation",
-        "Brief medical recommendation (without private health details)",
-        "Doctor's name, license number, and signature",
-        "Contact info for verification",
+        "Missed rotations at Suncor, Syncrude, CNRL Horizon, or Imperial Kearl",
+        "Time off shifts at Northern Lights Regional Health Centre",
+        "Wood Buffalo Public Schools or Fort McMurray Catholic absence verification",
+        "Recovery for FIFO workers during transit between site and home base",
+        "Absence from Keyano College courses or apprenticeship programs",
       ],
-      image: "/images/online-doctors-notes-in-fort-mcmurray/section-2.jpg",
-      imageAlt: "Online doctor note in Fort McMurray",
+      image: "/images/online-doctors-notes-in-edmonton/section-2.jpg",
+      imageAlt: "Fort McMurray oil sands site",
     },
     {
-      title:
-        "Why Choose TelePlusCare for Online Doctor's Notes in Fort McMurray?",
+      title: "What's in Your Fort McMurray Sick Note",
       content:
-        "TelePlusCare provides fast, professional, and fully valid online doctor's notes for Fort McMurray residents.",
+        "Each note is structured to satisfy oil sands site medics and HR teams. Diagnosis is intentionally not disclosed under Alberta privacy law — the note confirms you were medically assessed, recommends an absence period, and (where relevant) outlines fitness-for-duty restrictions specific to safety-sensitive roles.",
       bullets: [
-        "Licensed Alberta Physicians -- Real doctors registered with the CPSA",
-        "Fast Turnaround -- Notes often issued within 15-30 minutes",
-        "Valid for Work, School & Travel -- Accepted across Alberta",
-        "Secure & Confidential -- Encrypted consultations and document delivery",
-        "Alberta Health Card Coverage -- Most visits covered when eligible",
+        "Patient legal name and consultation date",
+        "Confirmation that a licensed Alberta physician assessed you",
+        "Inclusive dates you cannot work or attend rotation",
+        "Anticipated return-to-rotation date",
+        "Any temporary fitness-for-duty restrictions (heavy lifting, machinery operation, driving)",
+        "Physician name, CPSA number, signature, and HR verification line",
       ],
-      image: "/images/online-doctors-notes-in-fort-mcmurray/section-3.jpg",
-      imageAlt: "Sick Note In Fort McMurray",
+      image: "/images/online-doctors-notes-in-edmonton/section-3.jpg",
+      imageAlt: "Fort McMurray fitness-for-duty documentation",
     },
     {
-      title: "How to Get a Doctor's Note Online in Fort McMurray",
+      title: "Same-Day Issuance — How It Works on Site or at Home",
       content:
-        "Step 1: Book a virtual appointment (takes less than 2 minutes)\n\nStep 2: Speak to a certified Alberta doctor via secure video or chat\n\nStep 3: Receive your doctor's note by email—ready to print or share\n\n100% legal and accepted. Safe, encrypted, and confidential. Mobile and desktop friendly.",
-      image: "/images/online-doctors-notes-in-fort-mcmurray/section-4.jpg",
-      imageAlt: "Doctor note in Fort McMurray",
-    },
-    {
-      title: "Employer Sick Note Requirements in Alberta",
-      content:
-        "When Can Your Employer Request a Doctor's Note?\n\nUnder Alberta employment standards:\n\nYour Note Should Include:\n\nYour privacy is protected -- doctors do not have to disclose your specific diagnosis to your employer.",
+        "The intake form takes about two minutes and works on camp Wi-Fi or a cellular signal in Fort McMurray. A CPSA physician calls you back, conducts the assessment, and emails the signed note from a Canadian-hosted secure platform. You can complete the entire process between the end of one shift and the start of the next.",
       bullets: [
-        "Employers can request medical documentation after 3 consecutive days of absence",
-        "Some workplaces have different policies in their employment agreements",
-        "You have the right to reasonable accommodation for medical conditions",
-        "Confirmation that you were assessed by a physician",
-        "The dates you are unable to work",
-        "Expected return-to-work date (if known)",
-        "Any necessary work restrictions",
+        "Step 1 — Complete the online intake (around 2 minutes)",
+        "Step 2 — Take the physician's call between shifts or at home",
+        "Step 3 — Receive your signed PDF note by email, typically within 30 minutes",
       ],
-      image: "/images/online-doctors-notes-in-fort-mcmurray/section-5.jpg",
-      imageAlt: "Online doctor note in Fort McMurray",
+      image: "/images/online-doctors-notes-in-edmonton/section-4.jpg",
+      imageAlt: "Fort McMurray virtual consultation between shifts",
     },
     {
-      title: "Who Can Use an Online Doctor's Note?",
+      title: "Alberta Employment Standards: Sick Leave for Wood Buffalo Workers",
       content:
-        "Our online doctor's note service is available to a wide range of individuals across Fort McMurray and Alberta.",
+        "Under Section 53.97 of the Alberta Employment Standards Code, employees with 90 days of continuous service are entitled to up to five unpaid, job-protected sick days per calendar year. Most large oil sands employers in Wood Buffalo go further with paid sick leave through collective agreements or employer policy.\n\nYour employer can request medical documentation but cannot demand a diagnosis — our notes confirm assessment and recommended absence without disclosing private health information.",
       bullets: [
-        "Employees: Needing a sick note for missed work",
-        "Students: Requiring a note for absence from classes or exams",
-        "Parents: Caring for a sick child or family member",
-        "Travelers: Requiring fitness to fly or recovery documentation",
-        "Remote Workers: Who need proof of unwell status",
+        "5 unpaid job-protected sick days per year (ESC s.53.97)",
+        "Available after 90 days of continuous employment",
+        "Most oil sands collective agreements add additional paid sick leave",
+        "Employer may request a note — never a diagnosis",
       ],
-      image: "/images/online-doctors-notes-in-fort-mcmurray/section-6.png",
-      imageAlt: "Doctor note in Fort McMurray",
+      image: "/images/online-doctors-notes-in-edmonton/section-5.jpg",
+      imageAlt: "Alberta Employment Standards Code reference",
     },
     {
-      title: "Why Fort McMurray Residents Choose Online Doctor Notes",
+      title: "Who Uses This Service in Fort McMurray",
       content:
-        "Convenience & Accessibility: No commute to a clinic. No waiting room exposure to other illnesses. Access care from home, work, or anywhere. Perfect for those with mobility issues or transportation challenges.\n\nTime-Saving: Average clinic wait time: 1-2 hours. Average virtual appointment: 15-20 minutes total. Get back to resting and recovering faster.\n\nCost-Effective: No parking fees. No transportation costs. No time off work for appointment travel. Covered by Alberta Health Card in most cases.\n\nQuality Care: Same licensed doctors as in-person clinics. Thorough assessment and consultation. Follow-up care available. Prescription services when needed.",
-      image: "/images/online-doctors-notes-in-fort-mcmurray/section-7.jpg",
-      imageAlt: "Doctor note online",
-    },
-    {
-      title: "Medically Reviewed & Physician-Led Care",
-      content:
-        "All medical consultations and documentation at TelePlusCare are conducted by physicians licensed with the College of Physicians & Surgeons of Alberta (CPSA).\n\nOur doctors have experience in:\n\nYour care is confidential, secure, and medically appropriate.",
+        "Our patient base in Wood Buffalo is dominated by oil sands shift workers — Suncor, Syncrude, CNRL Horizon, Imperial Kearl, and contractor staff — who need documentation between rotations. We also see frontline staff at Northern Lights Regional Health Centre, Keyano College students, parents in Timberlea and Thickwood with children at Wood Buffalo Public Schools, and small-business owners along Franklin Avenue.",
       bullets: [
-        "Family medicine",
-        "Urgent care",
-        "Mental health assessments",
-        "Occupational health documentation",
+        "FIFO and resident oil sands workers across major operators",
+        "Northern Lights Regional Health Centre staff",
+        "Keyano College students",
+        "Wood Buffalo Public and Fort McMurray Catholic School parents",
+        "Small business and service workers along Franklin Avenue",
       ],
-      image: "/images/online-doctors-notes-in-fort-mcmurray/section-8.jpg",
-      imageAlt: "Doctor's Notes",
+      image: "/images/online-doctors-notes-in-edmonton/section-6.jpg",
+      imageAlt: "Fort McMurray oil sands workers heading to site",
     },
     {
-      title: "About Our Virtual Medical Clinic",
+      title: "Why Fort McMurray Patients Choose TelePlusCare",
       content:
-        "TelePlusCare is a licensed Canadian telemedicine provider serving Fort McMurray and all of Alberta. Our mission is to deliver accessible, professional healthcare when you need it most.\n\nWe are committed to:",
+        "We're built for the shift-work reality of Wood Buffalo. Same-day notes, AHCIP-billed consultations, and CPSA-registered physicians who understand fitness-for-duty documentation. Our extended-hours coverage matches the times Fort Mac workers actually have free — early mornings before night shift, evenings after dayshift, and weekends between rotations.",
       bullets: [
-        "Timely medical documentation",
-        "Compassionate, physician-led care",
-        "Privacy-first medical services",
+        "100% CPSA-registered Alberta physicians",
+        "AHCIP-billed consults — no fee with a valid AHC card",
+        "Same-day notes, including weekends and evenings",
+        "Designed for FIFO rotations and 12-hour shifts",
+        "Encrypted Canadian-hosted PHI infrastructure",
       ],
-      image: "/images/online-doctors-notes-in-fort-mcmurray/section-9.jpg",
-      imageAlt: "Doctor note in Fort McMurray",
+      image: "/images/online-doctors-notes-in-edmonton/section-7.jpg",
+      imageAlt: "TelePlusCare Fort McMurray service",
     },
   ],
   faqs: [
     {
-      question:
-        "Is this doctor's note valid in Fort McMurray and Alberta?",
+      question: "Is an online doctor's note valid in Fort McMurray?",
       answer:
-        "Yes, absolutely. Our medical notes are issued by fully licensed Alberta physicians registered with the CPSA and meet all provincial medical documentation standards. They are legally valid and accepted by employers, schools, and institutions across Alberta and Canada.",
+        "Yes. A note from a CPSA-registered Alberta physician is fully valid in Fort McMurray and across Wood Buffalo. Suncor, Syncrude, CNRL, and Wood Buffalo Public Schools all accept notes from licensed virtual physicians.",
     },
     {
-      question: "Do I need an Alberta Health Card?",
+      question: "Can I do this from camp on site?",
       answer:
-        "Yes, we accept Alberta Health coverage. If you're uninsured, you can still get a note for a small fee.",
+        "Yes — as long as you have cellular or Wi-Fi access at your camp or lodge, you can complete the intake form and take the physician's call between shifts. The signed PDF arrives by email and can be forwarded to your site medic or HR.",
     },
     {
-      question: "How long does it take?",
+      question: "Is the consultation covered by Alberta Health Care?",
       answer:
-        "Most notes are delivered within 15-30 minutes after your virtual consultation.",
+        "Yes. The medical consult is billed to AHCIP for residents with a valid Alberta Health Care card. A small documentation fee may apply for the note depending on its type.",
     },
     {
-      question: "Can I get a backdated note?",
+      question: "How fast can I get the note while on rotation?",
       answer:
-        "It depends on the situation. For any backdated note request, we'll need to review your case properly, so we kindly ask you to book an appointment. Once it's scheduled, our team will connect with you and guide you through the next steps.",
+        "Most patients receive their signed PDF within 30 minutes of completing the consultation. The whole process — intake, call, and note delivery — typically fits inside a single break between shifts.",
     },
     {
-      question:
-        "Will my employer or school accept an online doctor's note?",
+      question: "Can I get a fitness-for-duty restriction documented?",
       answer:
-        "Yes. Virtual healthcare is legally recognized in Alberta. Our notes contain all required elements including the doctor's CPSA license number and contact information for verification.",
-    },
-    {
-      question:
-        "Can I use this service for mental health days?",
-      answer:
-        "Absolutely. Our physicians understand the importance of mental health and can provide appropriate documentation for stress, anxiety, burnout, or other mental health concerns—without disclosing specific private details.",
-    },
-    {
-      question:
-        "Do you provide notes for work-related injuries?",
-      answer:
-        "For workplace injuries covered by WCB (Workers' Compensation Board), you should follow your employer's specific reporting procedures. For general illness or non-work-related medical issues, we can certainly help.",
+        "Yes. Where clinically appropriate, the physician can document temporary restrictions on heavy lifting, machinery operation, driving, or working at height — important for safety-sensitive oil sands roles. Restrictions are described without disclosing the diagnosis behind them.",
     },
   ],
   locations:
-    "Fort McMurray, St. Albert, Sherwood Park, Beaumont, Fort Saskatchewan, Leduc, Spruce Grove, and surrounding Alberta communities.",
+    "Fort McMurray, Anzac, Conklin, Janvier, Fort Chipewyan, and the rest of the Regional Municipality of Wood Buffalo, plus FIFO workers based across Alberta.",
 };

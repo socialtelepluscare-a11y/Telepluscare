@@ -32,7 +32,9 @@ export const pageData: LandingPageData = {
         "Medications -- Certain medications, including those for cancer, arthritis, depression, and heart problems, may cause hair loss as a side effect.",
         "Lifestyle Factors -- Smoking, excessive alcohol consumption, and poor diet can contribute to overall hair health decline.",
       ],
-    },
+          image: "/images/Rectangle-1090-12.png",
+      imageAlt: "Common Causes of Hair Loss in Men",
+},
     {
       title: "Stages of Male Pattern Baldness",
       content:
@@ -45,7 +47,9 @@ export const pageData: LandingPageData = {
         "Stage 5 -- The areas of hair loss at the temples and crown begin to merge, with a narrower band of hair separating them.",
         "Stage 6-7 -- Advanced hair loss where the band of hair between the temples and crown is gone, leaving only a horseshoe pattern of hair on the sides and back.",
       ],
-    },
+          image: "/images/Rectangle-1090-1-1.png",
+      imageAlt: "Stages of Male Pattern Baldness",
+},
     {
       title: "Treatment Options for Hair Loss",
       content:
@@ -58,7 +62,9 @@ export const pageData: LandingPageData = {
         "Low-Level Laser Therapy (LLLT) -- FDA-cleared devices that use red light to stimulate hair follicles and promote growth.",
         "Lifestyle & Nutritional Support -- A balanced diet rich in essential vitamins and minerals, stress management, and proper hair care can support overall hair health.",
       ],
-    },
+          image: "/images/Rectangle-1090-2-1.png",
+      imageAlt: "Treatment Options for Hair Loss",
+},
     {
       title: "Preventing Hair Loss",
       content:
@@ -71,7 +77,9 @@ export const pageData: LandingPageData = {
         "Limit smoking and excessive alcohol consumption",
         "Consult a healthcare provider at the first signs of thinning or hair loss",
       ],
-    },
+          image: "/images/Rectangle-1090-3-1.png",
+      imageAlt: "Preventing Hair Loss",
+},
     {
       title: "Why Choose TelePlus Care for Hair Loss Treatment?",
       content:
@@ -82,7 +90,9 @@ export const pageData: LandingPageData = {
         "Personalized Treatment Plans -- We develop treatment plans tailored to your specific type and stage of hair loss.",
         "Ongoing Support -- Regular follow-up appointments to monitor progress and adjust treatment as needed.",
       ],
-    },
+          image: "/images/Rectangle-1090-4-1.png",
+      imageAlt: "Why Choose TelePlus Care for Hair Loss Treatment?",
+},
     {
       title: "How Does It Work?",
       content:
@@ -93,7 +103,9 @@ export const pageData: LandingPageData = {
         "Receive Confirmation -- Once you've booked your appointment, you'll receive a confirmation email or call with detailed instructions for your upcoming virtual visit.",
         "Attend Your Appointment -- On the day of your virtual visit, connect with your provider using any electronic device. Our healthcare professionals will assess your condition and create a personalized care plan.",
       ],
-    },
+          image: "/images/Rectangle-1090-5-1.png",
+      imageAlt: "How Does It Work?",
+},
   ],
   faqs: [
     {
@@ -125,4 +137,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

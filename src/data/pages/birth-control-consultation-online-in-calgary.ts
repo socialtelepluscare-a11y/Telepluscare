@@ -1,114 +1,109 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle:
-    "Birth Control Consultation Online in Calgary | Same-Day Prescription",
+  metaTitle: "Birth Control Consultation Online in Calgary | Same-Day Rx",
   metaDescription:
-    "Get a same-day birth control prescription from a licensed Alberta doctor — 100% online, from the comfort of your home. Covered by Alberta Health.",
+    "Calgary online birth control — same-day prescriptions for U of C students, downtown professionals, multi-ethnic patients. Pill, patch, ring, IUD referrals.",
   title: "Birth Control Consultation Online in Calgary",
   heroDescription:
-    "Get a same-day birth control prescription from a licensed Alberta doctor — 100% online, from the comfort of your home. Covered by Alberta Health.",
+    "Calgary's birth control patients range from U of C undergraduates seeking a first prescription to downtown professionals adjusting methods after 10 years on the same pill, plus a growing multi-ethnic population whose contraception preferences vary by background. Our virtual physicians prescribe same-day, send to any Calgary pharmacy, and coordinate IUD insertion referrals.",
   heroImage: "/images/Group-37520.png",
-  heroImageAlt: "Birth Control Consultation Online in Calgary",
+  heroImageAlt: "Birth control consultation online in Calgary",
+  bookingUrl: "/book-appointment-alberta",
+  summary:
+    "TelePlus Care offers Calgary residents same-day virtual birth control consultations and prescriptions — including combined oral contraceptives, progestin-only pills, the patch, the ring, emergency contraception, and IUD insertion referrals. Our Alberta-licensed physicians serve U of C students, downtown professionals, and Calgary's diverse multi-ethnic patient base with culturally informed contraceptive counselling.",
+  keyFacts: [
+    "Same-day Calgary virtual consultations with prescriptions sent to any pharmacy.",
+    "Roughly 38% of Canadian women aged 18–44 use hormonal contraception; method preferences vary by demographic.",
+    "Long-acting reversible contraception (IUDs, implants) reduces unintended pregnancy by 99% versus 91% with the pill.",
+    "U of C health services see thousands of contraception-related visits annually — virtual access fills extended-hours gaps.",
+  ],
   sections: [
     {
-      title: "Birth Control Consultation Online in Calgary",
+      title: "Calgary's Diverse Birth Control Needs",
       content:
-        "TelePlusCare offers comprehensive online birth control consultations for women across Calgary and Alberta — no waiting room, no hassle.",
+        "Birth control isn't one-size-fits-all. Our Calgary physicians adapt counselling to your age, medical history, lifestyle, and cultural context — whether you're a U of C student starting your first pill, a marathon runner needing extended-cycle dosing, or evaluating IUD options for the first time.",
       bullets: [
-        "Birth Control Pill Prescription Online — Get your birth control pill prescription online in Calgary without visiting a clinic. Our licensed doctors assess your health history and issue same-day prescriptions sent directly to your local pharmacy.",
-        "IUD Consultation Online Calgary — Considering an IUD? Our online IUD consultations in Calgary help you understand your options — hormonal or copper — and connect you with the right care provider for placement.",
-        "Contraception Counselling Alberta — Not sure which birth control is right for you? Our Alberta-licensed doctors provide personalized contraception counselling online, reviewing your health needs, lifestyle, and preferences.",
-        "Birth Control Prescription Refill Online — Need a refill on your existing birth control prescription in Calgary? TelePlusCare makes it easy — consult online and get your refill sent to your pharmacy the same day.",
+        "Same-day virtual consultations — typically within 1–2 hours during business hours",
+        "Prescriptions transmitted to any Calgary pharmacy of your choice",
+        "IUD insertion referrals to Calgary OB/Gyn and women's health partners",
+        "Culturally informed counselling for Calgary's diverse patient population",
       ],
-      image: "/images/image.png",
-      imageAlt: "Birth Control Consultation Services Online Calgary",
+      image: "/images/Group-37520.png",
+      imageAlt: "Calgary virtual birth control",
     },
     {
-      title: "Birth Control Consultations for All Women in Calgary",
+      title: "Combined Oral Contraceptives in Calgary",
       content:
-        "TelePlusCare welcomes women of all ages and backgrounds seeking online birth control consultations in Calgary, Alberta.",
-      bullets: [
-        "Teens & Young Adults — Private, judgment-free online birth control consultations for teens and young women in Calgary.",
-        "Women 25-40 — Convenient same-day online prescriptions for busy women managing careers and family life in Calgary.",
-        "Postpartum Mothers — Safe and effective birth control options for new mothers in Calgary, recommended by our licensed doctors.",
-        "All Women in Alberta — No matter your age or situation, TelePlusCare provides accessible online birth control care across Calgary and Alberta.",
-      ],
-      image: "/images/Group-37520-1.jpg",
-      imageAlt: "Birth Control Consultations for Women in Calgary",
+        "We prescribe the full range of combined oral contraceptives — Yasmin, Yaz, Marvelon, Tri-Cyclen, Alesse, Mircette, and others — matched to your hormonal sensitivity, side-effect profile, and cycle goals.",
+      image: "/images/Group-37522.png",
+      imageAlt: "Calgary combined oral contraceptive",
     },
     {
-      title: "Why Choose TelePlusCare for Your Health Needs in Alberta?",
+      title: "Progestin-Only & Non-Estrogen Options",
       content:
-        "At TelePlusCare, we prioritize personalized, compassionate care that fits seamlessly into your lifestyle. Our approach goes beyond just treating symptoms; we strive to build a lasting partnership with you on your journey to better health.",
-      bullets: [
-        "Expert Guidance — Our board-certified healthcare professionals bring a wealth of knowledge and experience, ensuring you receive the best care tailored to your unique needs.",
-        "Convenience — We eliminate the hassle of traditional in-person visits with our easy-to-use virtual consultations. Access quality healthcare from the comfort of your home, saving you time and effort.",
-        "Holistic Support — We believe in treating the whole person, not just the condition. Our comprehensive services include dietary counseling, exercise recommendations, and ongoing support to help you make sustainable lifestyle changes.",
-        "Empathy & Understanding — We recognize that everyone's journey is different, and we're here to listen and provide encouragement as you work towards your health goals.",
-      ],
+        "If you can't take estrogen due to migraine with aura, hypertension, smoking after age 35, or postpartum status, we prescribe progestin-only pills like Micronor or Slynd. These are also common choices among Calgary breastfeeding patients.",
+      image: "/images/Group-37523.png",
+      imageAlt: "Calgary progestin-only pill",
     },
     {
-      title: "How Does It Work?",
+      title: "Patch, Ring & Long-Acting Methods",
       content:
-        "Getting your birth control prescription online in Calgary is simple with TelePlusCare. Follow these four easy steps:",
-      bullets: [
-        "Step 1: Book Your Online Consultation — Visit our website or call 587-442-4898 to book your free online birth control consultation. Available to all Calgary and Alberta residents covered by Alberta Health.",
-        "Step 2: Speak with a Licensed Alberta Doctor — Meet privately with one of our licensed doctors via secure video or phone call. Discuss your health history, birth control options and any questions — all from home.",
-        "Step 3: Attend Your Appointment — On the day of your virtual visit, connect with your provider using any electronic device — whether it's a smartphone, tablet, or computer. Our healthcare professionals will assess your condition and create a personalized care plan.",
-        "Step 4: Receive Your Prescription Same Day — Your birth control prescription is sent directly to your preferred Calgary pharmacy the same day. No waiting, no travel, no stress.",
-      ],
+        "For Calgary patients tired of daily dosing, we discuss the Evra patch, NuvaRing, Annovera, and refer for IUD or Nexplanon insertion. We provide insertion referrals to Calgary women's health clinics with vetted wait times.",
+      image: "/images/image.jpg",
+      imageAlt: "Calgary contraceptive patch ring",
     },
     {
-      title:
-        "Online Birth Control Consultation in Calgary, Alberta — TelePlusCare",
+      title: "Emergency Contraception in Calgary",
       content:
-        "TelePlusCare is Calgary's trusted online clinic for birth control consultations. Whether you are looking for a birth control pill prescription online, an IUD consultation, or advice on the best contraception for your lifestyle, our licensed Alberta doctors are here to help — without you ever needing to leave home.\n\nGetting access to birth control in Calgary has never been easier. With TelePlusCare's online birth control service, you can book a same-day consultation, speak with a licensed physician, and have your prescription sent to your local Calgary pharmacy all in one day.\n\nMany Calgary women struggle to get timely appointments with their family doctor for birth control prescriptions. Long wait times, busy schedules, and limited availability make accessing contraception harder than it should be. TelePlusCare solves this by offering same-day online birth control prescriptions in Calgary, available to all Alberta Health cardholders.\n\nIf you are considering an IUD as your birth control method, TelePlusCare provides thorough online IUD consultations in Calgary. Our doctors will walk you through both hormonal and copper IUD options and refer you to the appropriate provider for insertion — all starting with a simple online consultation.\n\nMost TelePlusCare appointments are covered by the Alberta Health Care Insurance Plan (AHCIP). Calgary women can access licensed medical advice and birth control prescriptions online without worrying about out-of-pocket consultation costs.",
+        "Plan B and Ella are available without prescription, but Calgary patients often consult us for guidance — including Yuzpe regimens, copper IUD insertion as emergency contraception, and follow-up planning to prevent recurrence.",
+      image: "/images/image-1.jpg",
+      imageAlt: "Calgary emergency contraception",
     },
     {
-      title: "Get Your Birth Control Prescription Online Today",
+      title: "U of C Student-Friendly Care",
       content:
-        "Same-day consultations available for Calgary residents. Covered by Alberta Health. 100% private and online.",
+        "U of C health services do excellent work, but limited hours and exam-period queues drive students to virtual care. We offer evening and weekend appointments, prescription transmission to any Calgary pharmacy near campus, and discreet billing.",
+      image: "/images/image-2.jpg",
+      imageAlt: "U of C student birth control",
+    },
+    {
+      title: "Multi-Ethnic Calgary Considerations",
+      content:
+        "Calgary's growing South Asian, East Asian, Middle Eastern, and Caribbean communities each bring distinct contraceptive preferences and medical considerations. Our physicians offer culturally informed counselling without judgment.",
+      image: "/images/image-3.jpg",
+      imageAlt: "Calgary multi-ethnic contraception",
     },
   ],
   faqs: [
     {
-      question:
-        "Can I get a birth control prescription online in Calgary?",
+      question: "How fast can I get a birth control prescription in Calgary?",
       answer:
-        "Yes! TelePlusCare offers 100% online birth control consultations and same-day prescriptions for Calgary residents. Our licensed Alberta doctors can prescribe birth control pills and provide IUD consultations without you leaving your home.",
+        "Same-day in most cases. Prescriptions are typically transmitted to your chosen Calgary pharmacy within hours of your virtual consultation.",
     },
     {
-      question:
-        "Is online birth control consultation covered by Alberta Health?",
+      question: "Is the consultation covered by AHCIP?",
       answer:
-        "Yes, many of our online birth control consultations are covered by the Alberta Health Care Insurance Plan (AHCIP). Our team will verify your coverage when you book your appointment with TelePlusCare.",
+        "Yes. Calgary residents with valid Alberta Health Care coverage pay nothing out of pocket for our physician visits.",
     },
     {
-      question:
-        "How quickly can I get a birth control prescription online in Calgary?",
+      question: "Can you prescribe Yasmin, Marvelon, or Alesse?",
       answer:
-        "TelePlusCare offers same-day birth control prescriptions. Once your online consultation is complete with our licensed doctor, your prescription is sent directly to your preferred Calgary pharmacy — often within hours.",
+        "Yes. Our Alberta-licensed physicians prescribe the full range of combined oral contraceptives across Calgary.",
     },
     {
-      question:
-        "What birth control options does TelePlusCare offer in Calgary?",
+      question: "Can you arrange an IUD insertion in Calgary?",
       answer:
-        "We offer online consultations for birth control pills, IUD referrals and consultations, contraception counselling, and prescription refills for existing birth control in Calgary and across Alberta.",
+        "We refer to Calgary OB/Gyn and women's health clinics for IUD insertion, with our team handling pre- and post-insertion virtual support.",
     },
     {
-      question:
-        "Is TelePlusCare available for teens in Calgary?",
+      question: "Do you offer extended-cycle dosing for Calgary athletes?",
       answer:
-        "Absolutely. TelePlusCare provides private, judgment-free online birth control consultations for teens, young adults, women of all ages, and postpartum mothers in Calgary, Alberta.",
-    },
-    {
-      question:
-        "Do I need a referral to book a birth control consultation online in Calgary?",
-      answer:
-        "No referral needed. You can book directly through our website at telepluscare.com or call us at 587-442-4898. We make accessing birth control in Calgary as easy and direct as possible.",
+        "Yes. Many Calgary mountain and endurance athletes prefer extended-cycle pills (3-month cycles). We discuss safety and prescribe accordingly.",
     },
   ],
   locations:
-    "Calgary, Airdrie, Cochrane, Okotoks, Chestermere, Canmore, Red Deer, Lethbridge, and surrounding Alberta communities.",
+    "Calgary, Airdrie, Cochrane, Okotoks, Chestermere, Strathmore, Canmore, High River, Black Diamond, and surrounding southern Alberta communities.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

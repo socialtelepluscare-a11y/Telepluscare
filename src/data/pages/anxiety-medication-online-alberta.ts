@@ -10,6 +10,14 @@ export const pageData: LandingPageData = {
     "Anxiety disorders are among the most common mental health conditions, affecting approximately 1 in 4 Canadians at some point in their lives. At TelePlus Care, our licensed Alberta physicians can evaluate your symptoms and prescribe anxiety medication through a secure, confidential virtual consultation, giving you access to the care you need without leaving home.\n\nOur healthcare services are available to all residents of Alberta, Canada.",
   heroImage: "/images/family-therapy-psychologist-office-1024x683.webp",
   heroImageAlt: "Anxiety medication online consultation in Alberta",
+  summary:
+    "Anxiety medications including SSRIs (Cipralex, Zoloft), SNRIs (Effexor, Cymbalta), and short-course benzodiazepines treat generalized anxiety disorder, panic disorder, social anxiety, and OCD — conditions affecting roughly 1 in 4 Canadians. TelePlus Care offers confidential virtual psychiatric assessments across Alberta, with licensed physicians prescribing first-line therapy and coordinating CBT referrals when appropriate.",
+  keyFacts: [
+    "Anxiety disorders affect approximately 1 in 4 Canadians lifetime",
+    "SSRIs and SNRIs are first-line per Canadian clinical guidelines",
+    "PIPEDA-compliant secure platform protected by Alberta HIA",
+    "Generic SSRIs typically cost $10-25 per month with most insurance",
+  ],
   sections: [
     {
       title: "Types of Anxiety Medications",
@@ -29,12 +37,16 @@ export const pageData: LandingPageData = {
         "Beta-blockers -- Propranolol and other beta-blockers are sometimes prescribed off-label for performance anxiety and physical symptoms of anxiety such as rapid heartbeat and trembling. They do not treat the psychological component of anxiety.",
         "Combination approach -- Many patients benefit from a combination of medication and psychotherapy (such as cognitive-behavioural therapy) for the most effective long-term management of anxiety disorders.",
       ],
-    },
+          image: "/images/Rectangle-1090-3.png",
+      imageAlt: "How Anxiety Medication Works",
+},
     {
       title: "Therapy vs Medication: What Is Right for You?",
       content:
         "Both therapy and medication are evidence-based treatments for anxiety, and the best approach depends on your individual circumstances. In many cases, a combination of both yields the best results.\n\nCognitive-behavioural therapy (CBT) is the gold standard psychological treatment for anxiety disorders. It helps you identify and change thought patterns and behaviours that contribute to anxiety. CBT is highly effective and provides lasting skills that persist even after therapy ends.\n\nMedication can be particularly helpful when anxiety is severe enough to interfere with daily functioning, when symptoms are primarily physical, or when therapy alone has not provided sufficient relief. Medication can also help reduce symptoms enough to allow you to engage more effectively in therapy.\n\nYour TelePlus Care physician can help you determine whether medication, therapy, or a combination approach is most appropriate. If therapy is recommended, we can provide referrals to qualified therapists in Alberta or suggest evidence-based digital therapy programs.",
-    },
+          image: "/images/Rectangle-1090-6.png",
+      imageAlt: "Therapy vs Medication: What Is Right for You?",
+},
     {
       title: "Common Side Effects of Anxiety Medications",
       content:
@@ -46,7 +58,9 @@ export const pageData: LandingPageData = {
         "Discontinuation syndrome -- Abruptly stopping SSRIs or SNRIs can cause flu-like symptoms, dizziness, irritability, and electric shock sensations. Always taper off these medications under physician guidance.",
         "Monitoring -- Your physician will schedule follow-up appointments to monitor side effects, adjust dosing, and ensure your medication is working effectively.",
       ],
-    },
+          image: "/images/Rectangle-1090-7.png",
+      imageAlt: "Common Side Effects of Anxiety Medications",
+},
     {
       title: "Who Qualifies for Anxiety Medication?",
       content:
@@ -59,7 +73,9 @@ export const pageData: LandingPageData = {
         "OCD and PTSD -- While classified separately in current diagnostic systems, these conditions often respond to similar medications used for anxiety disorders.",
         "Assessment required -- A thorough clinical assessment is needed before prescribing anxiety medication. Your physician will evaluate your symptoms, rule out medical causes (such as thyroid disorders), and discuss treatment options during your consultation.",
       ],
-    },
+          image: "/images/Rectangle-1090-8.png",
+      imageAlt: "Who Qualifies for Anxiety Medication?",
+},
     {
       title: "How Virtual Mental Health Care Works at TelePlus Care",
       content:
@@ -72,7 +88,9 @@ export const pageData: LandingPageData = {
         "Follow-up care -- An initial follow-up is typically scheduled within 2 to 4 weeks to assess your response to medication. Ongoing follow-ups are scheduled to monitor progress and make adjustments as needed.",
         "Crisis support -- If you are experiencing a mental health crisis, please call 988 (Suicide Crisis Helpline), go to your nearest emergency department, or call 911.",
       ],
-    },
+          image: "/images/Rectangle-1090-10.png",
+      imageAlt: "How Virtual Mental Health Care Works at TelePlus Care",
+},
     {
       title: "Why Choose TelePlus Care for Anxiety Treatment?",
       content:
@@ -84,7 +102,9 @@ export const pageData: LandingPageData = {
         "Comprehensive approach -- We do not just prescribe medication. Our physicians discuss lifestyle strategies, coping techniques, and therapy referrals to support your overall mental well-being.",
         "Confidential and secure -- All consultations are conducted through a PIPEDA-compliant platform, and your personal health information is protected under Alberta's Health Information Act.",
       ],
-    },
+          image: "/images/Rectangle-1090-11.png",
+      imageAlt: "Why Choose TelePlus Care for Anxiety Treatment?",
+},
   ],
   faqs: [
     {
@@ -123,4 +143,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

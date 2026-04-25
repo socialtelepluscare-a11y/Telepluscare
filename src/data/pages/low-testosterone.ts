@@ -33,7 +33,9 @@ export const pageData: LandingPageData = {
         "Hair loss or thinning",
         "Sleep disturbances, including insomnia",
       ],
-    },
+          image: "/images/Rectangle-1090-12.png",
+      imageAlt: "Common Symptoms of Low Testosterone",
+},
     {
       title: "Causes of Low Testosterone",
       content:
@@ -45,7 +47,9 @@ export const pageData: LandingPageData = {
         "Medications -- Certain medications, including opioids, corticosteroids, and some hormonal treatments, may lower testosterone levels.",
         "Lifestyle Factors -- Chronic stress, poor sleep, excessive alcohol consumption, and lack of physical activity can all negatively impact testosterone production.",
       ],
-    },
+          image: "/images/Rectangle-1090-1-1.png",
+      imageAlt: "Causes of Low Testosterone",
+},
     {
       title: "Treatment Options for Low Testosterone",
       content:
@@ -56,7 +60,9 @@ export const pageData: LandingPageData = {
         "Medication Adjustments -- If current medications are contributing to low testosterone, your provider may recommend alternatives or adjustments.",
         "Ongoing Monitoring -- Regular blood tests and follow-up appointments to monitor testosterone levels and treatment effectiveness, ensuring optimal results.",
       ],
-    },
+          image: "/images/Rectangle-1090-3-1.png",
+      imageAlt: "Treatment Options for Low Testosterone",
+},
     {
       title: "Why Choose TelePlus Care for Low Testosterone Treatment?",
       content:
@@ -67,7 +73,9 @@ export const pageData: LandingPageData = {
         "Personalized Approach -- Every treatment plan is tailored to your unique health profile, symptoms, and goals.",
         "Confidential & Supportive -- We provide a safe, judgment-free space where you can discuss your health concerns openly.",
       ],
-    },
+          image: "/images/Rectangle-1090-4-1.png",
+      imageAlt: "Why Choose TelePlus Care for Low Testosterone Treatment?",
+},
     {
       title: "How Does It Work?",
       content:
@@ -78,7 +86,9 @@ export const pageData: LandingPageData = {
         "Receive Confirmation -- Once you've booked your appointment, you'll receive a confirmation email or call with detailed instructions for your upcoming virtual visit.",
         "Attend Your Appointment -- On the day of your virtual visit, connect with your provider using any electronic device. Our healthcare professionals will assess your condition and create a personalized care plan.",
       ],
-    },
+          image: "/images/Rectangle-1090-5-1.png",
+      imageAlt: "How Does It Work?",
+},
   ],
   faqs: [
     {
@@ -111,4 +121,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

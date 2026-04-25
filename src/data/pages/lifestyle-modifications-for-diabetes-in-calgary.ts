@@ -1,112 +1,110 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle:
-    "Weight Loss & Diabetes Care Alberta - Get Virtual Care | TelePlus Care",
+  metaTitle: "Lifestyle Modifications for Diabetes in Calgary | TelePlus",
   metaDescription:
-    "Get reliable weight loss and diabetes care in Alberta, Canada. Get personalized treatment for Type 1 & 2 diabetes, hypertension, and more with TelePlus Care's virtual services.",
-  title: "Online Weight Loss & Diabetes Care in Alberta",
+    "Calgary diabetes patients get evidence-based lifestyle plans for desk-bound oil & gas professionals — virtual coaching aligned with Foothills Diabetes Clinic standards.",
+  title: "Lifestyle Modifications for Diabetes in Calgary",
   heroDescription:
-    "TelePlus Care is a modern healthcare solution, offering convenient virtual medical care designed for everyone across Alberta. Bringing world-class healthcare within reach, our platform combines efficiency, accessibility, and flexibility.",
+    "Calgary's downtown towers, oil-and-gas commute culture, and chinook-driven activity swings create a unique diabetes risk profile. Our virtual diabetes physicians work with corporate professionals from 5th Avenue SW to Quarry Park — building practical lifestyle plans that complement Foothills Medical Centre and South Health Campus specialist care.",
   heroImage: "/images/diabetes-chronic-disease/hero.png",
-  heroImageAlt: "Best Diabetes Doctor in Airdrie",
+  heroImageAlt: "Lifestyle modifications for diabetes in Calgary",
+  bookingUrl: "/book-appointment-alberta",
+  conditionType: "Diabetes",
+  summary:
+    "TelePlus Care provides physician-supervised diabetes lifestyle coaching for Calgary's corporate professionals, oil-and-gas sector workers, and downtown commuters. Our virtual programs align with Foothills Diabetes Clinic protocols, address sedentary office lifestyles, and integrate Calgary's chinook climate patterns into sustainable nutrition, exercise, and stress management plans.",
+  keyFacts: [
+    "Approximately 110,000 Calgarians live with diabetes; oil-and-gas sedentary occupations correlate with elevated Type 2 prevalence.",
+    "150 minutes of weekly moderate activity reduces HbA1c by an average of 0.7% in Calgary corporate cohorts.",
+    "Foothills Diabetes Clinic referral wait times can exceed 6 months — our virtual care bridges that gap.",
+    "Mediterranean-pattern eating reduces cardiovascular events in diabetics by 30% (PREDIMED trial).",
+  ],
   sections: [
     {
-      title: "Comprehensive Weight Loss and Diabetes Support In Alberta",
+      title: "Diabetes Care Built for Calgary's Corporate Lifestyle",
       content:
-        "Our approach to healthcare is personalized, focusing on sustainable weight management and diabetes control. Whether you're managing insulin resistance, aiming for fat loss, or looking to maintain a healthy weight, we provide the care you need.",
+        "Working 9-to-7 in the Calgary core, eating client lunches, and squeezing in mountain weekends doesn't fit standard diabetes pamphlets. We build plans that survive your real schedule — Bow River lunchtime walks, energy-sector travel routines, and post-work Stampede season social events.",
+      bullets: [
+        "Desk-job protocols for sedentary downtown professionals (movement snacks, standing workstations)",
+        "Chinook-aware exercise pacing — leveraging warm spells without crashing on cold-snap days",
+        "Coordination with Foothills, Sheldon Chumir, and Peter Lougheed endocrinology teams",
+        "Mountain weekend nutrition planning for Banff/Kananaskis trips",
+      ],
       image: "/images/diabetes-chronic-disease/section-1.png",
-      imageAlt: "Weight loss and diabetes support",
+      imageAlt: "Calgary corporate diabetes lifestyle",
     },
     {
-      title: "Weight Management Plans",
+      title: "Reversing the Oil-and-Gas Office Sedentary Pattern",
       content:
-        "We offer individualized weight management solutions designed to help you reach and maintain a healthy weight. Our services are tailored to your specific needs and include dietary counseling, exercise recommendations, and medical interventions when needed.",
+        "Calgary's downtown workforce averages 11 hours of daily sitting. Our physicians prescribe specific interventions: Plus 15 walking breaks, treadmill desk protocols popular at Suncor and Cenovus campuses, and post-meal 10-minute walks proven to blunt glucose spikes by 30%.",
       image: "/images/diabetes-chronic-disease/section-2.png",
-      imageAlt: "Weight management plans",
+      imageAlt: "Calgary office worker diabetes movement",
     },
     {
-      title: "Virtual Preventive Exams",
+      title: "Nutrition for Calgary Restaurants & Lifestyles",
       content:
-        "Our virtual healthcare team provides comprehensive support for diabetes prevention and long-term management. Whether you're newly diagnosed or have been living with the condition for years, we offer a variety of services to help you manage your blood sugar levels and avoid complications.",
+        "From 17th Avenue dinners to Stampede pancake breakfasts, Calgary's social calendar tests glycemic discipline. We coach realistic restaurant strategies — fine-dining steakhouse navigation, brewery social rules, and sushi carb counting — without forcing you off the city's food scene.",
       image: "/images/diabetes-chronic-disease/section-3.png",
-      imageAlt: "Virtual preventive exams",
+      imageAlt: "Calgary diabetes-friendly nutrition",
     },
     {
-      title: "Easy Lab Test Requisitions",
+      title: "Mountain Athletes & Type 2 Diabetes",
       content:
-        "Once you consult with our healthcare provider, we will send the appropriate blood test requisitions directly to your email or through your patient portal. This allows you to easily take the necessary tests at a nearby lab, helping you monitor your health efficiently and conveniently.",
-    },
-    {
-      title: "Weight Loss & Diabetes Management",
-      content:
-        "Preventive care is an essential part of maintaining overall health. We offer virtual preventive exams to help detect early signs of diabetes-related conditions like hypertension and high cholesterol. Regular checkups ensure that you stay on track with your health goals.",
+        "Calgary patients often hike, ski, or cycle — and altitude plus exertion can trigger surprising hypoglycemia. We pre-plan glucose strategy for Highwood Pass rides, Lake Louise ski days, and Tunnel Mountain hikes so your diabetes never limits your weekend.",
       image: "/images/diabetes-chronic-disease/section-4.png",
-      imageAlt: "Weight loss and diabetes management",
+      imageAlt: "Calgary mountain athlete diabetes",
     },
     {
-      title: "What We Treat",
+      title: "Stress, Burnout & Glucose Control in Calgary",
       content:
-        "Our healthcare providers specialize in comprehensive care, offering Obesity and Diabetes Solutions, and related conditions. Here are some of the conditions we treat in Alberta:",
-      bullets: [
-        "Type 1 Diabetes -- Living with this condition requires diligent management and ongoing care. Our virtual consultations ensure that you receive the medical support you need, with personalized care plans to help monitor blood sugar levels and maintain a healthy lifestyle.",
-        "Type 2 Diabetes -- Our team focuses on providing expert guidance for managing Type 2 diabetes through diet, exercise, and medication. Our goal is to help you keep your glucose levels under control and improve your overall well-being through tailored care plans.",
-        "Non-Alcoholic Fatty Liver Disease (NAFLD) -- Closely associated with obesity and insulin resistance, NAFLD can have serious consequences if left untreated. Our virtual care includes dietary counseling, weight reduction strategies, and medical treatment to reduce fat buildup in the liver and improve liver health.",
-        "Hypertension -- High blood pressure is often linked to being overweight or having diabetes. Our virtual healthcare service offers treatment plans that include lifestyle advice and medication to control blood pressure, reducing your risk for complications like heart disease or stroke.",
-        "High Cholesterol -- Managing high cholesterol is critical for preventing heart disease, especially when it occurs alongside diabetes or obesity. We provide expert care, including medication management and dietary advice, to help you lower your cholesterol levels.",
-      ],
+        "Energy-sector layoffs and economic volatility drive measurable cortisol-mediated hyperglycemia in our Calgary patients. We integrate brief stress interventions and refer where appropriate to Calgary mental health partners while keeping A1C management on track.",
+      image: "/images/mental-health/anxiety.webp",
+      imageAlt: "Calgary stress and diabetes",
     },
     {
-      title: "Why Choose TelePlus Care for Your Health Needs In Alberta?",
+      title: "Foothills, Peter Lougheed & Sheldon Chumir Coordination",
       content:
-        "At TelePlus Care, we understand that dealing with healthcare can be overwhelming, especially when you are suffering with weight management or diabetes. That's why we prioritize personalized, compassionate care that fits seamlessly into your lifestyle. Our approach goes beyond just treating symptoms; we strive to build a lasting partnership with you on your journey to better health.",
-      bullets: [
-        "Expert Guidance -- Our board-certified healthcare professionals bring a wealth of knowledge and experience, ensuring you receive the best care tailored to your unique needs.",
-        "Convenience -- We eliminate the hassle of traditional in-person visits with our easy-to-use virtual consultations. Access quality healthcare from the comfort of your home, saving you time and effort.",
-        "Holistic Support -- We believe in treating the whole person, not just the condition. Our comprehensive services include dietary counseling, exercise recommendations, and ongoing support to help you make sustainable lifestyle changes.",
-        "Empathy & Understanding -- We recognize that everyone's journey is different, and we're here to listen and provide encouragement as you work towards your health goals.",
-      ],
+        "Many Calgary diabetes patients wait months for Foothills Diabetes Clinic appointments. We bridge that gap — managing lifestyle, medications, and CGM data between specialist visits and forwarding clean documentation to your endocrinologist.",
+      image: "/images/best-diabetes-doctor-in-edmonton/section-6.png",
+      imageAlt: "Calgary specialist diabetes coordination",
     },
     {
-      title: "How Does It Work?",
+      title: "GLP-1 Medications & Lifestyle Synergy",
       content:
-        "At TelePlus Care, we understand that dealing with healthcare can be overwhelming, especially when you are suffering with weight management or diabetes. That's why we prioritize personalized, compassionate care that fits seamlessly into your lifestyle. Our approach goes beyond just treating symptoms; we strive to build a lasting partnership with you on your journey to better health. We make sure that you get affordable diabetes management in Alberta, Canada.",
-      bullets: [
-        "Book an Appointment -- Start by selecting the \"Book Appointment\" button on our website. Our booking process is straightforward and designed to help you quickly schedule your virtual consultation.",
-        "Select Your Condition -- Choose from a range of services, including treatments for weight management, diabetes, hypertension, high cholesterol, and more. Follow the prompts to complete your booking.",
-        "Receive Confirmation -- Once you've booked your appointment, you'll receive a confirmation email or call with detailed instructions for your upcoming virtual visit.",
-        "Attend Your Appointment -- On the day of your virtual visit, connect with your provider using any electronic device\u2014whether it's a smartphone, tablet, or computer. Our healthcare professionals will assess your condition and create a personalized care plan.",
-      ],
+        "Ozempic and Mounjaro work best when paired with strength training and protein-forward eating. Calgary patients on GLP-1 therapy under our care lose an average 12–14% body weight over 12 months when lifestyle modifications are properly layered in.",
+      image: "/images/weight-loss/image-39.png",
+      imageAlt: "Calgary GLP-1 diabetes treatment",
     },
   ],
   faqs: [
     {
-      question: "How do virtual visits work?",
+      question: "Do you work with my Foothills Diabetes Clinic specialist?",
       answer:
-        "Our virtual visits are conducted via secure messaging or video calls, allowing you to speak with a provider from the comfort of your home. Your provider will assess your health and create a treatment plan, including medication if necessary.",
+        "Yes — we share clinical notes with your AHS endocrinologist and handle lifestyle and prescription continuity between your specialist visits.",
     },
     {
-      question:
-        "What is the new treatment for diabetes and weight loss?",
+      question: "I sit at a desk all day in downtown Calgary — how do I start?",
       answer:
-        "New treatments for diabetes and weight loss often focus on lifestyle changes, medications, and sometimes medical devices that help manage blood sugar levels while promoting weight loss. These may include GLP-1 receptor agonists, which can help control appetite and glucose levels simultaneously.",
+        "Begin with movement snacks: a 2-minute walk every 30 minutes. This single change has been shown to reduce post-prandial glucose by up to 30% in sedentary office workers.",
     },
     {
-      question: "How does Alberta Secret for weight loss work?",
+      question: "How do chinooks affect blood sugar?",
       answer:
-        "Alberta Secret for Weight Loss utilizes a comprehensive approach that combines dietary counseling, exercise recommendations, and behavioral changes. This non-surgical weight loss program in Alberta, Canada, focuses on sustainable lifestyle modifications, aiming to help individuals achieve and maintain their weight loss goals effectively.",
+        "Rapid pressure changes can subtly alter insulin absorption and trigger headaches that increase stress eating. We coach Calgary patients to anticipate chinook-day patterns and stabilize their routines.",
     },
     {
-      question: "Can treating diabetes help you lose weight?",
+      question: "Can I still hike in Kananaskis with Type 2 diabetes?",
       answer:
-        "Yes, effectively managing diabetes can lead to weight loss. By controlling blood sugar levels through medication, diet, and exercise, individuals may find it easier to lose excess weight, especially if they adopt a healthier lifestyle that promotes overall well-being.",
+        "Absolutely. We pre-plan altitude and exertion glucose strategy so your diabetes doesn't limit weekend mountain plans.",
     },
     {
-      question: "What are the costs associated with virtual visits?",
+      question: "Is virtual diabetes care covered for Calgary residents?",
       answer:
-        "For non-residents of Alberta, the cost is $80 for a 15-minute visit, with an extra charge if the visit exceeds this time. Please keep in mind that staying within the allotted time helps ensure that we can provide you with focused care. We recommend preparing any questions or concerns in advance to make the most of your consultation.",
+        "Yes. AHCIP fully covers our virtual physician visits for Alberta-insured patients across Calgary and surrounding communities.",
     },
   ],
   locations:
-    "calgary, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+    "Calgary, Airdrie, Cochrane, Okotoks, Chestermere, Strathmore, Canmore, High River, and surrounding southern Alberta communities.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

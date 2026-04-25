@@ -1,203 +1,151 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle:
-    "Online Prescriptions and Refills in spruce grove – Same Day | TelePlus Care",
+  metaTitle: "Online Prescriptions & Refills in Spruce Grove, Alberta | TelePlusCare",
   metaDescription:
-    "Need a fast and reliable way to get online prescriptions and refills in spruce grove? TelePlusCare connects you with licensed Alberta healthcare providers through secure virtual appointments.",
-  title: "Online Prescriptions and Refills in spruce grove – Same Day",
+    "Same-day virtual prescriptions for Spruce Grove and Stony Plain commuters. CPSA-licensed MDs send refills to Westgrove, Spruce Crossing pharmacies. AHCIP covered.",
+  title: "Online Prescriptions and Refills in Spruce Grove",
   heroDescription:
-    "Need a fast and reliable way to get online prescriptions and refills in spruce grove? TelePlusCare connects you with licensed Alberta healthcare providers through secure virtual appointments — so you can get the medication you need without visiting a clinic. Whether you need a new prescription, a refill, or medical advice, our virtual healthcare platform is designed for convenience, speed, and trusted Alberta care. Book your virtual appointment today and get your prescription sent to your pharmacy — often within minutes.",
-  heroImage: "/images/2.jpg",
-  heroImageAlt: "Medical weight loss assessments and treatments",
+    "Spruce Grove residents and Stony Plain commuters can skip the morning drive into Edmonton just for a refill. Connect with a CPSA-licensed virtual MD by video and have your prescription sent electronically to your preferred pharmacy at Westgrove, Spruce Crossing, or anywhere across the Tri-Region — typically before lunch.",
+  heroImage: "/images/image-5.png",
+  heroImageAlt: "Online prescriptions and refills in Spruce Grove Alberta",
+  bookingUrl: "/book-appointment-alberta",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
+  summary:
+    "TelePlusCare provides fast online prescription refills for Spruce Grove residents and Edmonton-metro commuters via virtual MD video visits. Scripts are e-faxed to Spruce Grove pharmacies including Westgrove, Spruce Crossing, and Stony Plain locations. AHCIP covers physician consultations for Alberta PHN holders, no referral needed.",
+  keyFacts: [
+    "Spruce Grove and surrounding Stony Plain area host roughly 12 community pharmacies that accept TelePlusCare e-prescriptions.",
+    "Most Spruce Grove patients commute to Edmonton for work — TelePlusCare eliminates the need to add a clinic visit to the drive.",
+    "AHCIP covers virtual physician consultations for Spruce Grove residents with a valid Alberta PHN — no referral required.",
+    "Same-day appointments are available seven days a week, with prescriptions typically delivered within 1–2 hours.",
+  ],
   sections: [
     {
-      title: "Online Prescriptions and Refills in spruce grove",
+      title: "What Spruce Grove Patients Can Be Prescribed Online",
       content:
-        "Running low on your medication? Skip the line, skip the waiting room, and refill your prescription from home — available 24/7 across Alberta.\n\nAt TelePlusCare, you can easily request online prescription refills in spruce grove, and our healthcare providers will review your request quickly. If medically appropriate, your prescription will be renewed and sent to your preferred pharmacy the same day.",
-      image: "/images/2.jpg",
-      imageAlt: "Medical weight loss assessments and treatments",
-    },
-    {
-      title: "What Makes Our Prescription Refills Convenient?",
-      content:
-        "Our online prescription refill service in spruce grove is designed to save you time and keep you healthy:",
+        "Spruce Grove TelePlusCare visits cover the full range of routine outpatient prescribing. Acute prescriptions for UTIs, sinus infections, strep throat, and skin infections are issued same-day. Chronic medication renewals — high blood pressure, cholesterol, diabetes, asthma, thyroid — are quick to handle. We also prescribe contraception and non-controlled mental health medications. Schedule I controlled substances follow CPSA Standard 22 and typically need an in-person assessment.",
       bullets: [
-        "Available 24/7 — Anytime, anywhere",
-        "Serving spruce grove, Fort McMurray & surrounding areas",
-        "Covered by Alberta Health Card (where eligible)",
-        "Option for pharmacy delivery",
+        "Antibiotics for UTI, sinusitis, strep, skin infections",
+        "Antihypertensives — Ramipril, Amlodipine, Telmisartan",
+        "Cholesterol statins (Atorvastatin, Rosuvastatin)",
+        "Diabetes — Metformin, Jardiance, Ozempic",
+        "Asthma inhalers — Symbicort, Advair, Ventolin",
+        "Birth control pills, patches, rings",
+        "SSRIs, SNRIs (non-controlled)",
+        "Thyroid replacement (Synthroid)",
       ],
-      image: "/images/image_2024_04_24T06_38_39_877Z.png",
-      imageAlt: "Virtual care exams",
+      image: "/images/Rectangle-1090-3.png",
+      imageAlt: "Medications prescribed online for Spruce Grove patients",
     },
     {
-      title: "What We Prescribe in Online Refill Prescription in spruce grove",
+      title: "Common Refills for Spruce Grove and Tri-Region",
       content:
-        "Our providers issue a wide range of prescriptions, including:",
+        "Spruce Grove's growing suburban population — many of whom commute daily into Edmonton — drives heavy demand for fast prescription renewals. We see daily refill requests for blood pressure medications (Ramipril, Amlodipine), Crestor and Lipitor for cholesterol, Metformin for diabetes, oral contraceptives like Alesse and Yasmin, Symbicort for asthma, and Cipralex/Wellbutrin for mood. Patients in Stony Plain, Parkland County, and even Spring Lake and Wabamun rely on TelePlusCare to avoid driving into Spruce Grove or Edmonton just for a refill.",
       bullets: [
-        "Antibiotics for infections",
-        "Birth control pills",
-        "Allergy & sinus medications",
-        "High blood pressure medication",
-        "Cholesterol medication",
-        "Diabetes medication",
-        "Thyroid medication",
-        "Mental health prescriptions",
-        "Asthma & inhalers",
-        "Erectile dysfunction medication",
-        "Skin medications (eczema, acne, dermatitis)",
-        "Cold, flu, throat infections",
-        "UTI & bladder infections (female)",
-        "Travel medications",
+        "Blood pressure refills for commuters",
+        "Cholesterol management",
+        "Diabetes oral medications",
+        "Birth control pill renewals",
+        "Asthma inhalers",
+        "Antidepressant maintenance",
       ],
-      image: "/images/111-819x1024.jpeg",
-      imageAlt: "Prescriptions and Refills in Calgary",
+      image: "/images/Rectangle-1090-6.png",
+      imageAlt: "Common refills for Spruce Grove residents",
     },
     {
-      title: "What We Cannot Prescribe Online",
+      title: "How Spruce Grove Online Prescriptions Work",
       content:
-        "TelePlusCare does not prescribe the following for safety and legal reasons. We follow all Alberta and Canadian prescription laws.",
+        "TelePlusCare's three-step process is designed for busy Tri-Region commuters. Step 1 — Book your virtual appointment online from your home in Westgrove or Spruce Ridge; provide your Alberta PHN and preferred local pharmacy. Step 2 — Connect by encrypted video with a CPSA-registered family physician for a 12–18 minute visit, often before your morning Edmonton commute. Step 3 — Once approved, your prescription is e-faxed to your selected Spruce Grove pharmacy. Pick it up after work on your way home.",
       bullets: [
-        "Narcotics",
-        "Controlled substances",
-        "Opioids",
-        "Benzodiazepines (e.g., Xanax, Ativan)",
-        "Sleeping pills",
-        "ADHD stimulants",
-        "Medical marijuana",
+        "Step 1 — Book online with your Alberta PHN",
+        "Step 2 — 12–18 minute video visit with an Alberta-licensed MD",
+        "Step 3 — E-prescription to your Spruce Grove pharmacy",
       ],
-      image: "/images/3.jpg",
-      imageAlt: "Online Prescriptions and Refills in Alberta",
+      image: "/images/prescription-refill/13-819x1024.jpeg",
+      imageAlt: "Three-step Spruce Grove online prescription process",
     },
     {
-      title:
-        "Virtual Healthcare Benefits: Why spruce grove Residents Choose Online Refill Prescription",
+      title: "Prescription Delivered to Your Local Spruce Grove Pharmacy",
       content:
-        "Convenience & Accessibility: No commute to a clinic. No waiting room exposure to other illnesses. Access care from home, work, or anywhere. Perfect for those with mobility issues or transportation challenges.\n\nTime-Saving: Average clinic wait time is 1-2 hours. Average virtual appointment takes just 15-20 minutes total. Get back to resting and recovering faster.\n\nCost-Effective: No parking fees. No transportation costs. No time off work for appointment travel. Covered by Alberta Health Card in most cases.\n\nQuality Care: Same licensed doctors as in-person clinics. Thorough assessment and consultation. Follow-up care available. Prescription services when needed.",
-      image:
-        "/images/tele.pluscare_1762275770_3758564036423165455_74096322945-819x1024.jpg",
-      imageAlt: "Doctor note online",
-    },
-    {
-      title:
-        "Why Choose TelePlusCare in spruce grove for Prescriptions and Refills?",
-      content:
-        "TelePlusCare provides trusted, fast prescription services for spruce grove residents:",
+        "We send prescriptions to every pharmacy in Spruce Grove and the surrounding Tri-Region. The Shoppers Drug Mart at Westgrove and at Spruce Crossing are the busiest, with extended hours that work for commuter schedules. The Sobeys Pharmacy and Save-On-Foods Pharmacy serve residential west and south sides. Pharmasave on McLeod Avenue is a long-standing community favourite. We also send to Stony Plain pharmacies — including the Shoppers Drug Mart at the Stony Plain Walmart and the Pharmasave on Highway 16A — and to Parkland County and Spring Lake locations.",
       bullets: [
-        "Real Alberta Doctors: All notes issued by licensed Canadian physicians",
-        "Fast Turnaround: Receive your note in as little as 15 minutes",
-        "Valid for Work, School & Travel: Use it with confidence anywhere in Alberta",
-        "Secure & Private: Your consultation and documents are fully confidential",
-        "Alberta Health Card Accepted: Most services covered — no extra cost",
+        "Shoppers Drug Mart — Westgrove, Spruce Crossing",
+        "Sobeys Pharmacy and Save-On-Foods Pharmacy",
+        "Pharmasave — McLeod Avenue",
+        "Stony Plain — Shoppers, Pharmasave, IDA",
+        "Parkland County and Spring Lake locations",
       ],
-      image: "/images/13-819x1024.jpeg",
-      imageAlt:
-        "Online Prescriptions and Refills in spruce grove – TelePlusCare",
+      image: "/images/Rectangle-1090-20.png",
+      imageAlt: "Spruce Grove pharmacies receiving e-prescriptions",
     },
     {
-      title: "Refill Your Medication Online in spruce grove",
+      title: "Built for Edmonton-Metro Commuters",
       content:
-        "Running low on your medication? Request a prescription refill online and avoid long clinic wait times, scheduling conflicts, last-minute rushes, and missing doses.\n\nOur Alberta providers can quickly renew your medication if appropriate — sent directly to your pharmacy.",
+        "Spruce Grove and Stony Plain are part of the Edmonton metropolitan area; thousands of residents commute daily to jobs in Edmonton, often passing dozens of pharmacies but never having time to see a doctor. TelePlusCare changes that. Book a 15-minute video visit before you leave for work, and your prescription will be at your local Spruce Grove pharmacy by the time you're back in town. No more taking a half-day off for a routine refill.",
       bullets: [
-        "Long clinic wait times",
-        "Scheduling conflicts",
-        "Last-minute rushes",
-        "Missing doses",
+        "Designed for daily Edmonton commute schedules",
+        "Visit before work, pick up after",
+        "No half-day off needed for refills",
+        "Evenings and weekends available",
       ],
-      image: "/images/Group-37523.png",
-      imageAlt: "Refill your medication online",
+      image: "/images/Rectangle-1090-22.png",
+      imageAlt: "TelePlusCare for Edmonton metro commuters",
     },
     {
-      title: "How It Works",
+      title: "Alberta Health Prescription Coverage for Spruce Grove",
       content:
-        "Step 1: Book a virtual appointment (takes less than 2 minutes)\n\nStep 2: Speak to a certified Alberta doctor via secure video or chat\n\nStep 3: Receive your prescription sent to your pharmacy — ready to pick up or have delivered\n\n100% legal and accepted. Safe, encrypted, and confidential. Mobile and desktop friendly.",
-      image: "/images/image-9963535-819x1024.jpeg",
-      imageAlt: "Doctor note in spruce grove",
-    },
-    {
-      title: "Who Can Use This Service?",
-      content:
-        "Our online prescription service is available to a wide range of patients:",
+        "Spruce Grove patients are AHCIP-covered for the virtual physician consultation. Drug coverage flows through Alberta Blue Cross Non-Group, Coverage for Seniors (auto at 65), the Adult Health Benefit for low-income residents, and Palliative Coverage. Most Edmonton-area employers where Spruce Grove residents commute — including the City of Edmonton, AHS, the University of Alberta, and major oilfield service firms — provide robust extended health benefits.",
       bullets: [
-        "Employees: Needing a sick note for missed work",
-        "Students: Requiring a note for absence from classes or exams",
-        "Parents: Caring for a sick child or family member",
-        "Travelers: Requiring fitness to fly or recovery documentation",
-        "Remote Workers: Who need proof of unwell status",
+        "AHCIP covers physician consult",
+        "Alberta Blue Cross Non-Group plans",
+        "Coverage for Seniors (65+)",
+        "Adult Health Benefit (income-tested)",
       ],
-      image: "/images/Group-37522.png",
-      imageAlt: "Doctor note in spruce grove",
+      image: "/images/image-4.png",
+      imageAlt: "Spruce Grove Alberta Health drug coverage",
     },
     {
-      title: "About Our Virtual Medical Clinic",
+      title: "Why Spruce Grove Patients Choose TelePlusCare",
       content:
-        "We are a fully licensed telemedicine provider serving spruce grove and all of Alberta. Our team of certified physicians is committed to providing accessible healthcare for all Albertans, timely medical documentation when you need it, professional and compassionate care in every consultation, and a privacy-first approach to your medical information.\n\nOur doctors are experienced in family medicine, urgent care consultations, mental health assessments, occupational health documentation, and travel medicine.",
+        "Spruce Grove's family physicians are oversubscribed; many residents either drive into Edmonton for routine care or wait weeks for a local appointment. TelePlusCare offers same-day virtual visits with a real CPSA-registered Alberta physician, available evenings and weekends. We're particularly popular with Spruce Grove's commuter families, Stony Plain seniors, and Parkland County residents.",
+      bullets: [
+        "No need to drive into Edmonton for refills",
+        "Same-day virtual appointments",
+        "Evenings and weekends — works around commute",
+        "100% CPSA-licensed Alberta physicians",
+      ],
+      image: "/images/image-6.png",
+      imageAlt: "Why Spruce Grove patients choose TelePlusCare",
     },
   ],
   faqs: [
     {
-      question: "Can I really get a prescription online in spruce grove?",
+      question: "Can Stony Plain residents use the Spruce Grove TelePlusCare service?",
       answer:
-        "Yes. TelePlusCare allows you to meet with a licensed Alberta healthcare provider online and, if medically appropriate, receive a prescription. This includes new prescriptions and refills. Your prescription can be sent to any spruce grove pharmacy or delivered to your home.",
+        "Absolutely. We serve the entire Tri-Region. Your prescription will be sent to your nearest pharmacy in Spruce Grove, Stony Plain, Parkland County, or wherever you prefer.",
     },
     {
-      question: "Is it legal to get prescriptions online in Alberta?",
+      question: "Which Spruce Grove pharmacies accept TelePlusCare e-prescriptions?",
       answer:
-        "Yes. Online prescribing is fully legal in Alberta as long as the prescription is issued by a licensed physician or nurse practitioner. TelePlusCare follows all provincial and federal medical regulations.",
+        "Every pharmacy — Shoppers Drug Mart at Westgrove and Spruce Crossing, Sobeys Pharmacy, Save-On-Foods Pharmacy, Pharmasave on McLeod Avenue, and all independents.",
     },
     {
-      question: "What medications can be prescribed online?",
+      question: "Is the virtual visit covered by Alberta Health for Spruce Grove residents?",
       answer:
-        "Our Alberta providers can prescribe a wide range of medications, including antibiotics, birth control, allergy medications, asthma inhalers, diabetes medications, blood pressure medication, cholesterol medication, thyroid medication, mental health prescriptions, skin medications, erectile dysfunction medication, travel medication, and cold & flu treatments. If it's safe and medically appropriate, we can prescribe it virtually.",
+        "Yes. AHCIP covers the physician's virtual consultation fee for any Spruce Grove resident with a valid Alberta Personal Health Number. No referral needed.",
     },
     {
-      question: "What medications cannot be prescribed online?",
+      question: "How fast can I get my refill in Spruce Grove?",
       answer:
-        "For safety and legal reasons, TelePlusCare cannot prescribe narcotics, opioids, controlled substances, ADHD stimulants, benzodiazepines, sleeping pills, or medical marijuana. Your provider will inform you if your medication falls into this category.",
+        "Most Spruce Grove patients have their prescription at their pharmacy within 1–2 hours of booking, often sooner during weekday clinic hours.",
     },
     {
-      question: "Can I get a prescription refill online in spruce grove?",
+      question: "Can I do my virtual visit before commuting to Edmonton in the morning?",
       answer:
-        "Yes. TelePlusCare offers quick and convenient prescription refills online. If you're running out of your medication, our providers can renew your prescription and send it to your preferred pharmacy in spruce grove.",
-    },
-    {
-      question: "How fast can I get my prescription or refill?",
-      answer:
-        "Most TelePlusCare patients receive their prescription within 15-30 minutes after their virtual appointment, depending on the complexity of the case and pharmacy availability.",
-    },
-    {
-      question: "Can I get antibiotics online in spruce grove?",
-      answer:
-        "Yes. Providers can prescribe antibiotics for conditions such as strep throat, sinus infections, ear infections, UTIs (for women), and skin infections. Antibiotics are only prescribed when medically appropriate.",
-    },
-    {
-      question: "Do I need an Alberta Health Care number?",
-      answer:
-        "Many virtual services are covered by AHCIP, but you can still use TelePlusCare even if you don't have an Alberta Health Card. Fees may apply for uninsured services.",
-    },
-    {
-      question:
-        "Can you send my prescription to any pharmacy in spruce grove?",
-      answer:
-        "Yes. You can choose any local spruce grove pharmacy, including Shoppers Drug Mart, Rexall, Loblaw/Superstore pharmacies, Save-On Foods, Costco, and independent pharmacies. You may also request medication delivery if offered by the pharmacy.",
-    },
-    {
-      question: "Can I get birth control online in spruce grove?",
-      answer:
-        "Yes. TelePlusCare providers can prescribe or renew birth control pills, patches, rings, or other options depending on your medical history.",
-    },
-    {
-      question: "Can I get an asthma inhaler online?",
-      answer:
-        "Yes. Ventolin, Flovent, and other inhalers can be prescribed or renewed if assessed as medically appropriate.",
-    },
-    {
-      question: "How do I book an appointment with TelePlusCare?",
-      answer:
-        "Click the Book Now button, choose your province (Alberta), select a time, and complete your short intake form. You'll receive a secure link for your virtual visit.",
+        "Yes. Many of our Spruce Grove patients book early-morning slots before leaving for work. Your prescription will be ready at your local pharmacy by the time you're back in town.",
     },
   ],
   locations:
-    "spruce grove, Downtown, Mill Woods, Clareview, West spruce grove, Fort McMurray, and surrounding areas.",
+    "Serving Spruce Grove, Stony Plain, Parkland County, Spring Lake, Wabamun, Onoway, Acheson, and the broader Tri-Region west of Edmonton.",
 };

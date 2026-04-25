@@ -133,7 +133,9 @@ export const pageData: LandingPageData = {
       title: "About Our Virtual Medical Clinic",
       content:
         "We are a fully licensed telemedicine provider serving cold lake and all of Alberta. Our team of certified physicians is committed to providing accessible healthcare for all Albertans, timely medical documentation when you need it, professional and compassionate care in every consultation, and a privacy-first approach to your medical information.\n\nOur doctors are experienced in family medicine, urgent care consultations, mental health assessments, occupational health documentation, and travel medicine.",
-    },
+          image: "/images/prescription-refill/13-819x1024.jpeg",
+      imageAlt: "About Our Virtual Medical Clinic",
+},
   ],
   faqs: [
     {
@@ -200,4 +202,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "cold lake, Downtown, Mill Woods, Clareview, West cold lake, Fort McMurray, and surrounding areas.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

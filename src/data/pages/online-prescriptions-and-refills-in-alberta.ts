@@ -1,187 +1,146 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle:
-    "Online Prescriptions and Refills in Alberta – Virtual Doctors Available | TelePlus Care",
+  metaTitle: "Online Prescriptions & Refills in Alberta | TelePlusCare",
   metaDescription:
-    "Online Prescriptions and Refills in Alberta. Consult licensed Alberta doctors online and get same-day prescriptions sent to your pharmacy. Alberta Health Card accepted.",
-  title: "Online Prescriptions and Refills in Alberta – Virtual Doctors Available",
+    "Get online prescriptions and refills in Alberta from CPSA-licensed virtual doctors. Same-day scripts sent to any Alberta pharmacy. AHCIP accepted, no referral.",
+  title: "Online Prescriptions and Refills Across Alberta",
   heroDescription:
-    "Looking for online prescriptions and refills in Alberta? TelePlusCare makes it easy to consult with licensed Alberta physicians from anywhere in the province and receive prescriptions or refills without visiting a clinic. Whether you need a new prescription, a medication refill, or ongoing care for a chronic condition, our secure virtual healthcare platform allows Albertans to get medical support quickly, privately, and conveniently.",
-  heroImage: "/images/2.jpg",
-  heroImageAlt: "Online Prescriptions and Refills in Alberta",
+    "TelePlusCare connects every Albertan, from downtown Calgary to remote hamlets in Mackenzie County, with CPSA-licensed family physicians by secure video. Receive same-day prescriptions or chronic refills sent electronically to any Alberta pharmacy without leaving home or queuing in a walk-in clinic.",
+  heroImage: "/images/Rectangle-1090-3.png",
+  heroImageAlt: "Online prescriptions and refills in Alberta",
+  bookingUrl: "/book-appointment-alberta",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
+  summary:
+    "TelePlusCare offers online prescription refills province-wide in Alberta through virtual MD video visits. CPSA-licensed physicians issue new scripts and refills sent electronically to any of Alberta's 1,500+ pharmacies. AHCIP-eligible visits are covered, no referral needed, and most consults complete in under 20 minutes.",
+  keyFacts: [
+    "CPSA-licensed Alberta physicians prescribe to all 1,500+ Alberta community pharmacies via secure e-fax or PrescribeIT.",
+    "AHCIP covers virtual physician visits for Alberta residents with a valid Personal Health Number; no referral required.",
+    "Most TelePlusCare prescription appointments are completed within 20 minutes of booking during clinic hours.",
+    "Schedule II, III, and unscheduled medications can be prescribed virtually; controlled drugs follow CPSA Standard 22.",
+  ],
   sections: [
     {
-      title: "Get Prescriptions Online Anywhere in Alberta",
+      title: "What Can Be Prescribed Online in Alberta",
       content:
-        "With TelePlusCare, you can access virtual medical consultations across Alberta, including urban, rural, and remote communities. There's no need to sit in a waiting room or travel long distances to see a doctor.\n\nOur online prescription service is ideal for Albertans who want fast access to medical care, prescription refills without clinic visits, ongoing management of common medical conditions, and convenient healthcare while traveling or working remotely.\n\nIf medically appropriate, your prescription will be issued electronically and sent to your preferred pharmacy or arranged for delivery.",
+        "Alberta-licensed physicians on the TelePlusCare platform can prescribe a wide range of routine and chronic medications during a video visit. Acute conditions like UTIs, sinus infections, pink eye, and skin rashes are commonly handled in a single appointment. Chronic prescriptions for hypertension, type 2 diabetes, hypothyroidism, GERD, and asthma are renewed after a brief medication review. Mental health prescriptions for SSRIs, SNRIs, and non-controlled sleep aids are also available with appropriate assessment. Controlled substances regulated under Schedule I (opioids, stimulants, benzodiazepines) generally require an in-person evaluation per CPSA Standard of Practice 22.",
       bullets: [
-        "Fast access to medical care",
-        "Prescription refills without clinic visits",
-        "Ongoing management of common medical conditions",
-        "Convenient healthcare while traveling or working remotely",
+        "Antibiotics for confirmed bacterial infections (UTI, strep, cellulitis)",
+        "Antihypertensives — ACE inhibitors, ARBs, beta-blockers, calcium channel blockers",
+        "Diabetes medications — metformin, SGLT2 inhibitors, GLP-1 agonists",
+        "Statins and other cholesterol-lowering therapies",
+        "Asthma inhalers — Ventolin, Symbicort, Advair, Trelegy",
+        "Birth control pills, patches, rings, and emergency contraception",
+        "SSRIs, SNRIs, and non-controlled mental health medications",
+        "Topical creams, eye drops, and dermatology prescriptions",
       ],
-      image: "/images/3.jpg",
-      imageAlt: "Online Prescriptions and Refills in Alberta",
+      image: "/images/Rectangle-1090-6.png",
+      imageAlt: "Medications prescribed online across Alberta",
     },
     {
-      title: "What Medications Can Be Prescribed Online in Alberta?",
+      title: "Conditions Most Commonly Refilled Across Alberta",
       content:
-        "During a virtual consultation, our Alberta-licensed healthcare providers can assess your symptoms and medical history to determine appropriate treatment.\n\nCommon medications prescribed online include:\n\nGeneral & Acute Conditions: Antibiotics (when appropriate), cold, flu, and infection treatments, allergy medications.\n\nChronic Condition Management: High blood pressure medications, cholesterol medications, diabetes management medications, thyroid medications.\n\nMen's & Women's Health: Birth control prescriptions, erectile dysfunction treatments, hormonal therapy support.\n\nMental Health Support: Anxiety and depression medications, sleep aids (non-controlled substances).\n\nNote: Controlled substances and certain medications may require in-person assessment as per Alberta regulations.",
+        "Alberta has one of the highest rates of chronic disease management in Canada. According to Alberta Health, more than 25% of adult Albertans live with at least one chronic condition that requires ongoing medication. TelePlusCare's virtual MDs see daily refill requests for hypertension (Ramipril, Amlodipine), elevated cholesterol (Atorvastatin, Rosuvastatin), type 2 diabetes (Metformin, Jardiance, Ozempic), hypothyroidism (Synthroid), GERD (Pantoprazole), depression and anxiety (Cipralex, Zoloft, Wellbutrin), asthma (Symbicort, Ventolin), and oral contraceptives (Alesse, Yasmin, Mirvala). One virtual visit can renew several stable medications at once.",
       bullets: [
-        "Antibiotics (when appropriate)",
-        "Cold, flu, and infection treatments",
-        "Allergy medications",
-        "High blood pressure medications",
-        "Cholesterol medications",
-        "Diabetes management medications",
-        "Thyroid medications",
-        "Birth control prescriptions",
-        "Erectile dysfunction treatments",
-        "Anxiety and depression medications",
-        "Sleep aids (non-controlled substances)",
+        "High blood pressure and heart medications",
+        "Cholesterol management (statins)",
+        "Diabetes oral and injectable medications",
+        "Asthma controllers and rescue inhalers",
+        "Birth control and hormonal therapy",
+        "Antidepressants and anti-anxiety medications",
+        "Thyroid replacement therapy",
+        "Acid reflux and GI medications",
       ],
-      image:
-        "/images/tele.pluscare_1755477383_3701535036169072784_74096322945-819x1024.jpg",
-      imageAlt: "Medications prescribed online in Alberta",
+      image: "/images/Rectangle-1090-20.png",
+      imageAlt: "Chronic condition refills in Alberta",
     },
     {
-      title: "Are Online Prescriptions Legal in Alberta?",
+      title: "How Online Prescription Refills Work in Alberta",
       content:
-        "Yes. Online prescriptions are legal in Alberta when issued by a licensed Alberta physician or nurse practitioner following a proper medical assessment.\n\nTelePlusCare operates in full compliance with the College of Physicians & Surgeons of Alberta (CPSA), Alberta healthcare regulations, and privacy and medical documentation standards.\n\nYour virtual consultation meets the same professional and legal standards as an in-person appointment.",
+        "Getting your prescription through TelePlusCare follows three simple steps designed around Alberta's regulatory framework. Step 1 — Book your virtual appointment online and provide your Alberta Personal Health Number (PHN), date of birth, and the pharmacy you want to use. Step 2 — Connect with your CPSA-registered physician by secure video; they will review your medication history, current symptoms, and any recent bloodwork or vitals. Step 3 — Once approved, your prescription is transmitted electronically to your nominated Alberta pharmacy, usually within minutes of the consultation ending.",
       bullets: [
-        "College of Physicians & Surgeons of Alberta (CPSA)",
-        "Alberta healthcare regulations",
-        "Privacy and medical documentation standards",
+        "Step 1 — Book online and enter your Alberta PHN",
+        "Step 2 — Video consult with a CPSA-licensed Alberta physician",
+        "Step 3 — Prescription sent electronically to your chosen pharmacy",
       ],
-      image: "/images/PHOTO-2025-07-20-10-56-56-1-819x1024.jpg",
-      imageAlt: "Online prescriptions legal in Alberta",
+      image: "/images/prescription-refill/13-819x1024.jpeg",
+      imageAlt: "Three-step Alberta online prescription process",
     },
     {
-      title:
-        "What Information Is Included in an Online Prescription?",
+      title: "Prescription Delivered to Your Local Alberta Pharmacy",
       content:
-        "An online prescription issued by a licensed Alberta healthcare provider contains all the required medical and legal details needed for safe dispensing by a pharmacy.\n\nTypically, an online prescription includes: Patient Information (full name and date of birth), Prescribing Provider Details (name, credentials, license number, and contact information), Medication Name & Strength, Dosage Instructions, Quantity & Refills, Date Issued, and Electronic Signature.\n\nOnce approved, the prescription is securely transmitted electronically to your selected pharmacy for dispensing or delivery.",
+        "Your TelePlusCare prescription can be sent to any licensed pharmacy in Alberta — there are over 1,500 community pharmacies regulated by the Alberta College of Pharmacy. Major chains including Shoppers Drug Mart, Rexall, London Drugs, Save-On-Foods Pharmacy, Safeway, Sobeys, Loblaws, Pharmasave, Co-op, and Costco all accept e-prescriptions from our physicians. We also work with hundreds of independent pharmacies in smaller towns. If your community has only a single pharmacy, we will send the script there directly. Many pharmacies in Edmonton, Calgary, and Red Deer also offer same-day home delivery.",
       bullets: [
-        "Patient Information — Full name and date of birth to ensure accurate identification",
-        "Prescribing Provider Details — Name, credentials, license number, and contact information",
-        "Medication Name & Strength — The exact medication prescribed, including dosage strength and formulation",
-        "Dosage Instructions — Clear directions on how and when to take the medication",
-        "Quantity & Refills — Total amount prescribed and the number of authorized refills",
-        "Date Issued — The official date the prescription was issued",
-        "Electronic Signature — A secure digital signature from the prescribing provider",
+        "Shoppers Drug Mart, Rexall, London Drugs province-wide",
+        "Co-op Pharmacy, Save-On-Foods, Safeway, Sobeys",
+        "Independent and rural pharmacies fully supported",
+        "Same-day delivery available in major cities",
       ],
-      image: "/images/PHOTO-2025-07-20-10-56-56-819x1024.jpg",
-      imageAlt: "Online prescription details in Alberta",
-    },
-    {
-      title:
-        "How Online Prescription Refills Work in Alberta",
-      content:
-        "Refilling your prescription online is simple:\n\nStep 1: Book a Virtual Appointment — Choose a time that works for you using our secure online booking system.\n\nStep 2: Consult With an Alberta Doctor — Discuss your condition, medication history, and current needs via video consultation.\n\nStep 3: Receive Your Prescription or Refill — If approved, your prescription is sent electronically to your chosen pharmacy or arranged for delivery.\n\nMany patients receive approval the same day, depending on medical suitability.",
-      image:
-        "/images/tele.pluscare_1756142137_3707111393683734268_74096322945-819x1024.jpg",
-      imageAlt: "How online prescription refills work in Alberta",
-    },
-    {
-      title: "Who Is This Service For?",
-      content:
-        "Our online prescription service is available to a wide range of patients across Alberta:",
-      bullets: [
-        "Patients needing new prescriptions",
-        "Prescription refills",
-        "Chronic condition management",
-        "Rural & remote Alberta residents",
-        "Busy professionals & families",
-      ],
-      image: "/images/Group-37522.png",
-      imageAlt: "Who can use online prescription service in Alberta",
-    },
-    {
-      title: "Alberta Health Care Coverage",
-      content:
-        "Most TelePlusCare services are covered by the Alberta Health Care Insurance Plan (AHCIP) for eligible residents.\n\nCoverage eligibility will be confirmed during booking.",
-      bullets: [
-        "No upfront fees for insured services",
-        "Private options available if required",
-        "Transparent billing with no hidden charges",
-      ],
-      image: "/images/illustration4.png",
-      imageAlt: "Alberta Health Care Coverage",
-    },
-    {
-      title: "Book an Online Prescription Consultation in Alberta",
-      content:
-        "Skip the waiting rooms and get the care you need from the comfort of your home. TelePlusCare makes online prescriptions and refills in Alberta simple, fast, and reliable.\n\nBook your virtual appointment today and speak with an Alberta doctor online.",
-      image:
-        "/images/tele.pluscare_1757889326_3721767882780192626_74096322945-819x1024.jpg",
-      imageAlt: "Book online prescription consultation in Alberta",
+      image: "/images/image-4.png",
+      imageAlt: "Alberta pharmacies receiving e-prescriptions",
     },
     {
       title: "Why Albertans Choose TelePlusCare",
       content:
-        "TelePlusCare is trusted by patients across Alberta because we focus on quality, safety, and convenience.\n\nLicensed Alberta Physicians: All consultations are conducted by qualified Canadian doctors and nurse practitioners.\n\nFast Turnaround: Same-day appointments and quick prescription approvals when medically appropriate.\n\nSecure & Confidential: Your health information is protected using secure, privacy-compliant systems.\n\nIntegrated Pharmacy Support: Prescriptions sent directly to local pharmacies across Alberta.\n\nProvince-Wide Access: Ideal for rural communities, busy professionals, families, students, and seniors.",
+        "Albertans value efficient, accessible healthcare. TelePlusCare physicians are all registered in good standing with the College of Physicians & Surgeons of Alberta and follow CPSA Virtual Care Standards. Whether you're a Calgary professional working downtown, an Edmonton family with three kids, a farmer near Vermilion, or a remote worker in the foothills, we eliminate the barriers — no walk-in queues, no driving, no time off work. Our patients consistently report receiving their prescription within 30 minutes of booking during regular hours.",
       bullets: [
-        "Licensed Alberta Physicians — All consultations conducted by qualified Canadian doctors",
-        "Fast Turnaround — Same-day appointments and quick prescription approvals",
-        "Secure & Confidential — Health information protected with privacy-compliant systems",
-        "Integrated Pharmacy Support — Prescriptions sent directly to local pharmacies",
-        "Province-Wide Access — Ideal for rural communities, professionals, families, and seniors",
+        "100% CPSA-licensed Alberta physicians",
+        "AHCIP billing handled directly for eligible residents",
+        "Same-day appointments seven days a week",
+        "Secure, PIPA-compliant video platform",
       ],
-      image:
-        "/images/tele.pluscare_1762275770_3758564036423165455_74096322945-819x1024.jpg",
+      image: "/images/Rectangle-1090-22.png",
       imageAlt: "Why Albertans choose TelePlusCare",
     },
     {
-      title: "Medically Reviewed & Physician-Led Care",
+      title: "Alberta Health Prescription Coverage",
       content:
-        "All consultations and documentation at TelePlusCare are conducted by physicians licensed with the College of Physicians & Surgeons of Alberta (CPSA).\n\nOur doctors have experience in family medicine, urgent care, mental health assessments, occupational health documentation, and travel medicine.\n\nYour care is professional, secure, and medically appropriate.",
+        "Alberta Health Care Insurance Plan (AHCIP) covers the physician consultation when you have a valid Alberta Personal Health Number. The medication itself is covered separately through several programs: Alberta Blue Cross Non-Group Coverage, Coverage for Seniors (age 65+), the Alberta Adult Health Benefit for low-income earners, and the Palliative Coverage program. Many Albertans also have employer-sponsored extended health benefits through Sun Life, Manulife, or Canada Life. Generic alternatives are usually under $25/month even without coverage.",
       bullets: [
-        "Family medicine",
-        "Urgent care",
-        "Mental health assessments",
-        "Occupational health documentation",
-        "Travel medicine",
+        "AHCIP covers physician consultation",
+        "Alberta Blue Cross Non-Group Coverage available",
+        "Coverage for Seniors automatic at age 65",
+        "Adult Health Benefit for low-income Albertans",
       ],
-      image: "/images/ChatGPT-Image-Dec-12-2025-04_41_00-PM.jpg",
-      imageAlt: "Medically reviewed physician-led care",
+      image: "/images/image-5.png",
+      imageAlt: "Alberta Health prescription coverage",
     },
     {
-      title: "About Our Virtual Medical Clinic",
+      title: "Privacy, Security, and CPSA Compliance",
       content:
-        "We are a fully licensed telemedicine provider serving Alberta. Our team of certified physicians is committed to providing accessible healthcare for all Albertans, timely medical documentation when you need it, professional and compassionate care in every consultation, and a privacy-first approach to your medical information.\n\nOur doctors are experienced in family medicine, urgent care consultations, mental health assessments, occupational health documentation, and travel medicine.",
-      image:
-        "/images/tele.pluscare_1758418399_3726206066255053737_74096322945-819x1024.jpg",
-      imageAlt: "Virtual medical clinic in Alberta",
+        "TelePlusCare's virtual care platform is built to meet Alberta's Personal Information Protection Act (PIPA) and the Health Information Act. All video consultations are end-to-end encrypted, prescription transmissions use secure e-fax or PrescribeIT integration, and patient charts are stored on Canadian servers. Every prescription includes the physician's CPSA registration number, full name, signature, and contact information so any Alberta pharmacist can verify legitimacy instantly.",
+      image: "/images/image-6.png",
+      imageAlt: "CPSA compliance and patient privacy",
     },
   ],
   faqs: [
     {
-      question: "Can I get a prescription online in Alberta?",
+      question: "Are online prescriptions legal in Alberta?",
       answer:
-        "Yes. You can consult with a licensed Alberta healthcare provider online and receive a prescription if medically appropriate.",
+        "Yes. CPSA permits virtual prescribing under Standard of Practice 22 when a proper assessment is completed. TelePlusCare physicians follow all CPSA virtual care guidelines.",
     },
     {
-      question: "Do I need an existing prescription?",
+      question: "Do I need a referral for an online prescription in Alberta?",
       answer:
-        "No. TelePlusCare can issue new prescriptions or refills, depending on your medical assessment.",
+        "No referral is required. Any Alberta resident with a valid PHN can book directly through TelePlusCare and consult a physician the same day.",
     },
     {
-      question: "How fast can I get my prescription?",
+      question: "Can my prescription be sent to a rural Alberta pharmacy?",
       answer:
-        "Many patients receive prescriptions the same day, often within minutes after their consultation.",
+        "Yes. We send prescriptions electronically to any pharmacy in Alberta, including independent rural pharmacies in towns like Bow Island, Hanna, Edson, and Slave Lake.",
     },
     {
-      question: "Is my information secure?",
+      question: "Can I get controlled substances prescribed online in Alberta?",
       answer:
-        "Yes. All consultations and medical records are handled securely and confidentially.",
+        "Schedule I controlled drugs (opioids, stimulants, benzodiazepines) typically require an in-person assessment per CPSA Standard 22. Most other medications can be prescribed virtually.",
     },
     {
-      question: "Can prescriptions be sent to any pharmacy?",
+      question: "How long does an Alberta online prescription consultation take?",
       answer:
-        "Yes. We can send your prescription to any pharmacy in Alberta or arrange delivery where available.",
+        "Most prescription appointments take between 10 and 20 minutes. Renewals for stable chronic medications are often quicker than first-time prescriptions.",
     },
   ],
   locations:
-    "Edmonton, Calgary, Red Deer, Lethbridge, Fort McMurray, Grande Prairie, Medicine Hat, Airdrie, Spruce Grove, St. Albert, Sherwood Park, Leduc, Fort Saskatchewan, and surrounding communities. No matter where you're located, TelePlusCare brings professional healthcare to you.",
+    "Serving Edmonton, Calgary, Red Deer, Lethbridge, Medicine Hat, Fort McMurray, Grande Prairie, Airdrie, St. Albert, Spruce Grove, Leduc, Camrose, Brooks, Lloydminster, Cold Lake, and every community in between across Alberta.",
 };

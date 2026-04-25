@@ -150,4 +150,6 @@ export const pageData: LandingPageData = {
   bookingUrl: "/book-doctors-note",
   locations:
     "Richmond, Steveston, Brighouse, Terra Nova, Thompson, Seafair, South Arm, Hamilton, Ladner, and surrounding Metro Vancouver communities.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

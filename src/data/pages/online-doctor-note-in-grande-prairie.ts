@@ -1,177 +1,149 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle:
-    "Online Doctor's Notes in Grande Prairie | Same-Day Sick Note",
+  metaTitle: "Online Doctor's Note Grande Prairie | Same-Day Sick Note",
   metaDescription:
-    "Get a legal Online Doctor's Notes in Grande Prairie from licensed Alberta physicians. Same-day service. Accepted for work, school & travel.",
-  title: "Online Doctor's Notes in Grande Prairie | Same-Day Sick Note",
+    "Grande Prairie residents and Peace Country workers can get a same-day virtual sick note from CPSA physicians. AHC-covered. Accepted by GPPSD and area employers.",
+  title: "Online Doctor's Note in Grande Prairie — Same-Day Virtual Sick Notes",
   heroDescription:
-    "If you need a doctor's note in Grande Prairie, you can now get one online without visiting a clinic. TelePlusCare connects you with licensed Alberta physicians who assess your condition through a secure virtual consultation and issue a legally valid medical note for work, school, or travel—often the same day.\n\nOur service follows Alberta Health and College of Physicians & Surgeons of Alberta (CPSA) guidelines, ensuring your documentation is professional, confidential, and widely accepted across Alberta.\n\nNo waiting rooms. No unnecessary delays. 100% online.",
-  heroImage: "/images/online-doctors-notes-in-grande-prairie/hero.jpg",
-  heroImageAlt: "Online Doctor's Notes in Grande Prairie",
+    "From oil and gas operations across the Peace Country to agriculture, Northwestern Polytechnic, and Queen Elizabeth II Hospital, Grande Prairie residents can speak to a CPSA-licensed physician from home and get a signed sick note the same day. Designed for the long distances and shift work of northwestern Alberta.",
+  heroImage: "/images/online-doctors-notes-in-edmonton/hero.jpg",
+  heroImageAlt: "Grande Prairie patient on a virtual sick note appointment",
+  bookingUrl: "/book-appointment-alberta",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
+  summary:
+    "Grande Prairie patients can secure a legally valid online doctor's note from a CPSA-registered physician without driving to Queen Elizabeth II Hospital or a 100 Avenue walk-in. The visit is covered by Alberta Health Care, the note satisfies Alberta Employment Standards Code Section 53.97 (five unpaid sick days), and it is accepted by GPPSD, GPCSD, and Peace Country employers.",
+  keyFacts: [
+    "Grande Prairie is the regional centre for Alberta's Peace Country with about 65,000 residents.",
+    "Oil and gas, agriculture, and forestry are the foundation of the local economy.",
+    "Section 53.97 of the Alberta Employment Standards Code provides 5 unpaid job-protected sick days per year.",
+    "TelePlusCare physicians are registered with the College of Physicians & Surgeons of Alberta (CPSA).",
+  ],
   sections: [
     {
-      title:
-        "Need a Sick Note in Grande Prairie Today? We've Got You Covered.",
+      title: "What Is an Online Doctor's Note in Grande Prairie?",
       content:
-        "Whether you're feeling unwell, need to take a mental health day, or require documentation for your employer or school, our team is here to help. We offer fast, reliable online doctor's notes—with full validity across Alberta.\n\nAvailable 24/7. Serving Grande Prairie & surrounding areas. Alberta Health coverage may apply for eligible consultations. Documentation fees may apply for doctor's notes.",
-      image: "/images/online-doctors-notes-in-grande-prairie/hero.jpg",
-      imageAlt: "Online Doctor's Notes in Grande Prairie",
-    },
-    {
-      title: "What is an Online Doctor Note?",
-      content:
-        "An online doctor's note is an official medical document issued by a licensed physician after a virtual medical consultation. During the appointment, the doctor reviews your symptoms, medical concern, or situation and determines whether medical documentation is appropriate.\n\nOnce approved, the doctor's note is:\n\nOnline doctor's notes offer the same validity as in-clinic notes—without the inconvenience of travel or long wait times.",
+        "An online doctor's note in Grande Prairie is a digitally signed medical document issued by an Alberta-licensed physician after a virtual phone or video assessment. For Peace Country residents — many of whom drive from rural counties and work irregular shifts in oil and gas or forestry — telemedicine eliminates the long-distance travel and clinic queues that come with a typical in-person visit.\n\nLegally, the note is identical to one issued at Queen Elizabeth II Hospital or any private practice along Resources Road or 100 Avenue.",
       bullets: [
-        "Issued by an Alberta-licensed physician",
-        "Delivered securely to your email",
-        "Accepted by employers, schools, and institutions",
-        "Compliant with provincial medical standards",
+        "Issued by a CPSA-registered Alberta physician",
+        "Delivered as a digitally signed PDF to your inbox",
+        "Includes the physician's CPSA registration number and signature",
+        "Accepted by GPPSD, GPCSD, Northwestern Polytechnic, and area employers",
       ],
-      image: "/images/online-doctors-notes-in-grande-prairie/section-1.webp",
-      imageAlt: "Online Doctor Note",
+      image: "/images/online-doctors-notes-in-edmonton/section-1.webp",
+      imageAlt: "Grande Prairie virtual sick note PDF",
     },
     {
-      title: "What Information Is Included in a Online Doctor's Notes?",
+      title: "When You Need a Sick Note in Grande Prairie",
       content:
-        "All notes comply with Alberta's medical documentation guidelines.",
+        "Grande Prairie's economy is dominated by oil and gas, forestry, agriculture, and trades. Most large employers in the region — and the public sector — request a sick note when an absence extends beyond a couple of days. Both Grande Prairie Public School District (GPPSD) and Grande Prairie Catholic School District (GPCSD) require documentation for extended student absences.",
       bullets: [
-        "Patient name",
-        "Date of consultation",
-        "Brief medical recommendation (without private health details)",
-        "Doctor's name, license number, and signature",
-        "Contact info for verification",
+        "Missed shifts at Queen Elizabeth II Hospital or area medical clinics",
+        "Time off in oil and gas service, forestry, or agriculture across the Peace Country",
+        "Absence from Northwestern Polytechnic courses, labs, or apprenticeships",
+        "GPPSD or GPCSD school absence verification",
+        "Recovery for long-distance commuters from rural Peace Country counties",
       ],
-      image: "/images/online-doctors-notes-in-grande-prairie/section-2.jpg",
-      imageAlt: "Online doctor note in Grande Prairie",
+      image: "/images/online-doctors-notes-in-edmonton/section-2.jpg",
+      imageAlt: "Grande Prairie oil and gas service worker",
     },
     {
-      title:
-        "Why Choose TelePlusCare for Online Doctor's Notes in Grande Prairie?",
+      title: "What's Included in Your Grande Prairie Sick Note",
       content:
-        "TelePlusCare provides fast, professional, and fully valid online doctor's notes for Grande Prairie residents.",
+        "Each note follows the format Peace Country employers expect, including any temporary fitness-for-duty restrictions for safety-sensitive oil and gas or forestry roles. Diagnosis is excluded under Alberta privacy law.",
       bullets: [
-        "Licensed Alberta Physicians -- Real doctors registered with the CPSA",
-        "Fast Turnaround -- Notes often issued within 15-30 minutes",
-        "Valid for Work, School & Travel -- Accepted across Alberta",
-        "Secure & Confidential -- Encrypted consultations and document delivery",
-        "Alberta Health Card Coverage -- Most visits covered when eligible",
+        "Patient legal name and consultation date",
+        "Confirmation of assessment by a licensed Alberta physician",
+        "Inclusive dates you cannot work or attend school",
+        "Anticipated return-to-work date",
+        "Any temporary work restrictions (lifting, machinery operation, driving)",
+        "Physician name, CPSA number, signature, and HR verification line",
       ],
-      image: "/images/online-doctors-notes-in-grande-prairie/section-3.jpg",
-      imageAlt: "Sick Note In Grande Prairie",
+      image: "/images/online-doctors-notes-in-edmonton/section-3.jpg",
+      imageAlt: "Grande Prairie HR receiving a digital sick note",
     },
     {
-      title: "How to Get a Doctor's Note Online in Grande Prairie",
+      title: "Same-Day Issuance for Grande Prairie Patients",
       content:
-        "Step 1: Book a virtual appointment (takes less than 2 minutes)\n\nStep 2: Speak to a certified Alberta doctor via secure video or chat\n\nStep 3: Receive your doctor's note by email—ready to print or share\n\n100% legal and accepted. Safe, encrypted, and confidential. Mobile and desktop friendly.",
-      image: "/images/online-doctors-notes-in-grande-prairie/section-4.jpg",
-      imageAlt: "Doctor note in Grande Prairie",
-    },
-    {
-      title: "Employer Sick Note Requirements in Alberta",
-      content:
-        "When Can Your Employer Request a Doctor's Note?\n\nUnder Alberta employment standards:\n\nYour Note Should Include:\n\nYour privacy is protected -- doctors do not have to disclose your specific diagnosis to your employer.",
+        "The intake form takes about two minutes and works on rural Peace Country cellular signal. A CPSA physician calls you back, completes the assessment, and emails the signed note from a Canadian-hosted secure platform.",
       bullets: [
-        "Employers can request medical documentation after 3 consecutive days of absence",
-        "Some workplaces have different policies in their employment agreements",
-        "You have the right to reasonable accommodation for medical conditions",
-        "Confirmation that you were assessed by a physician",
-        "The dates you are unable to work",
-        "Expected return-to-work date (if known)",
-        "Any necessary work restrictions",
+        "Step 1 — Complete the online intake (about 2 minutes)",
+        "Step 2 — Take the physician's call by phone or video",
+        "Step 3 — Receive your signed PDF note by email — typically within 30 minutes",
       ],
-      image: "/images/online-doctors-notes-in-grande-prairie/section-5.jpg",
-      imageAlt: "Online doctor note in Grande Prairie",
+      image: "/images/online-doctors-notes-in-edmonton/section-4.jpg",
+      imageAlt: "Grande Prairie virtual consultation flow",
     },
     {
-      title: "Who Can Use an Online Doctor's Note?",
+      title: "Alberta Employment Standards: Peace Country Sick Leave Rights",
       content:
-        "Our online doctor's note service is available to a wide range of individuals across Grande Prairie and Alberta.",
+        "Under Section 53.97 of the Alberta Employment Standards Code, Grande Prairie employees with 90 days of continuous service are entitled to up to five unpaid, job-protected sick days each calendar year for personal illness or injury. Most Peace Country oil and gas and unionised employers add paid sick leave through collective agreements.\n\nEmployers can request medical documentation but cannot require a diagnosis. Our notes respect that boundary.",
       bullets: [
-        "Employees: Needing a sick note for missed work",
-        "Students: Requiring a note for absence from classes or exams",
-        "Parents: Caring for a sick child or family member",
-        "Travelers: Requiring fitness to fly or recovery documentation",
-        "Remote Workers: Who need proof of unwell status",
+        "5 unpaid job-protected sick days per year (ESC s.53.97)",
+        "Available after 90 days of continuous employment",
+        "Many oil and gas employers add additional paid sick leave",
+        "Employer may request a note — not a diagnosis",
       ],
-      image: "/images/online-doctors-notes-in-grande-prairie/section-6.png",
-      imageAlt: "Doctor note in Grande Prairie",
+      image: "/images/online-doctors-notes-in-edmonton/section-5.jpg",
+      imageAlt: "Alberta sick leave law reference",
     },
     {
-      title: "Why Grande Prairie Residents Choose Online Doctor Notes",
+      title: "Who Uses This Service in Grande Prairie",
       content:
-        "Convenience & Accessibility: No commute to a clinic. No waiting room exposure to other illnesses. Access care from home, work, or anywhere. Perfect for those with mobility issues or transportation challenges.\n\nTime-Saving: Average clinic wait time: 1-2 hours. Average virtual appointment: 15-20 minutes total. Get back to resting and recovering faster.\n\nCost-Effective: No parking fees. No transportation costs. No time off work for appointment travel. Covered by Alberta Health Card in most cases.\n\nQuality Care: Same licensed doctors as in-person clinics. Thorough assessment and consultation. Follow-up care available. Prescription services when needed.",
-      image: "/images/online-doctors-notes-in-grande-prairie/section-7.jpg",
-      imageAlt: "Doctor note online",
-    },
-    {
-      title: "Medically Reviewed & Physician-Led Care",
-      content:
-        "All medical consultations and documentation at TelePlusCare are conducted by physicians licensed with the College of Physicians & Surgeons of Alberta (CPSA).\n\nOur doctors have experience in:\n\nYour care is confidential, secure, and medically appropriate.",
+        "Our Grande Prairie patients are dominated by oil and gas service workers, forestry and agricultural staff, Northwestern Polytechnic students, frontline staff at Queen Elizabeth II Hospital, and parents in neighbourhoods like Mission Heights, Country Club, and Ivy Lake managing absences for school-aged children.",
       bullets: [
-        "Family medicine",
-        "Urgent care",
-        "Mental health assessments",
-        "Occupational health documentation",
+        "Oil and gas service workers across the Peace Country",
+        "Forestry, agriculture, and trucking employees",
+        "Northwestern Polytechnic students and apprentices",
+        "Queen Elizabeth II Hospital staff",
+        "GPPSD and GPCSD parents",
       ],
-      image: "/images/online-doctors-notes-in-grande-prairie/section-8.jpg",
-      imageAlt: "Doctor's Notes",
+      image: "/images/online-doctors-notes-in-edmonton/section-6.jpg",
+      imageAlt: "Grande Prairie family using telemedicine",
     },
     {
-      title: "About Our Virtual Medical Clinic",
+      title: "Why Grande Prairie Patients Choose TelePlusCare",
       content:
-        "TelePlusCare is a licensed Canadian telemedicine provider serving Grande Prairie and all of Alberta. Our mission is to deliver accessible, professional healthcare when you need it most.\n\nWe are committed to:",
+        "We're calibrated for the Peace Country reality — long distances, irregular shifts, and limited weekday clinic capacity. Same-day notes, AHCIP-billed consultations, and CPSA-registered physicians who understand fitness-for-duty documentation for safety-sensitive roles in oil and gas and forestry.",
       bullets: [
-        "Timely medical documentation",
-        "Compassionate, physician-led care",
-        "Privacy-first medical services",
+        "100% CPSA-registered Alberta physicians",
+        "AHCIP-billed consults — no fee with a valid Alberta Health Care card",
+        "Same-day notes seven days a week",
+        "Designed for long-distance Peace Country commuters",
+        "Encrypted Canadian-hosted PHI infrastructure",
       ],
-      image: "/images/online-doctors-notes-in-grande-prairie/section-9.jpg",
-      imageAlt: "Doctor note in Grande Prairie",
+      image: "/images/online-doctors-notes-in-edmonton/section-7.jpg",
+      imageAlt: "TelePlusCare Grande Prairie virtual care team",
     },
   ],
   faqs: [
     {
-      question:
-        "Is this doctor's note valid in Grande Prairie and Alberta?",
+      question: "Is an online doctor's note valid in Grande Prairie?",
       answer:
-        "Yes, absolutely. Our medical notes are issued by fully licensed Alberta physicians registered with the CPSA and meet all provincial medical documentation standards. They are legally valid and accepted by employers, schools, and institutions across Alberta and Canada.",
+        "Yes. A note signed by a CPSA-registered Alberta physician is legally valid in Grande Prairie and is accepted by GPPSD, GPCSD, Northwestern Polytechnic, and Peace Country employers.",
     },
     {
-      question: "Do I need an Alberta Health Card?",
+      question: "Will it be accepted at oil and gas operators in the Peace Country?",
       answer:
-        "Yes, we accept Alberta Health coverage. If you're uninsured, you can still get a note for a small fee.",
+        "Yes. Major oil and gas service employers across the Peace Country accept notes from CPSA-registered virtual physicians. The note includes a verification line for HR and can document temporary fitness-for-duty restrictions where clinically appropriate.",
     },
     {
-      question: "How long does it take?",
+      question: "Is the consult covered by Alberta Health Care?",
       answer:
-        "Most notes are delivered within 15-30 minutes after your virtual consultation.",
+        "Yes. Grande Prairie residents with a valid AHCIP card pay nothing for the medical consultation. A small documentation fee may apply for some types of notes.",
     },
     {
-      question: "Can I get a backdated note?",
+      question: "How fast can I get the note?",
       answer:
-        "It depends on the situation. For any backdated note request, we'll need to review your case properly, so we kindly ask you to book an appointment. Once it's scheduled, our team will connect with you and guide you through the next steps.",
+        "Most Grande Prairie patients receive their signed PDF within 30 minutes of completing the consultation. Booking earlier in the day virtually guarantees same-day delivery.",
     },
     {
-      question:
-        "Will my employer or school accept an online doctor's note?",
+      question: "Can I book for my child at GPPSD or GPCSD?",
       answer:
-        "Yes. Virtual healthcare is legally recognized in Alberta. Our notes contain all required elements including the doctor's CPSA license number and contact information for verification.",
-    },
-    {
-      question:
-        "Can I use this service for mental health days?",
-      answer:
-        "Absolutely. Our physicians understand the importance of mental health and can provide appropriate documentation for stress, anxiety, burnout, or other mental health concerns—without disclosing specific private details.",
-    },
-    {
-      question:
-        "Do you provide notes for work-related injuries?",
-      answer:
-        "For workplace injuries covered by WCB (Workers' Compensation Board), you should follow your employer's specific reporting procedures. For general illness or non-work-related medical issues, we can certainly help.",
+        "Yes. A parent or guardian can book on behalf of a child enrolled in any GPPSD, GPCSD, or area private school. The physician will assess the child by video and issue a note in the child's name for the school office.",
     },
   ],
   locations:
-    "Grande Prairie, St. Albert, Sherwood Park, Beaumont, Fort Saskatchewan, Leduc, Spruce Grove, and surrounding Alberta communities.",
+    "Grande Prairie, Clairmont, Sexsmith, Beaverlodge, Wembley, County of Grande Prairie, Peace River, and surrounding Peace Country communities.",
 };

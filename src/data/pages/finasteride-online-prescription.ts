@@ -11,6 +11,14 @@ export const pageData: LandingPageData = {
     "Finasteride is a clinically proven oral medication for treating male pattern hair loss (androgenetic alopecia). At TelePlus Care, our licensed Alberta physicians can evaluate your hair loss and prescribe Finasteride through a convenient virtual consultation, helping you take the first step toward preserving and regrowing your hair.\n\nOur healthcare services are available to all residents of Alberta, Canada.",
   heroImage: "/images/Rectangle-1090-3.png",
   heroImageAlt: "Finasteride online prescription for hair loss in Alberta",
+  summary:
+    "Finasteride is a 1 mg oral 5-alpha reductase inhibitor approved by Health Canada for male androgenetic alopecia, reducing scalp DHT by approximately 70% to slow hair loss and promote regrowth. Clinical studies show 83% of men maintain hair count and 66% experience visible regrowth after two years. TelePlus Care prescribes virtually to Alberta men aged 18+.",
+  keyFacts: [
+    "Health Canada-approved for male pattern baldness in adult men",
+    "Reduces scalp DHT levels by approximately 70% with daily use",
+    "83% maintain hair count and 66% see regrowth at 24 months",
+    "Generic 1 mg tablets typically cost $15-40 per month in Alberta",
+  ],
   sections: [
     {
       title: "What Is Finasteride and How Does It Work?",
@@ -30,7 +38,9 @@ export const pageData: LandingPageData = {
         "Long-term use -- Finasteride is a maintenance medication. If you stop taking it, the hair loss process resumes, and any hair regained is typically lost within 6 to 12 months of discontinuation.",
         "Do not double dose -- If you miss a dose, skip it and take the next dose at the regular time. Do not take two tablets to compensate.",
       ],
-    },
+          image: "/images/Rectangle-1090-12.png",
+      imageAlt: "Finasteride Dosage and How to Take It",
+},
     {
       title: "Results Timeline: What to Expect",
       content:
@@ -49,7 +59,9 @@ export const pageData: LandingPageData = {
         "Not suitable for women -- Finasteride can cause birth defects and must not be used by women who are pregnant or may become pregnant. Women should not even handle crushed or broken tablets.",
         "Discuss your history -- Men with liver disease or prostate conditions should inform their physician, as Finasteride may affect PSA test results and liver metabolism.",
       ],
-    },
+          image: "/images/Rectangle-1090-1-1.png",
+      imageAlt: "Who Qualifies for Finasteride?",
+},
     {
       title: "Side Effects of Finasteride",
       content:
@@ -61,12 +73,16 @@ export const pageData: LandingPageData = {
         "Allergic reactions -- Very rarely, patients may experience rash, itching, hives, or swelling of the lips and face. Seek medical attention immediately if this occurs.",
         "PSA levels -- Finasteride can reduce prostate-specific antigen (PSA) levels by approximately 50%. Inform any healthcare provider that you are taking Finasteride before undergoing PSA screening.",
       ],
-    },
+          image: "/images/Rectangle-1090-2-1.png",
+      imageAlt: "Side Effects of Finasteride",
+},
     {
       title: "Finasteride vs Other Hair Loss Treatments",
       content:
         "Finasteride is one of two FDA and Health Canada-approved medications for male pattern hair loss, alongside Minoxidil (Rogaine). Understanding how they compare can help you choose the best approach.\n\nFinasteride works systemically by reducing DHT levels throughout the body, addressing the root hormonal cause of hair loss. Minoxidil is a topical solution or foam applied directly to the scalp that works by increasing blood flow to hair follicles. Many dermatologists recommend using both together for synergistic results.\n\nOther options include platelet-rich plasma (PRP) therapy, low-level laser therapy, and hair transplant surgery. However, Finasteride remains the most studied and cost-effective first-line medical treatment for androgenetic alopecia in men.",
-    },
+          image: "/images/Rectangle-1090-3-1.png",
+      imageAlt: "Finasteride vs Other Hair Loss Treatments",
+},
     {
       title: "Why Choose TelePlus Care for Your Finasteride Prescription?",
       content:
@@ -78,7 +94,9 @@ export const pageData: LandingPageData = {
         "Follow-up care -- We schedule follow-up appointments to monitor your progress and adjust your treatment plan if necessary.",
         "Confidential service -- All consultations are private and conducted through our secure telemedicine platform.",
       ],
-    },
+          image: "/images/Rectangle-1090-4-1.png",
+      imageAlt: "Why Choose TelePlus Care for Your Finasteride Prescription?",
+},
   ],
   faqs: [
     {
@@ -117,4 +135,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

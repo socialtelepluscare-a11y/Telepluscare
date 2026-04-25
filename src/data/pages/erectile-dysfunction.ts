@@ -30,7 +30,9 @@ export const pageData: LandingPageData = {
         "Medications -- Certain prescription medications, including some antidepressants, blood pressure medications, and antihistamines, may cause or worsen ED.",
         "Lifestyle Factors -- Smoking, excessive alcohol consumption, obesity, and lack of physical activity can increase the risk of ED.",
       ],
-    },
+          image: "/images/Rectangle-1090-1-1.png",
+      imageAlt: "Common Causes of Erectile Dysfunction",
+},
     {
       title: "Symptoms of Erectile Dysfunction",
       content:
@@ -42,7 +44,9 @@ export const pageData: LandingPageData = {
         "Erections that are not as firm as they used to be",
         "Anxiety or stress related to sexual performance",
       ],
-    },
+          image: "/images/Rectangle-1090-2-1.png",
+      imageAlt: "Symptoms of Erectile Dysfunction",
+},
     {
       title: "Treatment Options for Erectile Dysfunction",
       content:
@@ -54,7 +58,9 @@ export const pageData: LandingPageData = {
         "Psychological Support -- Addressing underlying psychological factors through counseling or therapy can be an important part of treatment.",
         "Ongoing Monitoring -- Regular follow-up appointments to assess treatment effectiveness and make adjustments as needed.",
       ],
-    },
+          image: "/images/Rectangle-1090-3-1.png",
+      imageAlt: "Treatment Options for Erectile Dysfunction",
+},
     {
       title: "Why Choose TelePlus Care for ED Treatment?",
       content:
@@ -65,7 +71,9 @@ export const pageData: LandingPageData = {
         "Convenient & Discreet -- Access treatment from the comfort of your home without the need for in-person visits or waiting rooms.",
         "Personalized Treatment Plans -- We tailor our approach to your specific needs, health profile, and treatment goals.",
       ],
-    },
+          image: "/images/Rectangle-1090-4-1.png",
+      imageAlt: "Why Choose TelePlus Care for ED Treatment?",
+},
     {
       title: "How Does It Work?",
       content:
@@ -76,7 +84,9 @@ export const pageData: LandingPageData = {
         "Receive Confirmation -- Once you've booked your appointment, you'll receive a confirmation email or call with detailed instructions for your upcoming virtual visit.",
         "Attend Your Appointment -- On the day of your virtual visit, connect with your provider using any electronic device. Our healthcare professionals will assess your condition and create a personalized care plan.",
       ],
-    },
+          image: "/images/Rectangle-1090-5-1.png",
+      imageAlt: "How Does It Work?",
+},
   ],
   faqs: [
     {
@@ -110,4 +120,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

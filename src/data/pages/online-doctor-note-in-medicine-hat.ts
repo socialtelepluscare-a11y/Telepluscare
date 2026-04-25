@@ -1,177 +1,149 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle:
-    "Online Doctor's Notes in Medicine Hat | Same-Day Sick Note",
+  metaTitle: "Online Doctor's Note Medicine Hat | Same-Day Sick Note",
   metaDescription:
-    "Get a legal Online Doctor's Notes in Medicine Hat from licensed Alberta physicians. Same-day service. Accepted for work, school & travel.",
-  title: "Online Doctor's Notes in Medicine Hat | Same-Day Sick Note",
+    "Medicine Hat residents can get a same-day virtual doctor's note from CPSA physicians. AHC-covered. Accepted by MHCBE, MHPSD, and area employers.",
+  title: "Online Doctor's Note in Medicine Hat — Same-Day Virtual Sick Notes",
   heroDescription:
-    "If you need a doctor's note in Medicine Hat, you can now get one online without visiting a clinic. TelePlusCare connects you with licensed Alberta physicians who assess your condition through a secure virtual consultation and issue a legally valid medical note for work, school, or travel—often the same day.\n\nOur service follows Alberta Health and College of Physicians & Surgeons of Alberta (CPSA) guidelines, ensuring your documentation is professional, confidential, and widely accepted across Alberta.\n\nNo waiting rooms. No unnecessary delays. 100% online.",
-  heroImage: "/images/online-doctors-notes-in-medicine-hat/hero.jpg",
-  heroImageAlt: "Online Doctor's Notes in Medicine Hat",
+    "From the natural-gas operations on the prairie to agriculture, Medicine Hat College, and the Regional Hospital, residents of southeast Alberta deserve fast healthcare access. Speak to a CPSA-licensed physician from home and get a signed sick note delivered the same day — no drive to a clinic on Dunmore Road or Trans-Canada.",
+  heroImage: "/images/online-doctors-notes-in-edmonton/hero.jpg",
+  heroImageAlt: "Medicine Hat resident receiving a virtual sick note",
+  bookingUrl: "/book-appointment-alberta",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
+  summary:
+    "Medicine Hat patients can obtain a legally valid online doctor's note from a CPSA-registered physician without travelling to the Regional Hospital or a Trans-Canada walk-in. The visit is covered by Alberta Health Care, the note satisfies Alberta Employment Standards Code Section 53.97 (five unpaid sick days), and it is accepted by Medicine Hat Public, Catholic, and the College.",
+  keyFacts: [
+    "Medicine Hat is southeastern Alberta's largest centre with approximately 63,000 residents.",
+    "Natural gas, agriculture, and education anchor the local economy.",
+    "Section 53.97 of the Alberta Employment Standards Code provides 5 unpaid job-protected sick days per year.",
+    "TelePlusCare physicians are registered with the College of Physicians & Surgeons of Alberta (CPSA).",
+  ],
   sections: [
     {
-      title:
-        "Need a Sick Note in Medicine Hat Today? We've Got You Covered.",
+      title: "What Is an Online Doctor's Note in Medicine Hat?",
       content:
-        "Whether you're feeling unwell, need to take a mental health day, or require documentation for your employer or school, our team is here to help. We offer fast, reliable online doctor's notes—with full validity across Alberta.\n\nAvailable 24/7. Serving Medicine Hat & surrounding areas. Alberta Health coverage may apply for eligible consultations. Documentation fees may apply for doctor's notes.",
-      image: "/images/online-doctors-notes-in-medicine-hat/hero.jpg",
-      imageAlt: "Online Doctor's Notes in Medicine Hat",
-    },
-    {
-      title: "What is an Online Doctor Note?",
-      content:
-        "An online doctor's note is an official medical document issued by a licensed physician after a virtual medical consultation. During the appointment, the doctor reviews your symptoms, medical concern, or situation and determines whether medical documentation is appropriate.\n\nOnce approved, the doctor's note is:\n\nOnline doctor's notes offer the same validity as in-clinic notes—without the inconvenience of travel or long wait times.",
+        "An online doctor's note in Medicine Hat is a digitally signed medical document issued by an Alberta-licensed physician after a virtual consultation. For southeastern Alberta residents — many of whom commute long distances on Highway 1 or work in agriculture and the natural gas sector — the virtual format eliminates the time normally lost to a clinic visit.\n\nLegally, the note is identical to documentation issued at the Medicine Hat Regional Hospital or any private practice in town.",
       bullets: [
-        "Issued by an Alberta-licensed physician",
-        "Delivered securely to your email",
-        "Accepted by employers, schools, and institutions",
-        "Compliant with provincial medical standards",
+        "Signed by a CPSA-registered Alberta physician",
+        "Delivered as a digitally signed PDF to your email",
+        "Includes the physician's CPSA registration number and signature",
+        "Accepted by MHPSD, MHCBE, Medicine Hat College, and area employers",
       ],
-      image: "/images/online-doctors-notes-in-medicine-hat/section-1.webp",
-      imageAlt: "Online Doctor Note",
+      image: "/images/online-doctors-notes-in-edmonton/section-1.webp",
+      imageAlt: "Medicine Hat virtual sick note PDF",
     },
     {
-      title: "What Information Is Included in a Online Doctor's Notes?",
+      title: "When You Need a Sick Note in Medicine Hat",
       content:
-        "All notes comply with Alberta's medical documentation guidelines.",
+        "Medicine Hat's economy revolves around natural gas, agriculture, and a healthy education and healthcare sector. Local employers — from natural gas producers to the City of Medicine Hat itself — generally request a sick note for absences extending beyond a couple of days. Both Medicine Hat Public School Division and Medicine Hat Catholic Board of Education ask for medical documentation when a student misses extended class time.",
       bullets: [
-        "Patient name",
-        "Date of consultation",
-        "Brief medical recommendation (without private health details)",
-        "Doctor's name, license number, and signature",
-        "Contact info for verification",
+        "Missed shifts at Medicine Hat Regional Hospital",
+        "Time off in agriculture, natural gas, or City of Medicine Hat utility roles",
+        "Absence from Medicine Hat College courses or apprenticeships",
+        "MHPSD or MHCBE absence verification",
+        "Recovery for Trans-Canada commuters travelling to Lethbridge or Saskatchewan",
       ],
-      image: "/images/online-doctors-notes-in-medicine-hat/section-2.jpg",
-      imageAlt: "Online doctor note in Medicine Hat",
+      image: "/images/online-doctors-notes-in-edmonton/section-2.jpg",
+      imageAlt: "Medicine Hat agricultural worker recovering at home",
     },
     {
-      title:
-        "Why Choose TelePlusCare for Online Doctor's Notes in Medicine Hat?",
+      title: "What's in Your Medicine Hat Sick Note",
       content:
-        "TelePlusCare provides fast, professional, and fully valid online doctor's notes for Medicine Hat residents.",
+        "Each note follows the format expected by HR teams across Medicine Hat. Diagnosis is intentionally not disclosed under Alberta privacy law — the note confirms a physician assessment and recommends an appropriate absence period.",
       bullets: [
-        "Licensed Alberta Physicians -- Real doctors registered with the CPSA",
-        "Fast Turnaround -- Notes often issued within 15-30 minutes",
-        "Valid for Work, School & Travel -- Accepted across Alberta",
-        "Secure & Confidential -- Encrypted consultations and document delivery",
-        "Alberta Health Card Coverage -- Most visits covered when eligible",
+        "Patient legal name and consultation date",
+        "Confirmation of assessment by a licensed Alberta physician",
+        "Inclusive dates you cannot work or attend school",
+        "Anticipated return-to-work date",
+        "Any temporary work restrictions",
+        "Physician name, CPSA number, signature, and HR verification line",
       ],
-      image: "/images/online-doctors-notes-in-medicine-hat/section-3.jpg",
-      imageAlt: "Sick Note In Medicine Hat",
+      image: "/images/online-doctors-notes-in-edmonton/section-3.jpg",
+      imageAlt: "Medicine Hat employer reviewing a digital doctor's note",
     },
     {
-      title: "How to Get a Doctor's Note Online in Medicine Hat",
+      title: "Same-Day Issuance for Medicine Hat Patients",
       content:
-        "Step 1: Book a virtual appointment (takes less than 2 minutes)\n\nStep 2: Speak to a certified Alberta doctor via secure video or chat\n\nStep 3: Receive your doctor's note by email—ready to print or share\n\n100% legal and accepted. Safe, encrypted, and confidential. Mobile and desktop friendly.",
-      image: "/images/online-doctors-notes-in-medicine-hat/section-4.jpg",
-      imageAlt: "Doctor note in Medicine Hat",
-    },
-    {
-      title: "Employer Sick Note Requirements in Alberta",
-      content:
-        "When Can Your Employer Request a Doctor's Note?\n\nUnder Alberta employment standards:\n\nYour Note Should Include:\n\nYour privacy is protected -- doctors do not have to disclose your specific diagnosis to your employer.",
+        "The intake form takes about two minutes. A CPSA physician calls you back, conducts the consultation, and emails the signed note from a Canadian-hosted secure platform. There's no need to drive to a Trans-Canada-corridor walk-in or wait at the Regional Hospital outpatient department.",
       bullets: [
-        "Employers can request medical documentation after 3 consecutive days of absence",
-        "Some workplaces have different policies in their employment agreements",
-        "You have the right to reasonable accommodation for medical conditions",
-        "Confirmation that you were assessed by a physician",
-        "The dates you are unable to work",
-        "Expected return-to-work date (if known)",
-        "Any necessary work restrictions",
+        "Step 1 — Submit the online intake (about 2 minutes)",
+        "Step 2 — Speak with a CPSA-registered Alberta physician",
+        "Step 3 — Receive your signed PDF note by email — typically within 30 minutes",
       ],
-      image: "/images/online-doctors-notes-in-medicine-hat/section-5.jpg",
-      imageAlt: "Online doctor note in Medicine Hat",
+      image: "/images/online-doctors-notes-in-edmonton/section-4.jpg",
+      imageAlt: "Medicine Hat same-day sick note flow",
     },
     {
-      title: "Who Can Use an Online Doctor's Note?",
+      title: "Alberta Employment Standards: Sick Leave Rights for Medicine Hat Workers",
       content:
-        "Our online doctor's note service is available to a wide range of individuals across Medicine Hat and Alberta.",
+        "Section 53.97 of the Alberta Employment Standards Code grants Medicine Hat employees with 90 days of continuous service up to five unpaid, job-protected sick days each calendar year. Many natural gas, public-sector, and healthcare employers offer additional paid sick leave through HR policy or collective agreements.\n\nYour employer can request medical documentation but cannot demand a diagnosis. Our notes confirm assessment and recommended absence without disclosing private medical details.",
       bullets: [
-        "Employees: Needing a sick note for missed work",
-        "Students: Requiring a note for absence from classes or exams",
-        "Parents: Caring for a sick child or family member",
-        "Travelers: Requiring fitness to fly or recovery documentation",
-        "Remote Workers: Who need proof of unwell status",
+        "5 unpaid job-protected sick days per year (ESC s.53.97)",
+        "Available after 90 days of continuous employment",
+        "Many natural gas and public-sector employers add paid sick leave",
+        "Employer may request a note — not a diagnosis",
       ],
-      image: "/images/online-doctors-notes-in-medicine-hat/section-6.png",
-      imageAlt: "Doctor note in Medicine Hat",
+      image: "/images/online-doctors-notes-in-edmonton/section-5.jpg",
+      imageAlt: "Alberta sick leave law reference",
     },
     {
-      title: "Why Medicine Hat Residents Choose Online Doctor Notes",
+      title: "Who Uses This Service in Medicine Hat",
       content:
-        "Convenience & Accessibility: No commute to a clinic. No waiting room exposure to other illnesses. Access care from home, work, or anywhere. Perfect for those with mobility issues or transportation challenges.\n\nTime-Saving: Average clinic wait time: 1-2 hours. Average virtual appointment: 15-20 minutes total. Get back to resting and recovering faster.\n\nCost-Effective: No parking fees. No transportation costs. No time off work for appointment travel. Covered by Alberta Health Card in most cases.\n\nQuality Care: Same licensed doctors as in-person clinics. Thorough assessment and consultation. Follow-up care available. Prescription services when needed.",
-      image: "/images/online-doctors-notes-in-medicine-hat/section-7.jpg",
-      imageAlt: "Doctor note online",
-    },
-    {
-      title: "Medically Reviewed & Physician-Led Care",
-      content:
-        "All medical consultations and documentation at TelePlusCare are conducted by physicians licensed with the College of Physicians & Surgeons of Alberta (CPSA).\n\nOur doctors have experience in:\n\nYour care is confidential, secure, and medically appropriate.",
+        "Our Medicine Hat patient base is dominated by Regional Hospital staff, City of Medicine Hat utility workers, agricultural and natural gas industry employees, Medicine Hat College students, and parents managing absences across MHPSD and MHCBE. Trans-Canada commuters who travel west to Lethbridge or east to Maple Creek and Swift Current also use the service when they can't easily access in-person care during the work week.",
       bullets: [
-        "Family medicine",
-        "Urgent care",
-        "Mental health assessments",
-        "Occupational health documentation",
+        "Medicine Hat Regional Hospital staff",
+        "City of Medicine Hat utility and natural gas employees",
+        "Medicine Hat College students and apprentices",
+        "MHPSD and MHCBE parents",
+        "Trans-Canada commuters travelling east into Saskatchewan",
       ],
-      image: "/images/online-doctors-notes-in-medicine-hat/section-8.jpg",
-      imageAlt: "Doctor's Notes",
+      image: "/images/online-doctors-notes-in-edmonton/section-6.jpg",
+      imageAlt: "Medicine Hat resident using telemedicine",
     },
     {
-      title: "About Our Virtual Medical Clinic",
+      title: "Why Medicine Hat Patients Choose TelePlusCare",
       content:
-        "TelePlusCare is a licensed Canadian telemedicine provider serving Medicine Hat and all of Alberta. Our mission is to deliver accessible, professional healthcare when you need it most.\n\nWe are committed to:",
+        "We're built for southeastern Alberta — long distances, dispersed industry, and limited evening clinic capacity. Our service offers same-day notes, AHCIP-billed consultations, and CPSA-registered physicians who understand local employer expectations.",
       bullets: [
-        "Timely medical documentation",
-        "Compassionate, physician-led care",
-        "Privacy-first medical services",
+        "100% CPSA-registered Alberta physicians",
+        "AHCIP-billed consults — no fee with a valid Alberta Health Care card",
+        "Same-day notes seven days a week",
+        "Built for southeastern Alberta scheduling realities",
+        "Encrypted Canadian-hosted PHI infrastructure",
       ],
-      image: "/images/online-doctors-notes-in-medicine-hat/section-9.jpg",
-      imageAlt: "Doctor note in Medicine Hat",
+      image: "/images/online-doctors-notes-in-edmonton/section-7.jpg",
+      imageAlt: "TelePlusCare Medicine Hat virtual care team",
     },
   ],
   faqs: [
     {
-      question:
-        "Is this doctor's note valid in Medicine Hat and Alberta?",
+      question: "Is an online doctor's note valid in Medicine Hat?",
       answer:
-        "Yes, absolutely. Our medical notes are issued by fully licensed Alberta physicians registered with the CPSA and meet all provincial medical documentation standards. They are legally valid and accepted by employers, schools, and institutions across Alberta and Canada.",
+        "Yes. A note signed by a CPSA-registered Alberta physician is legally valid in Medicine Hat and accepted by Medicine Hat Public School Division, Medicine Hat Catholic Board of Education, Medicine Hat College, and area employers.",
     },
     {
-      question: "Do I need an Alberta Health Card?",
+      question: "Is the consult covered by Alberta Health Care?",
       answer:
-        "Yes, we accept Alberta Health coverage. If you're uninsured, you can still get a note for a small fee.",
+        "Yes. Medicine Hat residents with a valid AHCIP card pay nothing for the medical consultation. A small documentation fee may apply for the note itself depending on its type.",
     },
     {
-      question: "How long does it take?",
+      question: "How quickly will I get the note?",
       answer:
-        "Most notes are delivered within 15-30 minutes after your virtual consultation.",
+        "Most Medicine Hat patients receive their signed PDF note within 30 minutes of finishing the consultation. Booking earlier in the day virtually guarantees same-day delivery.",
     },
     {
-      question: "Can I get a backdated note?",
+      question: "Will my Medicine Hat employer accept the note?",
       answer:
-        "It depends on the situation. For any backdated note request, we'll need to review your case properly, so we kindly ask you to book an appointment. Once it's scheduled, our team will connect with you and guide you through the next steps.",
+        "Yes. Local employers — including the Regional Hospital, the City of Medicine Hat, area natural gas producers, and Medicine Hat College — accept notes from CPSA-registered virtual physicians. The note includes a verification line for HR.",
     },
     {
-      question:
-        "Will my employer or school accept an online doctor's note?",
+      question: "Can I get a note for my child's MHPSD or MHCBE school absence?",
       answer:
-        "Yes. Virtual healthcare is legally recognized in Alberta. Our notes contain all required elements including the doctor's CPSA license number and contact information for verification.",
-    },
-    {
-      question:
-        "Can I use this service for mental health days?",
-      answer:
-        "Absolutely. Our physicians understand the importance of mental health and can provide appropriate documentation for stress, anxiety, burnout, or other mental health concerns—without disclosing specific private details.",
-    },
-    {
-      question:
-        "Do you provide notes for work-related injuries?",
-      answer:
-        "For workplace injuries covered by WCB (Workers' Compensation Board), you should follow your employer's specific reporting procedures. For general illness or non-work-related medical issues, we can certainly help.",
+        "Yes. A parent or guardian can book on behalf of a child enrolled in either Medicine Hat Public School Division or Medicine Hat Catholic Board of Education. The physician will assess the child by video and issue a note in the child's name.",
     },
   ],
   locations:
-    "Medicine Hat, St. Albert, Sherwood Park, Beaumont, Fort Saskatchewan, Leduc, Spruce Grove, and surrounding Alberta communities.",
+    "Medicine Hat, Redcliff, Dunmore, Bow Island, Brooks, Cypress County, and surrounding southeast Alberta communities along Highway 1.",
 };

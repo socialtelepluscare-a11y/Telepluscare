@@ -146,4 +146,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Langley City, Langley Township, Willoughby, Walnut Grove, Fort Langley, Murrayville, Brookswood, Aldergrove, and surrounding Fraser Valley communities.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

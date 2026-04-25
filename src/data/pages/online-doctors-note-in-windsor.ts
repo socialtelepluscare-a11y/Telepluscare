@@ -151,4 +151,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Windsor, Downtown Windsor, South Windsor, Walkerville, Riverside, LaSalle, Tecumseh, Lakeshore, Amherstburg, Leamington, and surrounding Essex County communities.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

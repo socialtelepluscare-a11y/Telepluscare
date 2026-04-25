@@ -1,105 +1,125 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle:
-    "UTI Appointment in Red Deer | Same-Day Online UTI Treatment",
+  metaTitle: "UTI Appointment Red Deer | Same-Day Virtual UTI Doctor",
   metaDescription:
-    "Need fast UTI treatment in Red Deer? Book a same-day online UTI appointment. Get antibiotics & doctor notes quickly. Private & secure telehealth clinic.",
-  title: "Book a UTI Appointment in Red Deer",
+    "Red Deer patients can book a same-day virtual UTI visit with an Alberta physician. Antibiotic prescriptions sent to your local pharmacy under Alberta Health Care.",
+  title: "Same-Day UTI Appointment in Red Deer",
   heroDescription:
-    "UTI symptoms? Get fast relief today.\n\nBook a same-day UTI appointment in Red Deer and speak with a licensed Alberta doctor online. Skip long walk-in clinic waits and get your UTI prescription sent to a nearby Red Deer pharmacy within minutes.\n\nIf you're searching for a UTI appointment in Red Deer, our secure virtual care makes treatment quick, private, and convenient.",
-  heroImage: "/images/ChatGPT-Image-Nov-3-2025-04_36_39-PM-1024x683.png",
-  heroImageAlt: "UTI appointment in Red Deer",
+    "Red Deer residents from Oriole Park, Eastview Estates, and Sunnybrook can avoid long waits at Red Deer Regional Hospital and connect with an Alberta-licensed physician virtually. Same-day UTI care is also available to Central Alberta agricultural communities surrounding the city.",
+  heroImage: "/images/urinary-tract-infection-treatments.jpg",
+  heroImageAlt: "Virtual UTI appointment for Red Deer patients",
+  bookingUrl: "/book-appointment-alberta",
+  conditionType: "Urinary Tract Infection",
+  summary:
+    "Red Deer patients with UTI symptoms such as burning urination and pelvic pressure can book a same-day virtual consultation with TelePlus Care. CPSA-licensed Alberta physicians treat uncomplicated UTIs in roughly 15 to 20 minutes and send antibiotic prescriptions directly to any Red Deer pharmacy. Visits are covered by Alberta Health Care.",
+  keyFacts: [
+    "Same-day virtual UTI appointment for Red Deer patients within 30 minutes",
+    "Prescription delivered to any Red Deer pharmacy under Alberta Health Care",
+    "No referral required from a Central Alberta family doctor",
+    "Roughly 90 percent of uncomplicated UTIs resolve with a single antibiotic course",
+  ],
   sections: [
     {
-      title: "Common UTI Symptoms",
+      title: "UTI Symptoms Red Deer Patients Should Not Ignore",
       content:
-        "If you have any of the symptoms below, book a UTI appointment in Red Deer right away:\n\nOur Red Deer UTI doctors online can assess your symptoms and provide UTI medication in Red Deer through a telehealth visit.",
+        "Urinary tract infections come on quickly and can keep you off work, school, or the farm within hours. Book a virtual appointment as soon as you notice these symptoms:",
       bullets: [
-        "Burning or pain during urination",
-        "Frequent urge to urinate",
-        "Lower abdominal / pelvic pain",
-        "Cloudy, bloody, or foul-smelling urine",
-        "Fever, chills, or back pain (advanced UTI)",
+        "Burning, stinging pain when urinating",
+        "Constant urge to urinate, even after just going",
+        "Cloudy or strong-smelling urine",
+        "Lower abdomen or pelvic discomfort",
+        "Mild pinkish discoloration in the urine",
       ],
-      image: "/images/ChatGPT-Image-Nov-3-2025-04_36_39-PM-1024x683.png",
-      imageAlt: "UTI appointment in Red Deer",
+      image: "/images/urinary-tract-infection-treatments.jpg",
+      imageAlt: "Red Deer patient experiencing UTI symptoms",
     },
     {
-      title: "What Is a UTI?",
+      title: "Same-Day Virtual UTI Care for Central Alberta",
       content:
-        "A urinary tract infection (UTI) is a common bacterial infection affecting the bladder, urethra, or kidneys.\n\nIf you're looking for a UTI appointment in Red Deer near you, our licensed physicians can diagnose and treat UTIs virtually — no walk-in clinic required.\n\nWe offer:",
+        "Red Deer Regional Hospital Centre is the largest acute-care site between Edmonton and Calgary, and walk-in clinics on Gaetz Avenue often have multi-hour waits. TelePlus Care connects you with an Alberta-licensed physician inside 30 minutes for diagnosis, prescription, and aftercare guidance, all without leaving home.",
+      image: "/images/Group-37522.png",
+      imageAlt: "Red Deer telehealth visit from home",
+    },
+    {
+      title: "Red Deer Neighborhoods and Pharmacies We Cover",
+      content:
+        "Patients in Oriole Park, Eastview Estates, Sunnybrook, Anders, and Inglewood receive prescriptions at the pharmacy of their choice. Common Red Deer pickup locations include Shoppers Drug Mart on Bower Place and 50 Avenue, Rexall in Parkland Mall, Save-On-Foods Pharmacy, and independent neighborhood pharmacies near Red Deer Regional Hospital.",
+      image: "/images/Rectangle-1090-7.png",
+      imageAlt: "Red Deer pharmacy locations for UTI prescriptions",
+    },
+    {
+      title: "Serving Central Alberta Agricultural Communities",
+      content:
+        "Red Deer is the regional hub for Lacombe, Sylvan Lake, Innisfail, Penhold, Blackfalds, Olds, and Stettler. Farm and ranch families can avoid a long drive into town and complete the UTI visit by phone or video. Prescriptions are e-sent to a pharmacy in Red Deer, or to a local pharmacy in your home community when available.",
+      image: "/images/Rectangle-1090-16.png",
+      imageAlt: "Central Alberta agricultural community telehealth coverage",
+    },
+    {
+      title: "When to Visit Red Deer Regional Hospital Instead",
+      content:
+        "Most simple UTIs are well treated virtually, but the following red flags require in-person evaluation at the Red Deer Regional Hospital Centre emergency department.",
       bullets: [
-        "Same-day UTI appointments in Red Deer",
-        "Online UTI diagnosis",
-        "Virtual UTI prescriptions",
-        "Fast symptom relief",
+        "Fever above 38.5 C with shaking chills",
+        "Severe back or flank pain (possible kidney infection)",
+        "Nausea or vomiting preventing you from keeping fluids down",
+        "Pregnancy with UTI symptoms",
+        "Symptoms worsening after 48 hours of starting antibiotics",
       ],
       image: "/images/PHOTO-2025-07-05-11-18-45-819x1024.jpg",
-      imageAlt: "Sick Note In Red Deer",
+      imageAlt: "Red flag UTI symptoms requiring Red Deer hospital",
     },
     {
-      title: "Who Can Use This Service?",
+      title: "How a Red Deer TelePlus Care Visit Works",
       content:
-        "Our online UTI appointment service is available to a wide range of individuals across Red Deer and Alberta.",
+        "From booking to prescription, the entire process is designed for busy Central Alberta lifestyles.",
       bullets: [
-        "Employees: Needing a sick note for missed work",
-        "Students: Requiring a note for absence from classes or exams",
-        "Parents: Caring for a sick child or family member",
-        "Travelers: Requiring fitness to fly or recovery documentation",
-        "Remote Workers: Who need proof of unwell status",
+        "Step 1: Complete a quick online symptom intake form",
+        "Step 2: A CPSA-licensed Alberta physician reviews your case",
+        "Step 3: Speak by phone or video for a 15 to 20 minute visit",
+        "Step 4: Prescription is e-sent to your chosen Red Deer pharmacy",
+        "Step 5: Receive a follow-up note with prevention tips",
       ],
-      image: "/images/Group-37522.png",
-      imageAlt: "Doctor note in Red Deer",
+      image: "/images/Rectangle-1090-19.png",
+      imageAlt: "Red Deer TelePlus Care UTI booking workflow",
     },
     {
-      title: "How It Works",
+      title: "About TelePlus Care Serving Red Deer",
       content:
-        "Step 1: Book a virtual appointment (takes less than 2 minutes)\n\nStep 2: Speak to a certified Alberta doctor via secure video or chat\n\nStep 3: Receive your doctor's note by email — ready to print or share\n\n100% legal and accepted. Safe, encrypted, and confidential. Mobile and desktop friendly.",
-      image: "/images/urinary-tract-infection-treatments.jpg",
-      imageAlt: "Urinary tract infection treatments",
-    },
-    {
-      title: "Why Choose Us for UTI Care in Red Deer",
-      content:
-        "Choosing the right UTI clinic in Red Deer matters. Here's why patients trust our virtual care:\n\nWhether you're looking for a virtual UTI doctor in Red Deer, online UTI prescription, or a telehealth UTI consultation, we deliver fast, trusted medical care.",
-      bullets: [
-        "Same-day UTI appointments in Red Deer -- Get treatment fast when you're uncomfortable",
-        "Virtual UTI diagnosis & prescription -- Skip walk-in clinics & avoid long waits",
-        "Alberta-licensed doctors -- Trusted care from Canadian medical professionals",
-        "Prescription sent to any Red Deer pharmacy -- Shoppers, Rexall, Safeway, Walmart & local pharmacies",
-        "Private & secure telehealth consults -- Confidential UTI care from home",
-        "Convenient, fast, affordable care -- Best alternative to walk-in UTI clinics in Red Deer",
-      ],
+        "TelePlus Care is an Alberta virtual clinic providing same-day care to patients in Red Deer and the Central Alberta region. Our physicians are licensed by the College of Physicians and Surgeons of Alberta and visits are billed through Alberta Health Care for eligible AHCIP holders. All consultations are PIPEDA compliant and confidential.",
+      image: "/images/ChatGPT-Image-Nov-3-2025-04_36_39-PM-1024x683.png",
+      imageAlt: "TelePlus Care serving Red Deer and Central Alberta",
     },
   ],
   faqs: [
     {
-      question: "How quickly can I book a UTI appointment?",
+      question: "How fast can a Red Deer patient see a UTI doctor online?",
       answer:
-        "Most patients receive a same-day UTI appointment and treatment within hours.",
+        "Most Red Deer patients are connected with an Alberta-licensed physician within 30 minutes of completing the intake form. The visit itself takes about 15 to 20 minutes.",
     },
     {
-      question: "Do I need a urine test for a UTI?",
+      question: "Which Red Deer pharmacies receive my UTI prescription?",
       answer:
-        "Not always. Many UTIs are diagnosed based on symptoms. If testing is needed, we will send a lab order in Red Deer.",
+        "Your antibiotic prescription is electronically sent to any pharmacy you choose, including Shoppers Drug Mart on Bower Place, Rexall at Parkland Mall, Save-On-Foods Pharmacy on 67 Street, or independent pharmacies near Red Deer Regional Hospital.",
     },
     {
-      question: "Which pharmacies can fill my UTI prescription?",
+      question: "Can I use this service if I live outside Red Deer?",
       answer:
-        "Any pharmacy in Red Deer — including Shoppers, Rexall, Safeway, Walmart, Costco, and local pharmacies.",
+        "Yes. Patients across Central Alberta, including Sylvan Lake, Lacombe, Innisfail, Blackfalds, and Olds, regularly use TelePlus Care. Prescriptions can be sent to a pharmacy in your home community or in Red Deer.",
     },
     {
-      question: "Is the UTI appointment covered by Alberta Health?",
+      question: "Is the visit covered by Alberta Health Care?",
       answer:
-        "Many visits are covered. We also accept private insurance and self-pay options.",
+        "Yes. Red Deer residents with a valid AHCIP card are covered for medically necessary UTI consultations with our CPSA-licensed Alberta physicians.",
     },
     {
-      question: "When should I visit the ER for a UTI?",
+      question: "Do I need a urine test in Red Deer first?",
       answer:
-        "Go to urgent care if you have severe back pain, high fever, vomiting, or symptoms lasting over 2 days untreated, as it may be a kidney infection.",
+        "Most uncomplicated UTIs are diagnosed clinically based on symptoms. If a culture is needed, your physician can send a requisition to a DynaLIFE collection site in Red Deer.",
     },
   ],
   locations:
-    "Red Deer, St. Albert, Sherwood Park, Beaumont, Fort Saskatchewan, Leduc, Spruce Grove, and surrounding Alberta communities.",
+    "Red Deer, Sylvan Lake, Lacombe, Blackfalds, Innisfail, Penhold, Olds, Stettler, Rocky Mountain House, and surrounding Central Alberta communities.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

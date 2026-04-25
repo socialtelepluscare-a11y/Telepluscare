@@ -1,203 +1,151 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle:
-    "Online Prescriptions and Refills in Calgary – Same Day | TelePlus Care",
+  metaTitle: "Online Prescriptions & Refills in Calgary, Alberta | TelePlusCare",
   metaDescription:
-    "Need a fast and reliable way to get online prescriptions and refills in Calgary? TelePlusCare connects you with licensed Alberta healthcare providers through secure virtual appointments.",
-  title: "Online Prescriptions and Refills in Calgary – Same Day",
+    "Calgary's fastest virtual prescription service. CPSA-licensed MDs send refills to Beltline, Mission, Kensington, and SE pharmacies. AHCIP accepted, no referral.",
+  title: "Online Prescriptions and Refills in Calgary",
   heroDescription:
-    "Need a fast and reliable way to get online prescriptions and refills in Calgary? TelePlusCare connects you with licensed Alberta healthcare providers through secure virtual appointments — so you can get the medication you need without visiting a clinic. Whether you need a new prescription, a refill, or medical advice, our virtual healthcare platform is designed for convenience, speed, and trusted Alberta care. Book your virtual appointment today and get your prescription sent to your pharmacy — often within minutes.",
-  heroImage: "/images/2.jpg",
-  heroImageAlt: "Medical weight loss assessments and treatments",
+    "Calgarians from Mission to Mahogany can connect with a CPSA-licensed virtual MD by secure video and have prescriptions sent directly to their preferred pharmacy in the Beltline, Kensington, Inglewood, or any neighbourhood across the YYC metro — no walk-in clinic, no wait, no parking hassle downtown.",
+  heroImage: "/images/image-5.png",
+  heroImageAlt: "Online prescriptions and refills in Calgary Alberta",
+  bookingUrl: "/book-appointment-alberta",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
+  summary:
+    "TelePlusCare delivers same-day prescription refills to Calgary residents via virtual MD consultations. CPSA-licensed physicians issue scripts electronically to Calgary pharmacies including Shoppers, Rexall, Co-op, Costco, and Safeway. Alberta Health (AHCIP) covers the physician fee for residents with a valid PHN, and no referral is required.",
+  keyFacts: [
+    "Calgary has more than 280 community pharmacies that accept e-prescriptions from TelePlusCare's CPSA-licensed virtual physicians.",
+    "TelePlusCare offers same-day Calgary appointments seven days a week, including evenings and weekends.",
+    "AHCIP fully covers virtual physician consultations for Calgary residents with a valid Alberta PHN — no referral required.",
+    "Calgary Co-op Pharmacy, Costco Wholesale Pharmacy, and major chains all accept secure e-prescriptions transmitted by TelePlusCare physicians.",
+  ],
   sections: [
     {
-      title: "Online Prescriptions and Refills in Calgary",
+      title: "What Calgary Patients Can Be Prescribed Online",
       content:
-        "Running low on your medication? Skip the line, skip the waiting room, and refill your prescription from home — available 24/7 across Alberta.\n\nAt TelePlusCare, you can easily request online prescription refills in Calgary, and our healthcare providers will review your request quickly. If medically appropriate, your prescription will be renewed and sent to your preferred pharmacy the same day.",
-      image: "/images/2.jpg",
-      imageAlt: "Medical weight loss assessments and treatments",
-    },
-    {
-      title: "What Makes Our Prescription Refills Convenient?",
-      content:
-        "Our online prescription refill service in Calgary is designed to save you time and keep you healthy:",
+        "Calgary's TelePlusCare physicians prescribe across the spectrum of routine outpatient medicine. After a video assessment we issue antibiotics for confirmed bacterial infections, refill chronic medications for cardiovascular disease, type 2 diabetes, asthma, and thyroid conditions, and prescribe contraception, mental health medications (non-controlled), and short-course treatments for travel and acute illness. Schedule I controlled drugs require an in-person assessment per CPSA Standard 22.",
       bullets: [
-        "Available 24/7 — Anytime, anywhere",
-        "Serving Calgary, Fort McMurray & surrounding areas",
-        "Covered by Alberta Health Card (where eligible)",
-        "Option for pharmacy delivery",
+        "Antibiotics for UTI, sinusitis, strep, cellulitis",
+        "Antihypertensives — ACE, ARB, beta-blockers, CCBs",
+        "Statins (Atorvastatin, Rosuvastatin, Crestor)",
+        "Diabetes — Metformin, Jardiance, Trulicity, Ozempic, Mounjaro",
+        "Asthma & COPD inhalers (Symbicort, Trelegy, Spiriva, Ventolin)",
+        "Birth control pills, patches, vaginal rings",
+        "SSRIs, SNRIs, NDRIs (Cipralex, Effexor, Wellbutrin)",
+        "Travel medications including malaria prophylaxis",
       ],
-      image: "/images/image_2024_04_24T06_38_39_877Z.png",
-      imageAlt: "Virtual care exams",
+      image: "/images/Rectangle-1090-3.png",
+      imageAlt: "Medications prescribed online for Calgary patients",
     },
     {
-      title: "What We Prescribe in Online Refill Prescription in Calgary",
+      title: "Common Prescription Refills for Calgary Residents",
       content:
-        "Our providers issue a wide range of prescriptions, including:",
+        "Calgary's young, active, and largely employed population — energy sector professionals downtown, healthcare workers at Foothills and Rockyview, families in Tuscany, Auburn Bay, and Cranston — drives heavy demand for fast prescription renewals. We see daily refill requests for blood pressure medications (especially Telmisartan and Amlodipine), Crestor and Lipitor for cholesterol, Metformin and Jardiance for diabetes, oral contraceptives like Yasmin and Alesse, Symbicort and Ventolin for asthma, and Cipralex, Wellbutrin, and Pristiq for mood. Many Calgarians refill 2–3 medications in a single 15-minute visit.",
       bullets: [
-        "Antibiotics for infections",
-        "Birth control pills",
-        "Allergy & sinus medications",
-        "High blood pressure medication",
-        "Cholesterol medication",
-        "Diabetes medication",
-        "Thyroid medication",
-        "Mental health prescriptions",
-        "Asthma & inhalers",
-        "Erectile dysfunction medication",
-        "Skin medications (eczema, acne, dermatitis)",
-        "Cold, flu, throat infections",
-        "UTI & bladder infections (female)",
-        "Travel medications",
+        "Blood pressure refills (Telmisartan, Amlodipine, Ramipril)",
+        "Cholesterol management (Crestor, Lipitor)",
+        "Diabetes medications and GLP-1 agonists",
+        "Birth control pill renewals",
+        "Asthma controller and rescue inhalers",
+        "Antidepressants and anxiolytics (non-controlled)",
       ],
-      image: "/images/111-819x1024.jpeg",
-      imageAlt: "Prescriptions and Refills in Calgary",
+      image: "/images/Rectangle-1090-6.png",
+      imageAlt: "Common refills for Calgary residents",
     },
     {
-      title: "What We Cannot Prescribe Online",
+      title: "How Calgary Online Prescriptions Work",
       content:
-        "TelePlusCare does not prescribe the following for safety and legal reasons. We follow all Alberta and Canadian prescription laws.",
+        "TelePlusCare uses a streamlined three-step model. Step 1 — Book online and provide your Alberta PHN, the medications you need, and your preferred Calgary pharmacy. Step 2 — A CPSA-registered family physician connects with you by encrypted video for a 12–18 minute consult; the doctor reviews your medical history, current symptoms, and any relevant labs. Step 3 — Once approved, your prescription is sent electronically to your selected pharmacy, whether it's the Co-op Pharmacy in Mission, the Costco at Heritage, or the Shoppers in Kensington.",
       bullets: [
-        "Narcotics",
-        "Controlled substances",
-        "Opioids",
-        "Benzodiazepines (e.g., Xanax, Ativan)",
-        "Sleeping pills",
-        "ADHD stimulants",
-        "Medical marijuana",
+        "Step 1 — Book online with Alberta PHN",
+        "Step 2 — Video visit with a Calgary-licensed MD (12–18 min)",
+        "Step 3 — E-prescription to your Calgary pharmacy",
       ],
-      image: "/images/3.jpg",
-      imageAlt: "Online Prescriptions and Refills in Alberta",
+      image: "/images/prescription-refill/13-819x1024.jpeg",
+      imageAlt: "Three-step Calgary online prescription process",
     },
     {
-      title:
-        "Virtual Healthcare Benefits: Why Calgary Residents Choose Online Refill Prescription",
+      title: "Prescription Delivered to Your Local Calgary Pharmacy",
       content:
-        "Convenience & Accessibility: No commute to a clinic. No waiting room exposure to other illnesses. Access care from home, work, or anywhere. Perfect for those with mobility issues or transportation challenges.\n\nTime-Saving: Average clinic wait time is 1-2 hours. Average virtual appointment takes just 15-20 minutes total. Get back to resting and recovering faster.\n\nCost-Effective: No parking fees. No transportation costs. No time off work for appointment travel. Covered by Alberta Health Card in most cases.\n\nQuality Care: Same licensed doctors as in-person clinics. Thorough assessment and consultation. Follow-up care available. Prescription services when needed.",
-      image:
-        "/images/tele.pluscare_1762275770_3758564036423165455_74096322945-819x1024.jpg",
-      imageAlt: "Doctor note online",
-    },
-    {
-      title:
-        "Why Choose TelePlusCare in Calgary for Prescriptions and Refills?",
-      content:
-        "TelePlusCare provides trusted, fast prescription services for Calgary residents:",
+        "Our prescriptions go to any of the 280+ Calgary pharmacies. Beltline and downtown patients commonly use the Shoppers Drug Mart at Eighth Avenue Place, the Rexall on Stephen Avenue, or Pharmasave 17th Avenue. Mission and Cliff Bungalow patients prefer Co-op Pharmacy on Mission Road or Shoppers at 4th Street SW. Kensington residents use the Pharmasave on Kensington Road. Inglewood and Bridgeland have several independents. Suburban patients in Tuscany, McKenzie Towne, Mahogany, Cranston, Sage Hill, and Evanston have full chain coverage including Costco at Heritage, Sobeys, Safeway, and Save-On-Foods Pharmacy.",
       bullets: [
-        "Real Alberta Doctors: All notes issued by licensed Canadian physicians",
-        "Fast Turnaround: Receive your note in as little as 15 minutes",
-        "Valid for Work, School & Travel: Use it with confidence anywhere in Alberta",
-        "Secure & Private: Your consultation and documents are fully confidential",
-        "Alberta Health Card Accepted: Most services covered — no extra cost",
+        "Calgary Co-op Pharmacy locations across the city",
+        "Costco Wholesale Pharmacy — Heritage, Beddington, Eastfield",
+        "Shoppers Drug Mart — Beltline, Mission, Kensington, suburbs",
+        "Rexall, London Drugs, Sobeys, Safeway",
+        "Independent pharmacies in Inglewood, Bridgeland, Marda Loop",
       ],
-      image: "/images/13-819x1024.jpeg",
-      imageAlt:
-        "Online Prescriptions and Refills in Calgary – TelePlusCare",
+      image: "/images/Rectangle-1090-20.png",
+      imageAlt: "Calgary pharmacies receiving e-prescriptions",
     },
     {
-      title: "Refill Your Medication Online in Calgary",
+      title: "Local Pharmacy Partners in Calgary",
       content:
-        "Running low on your medication? Request a prescription refill online and avoid long clinic wait times, scheduling conflicts, last-minute rushes, and missing doses.\n\nOur Alberta providers can quickly renew your medication if appropriate — sent directly to your pharmacy.",
+        "Calgary residents enjoy uniquely strong pharmacy options thanks to the Calgary Co-op Pharmacy chain (member-owned, with 24 locations) and Costco Wholesale's pharmacy department. We send prescriptions to all of them. Specific neighbourhood favourites: Mission Co-op, Brentwood Co-op, Midtown Co-op, Forest Lawn Co-op. Costco members often use Heritage, Beddington, or Northeast Calgary locations for unbeatable medication pricing. Independent pharmacies in Inglewood, Bridgeland, Marda Loop, and Bowness offer personalized service and quick blister-pack preparation.",
       bullets: [
-        "Long clinic wait times",
-        "Scheduling conflicts",
-        "Last-minute rushes",
-        "Missing doses",
+        "Calgary Co-op Pharmacy — member-owned, 24 locations",
+        "Costco Pharmacy — Heritage, Beddington, NE Calgary",
+        "Independents in Inglewood, Bridgeland, Marda Loop, Bowness",
+        "Suburban chains in Tuscany, Auburn Bay, Mahogany, Cranston",
       ],
-      image: "/images/Group-37523.png",
-      imageAlt: "Refill your medication online",
+      image: "/images/Rectangle-1090-22.png",
+      imageAlt: "Local Calgary pharmacy partners",
     },
     {
-      title: "How It Works",
+      title: "Why Calgary Patients Choose TelePlusCare",
       content:
-        "Step 1: Book a virtual appointment (takes less than 2 minutes)\n\nStep 2: Speak to a certified Alberta doctor via secure video or chat\n\nStep 3: Receive your prescription sent to your pharmacy — ready to pick up or have delivered\n\n100% legal and accepted. Safe, encrypted, and confidential. Mobile and desktop friendly.",
-      image: "/images/image-9963535-819x1024.jpeg",
-      imageAlt: "Doctor note in Calgary",
-    },
-    {
-      title: "Who Can Use This Service?",
-      content:
-        "Our online prescription service is available to a wide range of patients:",
+        "Calgary's downtown core is busy, parking is expensive, and most family practices have closed their books to new patients. TelePlusCare gives Calgarians a way to access a real Alberta-licensed family physician without leaving home. We're particularly popular with energy sector professionals working in Bow Valley Square and the Plus 15, healthcare workers, parents managing back-to-back drop-offs, and remote workers across the suburbs.",
       bullets: [
-        "Employees: Needing a sick note for missed work",
-        "Students: Requiring a note for absence from classes or exams",
-        "Parents: Caring for a sick child or family member",
-        "Travelers: Requiring fitness to fly or recovery documentation",
-        "Remote Workers: Who need proof of unwell status",
+        "No need to find a Calgary family doctor",
+        "Same-day appointments seven days a week",
+        "AHCIP-billed for valid Alberta PHN holders",
+        "Evenings and weekends — perfect for working professionals",
       ],
-      image: "/images/Group-37522.png",
-      imageAlt: "Doctor note in Calgary",
+      image: "/images/image-4.png",
+      imageAlt: "Why Calgary patients choose TelePlusCare",
     },
     {
-      title: "About Our Virtual Medical Clinic",
+      title: "Alberta Health Prescription Coverage for Calgary",
       content:
-        "We are a fully licensed telemedicine provider serving Calgary and all of Alberta. Our team of certified physicians is committed to providing accessible healthcare for all Albertans, timely medical documentation when you need it, professional and compassionate care in every consultation, and a privacy-first approach to your medical information.\n\nOur doctors are experienced in family medicine, urgent care consultations, mental health assessments, occupational health documentation, and travel medicine.",
+        "Calgary residents access medication coverage through Alberta Blue Cross Non-Group plans, Coverage for Seniors (automatic at 65), the Adult Health Benefit for income-eligible Calgarians, and Palliative Coverage. Most Calgary employers — Suncor, Cenovus, Imperial Oil, TC Energy, Shaw, the City of Calgary, ATB, and AHS itself — offer comprehensive extended health benefits with strong drug coverage. University of Calgary and SAIT students have access to additional plans through their student associations.",
+      bullets: [
+        "AHCIP covers virtual physician consult",
+        "Alberta Blue Cross Non-Group plans",
+        "Coverage for Seniors (auto at 65)",
+        "Adult Health Benefit (income-tested)",
+      ],
+      image: "/images/image-6.png",
+      imageAlt: "Calgary Alberta Health drug coverage",
     },
   ],
   faqs: [
     {
-      question: "Can I really get a prescription online in Calgary?",
+      question: "Can I get a same-day prescription in Calgary?",
       answer:
-        "Yes. TelePlusCare allows you to meet with a licensed Alberta healthcare provider online and, if medically appropriate, receive a prescription. This includes new prescriptions and refills. Your prescription can be sent to any Calgary pharmacy or delivered to your home.",
+        "Yes. The vast majority of Calgary appointments produce a prescription within hours. Most patients have it at their pharmacy by mid-afternoon if booked before noon.",
     },
     {
-      question: "Is it legal to get prescriptions online in Alberta?",
+      question: "Does TelePlusCare send prescriptions to Calgary Co-op or Costco?",
       answer:
-        "Yes. Online prescribing is fully legal in Alberta as long as the prescription is issued by a licensed physician or nurse practitioner. TelePlusCare follows all provincial and federal medical regulations.",
+        "Yes. We e-prescribe to all Calgary Co-op Pharmacy locations and to Costco Wholesale Pharmacies at Heritage, Beddington, and Northeast Calgary.",
     },
     {
-      question: "What medications can be prescribed online?",
+      question: "Will AHCIP cover my virtual visit if I live in Calgary?",
       answer:
-        "Our Alberta providers can prescribe a wide range of medications, including antibiotics, birth control, allergy medications, asthma inhalers, diabetes medications, blood pressure medication, cholesterol medication, thyroid medication, mental health prescriptions, skin medications, erectile dysfunction medication, travel medication, and cold & flu treatments. If it's safe and medically appropriate, we can prescribe it virtually.",
+        "Yes. Any Calgary resident with a valid Alberta Personal Health Number is covered by AHCIP for the physician's virtual consultation fee.",
     },
     {
-      question: "What medications cannot be prescribed online?",
+      question: "Can I get Ozempic, Mounjaro, or other GLP-1 prescribed online in Calgary?",
       answer:
-        "For safety and legal reasons, TelePlusCare cannot prescribe narcotics, opioids, controlled substances, ADHD stimulants, benzodiazepines, sleeping pills, or medical marijuana. Your provider will inform you if your medication falls into this category.",
+        "Yes. Our Calgary virtual physicians prescribe GLP-1 agonists for type 2 diabetes (and weight management when clinically appropriate) with proper assessment.",
     },
     {
-      question: "Can I get a prescription refill online in Calgary?",
+      question: "Do I need to come into a clinic in Calgary for my refill?",
       answer:
-        "Yes. TelePlusCare offers quick and convenient prescription refills online. If you're running out of your medication, our providers can renew your prescription and send it to your preferred pharmacy in Calgary.",
-    },
-    {
-      question: "How fast can I get my prescription or refill?",
-      answer:
-        "Most TelePlusCare patients receive their prescription within 15-30 minutes after their virtual appointment, depending on the complexity of the case and pharmacy availability.",
-    },
-    {
-      question: "Can I get antibiotics online in Calgary?",
-      answer:
-        "Yes. Providers can prescribe antibiotics for conditions such as strep throat, sinus infections, ear infections, UTIs (for women), and skin infections. Antibiotics are only prescribed when medically appropriate.",
-    },
-    {
-      question: "Do I need an Alberta Health Care number?",
-      answer:
-        "Many virtual services are covered by AHCIP, but you can still use TelePlusCare even if you don't have an Alberta Health Card. Fees may apply for uninsured services.",
-    },
-    {
-      question:
-        "Can you send my prescription to any pharmacy in Calgary?",
-      answer:
-        "Yes. You can choose any local Calgary pharmacy, including Shoppers Drug Mart, Rexall, Loblaw/Superstore pharmacies, Save-On Foods, Costco, and independent pharmacies. You may also request medication delivery if offered by the pharmacy.",
-    },
-    {
-      question: "Can I get birth control online in Calgary?",
-      answer:
-        "Yes. TelePlusCare providers can prescribe or renew birth control pills, patches, rings, or other options depending on your medical history.",
-    },
-    {
-      question: "Can I get an asthma inhaler online?",
-      answer:
-        "Yes. Ventolin, Flovent, and other inhalers can be prescribed or renewed if assessed as medically appropriate.",
-    },
-    {
-      question: "How do I book an appointment with TelePlusCare?",
-      answer:
-        "Click the Book Now button, choose your province (Alberta), select a time, and complete your short intake form. You'll receive a secure link for your virtual visit.",
+        "No. The entire visit is virtual. Calgarians complete the consultation by video and receive their prescription electronically — no clinic visit, no parking downtown.",
     },
   ],
   locations:
-    "Calgary, Downtown, Mill Woods, Clareview, West Calgary, Fort McMurray, and surrounding areas.",
+    "Serving downtown Calgary, Beltline, Mission, Kensington, Inglewood, Bridgeland, Marda Loop, Tuscany, Auburn Bay, Mahogany, Cranston, McKenzie Towne, Sage Hill, Evanston, Airdrie, Cochrane, Okotoks, Chestermere, and the entire Calgary metropolitan area.",
 };

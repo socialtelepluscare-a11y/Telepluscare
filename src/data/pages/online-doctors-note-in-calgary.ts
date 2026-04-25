@@ -1,202 +1,149 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle:
-    "Online Doctor's Note in Calgary | Same-Day Sick Note",
+  metaTitle: "Online Doctor's Note Calgary | Same-Day Sick Note, AHC",
   metaDescription:
-    "Get a legal online doctor's note in Calgary from Alberta-licensed physicians. Same-day service. Accepted for work, school & travel.",
-  title: "Online Doctor's Notes in Calgary | Same-Day Sick Note",
+    "Calgary residents can get a legal online doctor's note today from CPSA-licensed physicians. AHC-covered consult, accepted by Suncor, U of C, CBE, and more.",
+  title: "Online Doctor's Note in Calgary — Same-Day Sick Notes for Work, School & Travel",
   heroDescription:
-    "If you need a doctor's note in Calgary, you can get one online without visiting a clinic. TelePlusCare connects you with Alberta-licensed physicians who assess your condition through a secure virtual consultation and, when medically appropriate, issue a legally valid doctor's note for work, school, travel, or other needs\u2014often within minutes.\n\nOur service follows Alberta Health and CPSA guidelines, ensuring your medical documentation is professional, confidential, and widely accepted across Alberta.\n\nNo waiting rooms. No unnecessary delays. 100% online.",
-  heroImage: "/images/online-doctors-note-in-calgary/hero.jpg",
-  heroImageAlt: "Online Doctor's Note in Calgary",
+    "Skip the walk-in queue on 17th Avenue or 4th Street and speak to a Calgary-area family physician from your phone. We assess your symptoms, confirm the medical reason for your absence, and email a CPSA-signed sick note the same day — accepted by every major Calgary employer and school.",
+  heroImage: "/images/online-doctors-notes-in-edmonton/hero.jpg",
+  heroImageAlt: "Calgary professional booking an online sick note from a downtown office",
+  bookingUrl: "/book-appointment-alberta",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
+  summary:
+    "A Calgary online doctor's note from a CPSA-registered physician is legally valid for work, school, and travel. TelePlusCare delivers same-day notes covered by Alberta Health Care, satisfying Alberta Employment Standards Code Section 53.97 — five unpaid sick days — and accepted by every Calgary employer including Suncor, Cenovus, Foothills Hospital, and the Calgary Board of Education.",
+  keyFacts: [
+    "Calgary's population of 1.3 million makes it Canada's third-most-active virtual care market.",
+    "Section 53.97 of the Alberta Employment Standards Code provides 5 unpaid job-protected sick days per year.",
+    "Notes are issued by physicians registered with the College of Physicians & Surgeons of Alberta (CPSA).",
+    "Average turnaround for a Calgary sick note is under 30 minutes from consultation to email delivery.",
+  ],
   sections: [
     {
-      title: "What Is an Online Doctor's Note?",
+      title: "What Is an Online Doctor's Note for Calgary Patients?",
       content:
-        "An online doctor's note is an official medical document issued by a licensed physician after a virtual medical consultation. During the appointment, the doctor reviews your symptoms, medical concern, or situation and determines whether medical documentation is appropriate.\n\nOnce approved, your doctor's note is:\n\nOnline doctor's notes have the same legal validity as in-clinic notes when issued by licensed Alberta doctors.",
+        "An online doctor's note is an official, digitally signed medical document issued by an Alberta-licensed physician after a virtual consultation. For Calgary residents, this means you can be seen, assessed, and issued documentation without leaving home — useful when winter chinooks shift the weather, when you're contagious, or when you simply can't take half a day to sit in a waiting room on Macleod Trail.\n\nThe note holds the same legal standing as documentation written at the South Health Campus, Foothills Medical Centre, or any private Calgary clinic.",
       bullets: [
-        "Issued by an Alberta-licensed physician",
-        "Delivered securely to your email",
-        "Accepted by employers, schools, and institutions",
-        "Fully compliant with provincial medical standards",
+        "Issued by a CPSA-registered family physician",
+        "Emailed as a signed PDF — easy to forward to HR or your school office",
+        "Carries the physician's full name, CPSA registration number, and digital signature",
+        "Accepted by the Calgary Board of Education, Calgary Catholic, U of C, Mount Royal, and SAIT",
       ],
-      image: "/images/online-doctors-note-in-calgary/section-1.png",
-      imageAlt: "Online Doctor's Note",
+      image: "/images/online-doctors-notes-in-edmonton/section-1.webp",
+      imageAlt: "Calgary digital sick note PDF on a laptop",
     },
     {
-      title: "When Do You Need a Doctor's Note in Calgary?",
+      title: "When You Need a Sick Note in Calgary",
       content:
-        "A doctor's note may be required for many everyday situations, including:\n\nOur physicians understand these needs and issue documentation that suits your specific situation while protecting your privacy.",
+        "Calgary's economy is dominated by oil and gas head offices, finance, healthcare, and a growing technology sector. Most downtown employers — including those at Bow Tower, Brookfield Place, and the Suncor Energy Centre — request a doctor's note after even a single day of absence in some HR policies, while Calgary Board of Education and Calgary Catholic schools require notes for extended absences.",
       bullets: [
-        "Time off work due to illness",
-        "School or college absence verification",
-        "Mental health days",
-        "Fitness-to-work documentation",
-        "Travel or flight recovery clearance",
-        "Post-COVID or medical return-to-work confirmation",
+        "Missed shifts at Foothills Medical Centre, Peter Lougheed Centre, or Rockyview General",
+        "Absence from University of Calgary, Mount Royal, or SAIT classes and exams",
+        "Time off from oil and gas head offices in the downtown core",
+        "Calgary Board of Education or Calgary Catholic School absence verification",
+        "Travel illness recovery for cross-border or YYC departures",
       ],
-      image: "/images/online-doctors-note-in-calgary/section-2.jpg",
-      imageAlt: "Doctor's Note in Calgary",
+      image: "/images/online-doctors-notes-in-edmonton/section-2.jpg",
+      imageAlt: "Calgary downtown skyline at dawn",
     },
     {
-      title:
-        "Need a Sick Note Now in Calgary? We've Got You Covered.",
+      title: "What's Included in Your Calgary Sick Note",
       content:
-        "Whether you're feeling unwell, need to take a mental health day, or require documentation for your employer or school, our team is here to help. We offer fast, reliable online doctor's notes\u2014with full validity across Alberta.\n\nAvailable 24/7. Serving Calgary & surrounding areas. Alberta Health coverage may apply for eligible consultations. Documentation fees may apply for doctor's notes.",
-      image: "/images/online-doctors-note-in-calgary/hero.jpg",
-      imageAlt: "Sick Note in Calgary",
-    },
-    {
-      title: "What Information Is Included in a Doctor's Note?",
-      content:
-        "Every doctor's note issued through TelePlusCare includes:\n\nAll documentation complies with Alberta medical documentation guidelines.",
+        "Every Calgary note follows the format expected by HR teams across the city. Diagnosis is intentionally excluded under Alberta privacy law — your employer is entitled to know that a physician assessed you and how long you should be off, but not the underlying medical reason.",
       bullets: [
-        "Patient name",
-        "Date of medical consultation",
-        "Brief medical recommendation (without private diagnosis details)",
-        "Physician's name, license number, and digital signature",
-        "Verification contact information",
+        "Patient legal name and consultation date",
+        "Confirmation that you were assessed by a licensed Alberta physician",
+        "Inclusive dates you are unfit to work or attend class",
+        "Anticipated return-to-work or return-to-class date",
+        "Any temporary restrictions (lifting, screen time, driving, on-call duties)",
+        "Physician name, CPSA number, signature, and an HR verification line",
       ],
-      image: "/images/online-doctors-note-in-calgary/section-3.jpg",
-      imageAlt: "Doctor Note Online in Calgary",
+      image: "/images/online-doctors-notes-in-edmonton/section-3.jpg",
+      imageAlt: "Calgary HR receiving a digital doctor's note",
     },
     {
-      title:
-        "Why Choose TelePlusCare for Online Doctor Notes in Calgary?",
+      title: "Same-Day Issuance — How It Works for Calgary Patients",
       content:
-        "TelePlusCare provides fast, professional, and fully valid online doctor's notes for Calgary residents.",
+        "The flow is built around busy Calgary schedules. Book in the morning before your downtown shift starts, take the call during your commute on the C-Train, and have your signed note in your inbox before you reach Centre Street. Total time investment is typically under 45 minutes including the consultation.",
       bullets: [
-        "Licensed Alberta Physicians -- All notes are issued by doctors registered with the College of Physicians & Surgeons of Alberta (CPSA)",
-        "Fast Turnaround -- Most patients receive their note within 15\u201330 minutes",
-        "Accepted for Work, School & Travel -- Use your documentation with confidence across Alberta",
-        "Private & Secure -- Encrypted consultations with strict privacy standards",
-        "Alberta Health Card Accepted -- Most services are covered where eligible",
+        "Step 1 — Submit the online intake (about 2 minutes)",
+        "Step 2 — Speak with a CPSA-registered physician by phone or video",
+        "Step 3 — Receive a signed PDF note in your inbox, usually within 30 minutes",
       ],
-      image: "/images/online-doctors-note-in-calgary/section-4.jpg",
-      imageAlt: "Online Doctor Notes in Calgary",
+      image: "/images/online-doctors-notes-in-edmonton/section-4.jpg",
+      imageAlt: "Calgary patient completing a virtual consultation",
     },
     {
-      title: "How to Get a Doctor's Note Online in Calgary",
+      title: "Alberta Employment Standards Code: Calgary Workers' Sick Leave Rights",
       content:
-        "Step 1: Book a virtual appointment (takes less than 2 minutes)\n\nStep 2: Speak to a certified Alberta doctor via secure video or chat\n\nStep 3: Receive your doctor's note by email\u2014ready to print or share\n\n100% legal and accepted. Safe, encrypted, and confidential. Mobile and desktop friendly.",
-      image: "/images/online-doctors-note-in-calgary/section-5.jpg",
-      imageAlt: "Online Doctor Note in Calgary",
-    },
-    {
-      title: "Who Can Use This Service?",
-      content:
-        "Our online doctor's note service is available to a wide range of individuals across Calgary and Alberta.",
+        "Section 53.97 of the Alberta Employment Standards Code entitles every Calgary employee with 90 days of continuous service to up to five unpaid, job-protected sick days each calendar year for personal illness or injury. Many Calgary employers — particularly in oil and gas, healthcare, and the public sector — top this up with paid sick leave through collective agreements or HR policy.\n\nEmployers may ask for medical documentation, but they cannot demand a diagnosis. Our notes confirm the assessment and projected absence without exposing private health details.",
       bullets: [
-        "Employees: Needing a sick note for missed work",
-        "Students: Requiring a note for absence from classes or exams",
-        "Parents: Caring for a sick child or family member",
-        "Travelers: Requiring fitness to fly or recovery documentation",
-        "Remote Workers: Who need proof of unwell status",
+        "5 unpaid sick days per year, job-protected (ESC s.53.97)",
+        "Available after 90 days of continuous employment",
+        "Employer may request a note — not a diagnosis",
+        "Many Calgary collective agreements provide additional paid sick leave",
       ],
-      image: "/images/online-doctors-note-in-calgary/section-6.png",
-      imageAlt: "Doctor Note Service in Calgary",
+      image: "/images/online-doctors-notes-in-edmonton/section-5.jpg",
+      imageAlt: "Alberta Employment Standards Code Section 53.97",
     },
     {
-      title: "Employer Sick Note Requirements in Alberta",
+      title: "Who Uses This Service in Calgary",
       content:
-        "Under Alberta employment standards:\n\nYour doctor's note confirms medical assessment while protecting your privacy.",
+        "The biggest groups of Calgary patients booking with us are downtown professionals at energy and financial firms, healthcare workers across the AHS Calgary Zone, post-secondary students at U of C and Mount Royal, parents in the suburbs of Tuscany, McKenzie Towne, and Auburn Bay, and shift workers in retail and hospitality on 17th Avenue and Stephen Avenue.",
       bullets: [
-        "Employers may request medical documentation after 3 consecutive days of absence",
-        "Some workplaces have different internal policies",
-        "Doctors are not required to disclose diagnoses",
-        "Employees are entitled to reasonable medical accommodation",
+        "Oil and gas professionals at Suncor, Cenovus, TC Energy, and Imperial",
+        "AHS Calgary Zone healthcare staff",
+        "U of C, Mount Royal, SAIT, and Bow Valley College students",
+        "Calgary Board of Education and Calgary Catholic School parents",
+        "17th Ave SW, Stephen Ave, and Kensington service-sector workers",
       ],
-      image: "/images/online-doctors-note-in-calgary/section-7.png",
-      imageAlt: "Online Doctor's Note in Calgary",
+      image: "/images/online-doctors-notes-in-edmonton/section-6.jpg",
+      imageAlt: "Calgary workers and students at home",
     },
     {
-      title:
-        "Understanding Your Rights: Employer Sick Note Requirements in Alberta",
+      title: "Why Calgary Patients Choose TelePlusCare",
       content:
-        "When Can Your Employer Request a Doctor's Note?\n\nUnder Alberta employment standards:\n\nYour Note Should Include:\n\nYour privacy is protected \u2013 doctors do not have to disclose your specific diagnosis to your employer.",
+        "Our model is designed for Calgary's pace. Booking, consultation, and note issuance can all happen in a single coffee break. Every physician is CPSA-registered, every consult is AHCIP-billed for eligible patients, and our after-hours coverage spans the windows when most Calgary illnesses actually develop — evenings, weekends, and the Monday-morning rush.",
       bullets: [
-        "Employers can request medical documentation after 3 consecutive days of absence",
-        "Some workplaces have different policies in their employment agreements",
-        "You have the right to reasonable accommodation for medical conditions",
-        "Confirmation that you were assessed by a physician",
-        "The dates you are unable to work",
-        "Expected return-to-work date (if known)",
-        "Any necessary work restrictions",
+        "Every physician registered with the CPSA",
+        "AHCIP billing means no consultation fee for eligible Albertans",
+        "Same-day signed PDF, seven days a week",
+        "Designed for downtown C-Train and ring-road commuters",
+        "Encrypted Canadian-hosted infrastructure protects your PHI",
       ],
-      image: "/images/online-doctors-note-in-calgary/section-8.jpg",
-      imageAlt: "Online Doctor Note in Calgary",
-    },
-    {
-      title: "Why Calgary Residents Choose Online Doctor Notes",
-      content:
-        "Convenience & Accessibility: No commute to a clinic. No waiting room exposure to other illnesses. Access care from home, work, or anywhere. Perfect for those with mobility issues or transportation challenges.\n\nTime-Saving: Average clinic wait time: 1-2 hours. Average virtual appointment: 15-20 minutes total. Get back to resting and recovering faster.\n\nCost-Effective: No parking fees. No transportation costs. No time off work for appointment travel. Covered by Alberta Health Card in most cases.\n\nQuality Care: Same licensed doctors as in-person clinics. Thorough assessment and consultation. Follow-up care available. Prescription services when needed.",
-      image: "/images/online-doctors-note-in-calgary/section-9.jpg",
-      imageAlt: "Doctor Note Online",
-    },
-    {
-      title: "Medically Reviewed & Physician-Led Care",
-      content:
-        "All consultations and documentation at TelePlusCare are conducted by physicians licensed with the College of Physicians & Surgeons of Alberta (CPSA).\n\nOur doctors have experience in:\n\nYour care is professional, secure, and medically appropriate.",
-      bullets: [
-        "Family medicine",
-        "Urgent care",
-        "Mental health assessments",
-        "Occupational health documentation",
-        "Travel medicine",
-      ],
-      image: "/images/online-doctors-note-in-calgary/section-10.jpg",
-      imageAlt: "Doctor's Notes",
-    },
-    {
-      title: "About Our Virtual Medical Clinic",
-      content:
-        "We are a fully licensed telemedicine provider serving Calgary and all of Alberta. Our team of certified physicians is committed to providing:\n\nOur doctors are experienced in:",
-      bullets: [
-        "Accessible healthcare for all Albertans",
-        "Timely medical documentation when you need it",
-        "Professional, compassionate care in every consultation",
-        "Privacy-first approach to your medical information",
-        "Family medicine",
-        "Urgent care consultations",
-        "Mental health assessments",
-        "Occupational health documentation",
-        "Travel medicine",
-      ],
-      image: "/images/online-doctors-note-in-calgary/section-11.jpg",
-      imageAlt: "Doctor Note in Calgary",
+      image: "/images/online-doctors-notes-in-edmonton/section-7.jpg",
+      imageAlt: "TelePlusCare Calgary virtual care service",
     },
   ],
   faqs: [
     {
-      question:
-        "Is this doctor's note valid in Calgary and Alberta?",
+      question: "Is an online doctor's note legally valid in Calgary?",
       answer:
-        "Yes. All notes are issued by Alberta-licensed physicians and are legally valid across Calgary and the rest of Alberta.",
+        "Yes. A note signed by a CPSA-registered physician is legally identical to one issued at a Calgary walk-in clinic. Calgary employers, the Calgary Board of Education, and Calgary Catholic schools all accept it as official medical documentation.",
     },
     {
-      question:
-        "How long does it take to receive my note?",
+      question: "Is the consultation covered by my Alberta Health Care card?",
       answer:
-        "Most patients receive their doctor's note within 15\u201330 minutes after consultation.",
+        "Yes — for Calgary residents with a valid AHCIP card, the medical consultation is billed to Alberta Health and there is no charge for the visit. A small documentation fee may apply for the note itself depending on its type and complexity.",
     },
     {
-      question: "Do I need an Alberta Health Card?",
+      question: "How quickly can I get a Calgary sick note?",
       answer:
-        "Most visits are covered by an Alberta Health Card. Private options are available if needed.",
+        "Most Calgary patients receive their signed PDF note within 30 minutes of finishing the consultation. Booking before 6 PM Mountain Time on weekdays virtually guarantees same-day delivery.",
     },
     {
-      question: "Can I get a backdated note?",
+      question: "Will Suncor, Cenovus, or my Calgary employer accept this note?",
       answer:
-        "Doctors can only issue notes based on clinical judgment and applicable regulations. Backdated notes may not always be possible.",
+        "Yes. Major Calgary employers including Suncor Energy, Cenovus, TC Energy, ATB Financial, the City of Calgary, and Alberta Health Services routinely accept notes from CPSA-registered virtual physicians. The note includes a verification line for HR.",
     },
     {
-      question:
-        "What are the costs associated with virtual visits?",
+      question: "Can I use this service for my child at a Calgary school?",
       answer:
-        "Fees for an online doctor note in Calgary vary based on the type of note you need. Standard medical notes are available at an affordable flat rate, which includes the online consultation with an Alberta doctor and the digital delivery of your note. There are no hidden fees\u2014you pay only once for the visit. All pricing is shown upfront before your appointment begins.",
+        "Yes. Parents and guardians can book on behalf of a child enrolled in any Calgary Board of Education, Calgary Catholic, francophone, or private school. The physician assesses the child by video and issues the note in the child's name for the school office.",
     },
   ],
   locations:
-    "Calgary, Airdrie, Okotoks, Cochrane, Chestermere, and surrounding Alberta communities.",
+    "Calgary, Airdrie, Cochrane, Chestermere, Okotoks, High River, Strathmore, and the surrounding Calgary Metropolitan Region.",
 };

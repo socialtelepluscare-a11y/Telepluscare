@@ -159,4 +159,6 @@ export const pageData: LandingPageData = {
   locations:
     "Hamilton, Downtown Hamilton, Dundas, Ancaster, Stoney Creek, Westdale, Waterdown, Burlington, Grimsby, Binbrook, Flamborough, and surrounding communities across the Golden Horseshoe.",
   bookingUrl: "/book-doctors-note",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

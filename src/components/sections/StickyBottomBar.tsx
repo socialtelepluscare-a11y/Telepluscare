@@ -1,10 +1,55 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import { FaWhatsapp } from "react-icons/fa";
 import { siteConfig } from "@/data/siteConfig";
 
+// Route resolver — picks correct booking URL based on current page
+function resolveBookingUrl(pathname: string): { href: string; label: string } {
+  // Aesthetic pages → aesthetic booking form
+  const aestheticSlugs = [
+    "/aesthetic",
+    "/best-botox-treatment-in-edmonton",
+    "/best-injectable-treatments-in-edmonton",
+    "/best-dermatologist-in-edmonton",
+    "/prp-treatment-in-edmonton",
+    "/prp-treatment-in-calgary",
+    "/hair-loss-treatment-clinic-in-edmonton",
+    "/hair-loss-treatment-clinic-in-calgary",
+    "/book-aesthetic",
+  ];
+  if (aestheticSlugs.some((s) => pathname.startsWith(s))) {
+    return { href: "/book-aesthetic", label: "Book Aesthetic Consultation" };
+  }
+
+  // Out-of-province doctor note pages → paid doctor note form
+  const outsideAlbertaCities = [
+    // Ontario
+    "toronto", "ottawa", "mississauga", "brampton", "hamilton",
+    "london", "markham", "vaughan", "kitchener", "windsor",
+    "oshawa", "burlington",
+    // BC
+    "vancouver", "surrey", "burnaby", "richmond", "victoria",
+    "kelowna", "abbotsford", "coquitlam", "langley",
+    // Saskatchewan
+    "saskatoon", "regina", "prince-albert", "moose-jaw",
+  ];
+  for (const city of outsideAlbertaCities) {
+    if (pathname.startsWith(`/online-doctors-note-in-${city}`)) {
+      return { href: "/book-doctors-note", label: "Book Doctor's Note" };
+    }
+  }
+  if (pathname.startsWith("/book-doctors-note")) {
+    return { href: "/book-doctors-note", label: "Book Doctor's Note" };
+  }
+
+  // Default — Alberta booking
+  return { href: "/book-appointment-alberta", label: "Book Your Appointment Now" };
+}
+
 export default function StickyBottomBar() {
+  const pathname = usePathname() || "/";
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -15,9 +60,19 @@ export default function StickyBottomBar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Hide sticky bar on booking pages themselves (form already on page)
+  const isBookingPage =
+    pathname.startsWith("/book-appointment-alberta") ||
+    pathname.startsWith("/book-aesthetic") ||
+    pathname.startsWith("/book-doctors-note");
+
+  if (isBookingPage) return null;
+
+  const { href, label } = resolveBookingUrl(pathname);
+
   return (
     <>
-      {/* Floating WhatsApp button — right side */}
+      {/* Floating WhatsApp */}
       <div
         style={{
           position: "fixed",
@@ -74,7 +129,7 @@ export default function StickyBottomBar() {
         }}
       >
         <a
-          href="/book-appointment-alberta"
+          href={href}
           style={{
             display: "inline-flex",
             alignItems: "center",
@@ -93,7 +148,7 @@ export default function StickyBottomBar() {
             lineHeight: 1.4,
           }}
         >
-          Book Your Appointment Now
+          {label}
         </a>
       </div>
     </>

@@ -2,138 +2,108 @@ import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
   bookingUrl: "/book-aesthetic",
-  metaTitle: "Aesthetic Services in Alberta - Book Consultation Today!",
+  metaTitle: "PRP Treatment in Edmonton | Hair Restoration & Facial Rejuvenation",
   metaDescription:
-    "Experience exceptional aesthetic care in Alberta. Enhance your beauty with injectables, PRP, and microneedling & more. Schedule your consultation today!",
-  title: "Aesthetic Care in Alberta, Canada",
+    "Edmonton PRP clinic — platelet-rich plasma for hair regrowth and facial rejuvenation. Physician-administered, downtown med spa partnerships, same-week booking.",
+  title: "PRP Treatment in Edmonton",
   heroDescription:
-    "We offer comprehensive, non-surgical cosmetic services to the residents of Alberta. Experience the convenience of achieving your wellness goals with trusted professionals, without ever leaving your space. With a diverse range of services, from injectables to acne treatments, we bring expert care to you with a focus on enhancing your confidence and appearance.\n\nOur healthcare services are available to all residents of Alberta.",
-  heroImage: "/images/aesthetic/hero.png",
-  heroImageAlt: "Aesthetic Services in Alberta - TelePlus Care",
+    "Edmonton's PRP patients split between two distinct goals — hair restoration for thinning crowns and temples, and facial rejuvenation for under-eye hollows, fine lines, and skin texture. Our physician-led PRP program serves both, drawing from Edmonton's downtown med spa landscape with same-week booking and protocols matched to your specific concern.",
+  heroImage: "/images/best-botox-treatment-in-edmonton/section-3.png",
+  heroImageAlt: "PRP treatment in Edmonton",
+  summary:
+    "TelePlus Care offers Edmonton patients physician-administered platelet-rich plasma (PRP) for both hair restoration and facial rejuvenation. Our protocols draw on the latest aesthetic medicine evidence, complement Edmonton's downtown med spa landscape, and address dual concerns — thinning hair and aging skin — often within the same patient. Same-week consultations available.",
+  keyFacts: [
+    "PRP induces visible hair density improvement in 70–80% of androgenetic alopecia patients within 4–6 sessions.",
+    "Facial PRP (the 'vampire facial') stimulates collagen production with measurable skin texture improvement at 12 weeks.",
+    "Edmonton's PRP patients often combine hair and facial protocols within the same visit series.",
+    "Standard hair PRP protocol: 4 monthly sessions plus 6-month maintenance.",
+  ],
   sections: [
     {
-      title: "Personalized Cosmetic and Rejuvenation Services in Alberta",
+      title: "Why PRP — and Why Edmonton",
       content:
-        "At TelePlus Care, we believe in the power of personalized, professional aesthetic care tailored specifically for the residents of Alberta. Whether you're seeking skin rejuvenation, injectables, or advanced aesthetic procedures, our expert healthcare providers are here to guide you every step of the way. We customize each treatment plan to meet your individual needs, employing a holistic approach that prioritizes both effective results and patient well-being. Experience transformative cosmetic treatments designed to enhance your beauty and confidence from the comfort of your home.",
-      image: "/images/aesthetic/hero.png",
-      imageAlt: "Personalized cosmetic and rejuvenation services in Alberta",
-    },
-    {
-      title: "Our Range of Aesthetic Treatments in Alberta",
-      content:
-        "At TelePlus Care, we are dedicated to offering a full range of personalized aesthetic services tailored for residents of Alberta. Our virtual care model ensures that you receive expert guidance and support, allowing you to achieve your beauty and wellness goals from the comfort of your home.",
-    },
-    {
-      title: "Injectables",
-      content:
-        "We provide expertly administered injectables to reduce the appearance of fine lines and wrinkles, restore volume, and rejuvenate your facial contours. Our virtual consultations offer personalized advice on treatments such as Botox and dermal fillers in Alberta, ensuring you achieve the youthful look you desire.",
-      image: "/images/aesthetic/injectables.png",
-      imageAlt: "Injectable treatments in Alberta",
-    },
-    {
-      title: "Platelet-rich Plasma (PRP)",
-      content:
-        "PRP therapy is a non-invasive method that stimulates skin regeneration and collagen production. These PRP treatments help rejuvenate the skin, improve elasticity, and promote healing, leaving you with a fresher, revitalized appearance. Experience the benefits of advanced aesthetic procedures without the need for in-person visits.",
-      image: "/images/aesthetic/prp.png",
-      imageAlt: "PRP therapy treatments in Alberta",
-    },
-    {
-      title: "Microneedling Treatments",
-      content:
-        "Our microneedling services, including the innovative DP Derm technique, are designed to enhance skin texture, tone, and elasticity. This effective treatment minimizes fine lines, acne scars, and hyperpigmentation, offering patients in Alberta a brighter and smoother complexion.",
-      image: "/images/aesthetic/microneedling.png",
-      imageAlt: "Microneedling treatments in Alberta",
-    },
-    {
-      title: "Chemical Peels",
-      content:
-        "We offer specialized chemical peels in Alberta that exfoliate dead skin cells and encourage new cell growth. These treatments target a range of skin concerns, including hyperpigmentation, acne scars, and dull skin, helping you achieve a healthier and more radiant appearance.",
-      image: "/images/aesthetic/chemical-peels.png",
-      imageAlt: "Chemical peel treatments in Alberta",
-    },
-    {
-      title: "Acne Treatment",
-      content:
-        "Acne can be persistent and challenging to manage. Our team provides customized acne treatments to clear existing blemishes and prevent new ones, restoring your skin's health and clarity. This includes advanced techniques like laser therapy and PRP, specifically tailored for residents of Alberta.",
-      image: "/images/aesthetic/acne-treatment.png",
-      imageAlt: "Acne treatment services in Alberta",
-    },
-    {
-      title: "Custom De-Aging Facials",
-      content:
-        "Our custom de-aging facials are designed to target common signs of aging, such as fine lines, sun damage, and dullness. Tailored to your unique skin needs, these facials help you regain a youthful glow while addressing specific concerns prevalent in the Alberta climate.",
-      image: "/images/aesthetic/custom-facials.png",
-      imageAlt: "Custom de-aging facial treatments in Alberta",
-    },
-    {
-      title: "Hormone Replacement",
-      content:
-        "Hormonal imbalances can lead to various health and cosmetic concerns. At TelePlus Care, we provide hormone replacement therapies to help restore balance, improve overall vitality, and enhance your appearance, helping residents of Alberta feel their best.",
-      image: "/images/aesthetic/hormone-replacement.png",
-      imageAlt: "Hormone replacement therapy in Alberta",
-    },
-    {
-      title: "Weight Loss",
-      content:
-        "In addition to aesthetic services, we offer virtual support for weight loss, including expert dietary counseling and personalized exercise plans. This holistic approach promotes both physical health and aesthetic improvements, ensuring you feel confident in your skin.",
-      image: "/images/aesthetic/weight-loss.png",
-      imageAlt: "Weight loss support services in Alberta",
-    },
-    {
-      title: "How Does It Work?",
-      content:
-        "At TelePlus Care, we understand that dealing with healthcare can be overwhelming, especially when you are seeking aesthetic treatments. That's why we prioritize personalized, compassionate care that fits seamlessly into your lifestyle. Our approach goes beyond just treating concerns; we strive to build a lasting partnership with you on your journey to looking and feeling your best.",
+        "Edmonton's downtown med spa scene has expanded along 124th Street and into Oliver, but physician-administered PRP remains the gold standard. Our team draws your blood, processes it on-site, and injects under sterile technique with full medical oversight — not the assistant-driven model common at strip-mall clinics.",
       bullets: [
-        "Book an Appointment \u2014 Start by selecting the \"Book Appointment\" button on our website. Our booking process is straightforward and designed to help you quickly schedule your virtual consultation.",
-        "Select Your Condition \u2014 Choose from a range of services, including treatments for weight management, diabetes, hypertension, high cholesterol, and more. Follow the prompts to complete your booking.",
-        "Receive Confirmation \u2014 Once you've booked your appointment, you'll receive a confirmation email or call with detailed instructions for your upcoming virtual visit.",
-        "Attend Your Appointment \u2014 On the day of your virtual visit, connect with your provider using any electronic device\u2014whether it's a smartphone, tablet, or computer. Our healthcare professionals will assess your condition and create a personalized care plan.",
+        "Physician-drawn, processed, and injected — not delegated to medical aestheticians",
+        "Hair restoration and facial rejuvenation under one roof",
+        "Same-week consultation with Edmonton-area procedural booking",
+        "Coordination with finasteride, minoxidil, and topical retinoid prescriptions",
       ],
+      image: "/images/best-botox-treatment-in-edmonton/section-1.jpg",
+      imageAlt: "Edmonton physician PRP",
     },
     {
-      title:
-        "Why Choose TelePlus Care for Your Health Needs in Alberta?",
+      title: "Hair PRP for Edmonton Patients",
       content:
-        "At TelePlus Care, we understand that dealing with healthcare can be overwhelming. That's why we prioritize personalized, compassionate care that fits seamlessly into your lifestyle. Our approach goes beyond just treating symptoms; we strive to build a lasting partnership with you on your journey to better health.",
-      bullets: [
-        "Expert Guidance \u2014 Our board-certified healthcare professionals bring a wealth of knowledge and experience, ensuring you receive the best care tailored to your unique needs.",
-        "Convenience \u2014 We eliminate the hassle of traditional in-person visits with our easy-to-use virtual consultations. Access quality healthcare from the comfort of your home, saving you time and effort.",
-        "Holistic Support \u2014 We believe in treating the whole person, not just the condition. Our comprehensive services include dietary counseling, exercise recommendations, and ongoing support to help you make sustainable lifestyle changes.",
-        "Empathy & Understanding \u2014 We recognize that everyone's journey is different, and we're here to listen and provide encouragement as you work towards your health goals.",
-      ],
-      image: "/images/aesthetic/transform.png",
-      imageAlt: "Transform your aesthetic experience with TelePlus Care",
+        "Androgenetic alopecia, telogen effluvium, traction patterns, and post-FUE optimization all respond to PRP. Edmonton patients typically complete 4 monthly sessions, with maintenance every 6 months once density returns. Combined with finasteride, results compound.",
+      image: "/images/best-botox-treatment-in-edmonton/section-2.jpg",
+      imageAlt: "Edmonton hair PRP",
+    },
+    {
+      title: "Facial PRP & the Vampire Facial",
+      content:
+        "Facial PRP — sometimes combined with microneedling for the 'vampire facial' — stimulates dermal collagen and improves under-eye hollowing, acne-scar texture, and pigmentation. Edmonton patients typically complete 3 sessions spaced 4–6 weeks apart.",
+      image: "/images/best-botox-treatment-in-edmonton/section-3.png",
+      imageAlt: "Edmonton facial PRP vampire facial",
+    },
+    {
+      title: "PRP for Under-Eye Tear Troughs",
+      content:
+        "Many Edmonton patients prefer PRP to filler for under-eye rejuvenation because it improves skin quality without lumpiness or vascular compromise risk. Results emerge gradually over 8–12 weeks.",
+      image: "/images/best-botox-treatment-in-edmonton/section-4.jpg",
+      imageAlt: "Edmonton under-eye PRP",
+    },
+    {
+      title: "PRP for Post-Acne and Surgical Scars",
+      content:
+        "Edmonton patients with post-acne ice-pick or rolling scars respond well to PRP combined with microneedling. The combination boosts collagen turnover at scar borders, softening texture over 3–6 sessions.",
+      image: "/images/best-injectable-treatments-in-edmonton/section-2.jpg",
+      imageAlt: "Edmonton acne scar PRP",
+    },
+    {
+      title: "Combining PRP With Botox or Filler",
+      content:
+        "Many Edmonton patients schedule PRP alongside neuromodulator or hyaluronic acid filler appointments. Our physicians sequence treatments appropriately — PRP first to optimize skin quality, followed by injectables to address structural concerns.",
+      image: "/images/best-botox-treatment-in-edmonton/section-1.jpg",
+      imageAlt: "Edmonton PRP with Botox",
+    },
+    {
+      title: "Aftercare & Realistic Expectations",
+      content:
+        "Mild swelling and redness after PRP is normal for 24–48 hours. Edmonton patients return to work the next day in most cases. Visible improvement appears between weeks 4–12, with progressive change through month 6.",
+      image: "/images/best-botox-treatment-in-edmonton/section-2.jpg",
+      imageAlt: "Edmonton PRP recovery",
     },
   ],
   faqs: [
     {
-      question:
-        "What should I expect during a consultation for aesthetic services?",
+      question: "Is Edmonton PRP painful?",
       answer:
-        "During your consultation, our expert team will take the time to understand your goals and concerns. We'll discuss your options and help you create a personalized treatment plan tailored to your needs.",
+        "Most Edmonton patients describe PRP as 'pressure with mild stinging.' Topical anesthesia and ice make the 30-minute session tolerable.",
     },
     {
-      question: "How does PRP therapy benefit my skin?",
+      question: "How many sessions do I need?",
       answer:
-        "PRP therapy enhances skin rejuvenation by stimulating collagen production. It's a natural and effective way to improve skin tone, texture, and elasticity, helping you achieve a youthful glow.",
+        "Hair PRP: 4 monthly sessions plus maintenance. Facial PRP: typically 3 sessions spaced 4–6 weeks apart.",
     },
     {
-      question: "What types of injectables do you offer?",
+      question: "Is PRP covered by AHCIP?",
       answer:
-        "We provide a variety of injectables, including Botox and dermal fillers, designed to reduce the appearance of fine lines, restore volume, and enhance facial contours. Our team will guide you in choosing the right options for your aesthetic goals.",
+        "No. PRP is an aesthetic procedure not covered by Alberta Health Care. Some private plans reimburse — we provide receipts.",
     },
     {
-      question:
-        "How long will it take to see results from microneedling?",
+      question: "Can I combine PRP with Botox or filler?",
       answer:
-        "Most individuals notice improvements in skin texture and appearance within a few weeks after their microneedling session. For optimal results, multiple sessions may be recommended depending on your skin condition.",
+        "Yes. Our Edmonton physicians coordinate sequenced PRP, neuromodulator, and filler treatments for comprehensive results.",
     },
     {
-      question: "Are your treatments suitable for all skin types?",
+      question: "Are results permanent?",
       answer:
-        "Yes! We tailor our services to accommodate various skin types and conditions. Our team will assess your unique needs to ensure that you receive the most appropriate treatments for your skin.",
+        "PRP stimulates your own biology — results last 12–18 months for hair and 12 months for facial rejuvenation, with maintenance recommended.",
     },
   ],
   locations:
-    "edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Sherwood Park, St. Albert, Spruce Grove, Leduc, Fort Saskatchewan, Beaumont, and surrounding areas across Alberta.",
+    "Edmonton, Sherwood Park, St. Albert, Spruce Grove, Stony Plain, Leduc, Beaumont, Fort Saskatchewan, and Edmonton metropolitan communities.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

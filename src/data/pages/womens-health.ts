@@ -9,6 +9,14 @@ export const pageData: LandingPageData = {
     "We empower women with specialized virtual healthcare tailored to every stage of life. Our board-certified specialists deliver quality care\u2014from reproductive health to menopausal support\u2014right at your fingertips.\n\nExperience a healthcare journey that prioritizes your well-being, all from the comfort of your home.\n\nOur healthcare services are available to all residents of Alberta, Canada.",
   heroImage: "/images/z15aquE3BtNKeCIDtV4dhelmODXsSmhLlzy3Px4N.png",
   heroImageAlt: "Alberta Women's Health and Wellness",
+  summary:
+    "Women's health virtual care addresses contraception, menopause symptoms, vaginal yeast and bacterial infections, urinary tract infections, sexually transmitted infections, thyroid disease, and reproductive screenings. TelePlus Care connects Alberta women with board-certified physicians via secure telemedicine for confidential consultations, prescriptions, hormone replacement therapy guidance, and coordinated referrals for in-person Pap smears and mammograms.",
+  keyFacts: [
+    "Virtual consultations across all life stages — adolescence through menopause",
+    "Birth control, HRT, and UTI prescriptions sent same-day to pharmacy",
+    "Coordinated referrals for Pap smears, mammograms, and bone density scans",
+    "Most consultations covered by Alberta Health Care for AHCIP holders",
+  ],
   sections: [
     {
       title: "Virtual Women's Healthcare in Alberta",
@@ -25,7 +33,9 @@ export const pageData: LandingPageData = {
       title: "Gynecological and Reproductive Health Services In Alberta",
       content:
         "At TelePlus Care, your reproductive health is a priority. Our women's health services in Alberta offer virtual consultations for various gynecological concerns, ensuring comprehensive care tailored to your needs.",
-    },
+          image: "/images/Rectangle-1090-12.png",
+      imageAlt: "Gynecological and Reproductive Health Services In Alberta",
+},
     {
       title: "Birth Control Options",
       content:
@@ -92,7 +102,9 @@ export const pageData: LandingPageData = {
         "Holistic Support -- We believe in treating the whole person, not just the condition. Our comprehensive services include dietary counseling, exercise recommendations, and ongoing support to help you make sustainable lifestyle changes.",
         "Empathy & Understanding -- We recognize that everyone's journey is different, and we're here to listen and provide encouragement as you work towards your health goals.",
       ],
-    },
+          image: "/images/Rectangle-1090-1-1.png",
+      imageAlt: "Why Choose TelePlus Care for Women's Health in Alberta?",
+},
     {
       title: "How Does It Work?",
       content:
@@ -103,7 +115,9 @@ export const pageData: LandingPageData = {
         "Receive Confirmation -- Once you've booked your appointment, you'll receive a confirmation email or call with detailed instructions for your upcoming virtual visit.",
         "Attend Your Appointment -- On the day of your virtual visit, connect with your provider using any electronic device\u2014whether it's a smartphone, tablet, or computer. Our healthcare professionals will assess your condition and create a personalized care plan.",
       ],
-    },
+          image: "/images/Rectangle-1090-2-1.png",
+      imageAlt: "How Does It Work?",
+},
   ],
   faqs: [
     {
@@ -138,4 +152,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

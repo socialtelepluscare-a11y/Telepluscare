@@ -8,6 +8,14 @@ export const pageData: LandingPageData = {
   title: "Prescription Refill in Edmonton",
   heroDescription:
     "Running out of medication can break your day. Our Edmonton clinic makes prescription refills simple, fast, and stress-free. Whether you need a routine refill, a renewal, or a quick telehealth review, our licensed providers are here to help you get back on track.\n\nWe offer easy online prescription refill appointments, same-day support, and secure medical care for all ages. No long waits. No confusion. Just simple, safe refills when you need them.",
+  summary:
+    "Online prescription refills in Edmonton cover antibiotics, allergy medications, antihypertensives, statins, diabetes medications (Metformin, insulin, GLP-1s), thyroid hormones, SSRIs, asthma inhalers, oral contraceptives, and proton pump inhibitors. TelePlus Care licensed Alberta physicians review medical history and renew non-controlled prescriptions in 15-30 minutes — sent directly to any Edmonton pharmacy. Controlled substances and stimulants excluded.",
+  keyFacts: [
+    "Most non-controlled refills issued within 15-30 minutes of consultation",
+    "Sent electronically to any Edmonton pharmacy or delivery service",
+    "Most consultations covered by Alberta Health Care for AHCIP holders",
+    "Cannot refill: opioids, benzodiazepines, ADHD stimulants, or sleeping pills",
+  ],
   sections: [
     {
       title: "Refill Your Prescriptions Online",
@@ -36,7 +44,9 @@ export const pageData: LandingPageData = {
         "Pain management (non-opioid)",
         "Skin medications (eczema, acne etc.)",
       ],
-    },
+          image: "/images/Rectangle-1090-3.png",
+      imageAlt: "Conditions We Commonly Refill",
+},
     {
       title: "Why Choose Us for Prescription Refills?",
       content:
@@ -108,4 +118,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Downtown, Mill Woods, Clareview, West Edmonton, Fort McMurray, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

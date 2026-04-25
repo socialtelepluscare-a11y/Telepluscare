@@ -151,4 +151,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Markham, Unionville, Cornell, Cathedraltown, Thornhill, Milliken, Box Grove, Richmond Hill, Stouffville, Vaughan, Aurora, and surrounding York Region communities.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

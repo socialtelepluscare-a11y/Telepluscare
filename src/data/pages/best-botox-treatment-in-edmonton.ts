@@ -2,6 +2,14 @@ import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
   bookingUrl: "/book-aesthetic",
+  summary:
+    "Botox (botulinum toxin type A) is a Health Canada-approved injectable neuromodulator that smooths dynamic wrinkles — forehead lines, frown lines (glabella/11s), and crow's feet — by temporarily blocking acetylcholine at the neuromuscular junction. Results begin 2-3 days post-treatment, peak at 10-14 days, and last 3-4 months. TelePlus Care Edmonton certified injectors deliver per-unit transparent pricing.",
+  keyFacts: [
+    "Health Canada-approved Botox Cosmetic from authorized distributors only",
+    "Results visible at 2-3 days, peak 10-14 days, last 3-4 months",
+    "Edmonton per-unit pricing ranges $10-15; cost estimates upfront",
+    "Migraine Botox (15+ headache days/month) may be Alberta Health covered",
+  ],
   metaTitle: "Best Botox Treatment in Edmonton",
   metaDescription:
     "Expert Botox treatment in Edmonton for wrinkle reduction, TMJ relief, migraine therapy, and more. Certified practitioners. Natural results. Transparent pricing.",
@@ -54,7 +62,9 @@ export const pageData: LandingPageData = {
         "TMJ & Jaw Tension (Bruxism) — Relaxes masseter muscles to relieve jaw pain, tension headaches, and teeth grinding. Relief within one to two weeks.",
         "Hyperhidrosis (Excessive Sweating) — Blocks sweat gland nerve signals in underarms, palms, and feet. Results last 6–12 months.",
       ],
-    },
+          image: "/images/best-botox-treatment-in-edmonton/promo-dermatology.png",
+      imageAlt: "Therapeutic Botox Treatments",
+},
     {
       title: "Why Choose TelePlus Care for Botox in Edmonton?",
       content:
@@ -74,22 +84,30 @@ export const pageData: LandingPageData = {
       title: "How Botox Treatment Works at TelePlus Care",
       content:
         "Our streamlined process makes getting Botox simple and stress-free. Book online, connect via video call, receive your assessment and treatment plan, then schedule your in-person injection appointment.",
-    },
+          image: "/images/image-3.jpg",
+      imageAlt: "How Botox Treatment Works at TelePlus Care",
+},
     {
       title: "Before, During, and After Your Botox Treatment",
       content:
         "Before Your Botox Appointment: Avoid blood-thinning medications and supplements for 5–7 days before. Avoid alcohol 24 hours before. Arrive with a clean face.\n\nDuring Your Botox Treatment: Your session takes 15–30 minutes. Fine-gauge needle for precise injections. Most patients describe minimal discomfort.\n\nBotox Aftercare: No significant downtime. For 24 hours: avoid rubbing treated areas, stay upright for 4 hours, skip strenuous exercise.\n\nWhen Will I See Results? Results begin within 2–3 days, full effects at 10–14 days. Lasts 3–4 months.",
-    },
+          image: "/images/Rectangle-1090-3.png",
+      imageAlt: "Before, During, and After Your Botox Treatment",
+},
     {
       title: "Preventative Botox and Baby Botox in Edmonton",
       content:
         "Preventative Botox uses smaller doses to stop dynamic wrinkles from becoming permanent. Popular among patients in their mid-20s to early 30s.\n\nGetting Botox for the First Time? It's quick and virtually painless. 15–30 minutes with extremely fine needles. Start conservative. Lower dose first. You can always add more at follow-up. Results are gradual. 2–3 days to begin, full results at 10–14 days.\n\nBotox Side Effects: Common — slight redness, swelling, tenderness, minor bruising. Less common — temporary eyelid drooping, always temporary and rare with experienced injectors.",
-    },
+          image: "/images/Rectangle-1090-6.png",
+      imageAlt: "Preventative Botox and Baby Botox in Edmonton",
+},
     {
       title: "Botox vs. Dysport vs. Nuceiva",
       content:
         "All three are wrinkle relaxers derived from botulinum toxin type A.\n\nBotox Cosmetic — the most widely known. Extensively studied since the 1990s.\n\nDysport — diffuses more broadly, may act 1–2 days faster.\n\nNuceiva — newest in Canada. Without complexing proteins, potentially reducing resistance.\n\nYour practitioner will recommend the best option during consultation.",
-    },
+          image: "/images/Rectangle-1090-7.png",
+      imageAlt: "Botox vs. Dysport vs. Nuceiva",
+},
     {
       title: "Can Botox Be Combined with Other Treatments?",
       content:
@@ -101,7 +119,9 @@ export const pageData: LandingPageData = {
       title: "Botox Before and After: What Results Can You Expect?",
       content:
         "Forehead lines: Horizontal lines soften significantly.\n\nFrown lines (11s): Dramatically softened — often the most impactful area.\n\nCrow's feet: Fan-shaped eye lines become noticeably smoother.\n\nWe take a 'look good, not done' approach. Botox for men ('Brotox') is increasingly popular too.",
-    },
+          image: "/images/Rectangle-1090-8.png",
+      imageAlt: "Botox Before and After: What Results Can You Expect?",
+},
   ],
   faqs: [
     {
@@ -192,4 +212,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Sherwood Park, St. Albert, Leduc, Spruce Grove, Fort Saskatchewan, Beaumont, and surrounding areas.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

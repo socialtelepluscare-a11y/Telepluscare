@@ -5,8 +5,37 @@ import FAQAccordion from "@/components/sections/FAQAccordion";
 import EmergencyBanner from "@/components/sections/EmergencyBanner";
 import InstagramFeed from "@/components/sections/InstagramFeed";
 import BreadcrumbSchema from "@/components/ui/BreadcrumbSchema";
-import type { LandingPageData } from "@/types/landing-page";
+import AEOSummary from "@/components/ui/AEOSummary";
+import type { LandingPageData, ContentSection } from "@/types/landing-page";
 import type { FAQItem } from "@/data/faq";
+
+// Detect "How It Works" section and extract steps for HowTo schema
+function buildHowToSchema(sections: ContentSection[], title: string) {
+  const howToSection = sections.find((s) =>
+    /how (it|does) (it )?works?|how to|step.by.step|booking process/i.test(s.title)
+  );
+  if (!howToSection || !howToSection.bullets || howToSection.bullets.length < 2)
+    return null;
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: `How to access ${title} at TelePlus Care`,
+    description: howToSection.content,
+    step: howToSection.bullets.map((b, i) => {
+      // bullets often formatted as "Title — description" or "Title -- description"
+      const m = b.match(/^([^—–\-:]{3,80})[—–\-:](.+)$/);
+      const stepName = m ? m[1].trim() : `Step ${i + 1}`;
+      const stepText = m ? m[2].trim() : b;
+      return {
+        "@type": "HowToStep",
+        position: i + 1,
+        name: stepName,
+        text: stepText,
+      };
+    }),
+  };
+}
 
 const relatedServices = [
   { title: "Weight Loss & Diabetes", href: "/diabetes-chronic-disease", image: "/images/image-2.png" },
@@ -27,8 +56,14 @@ export default function LandingPageTemplate({
   locations,
   bookingUrl,
   slug,
+  summary,
+  keyFacts,
+  lastReviewed,
+  reviewedBy,
+  conditionType,
 }: LandingPageData & { slug?: string }) {
   const ctaHref = bookingUrl || "/book-appointment-alberta";
+  const howToSchema = buildHowToSchema(sections, title);
   // Track used images to avoid duplicates
   const usedImages = new Set<string>();
   if (heroImage) usedImages.add(heroImage);
@@ -73,6 +108,36 @@ export default function LandingPageTemplate({
           }}
         />
       )}
+
+      {/* HowTo schema (auto-detected from sections) */}
+      {howToSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+        />
+      )}
+
+      {/* MedicalCondition schema (when conditionType set) */}
+      {conditionType && slug && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "MedicalCondition",
+              name: conditionType,
+              description: heroDescription,
+              url: `https://telepluscare.com/${slug}/`,
+              possibleTreatment: {
+                "@type": "MedicalTherapy",
+                name: title,
+                provider: { "@id": "https://telepluscare.com/#organization" },
+              },
+            }),
+          }}
+        />
+      )}
+
       {/* ===== 1. HERO ===== */}
       <section
         style={{
@@ -126,6 +191,17 @@ export default function LandingPageTemplate({
           )}
         </div>
       </section>
+
+      {/* ===== AEO Summary Block (TL;DR for AI engines) ===== */}
+      {summary && (
+        <AEOSummary
+          title={title}
+          summary={summary}
+          keyFacts={keyFacts}
+          lastReviewed={lastReviewed}
+          reviewedBy={reviewedBy}
+        />
+      )}
 
       {/* ===== 2. CONTENT SECTIONS (with inline CTAs every 3 sections) ===== */}
       {sections.map((section, index) => {

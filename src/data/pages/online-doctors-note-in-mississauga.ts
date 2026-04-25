@@ -157,4 +157,6 @@ export const pageData: LandingPageData = {
   locations:
     "Mississauga, Port Credit, Streetsville, Erin Mills, Meadowvale, Square One / City Centre, Cooksville, Oakville, Brampton, Milton, Etobicoke, and surrounding Peel and Halton communities.",
   bookingUrl: "/book-doctors-note",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

@@ -57,12 +57,16 @@ export const pageData: LandingPageData = {
       title: "Dr. Samuel Weisz, MD \u2013 Endocrinologist",
       content:
         "Specialty: Endocrinology & Diabetes Care\nLocation: Edmonton\n\nDr. Weisz treats patients with diabetes and other endocrine conditions, offering specialized assessments and ongoing management plans.",
-    },
+          image: "/images/diabetes-chronic-disease/type1-diabetes.png",
+      imageAlt: "Dr. Samuel Weisz, MD \u2013 Endocrinologist",
+},
     {
       title: "Dr. Richelle Carmen Waldner, MD \u2013 Endocrinologist",
       content:
         "Specialty: Diabetes & Hormonal Disorders\nLocation: Edmonton\n\nDr. Waldner focuses on patient-centered diabetes care, combining medical treatment with lifestyle and risk-reduction strategies.",
-    },
+          image: "/images/diabetes-chronic-disease/type2-diabetes.png",
+      imageAlt: "Dr. Richelle Carmen Waldner, MD \u2013 Endocrinologist",
+},
     {
       title: "Dr. Chelsey Grimbly, MD \u2013 Endocrinologist",
       content:
@@ -75,17 +79,23 @@ export const pageData: LandingPageData = {
       title: "Dr. Winnie Audrey Wong, MD \u2013 Endocrinologist",
       content:
         "Specialty: Endocrinology & Metabolism\nLocation: Edmonton\n\nDr. Wong treats diabetes as part of broader metabolic health, helping patients manage blood sugar levels and endocrine balance.",
-    },
+          image: "/images/diabetes-chronic-disease/nafld.png",
+      imageAlt: "Dr. Winnie Audrey Wong, MD \u2013 Endocrinologist",
+},
     {
       title: "Dr. Shea Pertman, MD \u2013 Endocrinologist",
       content:
         "Specialty: Diabetes & Endocrine Disorders\nLocation: Edmonton\n\nDr. Pertman has extensive experience treating diabetes and related endocrine conditions, offering long-term disease management.",
-    },
+          image: "/images/diabetes-chronic-disease/hypertension.png",
+      imageAlt: "Dr. Shea Pertman, MD \u2013 Endocrinologist",
+},
     {
       title: "Dr. Mariam Shahidi, MD \u2013 Endocrinologist",
       content:
         "Specialty: Diabetes & Metabolic Conditions\nLocation: Edmonton\n\nDr. Shahidi provides specialized endocrine care for patients seeking expert diabetes treatment in Edmonton.",
-    },
+          image: "/images/diabetes-chronic-disease/high-cholesterol.png",
+      imageAlt: "Dr. Mariam Shahidi, MD \u2013 Endocrinologist",
+},
     {
       title:
         "Consult Diabetologist Doctors in Edmonton for Diabetes Treatment",
@@ -251,4 +261,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Sherwood Park, St. Albert, Leduc, Spruce Grove, Fort Saskatchewan, Beaumont, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

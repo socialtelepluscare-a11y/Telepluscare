@@ -1,203 +1,151 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle:
-    "Online Prescriptions and Refills in fort mcmurray – Same Day | TelePlus Care",
+  metaTitle: "Online Prescriptions & Refills in Fort McMurray, Alberta | TelePlusCare",
   metaDescription:
-    "Need a fast and reliable way to get online prescriptions and refills in fort mcmurray? TelePlusCare connects you with licensed Alberta healthcare providers through secure virtual appointments.",
-  title: "Online Prescriptions and Refills in fort mcmurray – Same Day",
+    "Critical for FIFO oilsands workers. Virtual MD prescription refills sent to Fort McMurray pharmacies in Thickwood, Timberlea, Eagle Ridge. AHCIP covered.",
+  title: "Online Prescriptions and Refills in Fort McMurray",
   heroDescription:
-    "Need a fast and reliable way to get online prescriptions and refills in fort mcmurray? TelePlusCare connects you with licensed Alberta healthcare providers through secure virtual appointments — so you can get the medication you need without visiting a clinic. Whether you need a new prescription, a refill, or medical advice, our virtual healthcare platform is designed for convenience, speed, and trusted Alberta care. Book your virtual appointment today and get your prescription sent to your pharmacy — often within minutes.",
-  heroImage: "/images/2.jpg",
-  heroImageAlt: "Medical weight loss assessments and treatments",
+    "Whether you're rotating in and out of Suncor, CNRL, or Syncrude camps, or living year-round in Thickwood, Timberlea, or Eagle Ridge, Fort McMurray residents and FIFO workers can connect with a CPSA-licensed virtual MD by video. Prescriptions are sent to your local pharmacy or arranged for camp delivery.",
+  heroImage: "/images/Rectangle-1090-3.png",
+  heroImageAlt: "Online prescriptions and refills in Fort McMurray Alberta",
+  bookingUrl: "/book-appointment-alberta",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
+  summary:
+    "TelePlusCare provides virtual prescription refills for Fort McMurray residents and FIFO oilsands workers. Scripts are sent electronically to Fort Mac pharmacies in Thickwood, Timberlea, and Eagle Ridge, with mail delivery to remote camps possible. AHCIP-covered virtual MD visits, no referral, ideal for 14/7 rotation schedules.",
+  keyFacts: [
+    "Fort McMurray's main pharmacy hubs are in Thickwood Plaza, Timberlea, Eagle Ridge, and downtown — all accept TelePlusCare e-prescriptions.",
+    "FIFO workers can book a TelePlusCare visit from camp via Wi-Fi during a day-off rotation; some pharmacies will mail prescriptions to camp post offices.",
+    "AHCIP covers virtual physician consultations for Fort McMurray residents with a valid Alberta PHN — no referral required.",
+    "TelePlusCare offers evening and weekend appointments, ideal for 14-and-7 or 7-and-7 oilsands rotations.",
+  ],
   sections: [
     {
-      title: "Online Prescriptions and Refills in fort mcmurray",
+      title: "What Fort McMurray Patients Can Be Prescribed Online",
       content:
-        "Running low on your medication? Skip the line, skip the waiting room, and refill your prescription from home — available 24/7 across Alberta.\n\nAt TelePlusCare, you can easily request online prescription refills in fort mcmurray, and our healthcare providers will review your request quickly. If medically appropriate, your prescription will be renewed and sent to your preferred pharmacy the same day.",
-      image: "/images/2.jpg",
-      imageAlt: "Medical weight loss assessments and treatments",
-    },
-    {
-      title: "What Makes Our Prescription Refills Convenient?",
-      content:
-        "Our online prescription refill service in fort mcmurray is designed to save you time and keep you healthy:",
+        "Fort McMurray's TelePlusCare physicians prescribe across the entire range of routine outpatient medicine. The most common acute prescriptions are antibiotics for UTIs, sinusitis, strep, and skin infections — including infections common among camp workers exposed to industrial environments. Chronic prescriptions cover blood pressure, cholesterol, type 2 diabetes, asthma (particularly relevant in the oilsands due to wildfire smoke and dust exposure), and thyroid conditions. We also prescribe contraception and non-controlled mental health medications, the latter especially relevant given the mental health pressures of FIFO life.",
       bullets: [
-        "Available 24/7 — Anytime, anywhere",
-        "Serving fort mcmurray, Fort McMurray & surrounding areas",
-        "Covered by Alberta Health Card (where eligible)",
-        "Option for pharmacy delivery",
+        "Antibiotics for UTI, sinusitis, skin infections",
+        "Antihypertensives — Ramipril, Amlodipine, Losartan",
+        "Cholesterol statins — Atorvastatin, Rosuvastatin",
+        "Diabetes — Metformin, Jardiance, Ozempic",
+        "Asthma & COPD inhalers (critical with smoke exposure)",
+        "Birth control pills, patches, rings",
+        "SSRIs, SNRIs for mood (non-controlled)",
+        "Sleep aids (non-controlled, e.g. trazodone)",
       ],
-      image: "/images/image_2024_04_24T06_38_39_877Z.png",
-      imageAlt: "Virtual care exams",
+      image: "/images/Rectangle-1090-6.png",
+      imageAlt: "Medications prescribed online for Fort McMurray patients",
     },
     {
-      title: "What We Prescribe in Online Refill Prescription in fort mcmurray",
+      title: "Common Refills for FIFO Oilsands Workers",
       content:
-        "Our providers issue a wide range of prescriptions, including:",
+        "Fort McMurray's working population is dominated by oilsands operations — Suncor, Syncrude, CNRL Horizon, Imperial Kearl, Fort Hills, and dozens of contractor camps. Workers rotate on 14/7 or 7/7 schedules with limited time at home. Common refill requests we see daily: blood pressure medications (Ramipril, Amlodipine), Crestor and Lipitor for cholesterol, Metformin for diabetes, Symbicort and Ventolin for asthma exacerbated by smoke and silica dust, and SSRIs/SNRIs for the mental health pressures of camp life. Many FIFO workers stack 2–3 medications into a single 15-minute visit on their day-off rotation.",
       bullets: [
-        "Antibiotics for infections",
-        "Birth control pills",
-        "Allergy & sinus medications",
-        "High blood pressure medication",
-        "Cholesterol medication",
-        "Diabetes medication",
-        "Thyroid medication",
-        "Mental health prescriptions",
-        "Asthma & inhalers",
-        "Erectile dysfunction medication",
-        "Skin medications (eczema, acne, dermatitis)",
-        "Cold, flu, throat infections",
-        "UTI & bladder infections (female)",
-        "Travel medications",
+        "Blood pressure refills for shift workers",
+        "Cholesterol management",
+        "Diabetes oral medications",
+        "Asthma inhalers — critical with smoke and dust exposure",
+        "Antidepressants and anxiolytics for FIFO mental health",
+        "Sleep aids (non-controlled) for shift work disorder",
       ],
-      image: "/images/111-819x1024.jpeg",
-      imageAlt: "Prescriptions and Refills in Calgary",
+      image: "/images/Rectangle-1090-20.png",
+      imageAlt: "Common refills for Fort McMurray oilsands workers",
     },
     {
-      title: "What We Cannot Prescribe Online",
+      title: "How Fort McMurray Online Prescriptions Work",
       content:
-        "TelePlusCare does not prescribe the following for safety and legal reasons. We follow all Alberta and Canadian prescription laws.",
+        "TelePlusCare's three-step model is built for the realities of FIFO life. Step 1 — Book your virtual appointment online from camp Wi-Fi or your home in Timberlea; provide your Alberta PHN and preferred Fort Mac pharmacy. Step 2 — Connect by encrypted video with a CPSA-registered family physician for a 12–18 minute consult; the doctor reviews your medications and any new symptoms. Step 3 — Once approved, your prescription is e-faxed to your selected Fort McMurray pharmacy. Some camps with mail service can arrange direct shipment from the pharmacy.",
       bullets: [
-        "Narcotics",
-        "Controlled substances",
-        "Opioids",
-        "Benzodiazepines (e.g., Xanax, Ativan)",
-        "Sleeping pills",
-        "ADHD stimulants",
-        "Medical marijuana",
+        "Step 1 — Book online from camp or home",
+        "Step 2 — 12–18 minute video visit with an Alberta-licensed MD",
+        "Step 3 — E-prescription to Fort Mac pharmacy or camp mail",
       ],
-      image: "/images/3.jpg",
-      imageAlt: "Online Prescriptions and Refills in Alberta",
+      image: "/images/prescription-refill/13-819x1024.jpeg",
+      imageAlt: "Three-step Fort McMurray online prescription process",
     },
     {
-      title:
-        "Virtual Healthcare Benefits: Why fort mcmurray Residents Choose Online Refill Prescription",
+      title: "Prescription Delivered to Your Local Fort McMurray Pharmacy",
       content:
-        "Convenience & Accessibility: No commute to a clinic. No waiting room exposure to other illnesses. Access care from home, work, or anywhere. Perfect for those with mobility issues or transportation challenges.\n\nTime-Saving: Average clinic wait time is 1-2 hours. Average virtual appointment takes just 15-20 minutes total. Get back to resting and recovering faster.\n\nCost-Effective: No parking fees. No transportation costs. No time off work for appointment travel. Covered by Alberta Health Card in most cases.\n\nQuality Care: Same licensed doctors as in-person clinics. Thorough assessment and consultation. Follow-up care available. Prescription services when needed.",
-      image:
-        "/images/tele.pluscare_1762275770_3758564036423165455_74096322945-819x1024.jpg",
-      imageAlt: "Doctor note online",
-    },
-    {
-      title:
-        "Why Choose TelePlusCare in fort mcmurray for Prescriptions and Refills?",
-      content:
-        "TelePlusCare provides trusted, fast prescription services for fort mcmurray residents:",
+        "We send prescriptions to every pharmacy in Fort McMurray. The most popular among our patients are Shoppers Drug Mart in Thickwood Plaza and at Eagle Ridge, the Pharmasave in Timberlea, the Sobeys Pharmacy at the Eagle Ridge Commons, and the Save-On-Foods Pharmacy. Independent pharmacies serving downtown Fort McMurray also accept e-prescriptions and often offer faster blister-pack preparation. For workers in remote camps, we can arrange mail-delivery prescriptions through participating pharmacies — useful when you're rotating through Fort Hills or Horizon and won't be in town for two weeks.",
       bullets: [
-        "Real Alberta Doctors: All notes issued by licensed Canadian physicians",
-        "Fast Turnaround: Receive your note in as little as 15 minutes",
-        "Valid for Work, School & Travel: Use it with confidence anywhere in Alberta",
-        "Secure & Private: Your consultation and documents are fully confidential",
-        "Alberta Health Card Accepted: Most services covered — no extra cost",
+        "Shoppers Drug Mart — Thickwood Plaza, Eagle Ridge",
+        "Pharmasave — Timberlea",
+        "Sobeys Pharmacy — Eagle Ridge Commons",
+        "Save-On-Foods Pharmacy — downtown",
+        "Mail delivery to camps possible (Suncor, CNRL, Syncrude)",
       ],
-      image: "/images/13-819x1024.jpeg",
-      imageAlt:
-        "Online Prescriptions and Refills in fort mcmurray – TelePlusCare",
+      image: "/images/Rectangle-1090-22.png",
+      imageAlt: "Fort McMurray pharmacies receiving e-prescriptions",
     },
     {
-      title: "Refill Your Medication Online in fort mcmurray",
+      title: "Prescriptions Mailed to Oilsands Camps",
       content:
-        "Running low on your medication? Request a prescription refill online and avoid long clinic wait times, scheduling conflicts, last-minute rushes, and missing doses.\n\nOur Alberta providers can quickly renew your medication if appropriate — sent directly to your pharmacy.",
+        "Several Fort McMurray pharmacies will mail prescriptions to camp post offices for FIFO workers. This is particularly useful for crews based at Fort Hills, CNRL Horizon, Imperial Kearl, or any of the contractor camps along Highway 63. Because mail delivery to camps takes 2–5 business days, we recommend booking your TelePlusCare visit at least one full week before your medication runs out. Workers on regular rotations can establish predictable refill schedules with our virtual MDs to make this seamless.",
       bullets: [
-        "Long clinic wait times",
-        "Scheduling conflicts",
-        "Last-minute rushes",
-        "Missing doses",
+        "Mail-delivery available from select Fort Mac pharmacies",
+        "2–5 business days to oilsands camp post offices",
+        "Book at least 1 week before running out",
+        "Predictable rotation-based refill schedules supported",
       ],
-      image: "/images/Group-37523.png",
-      imageAlt: "Refill your medication online",
+      image: "/images/image-4.png",
+      imageAlt: "Camp mail delivery for oilsands workers",
     },
     {
-      title: "How It Works",
+      title: "Why Fort McMurray Patients Choose TelePlusCare",
       content:
-        "Step 1: Book a virtual appointment (takes less than 2 minutes)\n\nStep 2: Speak to a certified Alberta doctor via secure video or chat\n\nStep 3: Receive your prescription sent to your pharmacy — ready to pick up or have delivered\n\n100% legal and accepted. Safe, encrypted, and confidential. Mobile and desktop friendly.",
-      image: "/images/image-9963535-819x1024.jpeg",
-      imageAlt: "Doctor note in fort mcmurray",
-    },
-    {
-      title: "Who Can Use This Service?",
-      content:
-        "Our online prescription service is available to a wide range of patients:",
+        "Fort McMurray's family physician shortage is well-documented; many residents have no regular doctor and rely on the Northern Lights Health Centre walk-in or urgent care. TelePlusCare provides a stable, accessible alternative — same-day virtual visits, evenings and weekends, with a real CPSA-registered Alberta physician. Especially valued by FIFO workers, single parents, and shift workers whose schedules don't align with traditional clinics.",
       bullets: [
-        "Employees: Needing a sick note for missed work",
-        "Students: Requiring a note for absence from classes or exams",
-        "Parents: Caring for a sick child or family member",
-        "Travelers: Requiring fitness to fly or recovery documentation",
-        "Remote Workers: Who need proof of unwell status",
+        "Solves the Fort Mac family doctor shortage",
+        "Works around 14/7 and 7/7 rotation schedules",
+        "Evenings, weekends, and stat holiday slots",
+        "100% CPSA-licensed Alberta physicians",
       ],
-      image: "/images/Group-37522.png",
-      imageAlt: "Doctor note in fort mcmurray",
+      image: "/images/image-5.png",
+      imageAlt: "Why Fort McMurray patients choose TelePlusCare",
     },
     {
-      title: "About Our Virtual Medical Clinic",
+      title: "Alberta Health Prescription Coverage for Fort McMurray",
       content:
-        "We are a fully licensed telemedicine provider serving fort mcmurray and all of Alberta. Our team of certified physicians is committed to providing accessible healthcare for all Albertans, timely medical documentation when you need it, professional and compassionate care in every consultation, and a privacy-first approach to your medical information.\n\nOur doctors are experienced in family medicine, urgent care consultations, mental health assessments, occupational health documentation, and travel medicine.",
+        "Fort McMurray patients are AHCIP-covered for the virtual physician consultation. Medication coverage comes from Alberta Blue Cross Non-Group, Coverage for Seniors (auto at 65), and the Adult Health Benefit for low-income residents. Most large oilsands employers — Suncor, Syncrude, CNRL, Imperial Oil, Cenovus — provide premium extended health benefits through Sun Life or Manulife with strong prescription coverage. Trades workers under union plans (LiUNA, IBEW, IUOE 955) also typically have excellent drug coverage.",
+      bullets: [
+        "AHCIP covers physician consult",
+        "Oilsands employer plans (Sun Life, Manulife)",
+        "Trade union plans (LiUNA, IBEW, IUOE)",
+        "Alberta Blue Cross Non-Group available",
+      ],
+      image: "/images/image-6.png",
+      imageAlt: "Fort McMurray Alberta Health drug coverage",
     },
   ],
   faqs: [
     {
-      question: "Can I really get a prescription online in fort mcmurray?",
+      question: "Can FIFO workers use TelePlusCare from camp Wi-Fi?",
       answer:
-        "Yes. TelePlusCare allows you to meet with a licensed Alberta healthcare provider online and, if medically appropriate, receive a prescription. This includes new prescriptions and refills. Your prescription can be sent to any fort mcmurray pharmacy or delivered to your home.",
+        "Yes. As long as you have stable internet at camp, you can complete the entire visit from your room. Many of our Fort McMurray patients book sessions during their day-off rotation while still in camp.",
     },
     {
-      question: "Is it legal to get prescriptions online in Alberta?",
+      question: "Can my prescription be mailed to my oilsands camp?",
       answer:
-        "Yes. Online prescribing is fully legal in Alberta as long as the prescription is issued by a licensed physician or nurse practitioner. TelePlusCare follows all provincial and federal medical regulations.",
+        "Yes, with the right pharmacy partner. Several Fort McMurray pharmacies will mail prescriptions to camp post offices at Suncor, CNRL Horizon, Fort Hills, and Imperial Kearl, typically arriving in 2–5 business days.",
     },
     {
-      question: "What medications can be prescribed online?",
+      question: "Which Fort McMurray pharmacies accept e-prescriptions from TelePlusCare?",
       answer:
-        "Our Alberta providers can prescribe a wide range of medications, including antibiotics, birth control, allergy medications, asthma inhalers, diabetes medications, blood pressure medication, cholesterol medication, thyroid medication, mental health prescriptions, skin medications, erectile dysfunction medication, travel medication, and cold & flu treatments. If it's safe and medically appropriate, we can prescribe it virtually.",
+        "All of them — Shoppers Drug Mart in Thickwood and Eagle Ridge, Pharmasave in Timberlea, Sobeys Pharmacy, Save-On-Foods, and downtown independents.",
     },
     {
-      question: "What medications cannot be prescribed online?",
+      question: "Will Alberta Health cover my Fort McMurray virtual visit?",
       answer:
-        "For safety and legal reasons, TelePlusCare cannot prescribe narcotics, opioids, controlled substances, ADHD stimulants, benzodiazepines, sleeping pills, or medical marijuana. Your provider will inform you if your medication falls into this category.",
+        "Yes. AHCIP covers the physician consultation fee for any Fort McMurray resident with a valid Alberta Personal Health Number. No referral required.",
     },
     {
-      question: "Can I get a prescription refill online in fort mcmurray?",
+      question: "Can I get my asthma inhaler refilled before going back to camp?",
       answer:
-        "Yes. TelePlusCare offers quick and convenient prescription refills online. If you're running out of your medication, our providers can renew your prescription and send it to your preferred pharmacy in fort mcmurray.",
-    },
-    {
-      question: "How fast can I get my prescription or refill?",
-      answer:
-        "Most TelePlusCare patients receive their prescription within 15-30 minutes after their virtual appointment, depending on the complexity of the case and pharmacy availability.",
-    },
-    {
-      question: "Can I get antibiotics online in fort mcmurray?",
-      answer:
-        "Yes. Providers can prescribe antibiotics for conditions such as strep throat, sinus infections, ear infections, UTIs (for women), and skin infections. Antibiotics are only prescribed when medically appropriate.",
-    },
-    {
-      question: "Do I need an Alberta Health Care number?",
-      answer:
-        "Many virtual services are covered by AHCIP, but you can still use TelePlusCare even if you don't have an Alberta Health Card. Fees may apply for uninsured services.",
-    },
-    {
-      question:
-        "Can you send my prescription to any pharmacy in fort mcmurray?",
-      answer:
-        "Yes. You can choose any local fort mcmurray pharmacy, including Shoppers Drug Mart, Rexall, Loblaw/Superstore pharmacies, Save-On Foods, Costco, and independent pharmacies. You may also request medication delivery if offered by the pharmacy.",
-    },
-    {
-      question: "Can I get birth control online in fort mcmurray?",
-      answer:
-        "Yes. TelePlusCare providers can prescribe or renew birth control pills, patches, rings, or other options depending on your medical history.",
-    },
-    {
-      question: "Can I get an asthma inhaler online?",
-      answer:
-        "Yes. Ventolin, Flovent, and other inhalers can be prescribed or renewed if assessed as medically appropriate.",
-    },
-    {
-      question: "How do I book an appointment with TelePlusCare?",
-      answer:
-        "Click the Book Now button, choose your province (Alberta), select a time, and complete your short intake form. You'll receive a secure link for your virtual visit.",
+        "Yes. Asthma inhalers are one of the most common refill requests from our Fort Mac patients, especially during wildfire season. A quick virtual review is all that's needed.",
     },
   ],
   locations:
-    "fort mcmurray, Downtown, Mill Woods, Clareview, West fort mcmurray, Fort McMurray, and surrounding areas.",
+    "Serving Fort McMurray, Thickwood, Timberlea, Eagle Ridge, Beacon Hill, Abasand, Gregoire, downtown Fort Mac, Anzac, Fort McKay, Conklin, and the entire Wood Buffalo region including Suncor, Syncrude, CNRL, Imperial Kearl, and Fort Hills oilsands camps.",
 };

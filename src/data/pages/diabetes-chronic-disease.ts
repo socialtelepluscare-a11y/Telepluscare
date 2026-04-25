@@ -10,6 +10,14 @@ export const pageData: LandingPageData = {
     "TelePlus Care is a modern healthcare solution, offering convenient virtual medical care designed for everyone across Alberta. Bringing world-class healthcare within reach, our platform combines efficiency, accessibility, and flexibility.",
   heroImage: "/images/diabetes-chronic-disease/hero.png",
   heroImageAlt: "Best Diabetes Doctor in Airdrie",
+  summary:
+    "Virtual chronic disease care in Alberta covers Type 1 and Type 2 diabetes, hypertension, dyslipidemia (high cholesterol), non-alcoholic fatty liver disease (NAFLD), and obesity-related metabolic syndrome. TelePlus Care board-certified physicians manage HbA1c targets, prescribe insulin and GLP-1 therapy, issue lab requisitions, and adjust medications across virtual follow-ups — supporting the 1.5 million Albertans living with chronic conditions.",
+  keyFacts: [
+    "Virtual management of Type 1, Type 2 diabetes, hypertension, and NAFLD",
+    "Lab requisitions for HbA1c, lipid panels, and kidney function included",
+    "GLP-1, insulin, metformin, and statin prescribing managed virtually",
+    "Most chronic disease consults covered by Alberta Health Care",
+  ],
   sections: [
     {
       title: "Comprehensive Weight Loss and Diabetes Support In Alberta",
@@ -36,7 +44,9 @@ export const pageData: LandingPageData = {
       title: "Easy Lab Test Requisitions",
       content:
         "Once you consult with our healthcare provider, we will send the appropriate blood test requisitions directly to your email or through your patient portal. This allows you to easily take the necessary tests at a nearby lab, helping you monitor your health efficiently and conveniently.",
-    },
+          image: "/images/best-diabetes-doctor-in-edmonton/section-2.png",
+      imageAlt: "Easy Lab Test Requisitions",
+},
     {
       title: "Weight Loss & Diabetes Management",
       content:
@@ -48,24 +58,56 @@ export const pageData: LandingPageData = {
       title: "What We Treat",
       content:
         "Our healthcare providers specialize in comprehensive care, offering Obesity and Diabetes Solutions, and related conditions. Here are some of the conditions we treat in Alberta:",
-      bullets: [
-        "Type 1 Diabetes -- Living with this condition requires diligent management and ongoing care. Our virtual consultations ensure that you receive the medical support you need, with personalized care plans to help monitor blood sugar levels and maintain a healthy lifestyle.",
-        "Type 2 Diabetes -- Our team focuses on providing expert guidance for managing Type 2 diabetes through diet, exercise, and medication. Our goal is to help you keep your glucose levels under control and improve your overall well-being through tailored care plans.",
-        "Non-Alcoholic Fatty Liver Disease (NAFLD) -- Closely associated with obesity and insulin resistance, NAFLD can have serious consequences if left untreated. Our virtual care includes dietary counseling, weight reduction strategies, and medical treatment to reduce fat buildup in the liver and improve liver health.",
-        "Hypertension -- High blood pressure is often linked to being overweight or having diabetes. Our virtual healthcare service offers treatment plans that include lifestyle advice and medication to control blood pressure, reducing your risk for complications like heart disease or stroke.",
-        "High Cholesterol -- Managing high cholesterol is critical for preventing heart disease, especially when it occurs alongside diabetes or obesity. We provide expert care, including medication management and dietary advice, to help you lower your cholesterol levels.",
-      ],
+          image: "/images/best-diabetes-doctor-in-edmonton/section-3.png",
+      imageAlt: "What We Treat",
+},
+    {
+      title: "Type 1 Diabetes",
+      content:
+        "Living with this condition requires diligent management and ongoing care. Our virtual consultations ensure that you receive the medical support you need, with personalized care plans to help monitor blood sugar levels and maintain a healthy lifestyle.",
+      image: "/images/diabetes-chronic-disease/type1-diabetes.png",
+      imageAlt: "Type 1 Diabetes virtual care in Alberta",
+    },
+    {
+      title: "Type 2 Diabetes",
+      content:
+        "Our team focuses on providing expert guidance for managing Type 2 diabetes through diet, exercise, and medication. Our goal is to help you keep your glucose levels under control and improve your overall well-being through tailored care plans.",
+      image: "/images/diabetes-chronic-disease/type2-diabetes.png",
+      imageAlt: "Type 2 Diabetes management Alberta",
+    },
+    {
+      title: "Non-Alcoholic Fatty Liver Disease (NAFLD)",
+      content:
+        "Closely associated with obesity and insulin resistance, NAFLD can have serious consequences if left untreated. Our virtual care includes dietary counseling, weight reduction strategies, and medical treatment to reduce fat buildup in the liver and improve liver health.",
+      image: "/images/diabetes-chronic-disease/nafld.png",
+      imageAlt: "NAFLD treatment Alberta",
+    },
+    {
+      title: "Hypertension",
+      content:
+        "High blood pressure is often linked to being overweight or having diabetes. Our virtual healthcare service offers treatment plans that include lifestyle advice and medication to control blood pressure, reducing your risk for complications like heart disease or stroke.",
+      image: "/images/diabetes-chronic-disease/hypertension.png",
+      imageAlt: "Hypertension treatment Alberta",
+    },
+    {
+      title: "High Cholesterol",
+      content:
+        "Managing high cholesterol is critical for preventing heart disease, especially when it occurs alongside diabetes or obesity. We provide expert care, including medication management and dietary advice, to help you lower your cholesterol levels.",
+      image: "/images/diabetes-chronic-disease/high-cholesterol.png",
+      imageAlt: "High cholesterol treatment Alberta",
     },
     {
       title: "Why Choose TelePlus Care for Your Health Needs In Alberta?",
       content:
-        "At TelePlus Care, we understand that dealing with healthcare can be overwhelming, especially when you are suffering with weight management or diabetes. That's why we prioritize personalized, compassionate care that fits seamlessly into your lifestyle. Our approach goes beyond just treating symptoms; we strive to build a lasting partnership with you on your journey to better health.",
+        "At TelePlus Care, we understand that dealing with healthcare can be overwhelming, especially when you are suffering with weight management or diabetes. That's why we prioritize personalized, compassionate care that fits seamlessly into your lifestyle. Our approach goes beyond just treating symptoms; we strive to build a lasting partnership with you on your journey to better health. We make sure that you get affordable diabetes management in Alberta, Canada.",
       bullets: [
         "Expert Guidance -- Our board-certified healthcare professionals bring a wealth of knowledge and experience, ensuring you receive the best care tailored to your unique needs.",
         "Convenience -- We eliminate the hassle of traditional in-person visits with our easy-to-use virtual consultations. Access quality healthcare from the comfort of your home, saving you time and effort.",
         "Holistic Support -- We believe in treating the whole person, not just the condition. Our comprehensive services include dietary counseling, exercise recommendations, and ongoing support to help you make sustainable lifestyle changes.",
         "Empathy & Understanding -- We recognize that everyone's journey is different, and we're here to listen and provide encouragement as you work towards your health goals.",
       ],
+      image: "/images/diabetes-chronic-disease/cta-bottom.png",
+      imageAlt: "Why choose TelePlus Care for diabetes and weight management in Alberta",
     },
     {
       title: "How Does It Work?",
@@ -77,6 +119,8 @@ export const pageData: LandingPageData = {
         "Receive Confirmation -- Once you've booked your appointment, you'll receive a confirmation email or call with detailed instructions for your upcoming virtual visit.",
         "Attend Your Appointment -- On the day of your virtual visit, connect with your provider using any electronic device\u2014whether it's a smartphone, tablet, or computer. Our healthcare professionals will assess your condition and create a personalized care plan.",
       ],
+      image: "/images/best-diabetes-doctor-in-edmonton/section-10.png",
+      imageAlt: "How TelePlus Care virtual diabetes care works in Alberta",
     },
   ],
   faqs: [
@@ -109,4 +153,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

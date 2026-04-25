@@ -150,4 +150,6 @@ export const pageData: LandingPageData = {
   bookingUrl: "/book-doctors-note",
   locations:
     "Kelowna, Downtown, Glenmore, Mission, Rutland, Upper Mission, Black Mountain, West Kelowna, Lake Country, Peachland, and surrounding Central Okanagan communities.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

@@ -9,6 +9,14 @@ export const pageData: LandingPageData = {
     "At TelePlus Care, we specialize in optimizing men's health through personalized virtual care. Our board-certified providers are experienced in managing conditions like erectile dysfunction, low testosterone, and STIs. With a commitment to confidentiality and evidence-based practices, we offer comprehensive assessments and tailored treatment plans, all from the comfort of your home.\n\nOur healthcare services are available to all residents of Alberta, Canada.",
   heroImage: "/images/z15aquE3BtNKeCIDtV4dhelmODXsSmhLlzy3Px4N.png",
   heroImageAlt: "Online Men's Health and Wellness Services in Alberta",
+  summary:
+    "Edmonton men's health services at TelePlus Care address erectile dysfunction (Viagra, Cialis, Tadalafil), low testosterone hypogonadism, premature ejaculation, male pattern hair loss (Finasteride, Minoxidil), urinary tract infections, sexually transmitted infections, and mental health conditions. Confidential virtual consultations include lab requisitions for testosterone, PSA, and STI panels — no in-person clinic visits required.",
+  keyFacts: [
+    "Confidential virtual care for ED, hypogonadism, and hair loss in Edmonton",
+    "Testosterone, PSA, and STI panel lab requisitions included",
+    "Same-day Tadalafil, Viagra, and Finasteride prescriptions to local pharmacy",
+    "PIPEDA-compliant secure platform protected by Alberta HIA",
+  ],
   sections: [
     {
       title: "Virtual Men's Healthcare in Alberta",
@@ -21,7 +29,9 @@ export const pageData: LandingPageData = {
       title: "Specific Conditions We Treat",
       content:
         "We understand that men have unique health needs that require specialized attention. Our comprehensive virtual healthcare services are specifically designed to empower men in Canada, to take charge of their health from the comfort of their homes. With a dedicated team of experienced professionals, we are committed to providing personalized care and effective solutions for a range of common and complex health issues.",
-    },
+          image: "/images/Rectangle-1090-3-1.png",
+      imageAlt: "Specific Conditions We Treat",
+},
     {
       title: "Erectile Dysfunction (ED)",
       content:
@@ -116,7 +126,9 @@ export const pageData: LandingPageData = {
         "Holistic Support -- We believe in treating the whole person, not just the condition. Our comprehensive services include dietary counseling, exercise recommendations, and ongoing support to help you make sustainable lifestyle changes.",
         "Empathy & Understanding -- We recognize that everyone's journey is different, and we're here to listen and provide encouragement as you work towards your health goals.",
       ],
-    },
+          image: "/images/Rectangle-1090-5-1.png",
+      imageAlt: "Why Choose TelePlus Care for Your Health Needs In Alberta?",
+},
     {
       title: "How Does It Work?",
       content:
@@ -127,7 +139,9 @@ export const pageData: LandingPageData = {
         "Receive Confirmation -- Once you've booked your appointment, you'll receive a confirmation email or call with detailed instructions for your upcoming virtual visit.",
         "Attend Your Appointment -- On the day of your virtual visit, connect with your provider using any electronic device\u2014whether it's a smartphone, tablet, or computer. Our healthcare professionals will assess your condition and create a personalized care plan.",
       ],
-    },
+          image: "/images/Rectangle-1090-7-1.png",
+      imageAlt: "How Does It Work?",
+},
   ],
   faqs: [
     {
@@ -161,4 +175,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

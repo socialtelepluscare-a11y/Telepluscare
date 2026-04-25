@@ -151,4 +151,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "London, Masonville, Byron, Westmount, Old North, Hyde Park, White Oaks, Westmount, St. Thomas, Strathroy, Woodstock, and surrounding southwestern Ontario communities.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

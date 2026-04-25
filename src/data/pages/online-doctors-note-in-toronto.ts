@@ -160,4 +160,6 @@ export const pageData: LandingPageData = {
   locations:
     "Toronto, North York, Scarborough, Etobicoke, York, East York, Mississauga, Markham, Richmond Hill, Vaughan, Brampton, Pickering, and the wider Greater Toronto Area in Ontario.",
   bookingUrl: "/book-doctors-note",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

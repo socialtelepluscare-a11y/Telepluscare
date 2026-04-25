@@ -1,177 +1,149 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle:
-    "Online Doctor's Notes in St. Albert | Same-Day Sick Note",
+  metaTitle: "Online Doctor's Note St. Albert | Same-Day Sick Note",
   metaDescription:
-    "Get a legal Online Doctor's Notes in St. Albert from licensed Alberta physicians. Same-day service. Accepted for work, school & travel.",
-  title: "Online Doctor's Notes in St. Albert | Same-Day Sick Note",
+    "St. Albert residents can get a same-day virtual doctor's note from CPSA-licensed physicians. AHC-covered. Accepted by St. Albert Public, Catholic, and area employers.",
+  title: "Online Doctor's Note in St. Albert — Same-Day Virtual Sick Notes",
   heroDescription:
-    "If you need a doctor's note in St. Albert, you can now get one online without visiting a clinic. TelePlusCare connects you with licensed Alberta physicians who assess your condition through a secure virtual consultation and issue a legally valid medical note for work, school, or travel—often the same day.\n\nOur service follows Alberta Health and College of Physicians & Surgeons of Alberta (CPSA) guidelines, ensuring your documentation is professional, confidential, and widely accepted across Alberta.\n\nNo waiting rooms. No unnecessary delays. 100% online.",
-  heroImage: "/images/online-doctors-notes-in-st-albert/hero.jpg",
-  heroImageAlt: "Online Doctor's Notes in St. Albert",
+    "St. Albert families and Edmonton commuters can skip the wait at Sturgeon Hospital walk-ins or local clinics on St. Albert Trail. Speak with an Alberta-licensed physician from home, get a fast assessment, and receive a signed sick note your employer or your child's school will accept the same day.",
+  heroImage: "/images/online-doctors-notes-in-edmonton/hero.jpg",
+  heroImageAlt: "St. Albert family using a virtual doctor's note service",
+  bookingUrl: "/book-appointment-alberta",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
+  summary:
+    "St. Albert patients can secure a same-day legally valid online doctor's note from a CPSA-registered physician without travelling to Sturgeon Hospital or an Edmonton clinic. The visit is covered by Alberta Health Care, the note satisfies Alberta Employment Standards Code Section 53.97 (five unpaid sick days), and it is accepted by St. Albert Public, Greater St. Albert Catholic Schools, and local employers.",
+  keyFacts: [
+    "St. Albert is a family-oriented community of approximately 69,000 residents northwest of Edmonton.",
+    "Sturgeon Community Hospital serves St. Albert and the surrounding Sturgeon County region.",
+    "Section 53.97 of the Alberta Employment Standards Code provides 5 unpaid job-protected sick days per year.",
+    "TelePlusCare physicians are registered with the College of Physicians & Surgeons of Alberta (CPSA).",
+  ],
   sections: [
     {
-      title:
-        "Need a Sick Note in St. Albert Today? We've Got You Covered.",
+      title: "What Is an Online Doctor's Note in St. Albert?",
       content:
-        "Whether you're feeling unwell, need to take a mental health day, or require documentation for your employer or school, our team is here to help. We offer fast, reliable online doctor's notes—with full validity across Alberta.\n\nAvailable 24/7. Serving St. Albert & surrounding areas. Alberta Health coverage may apply for eligible consultations. Documentation fees may apply for doctor's notes.",
-      image: "/images/online-doctors-notes-in-st-albert/hero.jpg",
-      imageAlt: "Online Doctor's Notes in St. Albert",
-    },
-    {
-      title: "What is an Online Doctor Note?",
-      content:
-        "An online doctor's note is an official medical document issued by a licensed physician after a virtual medical consultation. During the appointment, the doctor reviews your symptoms, medical concern, or situation and determines whether medical documentation is appropriate.\n\nOnce approved, the doctor's note is:\n\nOnline doctor's notes offer the same validity as in-clinic notes—without the inconvenience of travel or long wait times.",
+        "An online doctor's note in St. Albert is a digitally signed medical document issued by an Alberta-licensed physician after a virtual consultation. For St. Albert families — many balancing school drop-offs, commutes into Edmonton, and demanding professional schedules — the virtual format saves the time normally lost to a walk-in on St. Albert Trail or a trip to Sturgeon Community Hospital's outpatient services.\n\nLegally, the note is identical to one issued in person at any St. Albert family practice.",
       bullets: [
-        "Issued by an Alberta-licensed physician",
-        "Delivered securely to your email",
-        "Accepted by employers, schools, and institutions",
-        "Compliant with provincial medical standards",
+        "Issued by a CPSA-registered Alberta physician",
+        "Delivered as a signed PDF straight to your email",
+        "Includes the physician's CPSA registration number and verification line",
+        "Accepted by St. Albert Public Schools, Greater St. Albert Catholic, and area employers",
       ],
-      image: "/images/online-doctors-notes-in-st-albert/section-1.webp",
-      imageAlt: "Online Doctor Note",
+      image: "/images/online-doctors-notes-in-edmonton/section-1.webp",
+      imageAlt: "St. Albert digital sick note PDF preview",
     },
     {
-      title: "What Information Is Included in a Online Doctor's Notes?",
+      title: "When You Need a Sick Note in St. Albert",
       content:
-        "All notes comply with Alberta's medical documentation guidelines.",
+        "St. Albert is a bedroom community to Edmonton with its own well-developed local economy in retail, healthcare, and professional services. Residents commute to downtown Edmonton, the U of A, and the industrial corridor, while children attend schools across the St. Albert Public, Greater St. Albert Catholic, and francophone divisions. Each of these workplaces and schools has its own documentation expectations.",
       bullets: [
-        "Patient name",
-        "Date of consultation",
-        "Brief medical recommendation (without private health details)",
-        "Doctor's name, license number, and signature",
-        "Contact info for verification",
+        "Missed shifts at Sturgeon Community Hospital",
+        "Time off from Edmonton commute jobs in oil and gas, healthcare, or finance",
+        "St. Albert Public, Greater St. Albert Catholic, or Conseil scolaire absence verification",
+        "Recovery from illness affecting cross-county work travel",
+        "Absence from local retail and service-sector jobs along St. Albert Trail",
       ],
-      image: "/images/online-doctors-notes-in-st-albert/section-2.jpg",
-      imageAlt: "Online doctor note in St. Albert",
+      image: "/images/online-doctors-notes-in-edmonton/section-2.jpg",
+      imageAlt: "St. Albert family home with a sick child",
     },
     {
-      title:
-        "Why Choose TelePlusCare for Online Doctor's Notes in St. Albert?",
+      title: "What's Included in Your St. Albert Sick Note",
       content:
-        "TelePlusCare provides fast, professional, and fully valid online doctor's notes for St. Albert residents.",
+        "Each note follows the format expected by St. Albert HR teams and school administrators. Diagnosis is excluded under Alberta privacy law — the note confirms a physician assessment and recommends an appropriate absence period without disclosing private medical information.",
       bullets: [
-        "Licensed Alberta Physicians -- Real doctors registered with the CPSA",
-        "Fast Turnaround -- Notes often issued within 15-30 minutes",
-        "Valid for Work, School & Travel -- Accepted across Alberta",
-        "Secure & Confidential -- Encrypted consultations and document delivery",
-        "Alberta Health Card Coverage -- Most visits covered when eligible",
+        "Patient legal name and consultation date",
+        "Confirmation of assessment by a licensed Alberta physician",
+        "Inclusive dates you cannot work or attend school",
+        "Anticipated return-to-work or return-to-class date",
+        "Any temporary work restrictions",
+        "Physician name, CPSA number, signature, and HR verification line",
       ],
-      image: "/images/online-doctors-notes-in-st-albert/section-3.jpg",
-      imageAlt: "Sick Note In St. Albert",
+      image: "/images/online-doctors-notes-in-edmonton/section-3.jpg",
+      imageAlt: "St. Albert HR confirming receipt of a digital sick note",
     },
     {
-      title: "How to Get a Doctor's Note Online in St. Albert",
+      title: "Same-Day Issuance for St. Albert Families",
       content:
-        "Step 1: Book a virtual appointment (takes less than 2 minutes)\n\nStep 2: Speak to a certified Alberta doctor via secure video or chat\n\nStep 3: Receive your doctor's note by email—ready to print or share\n\n100% legal and accepted. Safe, encrypted, and confidential. Mobile and desktop friendly.",
-      image: "/images/online-doctors-notes-in-st-albert/section-4.jpg",
-      imageAlt: "Doctor note in St. Albert",
-    },
-    {
-      title: "Employer Sick Note Requirements in Alberta",
-      content:
-        "When Can Your Employer Request a Doctor's Note?\n\nUnder Alberta employment standards:\n\nYour Note Should Include:\n\nYour privacy is protected -- doctors do not have to disclose your specific diagnosis to your employer.",
+        "Booking takes about two minutes through our online intake form. A CPSA physician calls you back, conducts the assessment, and emails the signed note from a secure Canadian-hosted platform. The whole process typically fits between school drop-off and the morning coffee at Akinsdale or Mission shopping districts.",
       bullets: [
-        "Employers can request medical documentation after 3 consecutive days of absence",
-        "Some workplaces have different policies in their employment agreements",
-        "You have the right to reasonable accommodation for medical conditions",
-        "Confirmation that you were assessed by a physician",
-        "The dates you are unable to work",
-        "Expected return-to-work date (if known)",
-        "Any necessary work restrictions",
+        "Step 1 — Complete the online intake (about 2 minutes)",
+        "Step 2 — Take the physician's call by phone or video",
+        "Step 3 — Receive your signed PDF note in your inbox, typically within 30 minutes",
       ],
-      image: "/images/online-doctors-notes-in-st-albert/section-5.jpg",
-      imageAlt: "Online doctor note in St. Albert",
+      image: "/images/online-doctors-notes-in-edmonton/section-4.jpg",
+      imageAlt: "St. Albert mom on a virtual doctor consultation",
     },
     {
-      title: "Who Can Use an Online Doctor's Note?",
+      title: "Alberta Employment Standards: St. Albert Workers' Sick Leave Rights",
       content:
-        "Our online doctor's note service is available to a wide range of individuals across St. Albert and Alberta.",
+        "Section 53.97 of the Alberta Employment Standards Code provides St. Albert employees with 90 days of continuous service up to five unpaid, job-protected sick days each calendar year. Many employers — particularly in the Edmonton area's healthcare, education, and public sectors that draw heavily from St. Albert residents — offer additional paid sick leave through HR policy or collective agreements.\n\nYour employer can request medical documentation but cannot require a diagnosis. Our notes respect that boundary.",
       bullets: [
-        "Employees: Needing a sick note for missed work",
-        "Students: Requiring a note for absence from classes or exams",
-        "Parents: Caring for a sick child or family member",
-        "Travelers: Requiring fitness to fly or recovery documentation",
-        "Remote Workers: Who need proof of unwell status",
+        "5 unpaid job-protected sick days per year (ESC s.53.97)",
+        "Available after 90 days of continuous employment",
+        "Most Edmonton-area collective agreements add paid sick leave",
+        "Employer may request a note — not a diagnosis",
       ],
-      image: "/images/online-doctors-notes-in-st-albert/section-6.png",
-      imageAlt: "Doctor note in St. Albert",
+      image: "/images/online-doctors-notes-in-edmonton/section-5.jpg",
+      imageAlt: "Alberta employment standards reference",
     },
     {
-      title: "Why St. Albert Residents Choose Online Doctor Notes",
+      title: "Who Uses This Service in St. Albert",
       content:
-        "Convenience & Accessibility: No commute to a clinic. No waiting room exposure to other illnesses. Access care from home, work, or anywhere. Perfect for those with mobility issues or transportation challenges.\n\nTime-Saving: Average clinic wait time: 1-2 hours. Average virtual appointment: 15-20 minutes total. Get back to resting and recovering faster.\n\nCost-Effective: No parking fees. No transportation costs. No time off work for appointment travel. Covered by Alberta Health Card in most cases.\n\nQuality Care: Same licensed doctors as in-person clinics. Thorough assessment and consultation. Follow-up care available. Prescription services when needed.",
-      image: "/images/online-doctors-notes-in-st-albert/section-7.jpg",
-      imageAlt: "Doctor note online",
-    },
-    {
-      title: "Medically Reviewed & Physician-Led Care",
-      content:
-        "All medical consultations and documentation at TelePlusCare are conducted by physicians licensed with the College of Physicians & Surgeons of Alberta (CPSA).\n\nOur doctors have experience in:\n\nYour care is confidential, secure, and medically appropriate.",
+        "Our St. Albert patients are predominantly working parents managing absences for school-aged children, healthcare staff at Sturgeon Hospital, Edmonton commuters in professional roles, and seniors in established neighbourhoods like Grandin, Mission, and Lacombe Park who prefer to avoid travel to a clinic.",
       bullets: [
-        "Family medicine",
-        "Urgent care",
-        "Mental health assessments",
-        "Occupational health documentation",
+        "Working parents with children in St. Albert Public or Catholic schools",
+        "Sturgeon Community Hospital staff",
+        "Edmonton commuters in healthcare, professional services, and oil and gas",
+        "Local retail and service workers along St. Albert Trail",
+        "Seniors in Grandin, Mission, and Lacombe Park",
       ],
-      image: "/images/online-doctors-notes-in-st-albert/section-8.jpg",
-      imageAlt: "Doctor's Notes",
+      image: "/images/online-doctors-notes-in-edmonton/section-6.jpg",
+      imageAlt: "St. Albert resident on a phone consultation",
     },
     {
-      title: "About Our Virtual Medical Clinic",
+      title: "Why St. Albert Families Choose TelePlusCare",
       content:
-        "TelePlusCare is a licensed Canadian telemedicine provider serving St. Albert and all of Alberta. Our mission is to deliver accessible, professional healthcare when you need it most.\n\nWe are committed to:",
+        "St. Albert is family-first, and our service is designed around that reality. Same-day notes, AHCIP-billed consultations, and CPSA-registered physicians who understand both pediatric and adult sick-note documentation. Booking, consult, and note delivery can all happen during a normal school morning.",
       bullets: [
-        "Timely medical documentation",
-        "Compassionate, physician-led care",
-        "Privacy-first medical services",
+        "100% CPSA-registered Alberta physicians",
+        "AHCIP-billed consults — no fee with a valid Alberta Health Care card",
+        "Same-day notes seven days a week",
+        "Family-oriented — pediatric and adult assessments",
+        "Encrypted Canadian-hosted PHI infrastructure",
       ],
-      image: "/images/online-doctors-notes-in-st-albert/section-9.jpg",
-      imageAlt: "Doctor note in St. Albert",
+      image: "/images/online-doctors-notes-in-edmonton/section-7.jpg",
+      imageAlt: "TelePlusCare St. Albert virtual clinic team",
     },
   ],
   faqs: [
     {
-      question:
-        "Is this doctor's note valid in St. Albert and Alberta?",
+      question: "Is an online doctor's note valid in St. Albert?",
       answer:
-        "Yes, absolutely. Our medical notes are issued by fully licensed Alberta physicians registered with the CPSA and meet all provincial medical documentation standards. They are legally valid and accepted by employers, schools, and institutions across Alberta and Canada.",
+        "Yes. A note signed by a CPSA-registered Alberta physician is legally valid in St. Albert and accepted by both St. Albert Public Schools and Greater St. Albert Catholic Schools, as well as local employers and Edmonton-area HR teams.",
     },
     {
-      question: "Do I need an Alberta Health Card?",
+      question: "Is the consult covered by Alberta Health Care?",
       answer:
-        "Yes, we accept Alberta Health coverage. If you're uninsured, you can still get a note for a small fee.",
+        "Yes. The medical consult is billed to AHCIP for residents with a valid Alberta Health Care card, so there is no charge for the visit. A small documentation fee may apply for the note depending on its type.",
     },
     {
-      question: "How long does it take?",
+      question: "Can I get a note for my child's St. Albert school absence?",
       answer:
-        "Most notes are delivered within 15-30 minutes after your virtual consultation.",
+        "Yes. A parent or guardian can book on behalf of a child enrolled in St. Albert Public, Greater St. Albert Catholic, Conseil scolaire Centre-Nord, or any private school. The physician assesses the child by video and issues the note in the child's name.",
     },
     {
-      question: "Can I get a backdated note?",
+      question: "How quickly can I get the note?",
       answer:
-        "It depends on the situation. For any backdated note request, we'll need to review your case properly, so we kindly ask you to book an appointment. Once it's scheduled, our team will connect with you and guide you through the next steps.",
+        "Most St. Albert patients receive their signed PDF within 30 minutes of completing the consultation. Booking earlier in the day virtually guarantees same-day delivery.",
     },
     {
-      question:
-        "Will my employer or school accept an online doctor's note?",
+      question: "Will my Edmonton-based employer accept the note?",
       answer:
-        "Yes. Virtual healthcare is legally recognized in Alberta. Our notes contain all required elements including the doctor's CPSA license number and contact information for verification.",
-    },
-    {
-      question:
-        "Can I use this service for mental health days?",
-      answer:
-        "Absolutely. Our physicians understand the importance of mental health and can provide appropriate documentation for stress, anxiety, burnout, or other mental health concerns—without disclosing specific private details.",
-    },
-    {
-      question:
-        "Do you provide notes for work-related injuries?",
-      answer:
-        "For workplace injuries covered by WCB (Workers' Compensation Board), you should follow your employer's specific reporting procedures. For general illness or non-work-related medical issues, we can certainly help.",
+        "Yes. Edmonton-area employers — including AHS, the City of Edmonton, the University of Alberta, and major private firms — accept notes from CPSA-registered virtual physicians. The note includes a verification line for HR.",
     },
   ],
   locations:
-    "St. Albert, St. Albert, Sherwood Park, Beaumont, Fort Saskatchewan, Leduc, Spruce Grove, and surrounding Alberta communities.",
+    "St. Albert, Sturgeon County, Morinville, Legal, Bon Accord, and northwest Edmonton communities along St. Albert Trail.",
 };

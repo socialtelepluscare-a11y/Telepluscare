@@ -151,4 +151,6 @@ export const pageData: LandingPageData = {
   locations:
     "Burlington, Oakville, Milton, Waterdown, Georgetown, and the wider Halton Region.",
   bookingUrl: "/book-doctors-note",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

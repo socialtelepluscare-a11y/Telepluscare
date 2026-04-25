@@ -10,6 +10,14 @@ export const pageData: LandingPageData = {
     "Saxenda (liraglutide) is a Health Canada-approved injectable medication for chronic weight management. At TelePlus Care, our licensed Alberta physicians can evaluate your eligibility and prescribe Saxenda through a convenient virtual consultation, all from the comfort of your home.\n\nOur healthcare services are available to all residents of Alberta, Canada.",
   heroImage: "/images/weight-loss/image-39.png",
   heroImageAlt: "Saxenda prescription online consultation in Alberta",
+  summary:
+    "Saxenda (liraglutide 3.0 mg) is a once-daily GLP-1 receptor agonist injection approved by Health Canada for chronic weight management in adults with BMI 30+ or BMI 27+ with comorbidities. Clinical trials show 56% of patients lose at least 5% of body weight at one year. TelePlus Care provides Alberta-wide virtual prescribing through licensed physicians.",
+  keyFacts: [
+    "Health Canada-approved liraglutide for chronic weight management",
+    "56% of patients achieve 5%+ weight loss after 12 months of use",
+    "Five-week dose escalation from 0.6 mg to 3.0 mg daily",
+    "Virtual consultations with same-day pharmacy prescription transfer",
+  ],
   sections: [
     {
       title: "What Is Saxenda and How Does It Work?",
@@ -30,7 +38,9 @@ export const pageData: LandingPageData = {
         "Week 5 and beyond -- Reach the maintenance dose of 3.0 mg once daily. This is the therapeutic dose for weight management.",
         "Injection timing -- Saxenda can be injected at any time of day, with or without meals, but it is best to use it at the same time each day for consistency.",
       ],
-    },
+          image: "/images/weight-loss/image-40.png",
+      imageAlt: "Saxenda Dosage and How to Start",
+},
     {
       title: "Who Qualifies for Saxenda?",
       content:
@@ -41,7 +51,9 @@ export const pageData: LandingPageData = {
         "Previous weight loss attempts -- Candidates should have tried diet and exercise without achieving sustainable results before starting Saxenda.",
         "Not suitable for -- Saxenda is not recommended for individuals with a personal or family history of medullary thyroid carcinoma (MTC), multiple endocrine neoplasia syndrome type 2 (MEN 2), or those who are pregnant or breastfeeding.",
       ],
-    },
+          image: "/images/weight-loss/image-41.png",
+      imageAlt: "Who Qualifies for Saxenda?",
+},
     {
       title: "Common Side Effects of Saxenda",
       content:
@@ -54,7 +66,9 @@ export const pageData: LandingPageData = {
         "Injection site reactions -- Mild redness, bruising, or itching at the injection site may occur. Rotating injection sites can minimize this.",
         "Serious but rare -- Pancreatitis, gallbladder disease, and increased heart rate have been reported in rare cases. Contact your healthcare provider immediately if you experience severe abdominal pain or a resting heart rate consistently above 100 bpm.",
       ],
-    },
+          image: "/images/image-7.png",
+      imageAlt: "Common Side Effects of Saxenda",
+},
     {
       title: "Saxenda vs Ozempic: Key Differences",
       content:
@@ -66,7 +80,9 @@ export const pageData: LandingPageData = {
       title: "Cost of Saxenda in Alberta",
       content:
         "The cost of Saxenda in Alberta typically ranges from $300 to $450 per month at the maintenance dose of 3.0 mg daily. Pricing can vary by pharmacy and whether you have private drug insurance coverage.\n\nSaxenda is not covered under the Alberta Drug Benefit List for most patients, but many private insurance plans do cover it partially or fully with a valid prescription and documentation of medical necessity. Our physicians can provide the necessary documentation to support your insurance claim.\n\nSome patients may also qualify for the Novo Nordisk patient assistance program, which can help reduce out-of-pocket costs. During your consultation, we can discuss available options to make treatment more affordable.",
-    },
+          image: "/images/image-2.png",
+      imageAlt: "Cost of Saxenda in Alberta",
+},
     {
       title: "Why Choose TelePlus Care for Saxenda?",
       content:
@@ -77,7 +93,9 @@ export const pageData: LandingPageData = {
         "Ongoing support -- We provide follow-up appointments to monitor your progress, adjust dosing, and address any concerns throughout your treatment.",
         "Prescription sent to your pharmacy -- Once approved, your Saxenda prescription is sent directly to the pharmacy of your choice in Alberta.",
       ],
-    },
+          image: "/images/diabetes-chronic-disease/section-1.png",
+      imageAlt: "Why Choose TelePlus Care for Saxenda?",
+},
   ],
   faqs: [
     {
@@ -113,4 +131,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

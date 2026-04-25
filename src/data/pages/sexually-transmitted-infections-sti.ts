@@ -31,7 +31,9 @@ export const pageData: LandingPageData = {
         "HIV/AIDS -- A viral infection that attacks the immune system. While there is no cure, antiretroviral therapy can effectively manage the condition.",
         "Trichomoniasis -- A parasitic infection that causes itching, burning, and discharge. It is easily treated with antibiotics.",
       ],
-    },
+          image: "/images/Rectangle-1090-3.png",
+      imageAlt: "Common Types of STIs",
+},
     {
       title: "Common Symptoms of STIs",
       content:
@@ -45,7 +47,9 @@ export const pageData: LandingPageData = {
         "Rashes on the body, palms, or soles of the feet",
         "Swollen lymph nodes, fever, or flu-like symptoms",
       ],
-    },
+          image: "/images/Rectangle-1090-6.png",
+      imageAlt: "Common Symptoms of STIs",
+},
     {
       title: "STI Testing & Diagnosis",
       content:
@@ -56,7 +60,9 @@ export const pageData: LandingPageData = {
         "Swab Tests -- Samples taken from affected areas to identify specific infections.",
         "Physical Examination -- Visual assessment during a virtual consultation can help identify visible symptoms and guide testing.",
       ],
-    },
+          image: "/images/Rectangle-1090-7.png",
+      imageAlt: "STI Testing & Diagnosis",
+},
     {
       title: "STI Treatment Options",
       content:
@@ -67,7 +73,9 @@ export const pageData: LandingPageData = {
         "Partner Notification -- We can help you navigate the process of informing sexual partners so they can also seek testing and treatment.",
         "Follow-Up Testing -- Repeat testing may be recommended to confirm successful treatment and ensure the infection has cleared.",
       ],
-    },
+          image: "/images/Rectangle-1090-8.png",
+      imageAlt: "STI Treatment Options",
+},
     {
       title: "Why Choose TelePlus Care for STI Care?",
       content:
@@ -78,7 +86,9 @@ export const pageData: LandingPageData = {
         "No Judgment -- We provide compassionate, non-judgmental care to help you feel comfortable discussing your concerns.",
         "Convenient Access -- Get tested and treated from the comfort of your home without waiting for an in-person appointment.",
       ],
-    },
+          image: "/images/Rectangle-1090-10.png",
+      imageAlt: "Why Choose TelePlus Care for STI Care?",
+},
     {
       title: "How Does It Work?",
       content:
@@ -89,7 +99,9 @@ export const pageData: LandingPageData = {
         "Receive Confirmation -- Once you've booked your appointment, you'll receive a confirmation email or call with detailed instructions for your upcoming virtual visit.",
         "Attend Your Appointment -- On the day of your virtual visit, connect with your provider using any electronic device. Our healthcare professionals will assess your condition and create a personalized care plan.",
       ],
-    },
+          image: "/images/Rectangle-1090-11.png",
+      imageAlt: "How Does It Work?",
+},
   ],
   faqs: [
     {
@@ -120,4 +132,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

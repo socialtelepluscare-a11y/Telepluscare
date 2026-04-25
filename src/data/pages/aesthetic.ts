@@ -2,6 +2,14 @@ import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
   bookingUrl: "/book-aesthetic",
+  summary:
+    "Aesthetic services in Alberta cover Botox and dermal fillers, platelet-rich plasma (PRP) therapy, microneedling, chemical peels, custom de-aging facials, medical-grade acne therapy, and hormone replacement. TelePlus Care offers virtual aesthetic consultations across Alberta with assessments, treatment planning, and in-person injection appointments scheduled afterward — combining medical oversight with cosmetic expertise for natural results.",
+  keyFacts: [
+    "Health Canada-approved Botox, dermal fillers, and neuromodulators only",
+    "Virtual aesthetic consultations province-wide before in-person treatment",
+    "Medical-grade procedures: PRP, microneedling, chemical peels, HRT",
+    "Per-unit transparent pricing with consultation cost estimates upfront",
+  ],
   metaTitle: "Aesthetic Services in Alberta - Book Consultation Today!",
   metaDescription:
     "Experience exceptional aesthetic care in Alberta. Enhance your beauty with injectables, PRP, and microneedling & more. Schedule your consultation today!",
@@ -22,7 +30,9 @@ export const pageData: LandingPageData = {
       title: "Our Range of Aesthetic Treatments in Alberta",
       content:
         "At TelePlus Care, we are dedicated to offering a full range of personalized aesthetic services tailored for residents of Alberta. Our virtual care model ensures that you receive expert guidance and support, allowing you to achieve your beauty and wellness goals from the comfort of your home.",
-    },
+          image: "/images/best-botox-treatment-in-edmonton/section-1.jpg",
+      imageAlt: "Our Range of Aesthetic Treatments in Alberta",
+},
     {
       title: "Injectables",
       content:
@@ -89,7 +99,9 @@ export const pageData: LandingPageData = {
         "Receive Confirmation \u2014 Once you've booked your appointment, you'll receive a confirmation email or call with detailed instructions for your upcoming virtual visit.",
         "Attend Your Appointment \u2014 On the day of your virtual visit, connect with your provider using any electronic device\u2014whether it's a smartphone, tablet, or computer. Our healthcare professionals will assess your condition and create a personalized care plan.",
       ],
-    },
+          image: "/images/best-botox-treatment-in-edmonton/section-2.jpg",
+      imageAlt: "How Does It Work?",
+},
     {
       title:
         "Why Choose TelePlus Care for Your Health Needs in Alberta?",
@@ -136,4 +148,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Sherwood Park, St. Albert, Spruce Grove, Leduc, Fort Saskatchewan, Beaumont, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

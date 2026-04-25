@@ -27,7 +27,9 @@ export const pageData: LandingPageData = {
         "Predominantly Hyperactive-Impulsive Presentation -- Characterized by fidgeting, restlessness, excessive talking, and difficulty waiting. May act impulsively without considering consequences.",
         "Combined Presentation -- A combination of both inattentive and hyperactive-impulsive symptoms. This is the most common type of ADHD diagnosed in both children and adults.",
       ],
-    },
+          image: "/images/mental-health/depression.webp",
+      imageAlt: "Types of ADHD",
+},
     {
       title: "Common Symptoms of ADHD in Adults",
       content:
@@ -41,7 +43,9 @@ export const pageData: LandingPageData = {
         "Difficulty completing projects or following through on commitments",
         "Emotional dysregulation, including mood swings and frustration",
       ],
-    },
+          image: "/images/mental-health/anxiety.webp",
+      imageAlt: "Common Symptoms of ADHD in Adults",
+},
     {
       title: "ADHD Treatment Options",
       content:
@@ -52,7 +56,9 @@ export const pageData: LandingPageData = {
         "Lifestyle Modifications -- Regular exercise, adequate sleep, balanced nutrition, and stress management techniques can all support ADHD management.",
         "Ongoing Monitoring -- Regular follow-up appointments ensure your treatment plan remains effective and is adjusted as your needs change.",
       ],
-    },
+          image: "/images/mental-health/adhd.webp",
+      imageAlt: "ADHD Treatment Options",
+},
     {
       title: "Why Choose TelePlus Care for ADHD Support?",
       content:
@@ -63,7 +69,9 @@ export const pageData: LandingPageData = {
         "Personalized Treatment Plans -- Every individual experiences ADHD differently, and we tailor our approach to your specific needs and goals.",
         "Confidential & Supportive -- We provide a safe, judgment-free environment where you can discuss your concerns openly.",
       ],
-    },
+          image: "/images/mental-health/Rectangle-1090-13.png",
+      imageAlt: "Why Choose TelePlus Care for ADHD Support?",
+},
     {
       title: "How Does It Work?",
       content:
@@ -74,7 +82,9 @@ export const pageData: LandingPageData = {
         "Receive Confirmation -- Once you've booked your appointment, you'll receive a confirmation email or call with detailed instructions for your upcoming virtual visit.",
         "Attend Your Appointment -- On the day of your virtual visit, connect with your provider using any electronic device. Our healthcare professionals will assess your condition and create a personalized care plan.",
       ],
-    },
+          image: "/images/mental-health/Rectangle-1090-14.png",
+      imageAlt: "How Does It Work?",
+},
   ],
   faqs: [
     {
@@ -106,4 +116,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

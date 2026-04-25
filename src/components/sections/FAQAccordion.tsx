@@ -19,7 +19,7 @@ export default function FAQAccordion({
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
-    <section style={{ background: "#fff", padding: "80px 0" }}>
+    <section style={{ background: "#fff", padding: "80px 0" }} data-speakable="true">
       <div className="container-main" style={{ maxWidth: 800, margin: "0 auto" }}>
         <div style={{ textAlign: "center", marginBottom: 40 }}>
           <h2 className="section-title" style={{ textAlign: "center" }}>{title}</h2>
@@ -104,6 +104,10 @@ export default function FAQAccordion({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "FAQPage",
+              speakable: {
+                "@type": "SpeakableSpecification",
+                cssSelector: ["[data-speakable='true']"],
+              },
               mainEntity: items.map((item) => ({
                 "@type": "Question",
                 name: item.question,

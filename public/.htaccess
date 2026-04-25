@@ -1,0 +1,62 @@
+# Security Headers
+<IfModule mod_headers.c>
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header set X-XSS-Protection "1; mode=block"
+  Header set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+  Header set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+</IfModule>
+
+# Compression
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json application/xml image/svg+xml
+</IfModule>
+
+# Caching
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpg "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType text/html "access plus 1 hour"
+</IfModule>
+
+# Rewrite rules
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Force HTTPS
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # 301 redirects for legacy typo slugs
+  RewriteRule ^online-prescriptions-and-refills-in-red-dear/?$ /online-prescriptions-and-refills-in-red-deer/ [R=301,L]
+  RewriteRule ^holsitic-healing-centre-in-edmonton/?$ /holistic-healing-centre-in-edmonton/ [R=301,L]
+
+  # Add trailing slash to non-file paths
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} !(/$|\.)
+  RewriteRule (.*) %{REQUEST_URI}/ [L,R=301]
+
+  # Serve index.html from directory
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^(.*)$ $1/index.html [L]
+</IfModule>
+
+# 404 fallback
+ErrorDocument 404 /404.html
+
+# Disable directory listing
+Options -Indexes
+
+# Block sensitive files
+<FilesMatch "\.(env|log|md|ts|tsx|json)$">
+  Order allow,deny
+  Deny from all
+</FilesMatch>

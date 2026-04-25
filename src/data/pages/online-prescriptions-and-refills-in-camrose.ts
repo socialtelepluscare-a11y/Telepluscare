@@ -1,203 +1,150 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle:
-    "Online Prescriptions and Refills in camrose – Same Day | TelePlus Care",
+  metaTitle: "Online Prescriptions & Refills in Camrose, Alberta | TelePlusCare",
   metaDescription:
-    "Need a fast and reliable way to get online prescriptions and refills in camrose? TelePlusCare connects you with licensed Alberta healthcare providers through secure virtual appointments.",
-  title: "Online Prescriptions and Refills in camrose – Same Day",
+    "Battle River region's virtual prescription service. CPSA-licensed MDs send refills to Camrose Co-op, Shoppers, IDA pharmacies. AHCIP covered, no referral.",
+  title: "Online Prescriptions and Refills in Camrose",
   heroDescription:
-    "Need a fast and reliable way to get online prescriptions and refills in camrose? TelePlusCare connects you with licensed Alberta healthcare providers through secure virtual appointments — so you can get the medication you need without visiting a clinic. Whether you need a new prescription, a refill, or medical advice, our virtual healthcare platform is designed for convenience, speed, and trusted Alberta care. Book your virtual appointment today and get your prescription sent to your pharmacy — often within minutes.",
-  heroImage: "/images/2.jpg",
-  heroImageAlt: "Medical weight loss assessments and treatments",
+    "Camrose serves the Battle River region — a rural agricultural community where access to family physicians is limited and harvest schedules don't align with clinic hours. TelePlusCare connects Camrose residents and surrounding farmers with a CPSA-licensed virtual MD by video and sends prescriptions to your local Co-op, Shoppers, or IDA pharmacy.",
+  heroImage: "/images/image-6.png",
+  heroImageAlt: "Online prescriptions and refills in Camrose Alberta",
+  bookingUrl: "/book-appointment-alberta",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
+  summary:
+    "TelePlusCare serves Camrose and the Battle River region with virtual prescription refills via licensed MD video visits. Scripts are sent to Alberta pharmacies including Camrose Co-op, Shoppers, and IDA Pharmacy. AHCIP covers physician consultations for Alberta PHN holders, no referral required, ideal for the rural agricultural community.",
+  keyFacts: [
+    "Camrose has roughly 5–6 community pharmacies serving the city plus regional pharmacies in Tofield, Daysland, and Bashaw — all accept TelePlusCare e-prescriptions.",
+    "Battle River farmers can book a TelePlusCare visit during harvest season without losing a half-day to drive into town.",
+    "AHCIP covers virtual physician consultations for Camrose residents with a valid Alberta PHN — no referral required.",
+    "TelePlusCare offers evening and weekend Camrose appointments — perfect for agricultural schedules.",
+  ],
   sections: [
     {
-      title: "Online Prescriptions and Refills in camrose",
+      title: "What Camrose Patients Can Be Prescribed Online",
       content:
-        "Running low on your medication? Skip the line, skip the waiting room, and refill your prescription from home — available 24/7 across Alberta.\n\nAt TelePlusCare, you can easily request online prescription refills in camrose, and our healthcare providers will review your request quickly. If medically appropriate, your prescription will be renewed and sent to your preferred pharmacy the same day.",
-      image: "/images/2.jpg",
-      imageAlt: "Medical weight loss assessments and treatments",
-    },
-    {
-      title: "What Makes Our Prescription Refills Convenient?",
-      content:
-        "Our online prescription refill service in camrose is designed to save you time and keep you healthy:",
+        "Camrose TelePlusCare visits cover the full range of routine outpatient prescribing. Acute prescriptions for UTIs, sinus infections, strep throat, and skin infections are issued same-day after a video assessment. Chronic medication renewals — high blood pressure, cholesterol, type 2 diabetes, asthma, thyroid — are quick to handle. We also prescribe contraception and non-controlled mental health medications. Schedule I controlled substances follow CPSA Standard 22 and typically need an in-person assessment at the Camrose Hospital.",
       bullets: [
-        "Available 24/7 — Anytime, anywhere",
-        "Serving camrose, Fort McMurray & surrounding areas",
-        "Covered by Alberta Health Card (where eligible)",
-        "Option for pharmacy delivery",
+        "Antibiotics for UTI, sinusitis, strep, skin infections",
+        "Antihypertensives — Ramipril, Amlodipine, Losartan",
+        "Cholesterol statins (Atorvastatin, Rosuvastatin)",
+        "Diabetes — Metformin, Jardiance, Ozempic",
+        "Asthma inhalers — Symbicort, Advair, Ventolin",
+        "Birth control pills, patches, rings",
+        "SSRIs, SNRIs (non-controlled)",
+        "Thyroid replacement (Synthroid)",
       ],
-      image: "/images/image_2024_04_24T06_38_39_877Z.png",
-      imageAlt: "Virtual care exams",
+      image: "/images/Rectangle-1090-3.png",
+      imageAlt: "Medications prescribed online for Camrose patients",
     },
     {
-      title: "What We Prescribe in Online Refill Prescription in camrose",
+      title: "Common Refills for Camrose and Battle River Region",
       content:
-        "Our providers issue a wide range of prescriptions, including:",
+        "Camrose anchors a large rural agricultural region — Battle River farms, ranches, and grain operations across Camrose County, Beaver County, and Flagstaff County. Farmers, ranchers, and seasonal workers often delay refills until weather or work permits a town trip. We see daily refill requests for blood pressure medications, statins for cholesterol, Metformin for diabetes, oral contraceptives, Symbicort for asthma (often worsened by harvest dust and chaff), and antidepressants — particularly important given the well-documented mental health pressures on agricultural communities.",
       bullets: [
-        "Antibiotics for infections",
-        "Birth control pills",
-        "Allergy & sinus medications",
-        "High blood pressure medication",
-        "Cholesterol medication",
-        "Diabetes medication",
-        "Thyroid medication",
-        "Mental health prescriptions",
-        "Asthma & inhalers",
-        "Erectile dysfunction medication",
-        "Skin medications (eczema, acne, dermatitis)",
-        "Cold, flu, throat infections",
-        "UTI & bladder infections (female)",
-        "Travel medications",
+        "Blood pressure refills for farmers and ranchers",
+        "Cholesterol management",
+        "Diabetes oral medications",
+        "Birth control pill renewals",
+        "Asthma inhalers (harvest dust, chaff exposure)",
+        "Antidepressants for rural mental health support",
       ],
-      image: "/images/111-819x1024.jpeg",
-      imageAlt: "Prescriptions and Refills in Calgary",
+      image: "/images/Rectangle-1090-6.png",
+      imageAlt: "Common refills for Camrose Battle River residents",
     },
     {
-      title: "What We Cannot Prescribe Online",
+      title: "How Camrose Online Prescriptions Work",
       content:
-        "TelePlusCare does not prescribe the following for safety and legal reasons. We follow all Alberta and Canadian prescription laws.",
+        "TelePlusCare's three-step process is built for Camrose's rural reality. Step 1 — Book your virtual appointment online from your home, your tractor cab, or wherever you have cell service; provide your Alberta PHN and preferred Camrose pharmacy. Step 2 — Connect by encrypted video with a CPSA-registered family physician for a 12–18 minute visit — short enough to fit between farm chores. Step 3 — Once approved, your prescription is e-faxed to your local pharmacy. Pick it up next time you're in town.",
       bullets: [
-        "Narcotics",
-        "Controlled substances",
-        "Opioids",
-        "Benzodiazepines (e.g., Xanax, Ativan)",
-        "Sleeping pills",
-        "ADHD stimulants",
-        "Medical marijuana",
+        "Step 1 — Book online with your Alberta PHN",
+        "Step 2 — 12–18 minute video visit, fits between farm chores",
+        "Step 3 — E-prescription sent to your Camrose pharmacy",
       ],
-      image: "/images/3.jpg",
-      imageAlt: "Online Prescriptions and Refills in Alberta",
+      image: "/images/prescription-refill/111-819x1024.jpeg",
+      imageAlt: "Three-step Camrose online prescription process",
     },
     {
-      title:
-        "Virtual Healthcare Benefits: Why camrose Residents Choose Online Refill Prescription",
+      title: "Prescription Delivered to Your Local Camrose Pharmacy",
       content:
-        "Convenience & Accessibility: No commute to a clinic. No waiting room exposure to other illnesses. Access care from home, work, or anywhere. Perfect for those with mobility issues or transportation challenges.\n\nTime-Saving: Average clinic wait time is 1-2 hours. Average virtual appointment takes just 15-20 minutes total. Get back to resting and recovering faster.\n\nCost-Effective: No parking fees. No transportation costs. No time off work for appointment travel. Covered by Alberta Health Card in most cases.\n\nQuality Care: Same licensed doctors as in-person clinics. Thorough assessment and consultation. Follow-up care available. Prescription services when needed.",
-      image:
-        "/images/tele.pluscare_1762275770_3758564036423165455_74096322945-819x1024.jpg",
-      imageAlt: "Doctor note online",
-    },
-    {
-      title:
-        "Why Choose TelePlusCare in camrose for Prescriptions and Refills?",
-      content:
-        "TelePlusCare provides trusted, fast prescription services for camrose residents:",
+        "We send prescriptions to every pharmacy in Camrose and the surrounding Battle River region. The Camrose Co-op Pharmacy on 48th Avenue is a community staple — many farming families have used it for decades. The Shoppers Drug Mart on 50th Street is the busiest chain location, with extended hours that work for farmers coming into town after evening work. The IDA Pharmacy and Pharmasave round out the options. We also send prescriptions to regional pharmacies in Tofield, Daysland, Bashaw, Killam, and Sedgewick for patients in surrounding villages.",
       bullets: [
-        "Real Alberta Doctors: All notes issued by licensed Canadian physicians",
-        "Fast Turnaround: Receive your note in as little as 15 minutes",
-        "Valid for Work, School & Travel: Use it with confidence anywhere in Alberta",
-        "Secure & Private: Your consultation and documents are fully confidential",
-        "Alberta Health Card Accepted: Most services covered — no extra cost",
+        "Camrose Co-op Pharmacy — 48th Avenue community staple",
+        "Shoppers Drug Mart — 50th Street, extended hours",
+        "IDA Pharmacy and Pharmasave",
+        "Regional: Tofield, Daysland, Bashaw, Killam, Sedgewick",
       ],
-      image: "/images/13-819x1024.jpeg",
-      imageAlt:
-        "Online Prescriptions and Refills in camrose – TelePlusCare",
+      image: "/images/Rectangle-1090-20.png",
+      imageAlt: "Camrose pharmacies receiving e-prescriptions",
     },
     {
-      title: "Refill Your Medication Online in camrose",
+      title: "Built for the Battle River Agricultural Community",
       content:
-        "Running low on your medication? Request a prescription refill online and avoid long clinic wait times, scheduling conflicts, last-minute rushes, and missing doses.\n\nOur Alberta providers can quickly renew your medication if appropriate — sent directly to your pharmacy.",
+        "Camrose and the surrounding Battle River region are predominantly agricultural — grain farms, mixed cattle operations, hog producers, and ag-services. Harvest, calving, and seeding seasons compress workloads into weeks where every daylight hour counts. TelePlusCare lets farmers, ranchers, and ag-workers get their refills without losing a half-day to drive into town. Combine cab Wi-Fi works just fine for a 15-minute video visit. We also support farm spouses and rural seniors who often shoulder healthcare-coordination duties for the whole family.",
       bullets: [
-        "Long clinic wait times",
-        "Scheduling conflicts",
-        "Last-minute rushes",
-        "Missing doses",
+        "Designed for harvest, seeding, and calving seasons",
+        "Visit from the combine cab or farm office",
+        "No half-day lost to drive into Camrose",
+        "Supports rural mental health for farming families",
       ],
-      image: "/images/Group-37523.png",
-      imageAlt: "Refill your medication online",
+      image: "/images/Rectangle-1090-22.png",
+      imageAlt: "TelePlusCare for Battle River agricultural community",
     },
     {
-      title: "How It Works",
+      title: "Alberta Health Prescription Coverage for Camrose",
       content:
-        "Step 1: Book a virtual appointment (takes less than 2 minutes)\n\nStep 2: Speak to a certified Alberta doctor via secure video or chat\n\nStep 3: Receive your prescription sent to your pharmacy — ready to pick up or have delivered\n\n100% legal and accepted. Safe, encrypted, and confidential. Mobile and desktop friendly.",
-      image: "/images/image-9963535-819x1024.jpeg",
-      imageAlt: "Doctor note in camrose",
-    },
-    {
-      title: "Who Can Use This Service?",
-      content:
-        "Our online prescription service is available to a wide range of patients:",
+        "Camrose patients are AHCIP-covered for the virtual physician consultation. Drug coverage flows through Alberta Blue Cross Non-Group, Coverage for Seniors (auto at 65), the Adult Health Benefit for low-income Battle River residents, and Palliative Coverage. Many Camrose-area farmers carry private agriculture-sector benefits or coverage through commodity organizations. The University of Alberta Augustana campus students have access to additional plans through their student association.",
       bullets: [
-        "Employees: Needing a sick note for missed work",
-        "Students: Requiring a note for absence from classes or exams",
-        "Parents: Caring for a sick child or family member",
-        "Travelers: Requiring fitness to fly or recovery documentation",
-        "Remote Workers: Who need proof of unwell status",
+        "AHCIP covers physician consult",
+        "Alberta Blue Cross Non-Group",
+        "Coverage for Seniors (65+)",
+        "Adult Health Benefit for low-income farming families",
       ],
-      image: "/images/Group-37522.png",
-      imageAlt: "Doctor note in camrose",
+      image: "/images/image-4.png",
+      imageAlt: "Camrose Alberta Health drug coverage",
     },
     {
-      title: "About Our Virtual Medical Clinic",
+      title: "Why Camrose Patients Choose TelePlusCare",
       content:
-        "We are a fully licensed telemedicine provider serving camrose and all of Alberta. Our team of certified physicians is committed to providing accessible healthcare for all Albertans, timely medical documentation when you need it, professional and compassionate care in every consultation, and a privacy-first approach to your medical information.\n\nOur doctors are experienced in family medicine, urgent care consultations, mental health assessments, occupational health documentation, and travel medicine.",
+        "Camrose's family physicians are stretched thin, and walk-in clinic options are minimal. Many Battle River residents drive 90+ minutes into Edmonton or Red Deer for routine refills. TelePlusCare ends that — same-day virtual visits with a real CPSA-registered Alberta physician, available evenings and weekends. Our Camrose patients include farmers, U of A Augustana students, retirees on fixed incomes, and town residents who want predictable, accessible care.",
+      bullets: [
+        "No more 90-minute drives to Edmonton for refills",
+        "Same-day virtual appointments",
+        "Evenings and weekends available",
+        "100% CPSA-licensed Alberta physicians",
+      ],
+      image: "/images/image-5.png",
+      imageAlt: "Why Camrose patients choose TelePlusCare",
     },
   ],
   faqs: [
     {
-      question: "Can I really get a prescription online in camrose?",
+      question: "Can farmers in Battle River County use TelePlusCare from the field?",
       answer:
-        "Yes. TelePlusCare allows you to meet with a licensed Alberta healthcare provider online and, if medically appropriate, receive a prescription. This includes new prescriptions and refills. Your prescription can be sent to any camrose pharmacy or delivered to your home.",
+        "Yes — as long as you have cell service or Wi-Fi, you can complete the visit from a tractor cab, farm office, or anywhere on the property. Many of our Camrose patients book mid-harvest visits this way.",
     },
     {
-      question: "Is it legal to get prescriptions online in Alberta?",
+      question: "Which Camrose pharmacies accept TelePlusCare e-prescriptions?",
       answer:
-        "Yes. Online prescribing is fully legal in Alberta as long as the prescription is issued by a licensed physician or nurse practitioner. TelePlusCare follows all provincial and federal medical regulations.",
+        "All of them — Camrose Co-op Pharmacy, Shoppers Drug Mart on 50th Street, IDA, and Pharmasave. We also send to regional pharmacies in Tofield, Daysland, Bashaw, and Sedgewick.",
     },
     {
-      question: "What medications can be prescribed online?",
+      question: "Is the virtual visit covered by Alberta Health for Camrose residents?",
       answer:
-        "Our Alberta providers can prescribe a wide range of medications, including antibiotics, birth control, allergy medications, asthma inhalers, diabetes medications, blood pressure medication, cholesterol medication, thyroid medication, mental health prescriptions, skin medications, erectile dysfunction medication, travel medication, and cold & flu treatments. If it's safe and medically appropriate, we can prescribe it virtually.",
+        "Yes. AHCIP covers the physician's virtual consultation fee for any Camrose resident with a valid Alberta Personal Health Number.",
     },
     {
-      question: "What medications cannot be prescribed online?",
+      question: "How fast can I get a prescription in Camrose?",
       answer:
-        "For safety and legal reasons, TelePlusCare cannot prescribe narcotics, opioids, controlled substances, ADHD stimulants, benzodiazepines, sleeping pills, or medical marijuana. Your provider will inform you if your medication falls into this category.",
+        "Most Camrose patients have their prescription at their local pharmacy within 1–2 hours of booking. Pick it up next time you're in town.",
     },
     {
-      question: "Can I get a prescription refill online in camrose?",
+      question: "Can rural Battle River residents without a regular family doctor use this?",
       answer:
-        "Yes. TelePlusCare offers quick and convenient prescription refills online. If you're running out of your medication, our providers can renew your prescription and send it to your preferred pharmacy in camrose.",
-    },
-    {
-      question: "How fast can I get my prescription or refill?",
-      answer:
-        "Most TelePlusCare patients receive their prescription within 15-30 minutes after their virtual appointment, depending on the complexity of the case and pharmacy availability.",
-    },
-    {
-      question: "Can I get antibiotics online in camrose?",
-      answer:
-        "Yes. Providers can prescribe antibiotics for conditions such as strep throat, sinus infections, ear infections, UTIs (for women), and skin infections. Antibiotics are only prescribed when medically appropriate.",
-    },
-    {
-      question: "Do I need an Alberta Health Care number?",
-      answer:
-        "Many virtual services are covered by AHCIP, but you can still use TelePlusCare even if you don't have an Alberta Health Card. Fees may apply for uninsured services.",
-    },
-    {
-      question:
-        "Can you send my prescription to any pharmacy in camrose?",
-      answer:
-        "Yes. You can choose any local camrose pharmacy, including Shoppers Drug Mart, Rexall, Loblaw/Superstore pharmacies, Save-On Foods, Costco, and independent pharmacies. You may also request medication delivery if offered by the pharmacy.",
-    },
-    {
-      question: "Can I get birth control online in camrose?",
-      answer:
-        "Yes. TelePlusCare providers can prescribe or renew birth control pills, patches, rings, or other options depending on your medical history.",
-    },
-    {
-      question: "Can I get an asthma inhaler online?",
-      answer:
-        "Yes. Ventolin, Flovent, and other inhalers can be prescribed or renewed if assessed as medically appropriate.",
-    },
-    {
-      question: "How do I book an appointment with TelePlusCare?",
-      answer:
-        "Click the Book Now button, choose your province (Alberta), select a time, and complete your short intake form. You'll receive a secure link for your virtual visit.",
+        "Yes. Many of our Camrose-region patients have no regular family physician. TelePlusCare's CPSA-licensed virtual MDs can handle stable chronic refills and acute concerns directly.",
     },
   ],
   locations:
-    "camrose, Downtown, Mill Woods, Clareview, West camrose, Fort McMurray, and surrounding areas.",
+    "Serving Camrose, Tofield, Daysland, Bashaw, Killam, Sedgewick, Hardisty, Forestburg, Wainwright, Stettler, Camrose County, Beaver County, and the broader Battle River region.",
 };

@@ -1,105 +1,132 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle:
-    "UTI Appointment in Edmonton | Same-Day Online UTI Treatment",
+  metaTitle: "UTI Appointment Edmonton | Same-Day Online UTI Treatment",
   metaDescription:
-    "Need fast UTI treatment in Edmonton? Book a same-day online UTI appointment. Get antibiotics & doctor notes quickly. Private & secure telehealth clinic.",
-  title: "Book a UTI Appointment in Edmonton",
+    "Edmonton residents: book a same-day virtual UTI appointment with an Alberta-licensed physician. Antibiotic prescriptions sent to your nearest pharmacy in minutes.",
+  title: "Same-Day UTI Appointment in Edmonton",
   heroDescription:
-    "UTI symptoms? Get fast relief today.\n\nBook a same-day UTI appointment in Edmonton and speak with a licensed Alberta doctor online. Skip long walk-in clinic waits and get your UTI prescription sent to a nearby Edmonton pharmacy within minutes.\n\nIf you're searching for a UTI appointment in Edmonton, our secure virtual care makes treatment quick, private, and convenient.",
-  heroImage: "/images/ChatGPT-Image-Nov-3-2025-04_36_39-PM-1024x683.png",
-  heroImageAlt: "UTI appointment in Edmonton",
+    "Edmonton residents experiencing burning urination, urgency, or pelvic discomfort can connect with an Alberta-licensed physician within minutes. From Whyte Avenue to Mill Woods, we treat uncomplicated UTIs virtually and send prescriptions directly to pharmacies near the U of A Hospital, Royal Alex, or your home neighborhood.",
+  heroImage: "/images/urinary-tract-infection-treatments.jpg",
+  heroImageAlt: "Same-day UTI appointment for Edmonton patients",
+  bookingUrl: "/book-appointment-alberta",
+  conditionType: "Urinary Tract Infection",
+  summary:
+    "Edmonton patients experiencing UTI symptoms such as burning urination, frequent urgency, or pelvic pain can book a same-day virtual visit with TelePlus Care. Alberta-licensed physicians diagnose uncomplicated UTIs in 15 to 20 minutes and electronically send antibiotic prescriptions to any Edmonton pharmacy. Visits are covered by Alberta Health Care.",
+  keyFacts: [
+    "Same-day UTI appointment with an Edmonton-area physician within 30 minutes",
+    "Prescription delivered electronically to Shoppers Drug Mart, Rexall, Save-On-Foods, or any Edmonton pharmacy",
+    "Covered by Alberta Health Care for residents with a valid AHCIP card",
+    "All physicians are CPSA registered and licensed to practise in Alberta",
+  ],
   sections: [
     {
-      title: "Common UTI Symptoms",
+      title: "What Is a UTI and How Edmonton Patients Recognize It",
       content:
-        "If you have any of the symptoms below, book a UTI appointment in Edmonton right away:\n\nOur Edmonton UTI doctors online can assess your symptoms and provide UTI medication in Edmonton through a telehealth visit.",
+        "A urinary tract infection occurs when bacteria, most often E. coli, enter the urethra and travel into the bladder. Edmonton patients usually present with a sudden onset of symptoms that disrupt work, sleep, and daily routines.\n\nBook a virtual visit if you experience any of the following:",
       bullets: [
-        "Burning or pain during urination",
-        "Frequent urge to urinate",
-        "Lower abdominal / pelvic pain",
-        "Cloudy, bloody, or foul-smelling urine",
-        "Fever, chills, or back pain (advanced UTI)",
+        "Sharp burning or stinging pain during urination",
+        "Persistent urge to urinate even when the bladder is empty",
+        "Cloudy, dark, or strong-smelling urine",
+        "Pressure or cramping in the lower abdomen or pelvis",
+        "Trace amounts of blood in the urine",
       ],
-      image: "/images/ChatGPT-Image-Nov-3-2025-04_36_39-PM-1024x683.png",
-      imageAlt: "UTI appointment in Edmonton",
+      image: "/images/urinary-tract-infection-treatments.jpg",
+      imageAlt: "Edmonton woman recognizing UTI symptoms",
     },
     {
-      title: "What Is a UTI?",
+      title: "Same-Day Virtual UTI Care for Edmonton",
       content:
-        "A urinary tract infection (UTI) is a common bacterial infection affecting the bladder, urethra, or kidneys.\n\nIf you're looking for a UTI appointment in Edmonton near you, our licensed physicians can diagnose and treat UTIs virtually — no walk-in clinic required.\n\nWe offer:",
+        "Edmonton walk-in clinics in Downtown, Old Strathcona, and South Edmonton Common often see multi-hour waits during winter. Our virtual UTI service connects you with a CPSA-registered physician within roughly 30 minutes. The visit takes 15 to 20 minutes and includes diagnosis, prescription, and aftercare guidance.\n\nIf a urine culture is required, the physician sends the requisition to a DynaLIFE collection site closest to you.",
+      image: "/images/Group-37522.png",
+      imageAlt: "Edmonton telehealth UTI consultation",
+    },
+    {
+      title: "Edmonton Neighborhoods and Pharmacies We Serve",
+      content:
+        "TelePlus Care patients across Edmonton receive prescriptions at the pharmacy of their choice. Whether you live near Whyte Ave in Old Strathcona, work downtown near the Royal Alex Hospital, or are based in Mill Woods or Windermere, your antibiotic prescription is e-faxed within minutes.\n\nSupported pharmacy chains across Edmonton include Shoppers Drug Mart, Rexall, Save-On-Foods Pharmacy, Loblaws, and independent neighborhood pharmacies near the U of A Hospital.",
+      image: "/images/Rectangle-1090-7.png",
+      imageAlt: "Edmonton pharmacy locations for UTI prescriptions",
+    },
+    {
+      title: "When to Skip Virtual Care and Visit an Edmonton Hospital",
+      content:
+        "Most uncomplicated UTIs respond well to virtual care, but certain red-flag symptoms require in-person evaluation at the Royal Alexandra Hospital, University of Alberta Hospital, or Misericordia Community Hospital emergency department.",
       bullets: [
-        "Same-day UTI appointments in Edmonton",
-        "Online UTI diagnosis",
-        "Virtual UTI prescriptions",
-        "Fast symptom relief",
+        "High fever above 38.5 C with shaking chills",
+        "Severe flank or mid-back pain (possible kidney infection)",
+        "Persistent vomiting that prevents oral antibiotics",
+        "Pregnancy with UTI symptoms",
+        "Symptoms not improving 48 hours after starting antibiotics",
       ],
       image: "/images/PHOTO-2025-07-05-11-18-45-819x1024.jpg",
-      imageAlt: "Sick Note In Edmonton",
+      imageAlt: "Edmonton emergency UTI red flag symptoms",
     },
     {
-      title: "Who Can Use This Service?",
+      title: "How Your TelePlus Care UTI Visit Works",
       content:
-        "Our online UTI appointment service is available to a wide range of individuals across Edmonton and Alberta.",
+        "Booking takes less than two minutes from any Edmonton location with internet access.",
       bullets: [
-        "Employees: Needing a sick note for missed work",
-        "Students: Requiring a note for absence from classes or exams",
-        "Parents: Caring for a sick child or family member",
-        "Travelers: Requiring fitness to fly or recovery documentation",
-        "Remote Workers: Who need proof of unwell status",
+        "Step 1: Complete the secure intake form describing your symptoms",
+        "Step 2: A CPSA-registered Alberta physician reviews your case",
+        "Step 3: Connect by video or phone for a 15 to 20 minute consultation",
+        "Step 4: Antibiotic prescription is sent to your chosen Edmonton pharmacy",
+        "Step 5: Receive a follow-up message with prevention guidance",
       ],
-      image: "/images/Group-37522.png",
-      imageAlt: "Doctor note in Edmonton",
+      image: "/images/Rectangle-1090-16.png",
+      imageAlt: "How a TelePlus Care UTI virtual visit works",
     },
     {
-      title: "How It Works",
+      title: "Preventing Recurrent UTIs in Edmonton",
       content:
-        "Step 1: Book a virtual appointment (takes less than 2 minutes)\n\nStep 2: Speak to a certified Alberta doctor via secure video or chat\n\nStep 3: Receive your doctor's note by email — ready to print or share\n\n100% legal and accepted. Safe, encrypted, and confidential. Mobile and desktop friendly.",
-      image: "/images/urinary-tract-infection-treatments.jpg",
-      imageAlt: "Urinary tract infection treatments",
-    },
-    {
-      title: "Why Choose Us for UTI Care in Edmonton",
-      content:
-        "Choosing the right UTI clinic in Edmonton matters. Here's why patients trust our virtual care:\n\nWhether you're looking for a virtual UTI doctor in Edmonton, online UTI prescription, or a telehealth UTI consultation, we deliver fast, trusted medical care.",
+        "Edmonton's dry continental climate, combined with long winters indoors, can lead to under-hydration that increases UTI risk. Recurrent infections affect up to one in four women who have had a previous UTI.",
       bullets: [
-        "Same-day UTI appointments in Edmonton -- Get treatment fast when you're uncomfortable",
-        "Virtual UTI diagnosis & prescription -- Skip walk-in clinics & avoid long waits",
-        "Alberta-licensed doctors -- Trusted care from Canadian medical professionals",
-        "Prescription sent to any Edmonton pharmacy -- Shoppers, Rexall, Safeway, Walmart & local pharmacies",
-        "Private & secure telehealth consults -- Confidential UTI care from home",
-        "Convenient, fast, affordable care -- Best alternative to walk-in UTI clinics in Edmonton",
+        "Drink at least 2 litres of water daily, especially during heated indoor winters",
+        "Urinate within 15 minutes after sexual activity",
+        "Wipe front to back to limit bacterial transfer",
+        "Avoid scented hygiene products and harsh douches",
+        "Discuss daily prophylactic antibiotics with your physician if UTIs are frequent",
       ],
+      image: "/images/image.jpg",
+      imageAlt: "UTI prevention tips for Edmonton residents",
+    },
+    {
+      title: "About TelePlus Care Serving Edmonton",
+      content:
+        "TelePlus Care is an Alberta-based virtual clinic providing same-day care to patients across Edmonton, St. Albert, Sherwood Park, and the wider Edmonton Metropolitan Region. Our physicians are licensed by the College of Physicians and Surgeons of Alberta. All consultations are conducted on PIPEDA-compliant infrastructure, and visits are covered by Alberta Health Care for AHCIP holders.",
+      image: "/images/ChatGPT-Image-Nov-3-2025-04_36_39-PM-1024x683.png",
+      imageAlt: "TelePlus Care serving Edmonton patients",
     },
   ],
   faqs: [
     {
-      question: "How quickly can I book a UTI appointment?",
+      question: "How fast can an Edmonton patient see a UTI doctor virtually?",
       answer:
-        "Most patients receive a same-day UTI appointment and treatment within hours.",
+        "Most Edmonton patients connect with an Alberta-licensed physician within 30 minutes of booking. The full visit, including prescription, takes about 15 to 20 minutes.",
     },
     {
-      question: "Do I need a urine test for a UTI?",
+      question: "Which Edmonton pharmacies receive my UTI prescription?",
       answer:
-        "Not always. Many UTIs are diagnosed based on symptoms. If testing is needed, we will send a lab order in Edmonton.",
+        "Your antibiotic prescription is electronically transmitted to any Edmonton pharmacy of your choice, including Shoppers Drug Mart on Whyte Ave, Rexall in Mill Woods, Save-On-Foods Pharmacy downtown, or independent pharmacies near the U of A Hospital.",
     },
     {
-      question: "Which pharmacies can fill my UTI prescription?",
+      question: "Is the UTI consultation covered by Alberta Health Care?",
       answer:
-        "Any pharmacy in Edmonton — including Shoppers, Rexall, Safeway, Walmart, Costco, and local pharmacies.",
+        "Yes. Edmonton residents with a valid Alberta Health Care Insurance Plan (AHCIP) card are covered for medically necessary virtual UTI consultations with TelePlus Care physicians.",
     },
     {
-      question: "Is the UTI appointment covered by Alberta Health?",
+      question: "Do I need a urine test before getting antibiotics in Edmonton?",
       answer:
-        "Many visits are covered. We also accept private insurance and self-pay options.",
+        "Most uncomplicated UTIs in non-pregnant women are diagnosed clinically based on symptoms. If your physician determines a culture is needed, a requisition is sent to a DynaLIFE collection site near you.",
     },
     {
-      question: "When should I visit the ER for a UTI?",
+      question: "Can men in Edmonton use this UTI service?",
       answer:
-        "Go to urgent care if you have severe back pain, high fever, vomiting, or symptoms lasting over 2 days untreated, as it may be a kidney infection.",
+        "Yes, but UTIs in men are less common and may indicate a more complex underlying issue. Our Edmonton physicians can assess your symptoms and refer you for further investigation if needed.",
     },
   ],
   locations:
-    "Edmonton, St. Albert, Sherwood Park, Beaumont, Fort Saskatchewan, Leduc, Spruce Grove, and surrounding Alberta communities.",
+    "Edmonton, St. Albert, Sherwood Park, Spruce Grove, Stony Plain, Beaumont, Leduc, Fort Saskatchewan, Devon, and the wider Edmonton Metropolitan Region.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

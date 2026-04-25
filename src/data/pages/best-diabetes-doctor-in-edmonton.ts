@@ -9,6 +9,14 @@ export const pageData: LandingPageData = {
     "Are you searching for the best diabetes doctor in Edmonton? At TelePlus Care, our experienced diabetes specialists and endocrinologists provide comprehensive, patient-focused diabetes care for Type 1, Type 2, and gestational diabetes. Whether you're newly diagnosed or looking for advanced ongoing management, our team helps you take control of your health with personalized treatment plans and convenient virtual appointments. Your health deserves expert attention\u2014and we're here to support you every step of the way.",
   heroImage: "/images/best-diabetes-doctor-in-edmonton/hero.png",
   heroImageAlt: "Best Diabetes Doctor in Edmonton - TelePlus Care",
+  summary:
+    "Edmonton diabetes care at TelePlus Care covers Type 1, Type 2, and gestational diabetes through virtual consultations with experienced specialists and endocrinologists. Services include HbA1c monitoring, insulin titration, GLP-1 therapy (Ozempic, Mounjaro), Metformin prescribing, weight management for Type 2 control, and online refills for diabetes medications across the Edmonton metro region.",
+  keyFacts: [
+    "Specialists managing Type 1, Type 2, and gestational diabetes virtually",
+    "Online refills for insulin, Metformin, Ozempic, and Mounjaro",
+    "HbA1c, lipid, and kidney function lab requisitions issued same visit",
+    "Virtual consultations covered by Alberta Health Care for AHCIP holders",
+  ],
   sections: [
     {
       title: "Why Choose Our Diabetes Specialists in Edmonton?",
@@ -63,7 +71,9 @@ export const pageData: LandingPageData = {
       title: "Easy Prescription Refills in Edmonton",
       content:
         "No more waiting. Refill your diabetes prescriptions online with quick, reliable service from our Edmonton clinic.",
-    },
+          image: "/images/diabetes-chronic-disease/type1-diabetes.png",
+      imageAlt: "Easy Prescription Refills in Edmonton",
+},
     {
       title: "Virtual Diabetes Consultations in Edmonton",
       content:
@@ -82,7 +92,9 @@ export const pageData: LandingPageData = {
       title: "Type 2 Diabetes",
       content:
         "Our team focuses on providing expert guidance for managing Type 2 diabetes through diet, exercise, and medication. Our goal is to help you keep your glucose levels under control and improve your overall well-being through tailored care plans.",
-    },
+          image: "/images/diabetes-chronic-disease/type2-diabetes.png",
+      imageAlt: "Type 2 Diabetes",
+},
     {
       title: "Non-Alcoholic Fatty Liver Disease (NAFLD)",
       content:
@@ -115,12 +127,16 @@ export const pageData: LandingPageData = {
         "Receive Confirmation \u2014 Once you\u2019ve booked your appointment, you\u2019ll receive a confirmation email or call with detailed instructions for your upcoming virtual visit.",
         "Attend Your Appointment \u2014 On the day of your virtual visit, connect with your provider using any electronic device\u2014whether it\u2019s a smartphone, tablet, or computer. Our healthcare professionals will assess your condition and create a personalized care plan.",
       ],
-    },
+          image: "/images/diabetes-chronic-disease/nafld.png",
+      imageAlt: "How Does It Work?",
+},
     {
       title: "Your Path to Better Health Starts Here!",
       content:
         "Ready to take control of your diabetes with experienced specialists? Our mission is to provide you with accessible, affordable, and high-quality care\u2014right here in Edmonton. Take charge of your health and partner with the best diabetes doctors in Edmonton. Book online to schedule your consultation today. Your health matters, and we\u2019re here to guide you every step of the way.",
-    },
+          image: "/images/diabetes-chronic-disease/hypertension.png",
+      imageAlt: "Your Path to Better Health Starts Here!",
+},
   ],
   faqs: [
     {
@@ -163,4 +179,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Sherwood Park, St. Albert, Leduc, Spruce Grove, Fort Saskatchewan, Beaumont, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

@@ -74,7 +74,9 @@ export const pageData: LandingPageData = {
       title: "Same-Day Online Doctor Appointments in Alberta",
       content:
         "Unlike many family medicine clinics with wait times stretching days or weeks, TelePlusCare offers same-day online doctor appointments across Alberta. When you are unwell, you should not have to wait. Our scheduling system is designed to get you in front of a licensed physician as quickly as possible — often within hours of booking.\n\nSame-day availability means you can address urgent but non-emergency concerns immediately: a sudden infection, a prescription that has run out, a sick note you need for tomorrow, or a mental health concern that cannot wait. TelePlusCare is here when you need us.",
-    },
+          image: "/images/Rectangle-1090-3.png",
+      imageAlt: "Same-Day Online Doctor Appointments in Alberta",
+},
     {
       title: "Licensed Alberta Physicians You Can Trust",
       content:
@@ -86,7 +88,9 @@ export const pageData: LandingPageData = {
       title: "Privacy & Security — Your Health Information Is Protected",
       content:
         "TelePlusCare takes the privacy and security of your personal health information seriously. All virtual consultations are conducted on a fully encrypted, secure platform that meets or exceeds Canadian healthcare privacy standards.\n\nYour medical records, consultation notes, and personal information are protected in accordance with Alberta's Health Information Act (HIA) and federal privacy legislation. We never share your information with third parties without your explicit consent. You can speak openly with your online doctor knowing that your conversation is completely confidential.",
-    },
+          image: "/images/Rectangle-1090-6.png",
+      imageAlt: "Privacy & Security — Your Health Information Is Protected",
+},
     {
       title: "Areas We Serve Across Alberta",
       content:
@@ -98,7 +102,9 @@ export const pageData: LandingPageData = {
         "Smaller communities — Camrose, Wetaskiwin, Lloydminster, Cold Lake, Hinton, Jasper, Banff, Canmore, Brooks, Drumheller, and more.",
         "Rural and remote areas across Alberta — if you have a phone or internet connection, you can see a TelePlusCare doctor.",
       ],
-    },
+          image: "/images/Rectangle-1090-7.png",
+      imageAlt: "Areas We Serve Across Alberta",
+},
     {
       title: "Conditions Treated by Our Online Doctors",
       content:
@@ -117,7 +123,9 @@ export const pageData: LandingPageData = {
         "Women's health — menstrual irregularities, menopause symptoms, birth control.",
         "Weight management and metabolic health.",
       ],
-    },
+          image: "/images/Rectangle-1090-8.png",
+      imageAlt: "Conditions Treated by Our Online Doctors",
+},
     {
       title: "Why Choose TelePlus Care as Your Online Doctor in Alberta?",
       content:
@@ -132,7 +140,9 @@ export const pageData: LandingPageData = {
         "Secure and private — Encrypted platform that meets Canadian healthcare privacy standards.",
         "Province-wide access — Available to every community in Alberta, urban and rural.",
       ],
-    },
+          image: "/images/Rectangle-1090-10.png",
+      imageAlt: "Why Choose TelePlus Care as Your Online Doctor in Alberta?",
+},
   ],
   faqs: [
     {
@@ -209,4 +219,14 @@ export const pageData: LandingPageData = {
   locations:
     "TelePlusCare serves patients across all of Alberta including Edmonton, Calgary, Red Deer, Lethbridge, Medicine Hat, Grande Prairie, Fort McMurray, Airdrie, Cochrane, Sherwood Park, St. Albert, Spruce Grove, Leduc, Fort Saskatchewan, Beaumont, Camrose, Wetaskiwin, Lloydminster, Cold Lake, Hinton, Jasper, Banff, Canmore, Brooks, Drumheller, Okotoks, High River, Chestermere, Stony Plain, and all rural and remote communities throughout the province.",
   bookingUrl: "/book-appointment-alberta",
+  summary:
+    "An online doctor in Alberta is a physician registered with the College of Physicians and Surgeons of Alberta (CPSA) who delivers care through secure video or phone consultations. TelePlus Care provides province-wide same-day virtual visits — covered by the Alberta Health Care Insurance Plan — for prescriptions, sick notes, mental health, chronic disease management, and over a dozen non-emergency conditions.",
+  keyFacts: [
+    "All physicians registered with CPSA and licensed in Alberta",
+    "Most consultations covered by Alberta Health Care Insurance Plan",
+    "Same-day appointments — no referral or family doctor required",
+    "PIPEDA-compliant platform meeting Alberta Health Information Act standards",
+  ],
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

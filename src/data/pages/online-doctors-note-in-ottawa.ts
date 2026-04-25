@@ -159,4 +159,6 @@ export const pageData: LandingPageData = {
   locations:
     "Ottawa, Kanata, Orleans, Barrhaven, The Glebe, Nepean, Gloucester, Stittsville, Manotick, Rockcliffe Park, and surrounding communities across Eastern Ontario.",
   bookingUrl: "/book-doctors-note",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

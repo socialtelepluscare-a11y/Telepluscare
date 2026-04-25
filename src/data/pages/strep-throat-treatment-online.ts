@@ -85,7 +85,9 @@ export const pageData: LandingPageData = {
         "Affordable care with Alberta Health coverage for eligible visits",
         "Convenient for individuals, families, students, and remote workers across Alberta",
       ],
-    },
+          image: "/images/Rectangle-1090-3.png",
+      imageAlt: "Why Choose TelePlusCare for Strep Throat Treatment",
+},
   ],
   faqs: [
     {
@@ -122,4 +124,6 @@ export const pageData: LandingPageData = {
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, St. Albert, Sherwood Park, Fort McMurray, Leduc, Spruce Grove, and all Alberta communities.",
   bookingUrl: "/book-appointment-alberta",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

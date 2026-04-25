@@ -15,7 +15,9 @@ export const pageData: LandingPageData = {
       title: "The Science of Cold Therapy",
       content:
         "Ice baths are more than just a shock to the system\u2014they tap into your body's natural processes to adapt to stress, potentially supporting weight loss and metabolic health. When you plunge into cold water, your body responds with a fascinating chain of reactions to keep you warm and protect vital organs. This adaptation not only helps to maintain core temperature but also leads to increased calorie burning, making cold therapy an intriguing tool for fat loss.\n\nA study published in Physiological and Biochemical Zoology found that mice exposed to low temperatures experienced a 48% increase in daily energy expenditure compared to those in warmer environments. Despite this boost in metabolic rate, there was no negative impact on their lifespan, suggesting that increased energy expenditure through cold exposure doesn't necessarily shorten life.",
-    },
+          image: "/images/weight-loss/image-39.png",
+      imageAlt: "The Science of Cold Therapy",
+},
     {
       title: "Thermogenesis \u2013 The Body's Response to Cold",
       content:
@@ -24,17 +26,23 @@ export const pageData: LandingPageData = {
         "Shivering Thermogenesis -- This is the initial response when you encounter a cold environment. Your muscles contract rapidly, generating heat but also burning calories to fuel the process. Shivering thermogenesis is highly effective at increasing energy expenditure, but it's uncomfortable and can only be sustained for a limited time.",
         "Non-Shivering Thermogenesis -- As you adapt to the cold, your body relies more on brown adipose tissue (BAT), also known as brown fat, to maintain heat. Unlike white fat, which stores energy, brown fat burns calories to produce warmth. This process is subtler but can contribute to sustained calorie burn over time.",
       ],
-    },
+          image: "/images/weight-loss/image-40.png",
+      imageAlt: "Thermogenesis \u2013 The Body's Response to Cold",
+},
     {
       title: "Understanding the Role of Brown Fat in Weight Loss",
       content:
         "One of the more exciting aspects of cold exposure is its activation of brown fat, a type of fat that helps you burn calories. When activated by cold exposure, brown fat acts as a natural furnace, breaking down sugar and fat molecules to generate heat. Studies show that repeated exposure to cold may increase brown fat levels, further supporting calorie burn even after the cold exposure ends.",
-    },
+          image: "/images/weight-loss/image-41.png",
+      imageAlt: "Understanding the Role of Brown Fat in Weight Loss",
+},
     {
       title: "Norepinephrine and Its Influence on Fat Conversion",
       content:
         "When your body is exposed to cold, it releases norepinephrine, a hormone that plays multiple roles in your body's reaction to stress and temperature changes. Norepinephrine increases heart rate and blood flow and is also key to activating brown fat and stimulating the conversion of white fat into metabolically active brown fat. This conversion process is crucial, as it can lead to a more efficient metabolism, increased energy expenditure, and ultimately support for weight loss.",
-    },
+          image: "/images/image-7.png",
+      imageAlt: "Norepinephrine and Its Influence on Fat Conversion",
+},
     {
       title: "Health Benefits of Ice Baths for Weight Loss and Beyond",
       content:
@@ -46,12 +54,16 @@ export const pageData: LandingPageData = {
         "Enhanced Recovery -- Ice baths reduce inflammation and alleviate muscle soreness after workouts, supporting a consistent exercise routine.",
         "Stress Reduction and Mental Clarity -- Cold exposure has been linked to improved mood, mental clarity, and stress resilience, which may indirectly promote healthier lifestyle choices.",
       ],
-    },
+          image: "/images/image-2.png",
+      imageAlt: "Health Benefits of Ice Baths for Weight Loss and Beyond",
+},
     {
       title: "How Cold Therapy Supports Blood Sugar Control and Insulin Sensitivity",
       content:
         "One of the most promising aspects of cold exposure for metabolic health is its impact on insulin sensitivity. Insulin sensitivity refers to how effectively your body responds to insulin, the hormone that regulates blood sugar. Improving insulin sensitivity makes it easier for the body to use glucose for energy, rather than storing it as fat. This has particular benefits for people with insulin resistance or those at risk for Type 2 diabetes, as it can help prevent fat accumulation and make weight management easier.",
-    },
+          image: "/images/diabetes-chronic-disease/section-1.png",
+      imageAlt: "How Cold Therapy Supports Blood Sugar Control and Insulin Sensitivity",
+},
     {
       title: "Practical Tips for Getting Started with Ice Baths",
       content:
@@ -61,7 +73,9 @@ export const pageData: LandingPageData = {
         "Controlled Ice Bath Sessions -- Once comfortable with cold showers, try an ice bath. Start with 1-2 minutes in water around 59\u00B0F (15\u00B0C), then gradually work up to 10-15 minutes.",
         "Frequency and Duration -- Consistent exposure over time has the most significant effects. Aim for 2-3 sessions per week and increase as your body becomes more adapted.",
       ],
-    },
+          image: "/images/diabetes-chronic-disease/section-2.png",
+      imageAlt: "Practical Tips for Getting Started with Ice Baths",
+},
     {
       title: "Best Practices for Safety",
       content:
@@ -71,17 +85,23 @@ export const pageData: LandingPageData = {
         "Listen to Your Body -- Exit the cold water if you feel intense discomfort, tingling, or numbness.",
         "Warm-Up Gradually -- After exiting the cold, wrap yourself in warm clothes and move around to gradually raise your body temperature.",
       ],
-    },
+          image: "/images/diabetes-chronic-disease/section-3.png",
+      imageAlt: "Best Practices for Safety",
+},
     {
       title: "What to Consider Before Taking the Plunge",
       content:
         "Although ice baths offer promising benefits, they aren't suitable for everyone. Cold tolerance varies\u2014what works for one person might not be tolerable for another. Certain health issues like Raynaud's disease or cardiovascular conditions may worsen with cold exposure. Ice baths are not a standalone solution and won't replace the effects of a balanced diet and regular exercise. Prolonged exposure to extreme cold can lead to hypothermia, so monitor time and temperature closely.",
-    },
+          image: "/images/best-diabetes-doctor-in-edmonton/section-2.png",
+      imageAlt: "What to Consider Before Taking the Plunge",
+},
     {
       title: "Do Ice Baths Alone Burn Fat?",
       content:
         "While ice baths do stimulate calorie burning, they are not a standalone weight loss solution. The metabolic boost from cold exposure can temporarily increase calorie burn, but it doesn't replace a well-rounded approach to health and fitness. Ice baths may increase brown fat activity, which enhances calorie burn over time but requires regular exposure. Combined with exercise and a healthy diet, ice baths can improve metabolic health, aid in recovery, and enhance mental resilience, all of which indirectly support weight loss.",
-    },
+          image: "/images/best-diabetes-doctor-in-edmonton/section-5.png",
+      imageAlt: "Do Ice Baths Alone Burn Fat?",
+},
     {
       title: "Taking the Plunge Toward Better Health",
       content:
@@ -117,4 +137,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

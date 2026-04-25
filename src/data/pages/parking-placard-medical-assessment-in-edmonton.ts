@@ -18,7 +18,9 @@ export const pageData: LandingPageData = {
         "Support for temporary or permanent placard requests",
         "Clear guidance on what to bring and what to expect",
       ],
-    },
+          image: "/images/Rectangle-1090-3.png",
+      imageAlt: "What Is a Disabled Parking Placard?",
+},
     {
       title: "Who Qualifies for a Parking Placard in Alberta?",
       content:
@@ -32,12 +34,16 @@ export const pageData: LandingPageData = {
         "Chronic fatigue conditions",
         "Use of mobility aids (cane, walker, wheelchair)",
       ],
-    },
+          image: "/images/Rectangle-1090-6.png",
+      imageAlt: "Who Qualifies for a Parking Placard in Alberta?",
+},
     {
       title: "Temporary vs Permanent Parking Placards",
       content:
         "There are typically two types of placards patients ask about. During your appointment, we'll determine what's medically appropriate based on your situation.\n\nTemporary Disabled Parking Placard — This may apply if you have a condition expected to improve, such as injury rehabilitation or temporary mobility limitations.\n\nPermanent Disabled Parking Placard — This may apply if your condition is long-term or ongoing, such as chronic pain conditions, progressive neurological conditions, or permanent mobility limitations.",
-    },
+          image: "/images/Rectangle-1090-7.png",
+      imageAlt: "Temporary vs Permanent Parking Placards",
+},
     {
       title: "Why Choose TelePlusCare in Edmonton?",
       content:
@@ -49,22 +55,30 @@ export const pageData: LandingPageData = {
         "Help with forms and documentation",
         "A patient-first approach",
       ],
-    },
+          image: "/images/Rectangle-1090-8.png",
+      imageAlt: "Why Choose TelePlusCare in Edmonton?",
+},
     {
       title: "What to Bring to Your Appointment",
       content:
         "To make your visit smooth, we recommend bringing your parking placard application form (if you already have it), a list of your medical conditions and symptoms, any relevant medical records or documentation, and your Alberta Health Care card.",
-    },
+          image: "/images/Rectangle-1090-10.png",
+      imageAlt: "What to Bring to Your Appointment",
+},
     {
       title: "What Happens During the Parking Placard Assessment?",
       content:
         "During the assessment, your healthcare provider will review your medical history, discuss your symptoms and mobility limitations, complete the medical portion of the parking placard application form, and provide any additional documentation needed for your application.",
-    },
+          image: "/images/Rectangle-1090-11.png",
+      imageAlt: "What Happens During the Parking Placard Assessment?",
+},
     {
       title: "Book Your Parking Placard Medical Assessment in Edmonton",
       content:
         "Getting a parking placard shouldn't be stressful. At TelePlusCare, we're here to help you through the process with professional, compassionate care. Book your appointment today to get started.",
-    },
+          image: "/images/Rectangle-1090-12.png",
+      imageAlt: "Book Your Parking Placard Medical Assessment in Edmonton",
+},
   ],
   faqs: [
     {
@@ -85,4 +99,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Downtown Edmonton, South Edmonton, West Edmonton, North Edmonton, Whyte Ave, Old Strathcona, Mill Woods, Callingwood, Terwillegar, The Meadows, Ellerslie, Summerside, Windermere and surrounding areas.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

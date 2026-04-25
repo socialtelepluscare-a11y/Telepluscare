@@ -29,7 +29,9 @@ export const pageData: LandingPageData = {
       title: "What to Expect During Your Virtual Doctor Appointment",
       content:
         "Your virtual doctor appointment with TelePlusCare follows the same professional standards as an in-person clinic visit. Here is what happens during your consultation.\n\nYour doctor will ask about your current symptoms, medical history, medications, and any allergies. They will perform a visual assessment via video if relevant to your concern. Based on their evaluation, they will provide a diagnosis and discuss treatment options with you. If medication is needed, your prescription is sent electronically to your preferred Alberta pharmacy. If you need a sick note, referral, or lab requisition, it is prepared and delivered to you digitally the same day.\n\nMost virtual doctor appointments at TelePlusCare last between 10 and 20 minutes, though your doctor will take as much time as needed to address your concerns thoroughly.",
-    },
+          image: "/images/Rectangle-1090-3.png",
+      imageAlt: "What to Expect During Your Virtual Doctor Appointment",
+},
     {
       title: "How to Prepare for Your Virtual Doctor Appointment",
       content:
@@ -70,7 +72,9 @@ export const pageData: LandingPageData = {
       title: "Same-Day Virtual Doctor Appointments Across Alberta",
       content:
         "One of the biggest advantages of booking a virtual doctor appointment with TelePlusCare is same-day availability. When you are feeling unwell, waiting days or weeks for an appointment is not acceptable. Our scheduling system is built to provide fast access to licensed Alberta physicians.\n\nWhether you wake up with a sore throat, realize your prescription has run out, or need a sick note for work tomorrow, TelePlusCare can connect you with a doctor the same day. We serve the entire province — Edmonton, Calgary, Red Deer, Lethbridge, Medicine Hat, Grande Prairie, Fort McMurray, and every community in between.",
-    },
+          image: "/images/Rectangle-1090-6.png",
+      imageAlt: "Same-Day Virtual Doctor Appointments Across Alberta",
+},
     {
       title: "Virtual Doctor Appointments Covered by Alberta Health",
       content:
@@ -82,12 +86,16 @@ export const pageData: LandingPageData = {
       title: "Virtual Doctor Appointment vs In-Person Clinic Visit",
       content:
         "For the majority of non-emergency medical concerns, a virtual doctor appointment provides the same quality of care as an in-person visit — with significant advantages.\n\nTraditional clinic visits often involve long commutes, crowded waiting rooms, exposure to other sick patients, limited hours, and wait times of one to three hours or more. A virtual doctor appointment through TelePlusCare eliminates all of these. You book online, see your doctor at the scheduled time, and receive your treatment plan — all from the comfort of your home.\n\nVirtual appointments are especially valuable for patients in rural Alberta, those with mobility challenges, busy parents, and anyone who simply wants faster, more convenient healthcare. For emergencies or conditions requiring physical examination or procedures, in-person care remains appropriate — and your TelePlusCare doctor can guide you to the right resource.",
-    },
+          image: "/images/Rectangle-1090-7.png",
+      imageAlt: "Virtual Doctor Appointment vs In-Person Clinic Visit",
+},
     {
       title: "Privacy and Security for Your Virtual Appointment",
       content:
         "Every virtual doctor appointment with TelePlusCare is conducted on a fully encrypted, secure platform that meets Canadian healthcare privacy standards. Your personal health information is protected under Alberta's Health Information Act (HIA) and federal privacy legislation.\n\nYour consultation is completely confidential. We never share your medical information with third parties without your explicit consent. Our technology is designed to give you the same level of privacy you would expect in a doctor's office — and in many cases, even more, since you are in the comfort of your own private space.",
-    },
+          image: "/images/Rectangle-1090-8.png",
+      imageAlt: "Privacy and Security for Your Virtual Appointment",
+},
   ],
   faqs: [
     {
@@ -154,4 +162,14 @@ export const pageData: LandingPageData = {
   locations:
     "TelePlusCare's virtual doctor appointments are available to patients across all of Alberta including Edmonton, Calgary, Red Deer, Lethbridge, Medicine Hat, Grande Prairie, Fort McMurray, Airdrie, Cochrane, Sherwood Park, St. Albert, Spruce Grove, Leduc, Fort Saskatchewan, Beaumont, Camrose, Wetaskiwin, Lloydminster, Cold Lake, Hinton, Jasper, Banff, Canmore, Brooks, Drumheller, Okotoks, High River, Chestermere, Stony Plain, and all rural and remote communities throughout the province.",
   bookingUrl: "/book-appointment-alberta",
+  summary:
+    "A virtual doctor appointment is a clinically-equivalent remote medical consultation conducted via secure video or phone with a CPSA-licensed Alberta physician. Most appointments last 10-20 minutes and cover prescriptions, sick notes, lab requisitions, referrals, and chronic care. TelePlus Care offers same-day booking across Alberta, with most consultations covered under AHCIP for valid health card holders.",
+  keyFacts: [
+    "Same-day virtual appointments — often booked within hours",
+    "Covered by Alberta Health Care for valid AHCIP cardholders",
+    "10-20 minute consultations via encrypted video or phone",
+    "Electronic prescriptions, sick notes, and referrals delivered same day",
+  ],
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

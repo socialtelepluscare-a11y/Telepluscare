@@ -10,6 +10,14 @@ export const pageData: LandingPageData = {
     "Embark on a transformative journey toward de-aging and weight loss with our holistic approach. We integrate cutting-edge techniques, personalized nutrition, and targeted exercises for sustainable results. Our advanced skincare regimens employ innovative anti-aging technologies, revealing the secrets to timeless beauty. Join our supportive community for expert guidance, empowering each step toward a healthier, more vibrant self.",
   heroImage: "/images/weight-loss/image-39.png",
   heroImageAlt: "De-aging weight loss program",
+  summary:
+    "Medical weight loss combines pharmacotherapy — Phentermine, Liraglutide (Saxenda), Semaglutide (Ozempic/Wegovy), Orlistat, or Naltrexone/Bupropion (Contrave) — with dietitian-guided nutrition, exercise prescription, and behavioral support for patients with BMI 30+ or BMI 27+ with comorbidities. TelePlus Care Obesity Medicine board-certified providers manage the entire program virtually across Alberta with monitoring follow-ups.",
+  keyFacts: [
+    "Obesity Medicine Board-Certified providers leading every care plan",
+    "Health Canada-approved medications: GLP-1s, Phentermine, Contrave, Orlistat",
+    "Eligibility BMI 30+ (obesity) or BMI 27+ with weight-related comorbidity",
+    "Comprehensive virtual program with dietitian and behavioral support",
+  ],
   sections: [
     {
       title: "What Do You Expect from Our TelePlus Care Weight Loss Program?",
@@ -22,37 +30,51 @@ export const pageData: LandingPageData = {
       title: "Medical Evaluation",
       content:
         "The program begins with a thorough medical evaluation by our TelePlus Care Obesity Medicine Board Certified healthcare provider. This evaluation assesses the individual's overall health, medical history, current medications, and any underlying conditions that may affect weight loss efforts.",
-    },
+          image: "/images/image-7.png",
+      imageAlt: "Medical Evaluation",
+},
     {
       title: "Medication Prescription",
       content:
         "Based on the evaluation, our healthcare provider may prescribe medications approved by regulatory authorities for weight loss. These medications work in various ways, such as suppressing appetite, reducing fat absorption, or increasing metabolism. Common medications used in weight loss programs include Phentermine, Liraglutide, Semaglutide, Orlistat, and Naltrexone/Bupropion.",
-    },
+          image: "/images/image-2.png",
+      imageAlt: "Medication Prescription",
+},
     {
       title: "Customized Treatment Plan",
       content:
         "The healthcare provider collaborates with the individual to develop a personalized treatment plan that includes the appropriate medication, dosage, and duration of treatment.",
-    },
+          image: "/images/diabetes-chronic-disease/section-1.png",
+      imageAlt: "Customized Treatment Plan",
+},
     {
       title: "Dietary Guidance",
       content:
         "A registered dietitian or nutritionist provides guidance on adopting a balanced and nutritious diet tailored to the individual's needs and preferences. This may involve calorie restriction, portion control, meal planning, and education about healthy eating habits.",
-    },
+          image: "/images/diabetes-chronic-disease/section-2.png",
+      imageAlt: "Dietary Guidance",
+},
     {
       title: "Exercise Recommendations",
       content:
         "A certified fitness trainer or exercise physiologist designs an exercise program suited to the individual's fitness level, goals, and any physical limitations. Regular physical activity is essential for burning calories, improving metabolism, and enhancing overall health.",
-    },
+          image: "/images/diabetes-chronic-disease/section-3.png",
+      imageAlt: "Exercise Recommendations",
+},
     {
       title: "Behavioral Support",
       content:
         "Behavioral therapy techniques, such as cognitive-behavioral therapy (CBT) or motivational interviewing, may be incorporated into the program to address psychological factors influencing eating behaviors and lifestyle choices. This helps individuals develop sustainable habits and coping strategies to overcome challenges and maintain long-term weight loss success.",
-    },
+          image: "/images/best-diabetes-doctor-in-edmonton/section-2.png",
+      imageAlt: "Behavioral Support",
+},
     {
       title: "Monitoring and Follow-Up",
       content:
         "The individual's progress is closely monitored throughout the program, with regular follow-up appointments scheduled to assess weight loss, adjust medications if necessary, and provide ongoing support and encouragement.",
-    },
+          image: "/images/best-diabetes-doctor-in-edmonton/section-5.png",
+      imageAlt: "Monitoring and Follow-Up",
+},
     {
       title: "Who Is Qualified to Receive a Prescription for Weight Loss?",
       content:
@@ -129,4 +151,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

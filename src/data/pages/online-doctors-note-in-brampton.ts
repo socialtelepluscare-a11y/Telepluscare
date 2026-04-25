@@ -159,4 +159,6 @@ export const pageData: LandingPageData = {
   locations:
     "Brampton, Downtown Brampton, Mount Pleasant, Bramalea, Springdale, Heart Lake, Castlemore, Fletcher's Creek, Mississauga, Caledon, Vaughan, and surrounding Peel Region communities.",
   bookingUrl: "/book-doctors-note",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

@@ -11,6 +11,14 @@ export const pageData: LandingPageData = {
   heroImage: "/images/image-7.png",
   heroImageAlt: "Mounjaro tirzepatide online prescription in Alberta",
   bookingUrl: "/book-appointment-alberta",
+  summary:
+    "Mounjaro (tirzepatide) is the first dual GIP/GLP-1 receptor agonist approved by Health Canada for Type 2 diabetes, producing average weight loss of 22.5% on the 15 mg dose in SURMOUNT-1 clinical trials. TelePlus Care offers virtual tirzepatide consultations across Alberta, with licensed physicians evaluating eligibility, managing dose escalation, and prescribing through secure telemedicine.",
+  keyFacts: [
+    "Dual GIP/GLP-1 mechanism — only one of its kind in Canada",
+    "Up to 22.5% body weight reduction at 15 mg over 72 weeks",
+    "HbA1c reduction of 2.0-2.6 percentage points (highest among GLP-1s)",
+    "Same-week appointments with electronic prescription to Alberta pharmacies",
+  ],
   sections: [
     {
       title: "What Is Mounjaro?",
@@ -31,7 +39,9 @@ export const pageData: LandingPageData = {
         "Improved lipid metabolism -- The dual mechanism helps reduce triglycerides and improve cholesterol profiles, providing additional cardiovascular benefits.",
         "Greater calorie deficit -- By reducing appetite and potentially increasing metabolic rate through GIP activation, Mounjaro may create a larger calorie deficit than single-action medications.",
       ],
-    },
+          image: "/images/weight-loss/image-39.png",
+      imageAlt: "How Does Tirzepatide Work? The Dual GIP/GLP-1 Mechanism",
+},
     {
       title: "Mounjaro Weight Loss Results",
       content:
@@ -44,7 +54,9 @@ export const pageData: LandingPageData = {
         "Sustained results -- Weight loss continued throughout the treatment period, with many patients still losing weight at the end of the 72-week trials.",
         "Metabolic improvements -- Beyond weight loss, patients experienced improvements in blood pressure, cholesterol, triglycerides, and inflammatory markers.",
       ],
-    },
+          image: "/images/weight-loss/image-40.png",
+      imageAlt: "Mounjaro Weight Loss Results",
+},
     {
       title: "Mounjaro for Type 2 Diabetes",
       content:
@@ -57,7 +69,9 @@ export const pageData: LandingPageData = {
         "Weight loss benefit -- Unlike sulfonylureas and insulin, which often cause weight gain, Mounjaro promotes substantial weight loss, further improving metabolic health.",
         "Cardiovascular risk reduction -- Emerging data suggests tirzepatide may reduce the risk of major adverse cardiovascular events in patients with Type 2 diabetes.",
       ],
-    },
+          image: "/images/weight-loss/image-41.png",
+      imageAlt: "Mounjaro for Type 2 Diabetes",
+},
     {
       title: "Mounjaro Dosage Guide",
       content:
@@ -71,7 +85,9 @@ export const pageData: LandingPageData = {
         "Week 21 and beyond: 15 mg once weekly -- The maximum dose, providing the greatest reductions in HbA1c and body weight. Not all patients require this dose.",
         "Important: Dose adjustments should only be made under the guidance of your TelePlus Care physician based on your individual response and tolerance.",
       ],
-    },
+          image: "/images/diabetes-chronic-disease/section-1.png",
+      imageAlt: "Mounjaro Dosage Guide",
+},
     {
       title: "Side Effects of Mounjaro",
       content:
@@ -87,7 +103,9 @@ export const pageData: LandingPageData = {
         "Rare but serious: pancreatitis -- Contact your physician immediately if you experience severe, persistent abdominal pain radiating to the back.",
         "Rare but serious: hypoglycemia -- Low blood sugar is uncommon when Mounjaro is used alone but may occur when combined with insulin or sulfonylureas.",
       ],
-    },
+          image: "/images/diabetes-chronic-disease/section-2.png",
+      imageAlt: "Side Effects of Mounjaro",
+},
     {
       title: "Who Qualifies for Mounjaro?",
       content:
@@ -101,7 +119,9 @@ export const pageData: LandingPageData = {
         "No history of severe gastrointestinal disease -- Patients with gastroparesis or severe inflammatory bowel disease should discuss alternatives with their physician.",
         "Not pregnant or planning pregnancy -- Mounjaro should be discontinued at least two months before a planned pregnancy.",
       ],
-    },
+          image: "/images/best-diabetes-doctor-in-edmonton/section-2.png",
+      imageAlt: "Who Qualifies for Mounjaro?",
+},
     {
       title: "How to Get Mounjaro Online at TelePlus Care",
       content:
@@ -113,7 +133,9 @@ export const pageData: LandingPageData = {
         "Step 4: Prescription and pharmacy -- If prescribed, your Mounjaro prescription will be sent electronically to your preferred Alberta pharmacy for pickup or delivery.",
         "Step 5: Follow-up care -- Schedule regular follow-up appointments to monitor progress, manage side effects, and adjust your dosage. Your physician will be available for ongoing guidance.",
       ],
-    },
+          image: "/images/best-diabetes-doctor-in-edmonton/section-5.png",
+      imageAlt: "How to Get Mounjaro Online at TelePlus Care",
+},
     {
       title: "Cost of Mounjaro in Alberta",
       content:
@@ -134,7 +156,9 @@ export const pageData: LandingPageData = {
         "Cost -- Mounjaro is generally slightly more expensive than Ozempic, though prices vary by pharmacy and insurance coverage.",
         "Side effects -- Both medications have similar gastrointestinal side effect profiles, though individual tolerance varies.",
       ],
-    },
+          image: "/images/image-2.png",
+      imageAlt: "Mounjaro vs Ozempic: Key Differences",
+},
   ],
   faqs: [
     {
@@ -180,4 +204,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

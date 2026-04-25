@@ -1,201 +1,149 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle:
-    "Get Your Online Doctor's Note in Red Deer-Same-Day Sick Note",
+  metaTitle: "Doctor's Note in Red Deer | Same-Day Virtual Sick Note",
   metaDescription:
-    "Skip the waiting rooms. Get a certified doctor's note online in Red Deer from licensed Canadian physicians\u2014within minutes.",
-  title: "Get Your Online Doctor\u2019s Note in Red Deer \u2014 Same-Day Sick Note",
+    "Red Deer residents can get a same-day online doctor's note from CPSA physicians. AHC-covered. Accepted by RDC, Red Deer Public Schools, and local employers.",
+  title: "Doctor's Note in Red Deer — Online, Same-Day, AHC-Covered",
   heroDescription:
-    "Skip the waiting rooms. Get a certified doctor\u2019s note online in Red Deer from licensed Canadian physicians\u2014within minutes. Ideal for work, school, or travel needs.\n\nTelePlusCare connects you with Alberta-licensed physicians who assess your condition through a secure virtual consultation and, when medically appropriate, issue a legally valid doctor\u2019s note\u2014often the same day.\n\nOur service follows Alberta Health and CPSA guidelines, ensuring your medical documentation is professional, confidential, and widely accepted across Alberta.\n\nNo waiting rooms. No unnecessary delays. 100% online.",
-  heroImage: "/images/doctors-note-in-red-deer/hero.jpg",
-  heroImageAlt: "Online Doctor's Note in Red Deer",
+    "Living between Calgary and Edmonton along the QEII corridor doesn't mean you should drive an hour for a sick note. Red Deer residents can speak to an Alberta-licensed physician from home, get assessed in minutes, and receive a signed PDF note that local employers, schools, and the Red Deer Polytechnic accept without question.",
+  heroImage: "/images/online-doctors-notes-in-edmonton/hero.jpg",
+  heroImageAlt: "Red Deer patient on a virtual sick note appointment from home",
+  bookingUrl: "/book-appointment-alberta",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
+  summary:
+    "Red Deer residents can obtain a same-day online doctor's note from CPSA-licensed physicians without travelling to a clinic. The visit is covered by Alberta Health Care, the note is legally valid under Alberta Employment Standards Code Section 53.97 (five unpaid sick days), and Red Deer employers, schools, and the Polytechnic all accept it.",
+  keyFacts: [
+    "Red Deer is Alberta's third-largest city with a population of approximately 101,000.",
+    "Alberta Employment Standards Code Section 53.97 provides 5 unpaid job-protected sick days per year.",
+    "TelePlusCare physicians are registered with the College of Physicians & Surgeons of Alberta (CPSA).",
+    "Most Red Deer notes are emailed within 30 minutes of the physician consultation.",
+  ],
   sections: [
     {
-      title: "What Is an Online Doctor\u2019s Note?",
+      title: "What an Online Doctor's Note Means in Red Deer",
       content:
-        "An online doctor\u2019s note is an official medical document issued by a licensed physician after a virtual medical consultation. During the appointment, the doctor reviews your symptoms, medical concern, or situation and determines whether medical documentation is appropriate.\n\nOnce approved, your doctor\u2019s note is:\n\nOnline doctor\u2019s notes have the same legal validity as in-clinic notes when issued by licensed Alberta doctors.",
+        "A virtual doctor's note in Red Deer is a signed medical document issued by an Alberta-licensed physician after a phone or video consultation. For residents of central Alberta — particularly those who'd otherwise drive to a walk-in clinic on Gaetz Avenue or 50th Street — the online format saves an entire afternoon and removes the risk of spreading illness in a waiting room.\n\nLegally, the note is equivalent to documentation issued by a physician at the Red Deer Regional Hospital Centre or any private practice in the city.",
       bullets: [
-        "Issued by an Alberta-licensed physician",
-        "Delivered securely to your email",
-        "Accepted by employers, schools, and institutions",
-        "Fully compliant with provincial medical standards",
+        "Signed by a CPSA-registered Alberta physician",
+        "Delivered as a digitally signed PDF to your email",
+        "Includes physician's CPSA registration number and verification phone line",
+        "Accepted by Red Deer Polytechnic, Red Deer Public Schools, and Red Deer Catholic Schools",
       ],
-      image: "/images/doctors-note-in-red-deer/section-1.png",
-      imageAlt: "Online Doctor's Note",
+      image: "/images/online-doctors-notes-in-edmonton/section-1.webp",
+      imageAlt: "Red Deer doctor's note PDF preview",
     },
     {
-      title: "When Do You Need a Doctor\u2019s Note in Red Deer?",
+      title: "When You Need a Sick Note in Red Deer",
       content:
-        "A doctor\u2019s note may be required for many everyday situations, including:\n\nOur physicians understand these needs and issue documentation that suits your specific situation while protecting your privacy.",
+        "Red Deer's economy leans on manufacturing, agriculture, oilfield services, and a growing healthcare sector centred on the Regional Hospital. Most local employers — including those at the Riverlands and Gasoline Alley industrial parks — request a doctor's note for absences of more than a couple of days, and Red Deer Public Schools require a note for extended absences from class.",
       bullets: [
-        "Time off work due to illness",
-        "School or college absence verification",
-        "Mental health days",
-        "Fitness-to-work documentation",
-        "Travel or flight recovery clearance",
-        "Post-COVID or medical return-to-work confirmation",
+        "Missed shifts at Red Deer Regional Hospital Centre",
+        "Absence from Red Deer Polytechnic classes, midterms, or labs",
+        "Time off in manufacturing or agriculture roles around Gasoline Alley",
+        "Red Deer Public or Red Deer Catholic school absence verification",
+        "Recovery from illness for QEII commuters travelling to Calgary or Edmonton",
       ],
-      image: "/images/doctors-note-in-red-deer/section-2.jpg",
-      imageAlt: "Doctor's Note in Red Deer",
+      image: "/images/online-doctors-notes-in-edmonton/section-2.jpg",
+      imageAlt: "Red Deer manufacturing worker recovering at home",
     },
     {
-      title:
-        "Need a Sick Note Now in Red Deer? We\u2019ve Got You Covered.",
+      title: "What's in Your Red Deer Doctor's Note",
       content:
-        "Whether you\u2019re feeling unwell, need to take a mental health day, or require documentation for your employer or school, our team is here to help. We offer fast, reliable online doctor\u2019s notes\u2014with full validity across Alberta.\n\nAvailable 24/7. Serving Red Deer & surrounding areas. Alberta Health coverage may apply for eligible consultations. Documentation fees may apply for doctor\u2019s notes.",
-      image: "/images/doctors-note-in-red-deer/hero.jpg",
-      imageAlt: "Sick Note in Red Deer",
-    },
-    {
-      title: "What Information Is Included in a Doctor\u2019s Note?",
-      content:
-        "Every doctor\u2019s note issued through TelePlusCare includes:\n\nAll documentation complies with Alberta medical documentation guidelines.",
+        "Each note is structured to satisfy what local HR teams and school offices expect. Diagnosis is intentionally not disclosed under Alberta privacy law — the note confirms you were medically assessed and recommends an appropriate absence period.",
       bullets: [
-        "Patient name",
-        "Date of medical consultation",
-        "Brief medical recommendation (without private diagnosis details)",
-        "Physician\u2019s name, license number, and digital signature",
-        "Verification contact information",
+        "Patient legal name and the date you were seen",
+        "Confirmation you were assessed by a licensed Alberta physician",
+        "Inclusive dates you cannot attend work or school",
+        "Anticipated return-to-work or return-to-class date",
+        "Any temporary work restrictions",
+        "Physician name, CPSA number, and HR verification phone line",
       ],
-      image: "/images/doctors-note-in-red-deer/section-3.jpg",
-      imageAlt: "Doctor Note Online in Red Deer",
+      image: "/images/online-doctors-notes-in-edmonton/section-3.jpg",
+      imageAlt: "Red Deer HR receiving a sick note via email",
     },
     {
-      title:
-        "Why Choose TelePlusCare for Online Doctor Notes in Red Deer?",
+      title: "How Same-Day Issuance Works for Red Deer Patients",
       content:
-        "TelePlusCare provides fast, professional, and fully valid online doctor\u2019s notes for Red Deer residents.",
+        "Booking happens online in about two minutes. A physician calls you back, conducts the assessment, and emails the signed note from a Canadian-hosted, encrypted platform. There is no in-person visit and no need to drive to Gaetz Avenue or 32nd Street walk-ins.",
       bullets: [
-        "Licensed Alberta Physicians -- All notes are issued by doctors registered with the College of Physicians & Surgeons of Alberta (CPSA)",
-        "Fast Turnaround -- Most patients receive their note within 15\u201330 minutes",
-        "Accepted for Work, School & Travel -- Use your documentation with confidence across Alberta",
-        "Private & Secure -- Encrypted consultations with strict privacy standards",
-        "Alberta Health Card Accepted -- Most services are covered where eligible",
+        "Step 1 — Complete the booking form (about 2 minutes)",
+        "Step 2 — Speak with a CPSA-registered Alberta physician",
+        "Step 3 — Receive your signed PDF note by email, often within 30 minutes",
       ],
-      image: "/images/doctors-note-in-red-deer/section-4.jpg",
-      imageAlt: "Online Doctor Notes in Red Deer",
+      image: "/images/online-doctors-notes-in-edmonton/section-4.jpg",
+      imageAlt: "Red Deer same-day sick note flow",
     },
     {
-      title: "How to Get a Doctor\u2019s Note Online in Red Deer",
+      title: "Alberta Employment Standards Code: Sick Leave Rights for Red Deer Workers",
       content:
-        "Step 1: Book a virtual appointment (takes less than 2 minutes)\n\nStep 2: Speak to a certified Alberta doctor via secure video or chat\n\nStep 3: Receive your doctor\u2019s note by email\u2014ready to print or share\n\n100% legal and accepted. Safe, encrypted, and confidential. Mobile and desktop friendly.",
-      image: "/images/doctors-note-in-red-deer/section-5.jpg",
-      imageAlt: "Online Doctor Note in Red Deer",
-    },
-    {
-      title: "Who Can Use This Service?",
-      content:
-        "Our online doctor\u2019s note service is available to a wide range of individuals across Red Deer and Alberta.",
+        "Section 53.97 of the Alberta Employment Standards Code grants Red Deer employees with 90 days of continuous service up to five unpaid, job-protected sick days every calendar year for personal illness or injury. Many manufacturing and healthcare employers in Red Deer offer additional paid sick leave through collective agreements or HR policy.\n\nYour employer may ask for a doctor's note but not for your diagnosis — our documentation respects this boundary.",
       bullets: [
-        "Employees: Needing a sick note for missed work",
-        "Students: Requiring a note for absence from classes or exams",
-        "Parents: Caring for a sick child or family member",
-        "Travelers: Requiring fitness to fly or recovery documentation",
-        "Remote Workers: Who need proof of unwell status",
+        "5 unpaid job-protected sick days per year (ESC s.53.97)",
+        "Available after 90 days of continuous employment",
+        "Employer may request a note but not your diagnosis",
+        "Additional paid sick leave often included in Red Deer collective agreements",
       ],
-      image: "/images/doctors-note-in-red-deer/section-6.png",
-      imageAlt: "Doctor Note Service in Red Deer",
+      image: "/images/online-doctors-notes-in-edmonton/section-5.jpg",
+      imageAlt: "Alberta sick leave law reference",
     },
     {
-      title:
-        "Understanding Your Rights: Employer Sick Note Requirements in Alberta",
+      title: "Who Uses Online Doctor's Notes in Red Deer",
       content:
-        "When Can Your Employer Request a Doctor\u2019s Note?\n\nUnder Alberta employment standards:\n\nYour Note Should Include:\n\nYour privacy is protected \u2013 doctors do not have to disclose your specific diagnosis to your employer.",
+        "Most Red Deer patients booking with us are shift workers in manufacturing and oilfield services, healthcare staff at the Regional Hospital, parents managing absences for children in Red Deer Public or Catholic schools, and Red Deer Polytechnic students protecting their grades during midterms.",
       bullets: [
-        "Employers can request medical documentation after 3 consecutive days of absence",
-        "Some workplaces have different policies in their employment agreements",
-        "You have the right to reasonable accommodation for medical conditions",
-        "Confirmation that you were assessed by a physician",
-        "The dates you are unable to work",
-        "Expected return-to-work date (if known)",
-        "Any necessary work restrictions",
+        "Manufacturing and oilfield service workers around Gasoline Alley",
+        "Red Deer Regional Hospital Centre staff",
+        "Red Deer Polytechnic students during midterms and finals",
+        "Red Deer Public and Catholic School parents",
+        "QEII corridor commuters travelling to Calgary or Edmonton offices",
       ],
-      image: "/images/doctors-note-in-red-deer/section-7.png",
-      imageAlt: "Employer Sick Note Requirements in Red Deer",
+      image: "/images/online-doctors-notes-in-edmonton/section-6.jpg",
+      imageAlt: "Red Deer Polytechnic student studying at home",
     },
     {
-      title: "Why Red Deer Residents Choose Online Doctor Notes",
+      title: "Why Red Deer Patients Choose TelePlusCare",
       content:
-        "Convenience & Accessibility: No commute to a clinic. No waiting room exposure to other illnesses. Access care from home, work, or anywhere. Perfect for those with mobility issues or transportation challenges.\n\nTime-Saving: Average clinic wait time: 1\u20132 hours. Average virtual appointment: 15\u201320 minutes total. Get back to resting and recovering faster.\n\nCost-Effective: No parking fees. No transportation costs. No time off work for appointment travel. Covered by Alberta Health Card in most cases.\n\nQuality Care: Same licensed doctors as in-person clinics. Thorough assessment and consultation. Follow-up care available. Prescription services when needed.",
-      image: "/images/doctors-note-in-red-deer/section-8.jpg",
-      imageAlt: "Doctor Note Online in Red Deer",
-    },
-    {
-      title: "Medically Reviewed & Physician-Led Care",
-      content:
-        "All consultations and documentation at TelePlusCare are conducted by physicians licensed with the College of Physicians & Surgeons of Alberta (CPSA).\n\nOur doctors have experience in:\n\nYour care is professional, secure, and medically appropriate.",
+        "We're built for the central Alberta context — long highways, dispersed industry, and the reality that walk-in clinic queues fill quickly during winter. Our physicians are all CPSA-registered, our consultations are AHCIP-billed, and our note issuance is calibrated to what Red Deer employers and schools want to see.",
       bullets: [
-        "Family medicine",
-        "Urgent care",
-        "Mental health assessments",
-        "Occupational health documentation",
-        "Travel medicine",
+        "100% CPSA-registered Alberta physicians",
+        "AHCIP-billed visits — no consultation fee with a valid Alberta Health Care card",
+        "Same-day notes seven days a week",
+        "No drive to a walk-in on Gaetz Avenue",
+        "Encrypted Canadian-hosted PHI infrastructure",
       ],
-      image: "/images/doctors-note-in-red-deer/section-9.jpg",
-      imageAlt: "Doctor's Notes",
-    },
-    {
-      title: "About Our Virtual Medical Clinic",
-      content:
-        "We are a fully licensed telemedicine provider serving Red Deer and all of Alberta. Our team of certified physicians is committed to providing:\n\nOur doctors are experienced in:",
-      bullets: [
-        "Accessible healthcare for all Albertans",
-        "Timely medical documentation when you need it",
-        "Professional, compassionate care in every consultation",
-        "Privacy-first approach to your medical information",
-        "Family medicine",
-        "Urgent care consultations",
-        "Mental health assessments",
-        "Occupational health documentation",
-        "Travel medicine",
-      ],
-      image: "/images/doctors-note-in-red-deer/section-10.jpg",
-      imageAlt: "Doctor Note in Red Deer",
+      image: "/images/online-doctors-notes-in-edmonton/section-7.jpg",
+      imageAlt: "TelePlusCare Red Deer virtual clinic",
     },
   ],
   faqs: [
     {
-      question:
-        "Is this doctor\u2019s note valid in Red Deer and Alberta?",
+      question: "Is an online doctor's note valid in Red Deer?",
       answer:
-        "Yes. All notes are issued by Alberta-licensed physicians and are legally valid across Red Deer and the rest of Alberta.",
+        "Yes — a note signed by a CPSA-registered Alberta physician is legally valid in Red Deer and is accepted by local employers, the Polytechnic, and both public and Catholic school boards.",
     },
     {
-      question:
-        "How long does it take to receive my note?",
+      question: "Is the consult covered by Alberta Health Care?",
       answer:
-        "Most patients receive their doctor\u2019s note within 15\u201330 minutes after consultation.",
+        "Yes. Red Deer residents with a valid Alberta Health Care card pay nothing for the consultation, which is billed to AHCIP. A small documentation fee may apply for some types of notes.",
     },
     {
-      question: "Do I need an Alberta Health Card?",
+      question: "How fast can I get the note?",
       answer:
-        "Most visits are covered by an Alberta Health Card. Private options are available if needed.",
+        "Most Red Deer patients receive their signed PDF within 30 minutes of finishing the physician consultation. Booking earlier in the day virtually guarantees same-day delivery.",
     },
     {
-      question: "Can I get a backdated note?",
+      question: "Will my Red Deer employer accept the note?",
       answer:
-        "It depends on the situation. For any backdated note request, we\u2019ll need to review your case properly, so we kindly ask you to book an appointment. Once it\u2019s scheduled, our team will connect with you and guide you through the next steps.",
+        "Yes. Major Red Deer employers — including Red Deer Regional Hospital, the City of Red Deer, manufacturers around Gasoline Alley, and Red Deer Public Schools — accept notes from CPSA-registered virtual physicians.",
     },
     {
-      question:
-        "Will my employer or school accept an online doctor\u2019s note?",
+      question: "Can I get a note for my child's school in Red Deer?",
       answer:
-        "Yes. Virtual healthcare is legally recognized in Alberta. Our notes contain all required elements including the doctor\u2019s CPSA license number and contact information for verification.",
-    },
-    {
-      question:
-        "Can I use this service for mental health days?",
-      answer:
-        "Absolutely. Our physicians understand the importance of mental health and can provide appropriate documentation for stress, anxiety, burnout, or other mental health concerns\u2014without disclosing specific private details.",
-    },
-    {
-      question:
-        "What are the costs associated with virtual visits?",
-      answer:
-        "Fees for an online doctor note in Red Deer vary based on the type of note you need. Standard medical notes are available at an affordable flat rate, which includes the online consultation with an Alberta doctor and the digital delivery of your note. There are no hidden fees\u2014you pay only once for the visit. All pricing is shown upfront before your appointment begins.",
+        "Yes. A parent or guardian can book on behalf of a child attending Red Deer Public Schools, Red Deer Catholic Schools, or any private school. The physician assesses the child by video and issues the note in the child's name.",
     },
   ],
   locations:
-    "Red Deer, Lacombe, Blackfalds, Sylvan Lake, Innisfail, Penhold, and surrounding Alberta communities.",
+    "Red Deer, Lacombe, Sylvan Lake, Innisfail, Blackfalds, Penhold, and surrounding central Alberta communities along the QEII corridor.",
 };

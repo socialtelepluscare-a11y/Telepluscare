@@ -87,7 +87,9 @@ export const pageData: LandingPageData = {
         "Practice good hygiene but avoid over-washing the vaginal area",
         "Consider switching birth control methods if infections are recurrent",
       ],
-    },
+          image: "/images/Rectangle-1090-7.png",
+      imageAlt: "Prevention Tips and When to See a Doctor",
+},
     {
       title: "Why Choose TelePlusCare for Yeast Infection Treatment",
       content:
@@ -101,7 +103,9 @@ export const pageData: LandingPageData = {
         "Secure, PIPEDA-compliant telehealth platform",
         "Affordable care with Alberta Health coverage for eligible visits",
       ],
-    },
+          image: "/images/Rectangle-1090-16.png",
+      imageAlt: "Why Choose TelePlusCare for Yeast Infection Treatment",
+},
   ],
   faqs: [
     {
@@ -138,4 +142,6 @@ export const pageData: LandingPageData = {
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, St. Albert, Sherwood Park, Fort McMurray, Leduc, Spruce Grove, and all Alberta communities.",
   bookingUrl: "/book-appointment-alberta",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

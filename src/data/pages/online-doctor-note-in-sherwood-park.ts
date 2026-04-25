@@ -1,177 +1,149 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle:
-    "Online Doctor's Notes in Sherwood Park | Same-Day Sick Note",
+  metaTitle: "Online Doctor's Note Sherwood Park | Same-Day Sick Note",
   metaDescription:
-    "Get a legal Online Doctor's Notes in Sherwood Park from licensed Alberta physicians. Same-day service. Accepted for work, school & travel.",
-  title: "Online Doctor's Notes in Sherwood Park | Same-Day Sick Note",
+    "Sherwood Park residents and Strathcona County refinery workers can get a same-day virtual sick note from CPSA physicians. AHC-covered. Accepted by Bev Facey and area employers.",
+  title: "Online Doctor's Note in Sherwood Park — Same-Day Virtual Sick Notes",
   heroDescription:
-    "If you need a doctor's note in Sherwood Park, you can now get one online without visiting a clinic. TelePlusCare connects you with licensed Alberta physicians who assess your condition through a secure virtual consultation and issue a legally valid medical note for work, school, or travel—often the same day.\n\nOur service follows Alberta Health and College of Physicians & Surgeons of Alberta (CPSA) guidelines, ensuring your documentation is professional, confidential, and widely accepted across Alberta.\n\nNo waiting rooms. No unnecessary delays. 100% online.",
-  heroImage: "/images/online-doctors-notes-in-sherwood-park/hero.jpg",
-  heroImageAlt: "Online Doctor's Notes in Sherwood Park",
+    "Strathcona County is home to refinery row at Imperial Oil and Shell Scotford, plus thousands of Edmonton commuters who'd rather not lose half a day at a clinic on Sherwood Drive or Wye Road. Speak to a CPSA-licensed physician from home and get a signed sick note delivered the same day.",
+  heroImage: "/images/online-doctors-notes-in-edmonton/hero.jpg",
+  heroImageAlt: "Sherwood Park resident on a virtual sick note appointment",
+  bookingUrl: "/book-appointment-alberta",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
+  summary:
+    "Sherwood Park and Strathcona County patients can secure a legally valid online doctor's note from a CPSA-registered physician without driving into Edmonton. The visit is covered by Alberta Health Care, the note satisfies Alberta Employment Standards Code Section 53.97 (five unpaid sick days), and it is accepted by Elk Island Public, Elk Island Catholic, and refinery row employers.",
+  keyFacts: [
+    "Sherwood Park is the urban heart of Strathcona County with about 76,000 residents.",
+    "Refinery Row east of Sherwood Park hosts Imperial Oil Strathcona, Shell Scotford, and Suncor refining.",
+    "Section 53.97 of the Alberta Employment Standards Code provides 5 unpaid job-protected sick days per year.",
+    "TelePlusCare physicians are registered with the College of Physicians & Surgeons of Alberta (CPSA).",
+  ],
   sections: [
     {
-      title:
-        "Need a Sick Note in Sherwood Park Today? We've Got You Covered.",
+      title: "What Is an Online Doctor's Note in Sherwood Park?",
       content:
-        "Whether you're feeling unwell, need to take a mental health day, or require documentation for your employer or school, our team is here to help. We offer fast, reliable online doctor's notes—with full validity across Alberta.\n\nAvailable 24/7. Serving Sherwood Park & surrounding areas. Alberta Health coverage may apply for eligible consultations. Documentation fees may apply for doctor's notes.",
-      image: "/images/online-doctors-notes-in-sherwood-park/hero.jpg",
-      imageAlt: "Online Doctor's Notes in Sherwood Park",
-    },
-    {
-      title: "What is an Online Doctor Note?",
-      content:
-        "An online doctor's note is an official medical document issued by a licensed physician after a virtual medical consultation. During the appointment, the doctor reviews your symptoms, medical concern, or situation and determines whether medical documentation is appropriate.\n\nOnce approved, the doctor's note is:\n\nOnline doctor's notes offer the same validity as in-clinic notes—without the inconvenience of travel or long wait times.",
+        "An online doctor's note in Sherwood Park is a digitally signed medical document issued by an Alberta-licensed physician after a virtual consultation. For Strathcona County residents — many of whom work shift patterns at refinery row or commute into Edmonton via Yellowhead Trail — the virtual format avoids the time normally lost to a clinic visit on Sherwood Drive or Wye Road.\n\nLegally, the note is identical to one issued at any Sherwood Park family practice or the Strathcona Community Hospital.",
       bullets: [
-        "Issued by an Alberta-licensed physician",
-        "Delivered securely to your email",
-        "Accepted by employers, schools, and institutions",
-        "Compliant with provincial medical standards",
+        "Issued by a CPSA-registered Alberta physician",
+        "Delivered as a signed PDF straight to your inbox",
+        "Includes the physician's CPSA registration number and signature",
+        "Accepted by Elk Island Public Schools, Elk Island Catholic, and refinery row employers",
       ],
-      image: "/images/online-doctors-notes-in-sherwood-park/section-1.webp",
-      imageAlt: "Online Doctor Note",
+      image: "/images/online-doctors-notes-in-edmonton/section-1.webp",
+      imageAlt: "Sherwood Park digital sick note PDF",
     },
     {
-      title: "What Information Is Included in a Online Doctor's Notes?",
+      title: "When You Need a Sick Note in Sherwood Park",
       content:
-        "All notes comply with Alberta's medical documentation guidelines.",
+        "Strathcona County's economy mixes refinery row's heavy industry, Edmonton commuter services, and a strong local retail and professional services base around Sherwood Park Mall and Baseline Road. Each of these workplaces has its own documentation expectations, but most request a sick note for absences extending beyond a couple of days. Bev Facey, Salisbury, and Archbishop Jordan high schools, plus the EIPS and EICS elementary networks, ask for medical documentation for extended student absences.",
       bullets: [
-        "Patient name",
-        "Date of consultation",
-        "Brief medical recommendation (without private health details)",
-        "Doctor's name, license number, and signature",
-        "Contact info for verification",
+        "Missed shifts at Imperial Oil Strathcona, Shell Scotford, or Suncor refining",
+        "Time off from Edmonton commute jobs in healthcare or oil and gas",
+        "Bev Facey, Salisbury, or Archbishop Jordan high school absence verification",
+        "EIPS or EICS elementary school documentation",
+        "Recovery from illness affecting Yellowhead Trail commuters",
       ],
-      image: "/images/online-doctors-notes-in-sherwood-park/section-2.jpg",
-      imageAlt: "Online doctor note in Sherwood Park",
+      image: "/images/online-doctors-notes-in-edmonton/section-2.jpg",
+      imageAlt: "Sherwood Park refinery row aerial view",
     },
     {
-      title:
-        "Why Choose TelePlusCare for Online Doctor's Notes in Sherwood Park?",
+      title: "What's Included in Your Sherwood Park Sick Note",
       content:
-        "TelePlusCare provides fast, professional, and fully valid online doctor's notes for Sherwood Park residents.",
+        "Each note follows the format Strathcona County HR teams expect, including any temporary fitness-for-duty restrictions for safety-sensitive refinery roles. Diagnosis is excluded under Alberta privacy law.",
       bullets: [
-        "Licensed Alberta Physicians -- Real doctors registered with the CPSA",
-        "Fast Turnaround -- Notes often issued within 15-30 minutes",
-        "Valid for Work, School & Travel -- Accepted across Alberta",
-        "Secure & Confidential -- Encrypted consultations and document delivery",
-        "Alberta Health Card Coverage -- Most visits covered when eligible",
+        "Patient legal name and consultation date",
+        "Confirmation of assessment by a licensed Alberta physician",
+        "Inclusive dates you cannot work or attend school",
+        "Anticipated return-to-work date",
+        "Any temporary work restrictions (working at height, machinery, driving)",
+        "Physician name, CPSA number, signature, and HR verification line",
       ],
-      image: "/images/online-doctors-notes-in-sherwood-park/section-3.jpg",
-      imageAlt: "Sick Note In Sherwood Park",
+      image: "/images/online-doctors-notes-in-edmonton/section-3.jpg",
+      imageAlt: "Sherwood Park HR digital sick note review",
     },
     {
-      title: "How to Get a Doctor's Note Online in Sherwood Park",
+      title: "Same-Day Issuance for Sherwood Park Patients",
       content:
-        "Step 1: Book a virtual appointment (takes less than 2 minutes)\n\nStep 2: Speak to a certified Alberta doctor via secure video or chat\n\nStep 3: Receive your doctor's note by email—ready to print or share\n\n100% legal and accepted. Safe, encrypted, and confidential. Mobile and desktop friendly.",
-      image: "/images/online-doctors-notes-in-sherwood-park/section-4.jpg",
-      imageAlt: "Doctor note in Sherwood Park",
-    },
-    {
-      title: "Employer Sick Note Requirements in Alberta",
-      content:
-        "When Can Your Employer Request a Doctor's Note?\n\nUnder Alberta employment standards:\n\nYour Note Should Include:\n\nYour privacy is protected -- doctors do not have to disclose your specific diagnosis to your employer.",
+        "Booking takes about two minutes online. A CPSA physician calls you back, conducts the assessment, and emails the signed note from a Canadian-hosted secure platform. There's no need to drive on Yellowhead or Anthony Henday for an in-person visit.",
       bullets: [
-        "Employers can request medical documentation after 3 consecutive days of absence",
-        "Some workplaces have different policies in their employment agreements",
-        "You have the right to reasonable accommodation for medical conditions",
-        "Confirmation that you were assessed by a physician",
-        "The dates you are unable to work",
-        "Expected return-to-work date (if known)",
-        "Any necessary work restrictions",
+        "Step 1 — Complete the online intake (about 2 minutes)",
+        "Step 2 — Speak with a CPSA-registered Alberta physician",
+        "Step 3 — Receive your signed PDF note by email — typically within 30 minutes",
       ],
-      image: "/images/online-doctors-notes-in-sherwood-park/section-5.jpg",
-      imageAlt: "Online doctor note in Sherwood Park",
+      image: "/images/online-doctors-notes-in-edmonton/section-4.jpg",
+      imageAlt: "Sherwood Park virtual consultation flow",
     },
     {
-      title: "Who Can Use an Online Doctor's Note?",
+      title: "Alberta Employment Standards: Strathcona County Sick Leave Rights",
       content:
-        "Our online doctor's note service is available to a wide range of individuals across Sherwood Park and Alberta.",
+        "Under Section 53.97 of the Alberta Employment Standards Code, Sherwood Park employees with 90 days of continuous service are entitled to up to five unpaid, job-protected sick days each calendar year. Refinery operators and unionised industrial employers along refinery row offer additional paid sick leave through collective agreements.\n\nEmployers may request medical documentation but not a diagnosis. Our notes respect that boundary.",
       bullets: [
-        "Employees: Needing a sick note for missed work",
-        "Students: Requiring a note for absence from classes or exams",
-        "Parents: Caring for a sick child or family member",
-        "Travelers: Requiring fitness to fly or recovery documentation",
-        "Remote Workers: Who need proof of unwell status",
+        "5 unpaid job-protected sick days per year (ESC s.53.97)",
+        "Available after 90 days of continuous employment",
+        "Most refinery row collective agreements add paid sick leave",
+        "Employer may request a note — not a diagnosis",
       ],
-      image: "/images/online-doctors-notes-in-sherwood-park/section-6.png",
-      imageAlt: "Doctor note in Sherwood Park",
+      image: "/images/online-doctors-notes-in-edmonton/section-5.jpg",
+      imageAlt: "Alberta sick leave law reference",
     },
     {
-      title: "Why Sherwood Park Residents Choose Online Doctor Notes",
+      title: "Who Uses This Service in Sherwood Park",
       content:
-        "Convenience & Accessibility: No commute to a clinic. No waiting room exposure to other illnesses. Access care from home, work, or anywhere. Perfect for those with mobility issues or transportation challenges.\n\nTime-Saving: Average clinic wait time: 1-2 hours. Average virtual appointment: 15-20 minutes total. Get back to resting and recovering faster.\n\nCost-Effective: No parking fees. No transportation costs. No time off work for appointment travel. Covered by Alberta Health Card in most cases.\n\nQuality Care: Same licensed doctors as in-person clinics. Thorough assessment and consultation. Follow-up care available. Prescription services when needed.",
-      image: "/images/online-doctors-notes-in-sherwood-park/section-7.jpg",
-      imageAlt: "Doctor note online",
-    },
-    {
-      title: "Medically Reviewed & Physician-Led Care",
-      content:
-        "All medical consultations and documentation at TelePlusCare are conducted by physicians licensed with the College of Physicians & Surgeons of Alberta (CPSA).\n\nOur doctors have experience in:\n\nYour care is confidential, secure, and medically appropriate.",
+        "Our Sherwood Park patient base includes refinery row shift workers, Edmonton commuters in healthcare, oil and gas, and finance, parents managing absences for children at Bev Facey, Salisbury, or Archbishop Jordan, frontline staff at Strathcona Community Hospital, and seniors in well-established neighbourhoods like Glen Allan, Westboro, and Heritage Hills.",
       bullets: [
-        "Family medicine",
-        "Urgent care",
-        "Mental health assessments",
-        "Occupational health documentation",
+        "Imperial Oil Strathcona, Shell Scotford, and Suncor refining shift workers",
+        "Edmonton commuters in healthcare, oil and gas, and finance",
+        "EIPS and EICS school parents",
+        "Strathcona Community Hospital staff",
+        "Local retail and professional services workers along Baseline Road",
       ],
-      image: "/images/online-doctors-notes-in-sherwood-park/section-8.jpg",
-      imageAlt: "Doctor's Notes",
+      image: "/images/online-doctors-notes-in-edmonton/section-6.jpg",
+      imageAlt: "Sherwood Park family using telemedicine at home",
     },
     {
-      title: "About Our Virtual Medical Clinic",
+      title: "Why Sherwood Park Residents Choose TelePlusCare",
       content:
-        "TelePlusCare is a licensed Canadian telemedicine provider serving Sherwood Park and all of Alberta. Our mission is to deliver accessible, professional healthcare when you need it most.\n\nWe are committed to:",
+        "We understand the Strathcona County context — refinery shift schedules, Edmonton commutes, and the desire to stay close to home and family. Same-day notes, AHCIP-billed consultations, and CPSA-registered physicians who understand fitness-for-duty documentation for safety-sensitive industrial roles.",
       bullets: [
-        "Timely medical documentation",
-        "Compassionate, physician-led care",
-        "Privacy-first medical services",
+        "100% CPSA-registered Alberta physicians",
+        "AHCIP-billed consults — no fee with a valid Alberta Health Care card",
+        "Same-day notes seven days a week",
+        "Designed for refinery shift workers and Edmonton commuters",
+        "Encrypted Canadian-hosted PHI infrastructure",
       ],
-      image: "/images/online-doctors-notes-in-sherwood-park/section-9.jpg",
-      imageAlt: "Doctor note in Sherwood Park",
+      image: "/images/online-doctors-notes-in-edmonton/section-7.jpg",
+      imageAlt: "TelePlusCare Sherwood Park virtual clinic",
     },
   ],
   faqs: [
     {
-      question:
-        "Is this doctor's note valid in Sherwood Park and Alberta?",
+      question: "Is an online doctor's note valid in Sherwood Park?",
       answer:
-        "Yes, absolutely. Our medical notes are issued by fully licensed Alberta physicians registered with the CPSA and meet all provincial medical documentation standards. They are legally valid and accepted by employers, schools, and institutions across Alberta and Canada.",
+        "Yes. A note signed by a CPSA-registered Alberta physician is legally valid in Sherwood Park and accepted by Elk Island Public Schools, Elk Island Catholic Schools, refinery row employers, and Edmonton-area HR teams.",
     },
     {
-      question: "Do I need an Alberta Health Card?",
+      question: "Will Imperial Oil Strathcona or Shell Scotford accept the note?",
       answer:
-        "Yes, we accept Alberta Health coverage. If you're uninsured, you can still get a note for a small fee.",
+        "Yes. Refinery row operators routinely accept notes from CPSA-registered virtual physicians. The note includes a verification line for HR and can document temporary fitness-for-duty restrictions where clinically appropriate for safety-sensitive industrial roles.",
     },
     {
-      question: "How long does it take?",
+      question: "Is the consult covered by Alberta Health Care?",
       answer:
-        "Most notes are delivered within 15-30 minutes after your virtual consultation.",
+        "Yes. Sherwood Park residents with a valid AHCIP card pay nothing for the medical consultation. A small documentation fee may apply for the note depending on its type.",
     },
     {
-      question: "Can I get a backdated note?",
+      question: "How fast can I get the note?",
       answer:
-        "It depends on the situation. For any backdated note request, we'll need to review your case properly, so we kindly ask you to book an appointment. Once it's scheduled, our team will connect with you and guide you through the next steps.",
+        "Most Sherwood Park patients receive their signed PDF within 30 minutes of completing the consultation. Booking earlier in the day virtually guarantees same-day delivery.",
     },
     {
-      question:
-        "Will my employer or school accept an online doctor's note?",
+      question: "Can I book for my child at Bev Facey or another EIPS school?",
       answer:
-        "Yes. Virtual healthcare is legally recognized in Alberta. Our notes contain all required elements including the doctor's CPSA license number and contact information for verification.",
-    },
-    {
-      question:
-        "Can I use this service for mental health days?",
-      answer:
-        "Absolutely. Our physicians understand the importance of mental health and can provide appropriate documentation for stress, anxiety, burnout, or other mental health concerns—without disclosing specific private details.",
-    },
-    {
-      question:
-        "Do you provide notes for work-related injuries?",
-      answer:
-        "For workplace injuries covered by WCB (Workers' Compensation Board), you should follow your employer's specific reporting procedures. For general illness or non-work-related medical issues, we can certainly help.",
+        "Yes. A parent or guardian can book on behalf of a child enrolled in any Elk Island Public, Elk Island Catholic, or private school. The physician will assess the child by video and issue a note in the child's name for the school office.",
     },
   ],
   locations:
-    "Sherwood Park, St. Albert, Sherwood Park, Beaumont, Fort Saskatchewan, Leduc, Spruce Grove, and surrounding Alberta communities.",
+    "Sherwood Park, Strathcona County, Fort Saskatchewan, Ardrossan, Lamont, and east-Edmonton communities along Yellowhead Trail.",
 };

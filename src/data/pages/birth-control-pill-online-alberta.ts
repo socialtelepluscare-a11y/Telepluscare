@@ -10,6 +10,14 @@ export const pageData: LandingPageData = {
     "Getting birth control pills should be simple, convenient, and confidential. At TelePlus Care, our licensed Alberta physicians can prescribe birth control pills through a secure virtual consultation, allowing you to manage your reproductive health from the comfort of your home.\n\nOur healthcare services are available to all residents of Alberta, Canada.",
   heroImage: "/images/Rectangle-1090-9.png",
   heroImageAlt: "Birth control pill prescription online in Alberta",
+  summary:
+    "Oral contraceptive pills include combined estrogen-progestin formulations (Alesse, Marvelon, Yasmin) and progestin-only mini-pills (Micronor), both over 99% effective with perfect use and 91% with typical use. TelePlus Care licensed Alberta physicians prescribe and renew birth control through confidential virtual consultations, no physical exam required for most patients, with prescriptions sent province-wide.",
+  keyFacts: [
+    "Over 99% effective at preventing pregnancy with perfect daily use",
+    "Combined and progestin-only options matched to medical history",
+    "No in-person exam required for most birth control prescriptions",
+    "3-6 month supply with easy virtual refill before pack ends",
+  ],
   sections: [
     {
       title: "Types of Birth Control Pills",
@@ -30,7 +38,9 @@ export const pageData: LandingPageData = {
         "Age and smoking status -- Women over 35 who smoke are advised against combined oral contraceptives due to an increased risk of cardiovascular events.",
         "Current medications -- Certain medications, including some antibiotics, anticonvulsants, and herbal supplements like St. John's Wort, can interact with birth control pills and reduce their effectiveness.",
       ],
-    },
+          image: "/images/Rectangle-1090-7.png",
+      imageAlt: "How to Choose the Right Birth Control Pill",
+},
     {
       title: "Benefits of Birth Control Pills",
       content:
@@ -43,7 +53,9 @@ export const pageData: LandingPageData = {
         "Reduced risk of certain cancers -- Long-term use of combined oral contraceptives has been associated with reduced risk of ovarian and endometrial cancers.",
         "Management of endometriosis and PCOS -- Birth control pills can help manage symptoms of endometriosis and polycystic ovary syndrome by regulating hormones and reducing pain.",
       ],
-    },
+          image: "/images/Rectangle-1090-16.png",
+      imageAlt: "Benefits of Birth Control Pills",
+},
     {
       title: "Common Side Effects of Birth Control Pills",
       content:
@@ -56,17 +68,23 @@ export const pageData: LandingPageData = {
         "Mood changes -- A small number of women report mood changes or increased irritability. If this is significant, switching formulations may help.",
         "Serious but rare risks -- Blood clots (deep vein thrombosis), stroke, and heart attack are rare but serious risks associated primarily with combined pills containing estrogen, especially in women with additional risk factors such as smoking, obesity, or a personal history of clotting disorders.",
       ],
-    },
+          image: "/images/Rectangle-1090-17.png",
+      imageAlt: "Common Side Effects of Birth Control Pills",
+},
     {
       title: "How to Get Refills and Manage Your Prescription",
       content:
         "TelePlus Care makes it easy to stay on top of your birth control prescription with convenient refill options and ongoing virtual care.\n\nDuring your initial consultation, your physician will typically prescribe a 3 to 6-month supply, depending on your health profile and insurance coverage. Before your current prescription runs out, you can schedule a follow-up virtual visit to renew it.\n\nWe recommend scheduling your renewal appointment at least 2 weeks before your last pack runs out to ensure there is no gap in coverage. If your current pill is working well and you have no new health concerns, the refill process is quick and straightforward. If you are experiencing side effects or want to switch brands, your physician can adjust your prescription during the renewal visit.\n\nYour prescription is always sent directly to the pharmacy of your choice across Alberta.",
-    },
+          image: "/images/Rectangle-1090-18.png",
+      imageAlt: "How to Get Refills and Manage Your Prescription",
+},
     {
       title: "Birth Control Pills and Emergency Contraception",
       content:
         "It is important to understand the difference between regular birth control pills and emergency contraception. Birth control pills are taken daily as a preventive measure and are most effective when used consistently. Emergency contraception (such as Plan B or Ella) is used after unprotected intercourse and is not intended as a regular contraceptive method.\n\nIf you miss multiple birth control pills or have unprotected intercourse, our physicians can advise you on whether emergency contraception is needed and help you get back on track with your regular pill schedule. We can also discuss long-acting alternatives such as IUDs or the hormonal implant if you are looking for a method that does not require daily adherence.",
-    },
+          image: "/images/Rectangle-1090-19.png",
+      imageAlt: "Birth Control Pills and Emergency Contraception",
+},
     {
       title: "Why Choose TelePlus Care for Birth Control?",
       content:
@@ -79,7 +97,9 @@ export const pageData: LandingPageData = {
         "Easy refills -- Renew your prescription through a quick follow-up virtual visit without visiting a clinic in person.",
         "All of Alberta served -- Whether you are in Edmonton, Calgary, or a rural community, our services are accessible province-wide.",
       ],
-    },
+          image: "/images/image-1.jpg",
+      imageAlt: "Why Choose TelePlus Care for Birth Control?",
+},
   ],
   faqs: [
     {
@@ -120,4 +140,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Calgary, Red Deer, Lethbridge, Airdrie, Leduc, Fort McMurray, Sherwood Park, St. Albert, Grande Prairie, Medicine Hat, and surrounding areas across Alberta.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

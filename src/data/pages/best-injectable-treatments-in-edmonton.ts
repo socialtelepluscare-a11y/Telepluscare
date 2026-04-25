@@ -2,6 +2,14 @@ import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
   bookingUrl: "/book-aesthetic",
+  summary:
+    "Edmonton injectable treatments include Botox (botulinum toxin) for dynamic wrinkles, hyaluronic acid dermal fillers for cheek and lip volume, lip flips, jawline and chin sculpting, and skin boosters for hydration and elasticity. TelePlus Care certified injectors deliver virtual aesthetic consultations and in-person treatments using only Health Canada-approved products tailored to individual facial anatomy.",
+  keyFacts: [
+    "Health Canada-approved Botox, dermal fillers, and skin boosters only",
+    "Certified injectors trained in facial anatomy and cosmetic injectables",
+    "Virtual consultation first, in-person injection appointment after",
+    "Customized per-treatment pricing with cost estimates upfront",
+  ],
   metaTitle: "Best Injectable Treatments in Edmonton",
   metaDescription:
     "Looking for professional injectable treatments in Edmonton? At TelePlus Care, we offer premium Botox, dermal fillers, and cosmetic injectable services through convenient virtual consultations.",
@@ -44,22 +52,30 @@ export const pageData: LandingPageData = {
       title: "Lip Fillers",
       content:
         "Achieve beautifully plump, natural-looking lips with our expert lip filler treatments. We customize each treatment to complement your unique facial features and desired outcome.",
-    },
+          image: "/images/best-botox-treatment-in-edmonton/section-1.jpg",
+      imageAlt: "Lip Fillers",
+},
     {
       title: "Anti-Aging Injectables",
       content:
         "Turn back the clock with our comprehensive anti-aging injectable treatments. We combine Botox and fillers strategically to create a naturally refreshed, younger-looking appearance.",
-    },
+          image: "/images/best-botox-treatment-in-edmonton/section-2.jpg",
+      imageAlt: "Anti-Aging Injectables",
+},
     {
       title: "Skin Boosters",
       content:
         "Hydrate and rejuvenate your skin from within with injectable skin boosters. These micro-injections of hyaluronic acid improve skin texture, elasticity, and radiance for a natural glow.",
-    },
+          image: "/images/best-botox-treatment-in-edmonton/section-3.png",
+      imageAlt: "Skin Boosters",
+},
     {
       title: "Jawline & Chin Sculpting",
       content:
         "Define and contour your jawline and chin with precision filler injections. Achieve a more structured, balanced facial profile without surgery.",
-    },
+          image: "/images/best-botox-treatment-in-edmonton/section-4.jpg",
+      imageAlt: "Jawline & Chin Sculpting",
+},
     {
       title: "How Does It Work?",
       content:
@@ -70,7 +86,9 @@ export const pageData: LandingPageData = {
         "Receive Confirmation — Once you've booked your appointment, you'll receive a confirmation email or call with detailed instructions for your upcoming virtual visit.",
         "Attend Your Appointment — On the day of your virtual visit, connect with your provider using any electronic device — whether it's a smartphone, tablet, or computer. Our healthcare professionals will assess your condition and create a personalized care plan.",
       ],
-    },
+          image: "/images/best-botox-treatment-in-edmonton/promo-skincare.png",
+      imageAlt: "How Does It Work?",
+},
   ],
   faqs: [
     {
@@ -101,4 +119,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Edmonton, Sherwood Park, St. Albert, Leduc, Spruce Grove, Fort Saskatchewan, Beaumont, and surrounding areas.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

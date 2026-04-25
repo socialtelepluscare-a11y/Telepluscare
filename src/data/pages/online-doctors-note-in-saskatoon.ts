@@ -146,4 +146,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Saskatoon, Downtown, Riversdale, Broadway, Nutana, University Heights, Stonebridge, Willowgrove, Martensville, and Warman.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

@@ -150,4 +150,6 @@ export const pageData: LandingPageData = {
   bookingUrl: "/book-doctors-note",
   locations:
     "Coquitlam, Downtown Coquitlam, Burquitlam, Westwood Plateau, Maillardville, Austin Heights, Port Moody, Port Coquitlam, Anmore, Belcarra, and surrounding Tri-Cities communities.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

@@ -151,4 +151,6 @@ export const pageData: LandingPageData = {
   ],
   locations:
     "Vaughan, Woodbridge, Maple, Thornhill, Concord, Kleinburg, Richmond Hill, King City, Nobleton, Markham, and surrounding York Region communities.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };

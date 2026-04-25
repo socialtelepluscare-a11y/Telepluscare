@@ -150,4 +150,6 @@ export const pageData: LandingPageData = {
   bookingUrl: "/book-doctors-note",
   locations:
     "Abbotsford, Downtown, Clearbrook, Sumas Mountain, Auguston, Townline, McMillan, Mission, Chilliwack, Langley, Aldergrove, and surrounding Fraser Valley communities.",
+  lastReviewed: "2026-04-25",
+  reviewedBy: "Dr. Maher Jerudi, MD",
 };
