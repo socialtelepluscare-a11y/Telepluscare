@@ -77,7 +77,7 @@ const serviceCardsData = [
 
 export default function ServiceCards() {
   return (
-    <section style={{ background: "#FCFAFD", padding: "80px 0" }}>
+    <section style={{ background: "#fef7ff", padding: "80px 0" }}>
       <div style={{ maxWidth: 1400, margin: "0 auto", padding: "0 20px" }}>
         <div
           className="service-grid"

@@ -2,7 +2,7 @@ import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
   bookingUrl: "/book-aesthetic",
-  metaTitle: "Best Injectable Treatments in Edmonton | TelePlus Care",
+  metaTitle: "Best Injectable Treatments in Edmonton",
   metaDescription:
     "Looking for professional injectable treatments in Edmonton? At TelePlus Care, we offer premium Botox, dermal fillers, and cosmetic injectable services through convenient virtual consultations.",
   title: "Best Injectable Treatments in Edmonton",

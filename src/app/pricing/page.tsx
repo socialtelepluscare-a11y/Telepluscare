@@ -7,7 +7,7 @@ import type { FAQItem } from "@/data/faq";
 export const metadata = {
   title: "Pricing - Transparent Virtual Healthcare Costs in Alberta",
   description:
-    "View TelePlus Care's transparent pricing. Most consultations are covered by Alberta Health Care. Non-AHC consultations from $80. Sick notes, aesthetic services, and weight loss programs available.",
+    "TelePlus Care transparent pricing. Most consultations covered by Alberta Health. Non-AHC from $80. Sick notes, aesthetic & weight loss services.",
   alternates: { canonical: "/pricing/" },
 };
 

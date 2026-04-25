@@ -2,7 +2,7 @@ import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
   bookingUrl: "/book-aesthetic",
-  metaTitle: "Best Botox Treatment in Edmonton | TelePlus Care",
+  metaTitle: "Best Botox Treatment in Edmonton",
   metaDescription:
     "Expert Botox treatment in Edmonton for wrinkle reduction, TMJ relief, migraine therapy, and more. Certified practitioners. Natural results. Transparent pricing.",
   title: "Best Botox Treatment in Edmonton",

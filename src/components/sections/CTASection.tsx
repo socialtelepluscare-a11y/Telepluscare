@@ -3,11 +3,11 @@ import { FiArrowUpRight } from "react-icons/fi";
 
 export default function CTASection() {
   return (
-    <section style={{ background: "#fef7ff", padding: "70px 0" }}>
+    <section style={{ background: "linear-gradient(135deg, #fef7ff 0%, #F0F5FA 100%)", padding: "70px 0" }}>
       <div className="container-main">
         <div className="content-row" style={{ display: "flex", alignItems: "center", gap: 48 }}>
-          <div style={{ flex: 1, minWidth: 300 }}>
-            <h2 style={{ fontSize: 40, fontWeight: 700, color: "var(--dark)", marginBottom: 16, lineHeight: 1.2 }}>
+          <div style={{ flex: 1, minWidth: 300, borderLeft: "4px solid var(--primary)", paddingLeft: 28 }}>
+            <h2 style={{ fontSize: 42, fontWeight: 700, color: "var(--dark)", marginBottom: 16, lineHeight: 1.2 }}>
               Start Your <span style={{ fontWeight: 800 }}>Virtual Health</span> Journey Today !
             </h2>
             <div className="decorative-line" />

@@ -26,6 +26,11 @@ const nextConfig: NextConfig = {
             key: "Permissions-Policy",
             value: "camera=(), microphone=(), geolocation=()",
           },
+          {
+            key: "Content-Security-Policy",
+            value:
+              "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://form.jotform.com https://pci.jotform.com https://cdn.jotfor.ms https://www.youtube.com https://www.google.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://form.jotform.com https://pci.jotform.com; img-src 'self' data: https:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://www.google-analytics.com https://form.jotform.com https://pci.jotform.com https://api.jotform.com; frame-src https://www.youtube.com https://www.google.com https://form.jotform.com https://pci.jotform.com; object-src 'none'; base-uri 'self';",
+          },
         ],
       },
     ];

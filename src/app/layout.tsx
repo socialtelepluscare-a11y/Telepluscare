@@ -20,19 +20,16 @@ export const metadata = {
   },
   description:
     "TelePlus Care is a modern healthcare solution, offering convenient virtual medical care designed for everyone across Alberta.",
-  icons: {
-    icon: "/images/logo-150x150.webp",
-  },
   openGraph: {
     siteName: "TelePlus Care",
     type: "website",
     locale: "en_CA",
     images: [
       {
-        url: "/images/logo-1.webp",
-        width: 160,
-        height: 120,
-        alt: "TelePlus Care",
+        url: "/images/Group-37520.png",
+        width: 1200,
+        height: 630,
+        alt: "TelePlus Care - Virtual Healthcare Services in Alberta",
       },
     ],
   },
@@ -42,6 +39,13 @@ export const metadata = {
   robots: {
     index: true,
     follow: true,
+  },
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-ca": "/",
+      "x-default": "/",
+    },
   },
 };
 

@@ -28,7 +28,7 @@ const articles = [
 
 export default function PopularArticles() {
   return (
-    <section style={{ background: "#F0F5FA", padding: "80px 0" }}>
+    <section style={{ background: "#fef7ff", padding: "80px 0" }}>
       <div className="container-main">
         <div style={{ textAlign: "center", marginBottom: 48 }}>
           <span className="badge-primary" style={{ marginBottom: 12 }}>Our Blog</span>

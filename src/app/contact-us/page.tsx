@@ -1,5 +1,4 @@
 import Link from "next/link";
-import JotFormEmbed from "@/components/ui/JotFormEmbed";
 import JotFormPCIEmbed from "@/components/ui/JotFormPCIEmbed";
 import {
   FiArrowUpRight,
@@ -353,8 +352,8 @@ export default function ContactUsPage() {
         </div>
       </section>
 
-      {/* ===== BOOKING FORM - General Services ===== */}
-      <section style={{ background: "#fff", padding: "80px 0" }}>
+      {/* ===== BOOKING FORM - Alberta ===== */}
+      <section style={{ background: "#fef7ff", padding: "80px 0" }}>
         <div className="container-main">
           <div style={{ textAlign: "center", marginBottom: 40 }}>
             <h2 className="section-title" style={{ textAlign: "center" }}>
@@ -365,26 +364,18 @@ export default function ContactUsPage() {
               Fill out the form below to request a virtual appointment with our healthcare team.
             </p>
           </div>
-          <div style={{ maxWidth: 700, margin: "0 auto" }}>
-            <JotFormEmbed formId="260934537048058" />
-          </div>
-        </div>
-      </section>
-
-      {/* ===== AESTHETIC SERVICES FORM ===== */}
-      <section style={{ background: "#fef7ff", padding: "80px 0" }}>
-        <div className="container-main">
-          <div style={{ textAlign: "center", marginBottom: 40 }}>
-            <h2 className="section-title" style={{ textAlign: "center" }}>
-              Book <span style={{ color: "var(--primary)" }}>Aesthetic Services</span>
-            </h2>
-            <div className="decorative-line" style={{ margin: "12px auto 0" }} />
-            <p style={{ fontSize: 16, color: "var(--text)", marginTop: 16 }}>
-              Interested in Botox, dermal fillers, PRP, or other aesthetic treatments? Use this form to book.
-            </p>
-          </div>
-          <div style={{ maxWidth: 700, margin: "0 auto" }}>
-            <JotFormPCIEmbed formId="251450924812252" />
+          <div style={{ maxWidth: 900, margin: "0 auto" }}>
+            <div
+              style={{
+                background: "#fff",
+                borderRadius: 24,
+                padding: "40px 32px",
+                boxShadow: "0 4px 24px rgba(98,28,114,0.08)",
+                border: "1px solid rgba(98,28,114,0.06)",
+              }}
+            >
+              <JotFormPCIEmbed formId="251450924812252" />
+            </div>
           </div>
         </div>
       </section>

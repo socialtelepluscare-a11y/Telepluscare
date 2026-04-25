@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <>
       {/* Location + Map Section — Redesigned */}
-      <section style={{ background: "#fef7ff", padding: "60px 0" }}>
+      <section style={{ background: "#F0F5FA", padding: "60px 0" }}>
         <div className="container-main">
           <div style={{ textAlign: "center", marginBottom: 40 }}>
             <h2 style={{ fontSize: 36, fontWeight: 700, color: "var(--dark)", marginBottom: 8 }}>
@@ -100,7 +100,7 @@ export default function Footer() {
       </section>
 
       {/* Footer */}
-      <footer style={{ background: "#fef7ff", padding: "64px 0 32px" }}>
+      <footer style={{ background: "#F0F5FA", padding: "64px 0 32px" }}>
         <div className="container-main">
           <div
             className="footer-grid"

@@ -1,7 +1,7 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle: "Parking Placard Medical Assessment in Edmonton | TelePlus Care",
+  metaTitle: "Parking Placard Medical Assessment in Edmonton",
   metaDescription:
     "If you're living with limited mobility, chronic pain, an injury, or a medical condition that makes walking difficult, you may qualify for a Disabled Parking Placard in Alberta.",
   title: "Parking Placard Medical Assessment in Edmonton",

@@ -2,7 +2,7 @@ export default function MedicalDisclaimer() {
   return (
     <div
       style={{
-        background: "#f8f4fa",
+        background: "#fef7ff",
         borderTop: "1px solid rgba(98,28,114,0.1)",
         padding: "16px 20px",
         textAlign: "center",

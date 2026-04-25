@@ -1,7 +1,7 @@
 import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
-  metaTitle: "Best Diabetes Doctor in Edmonton | TelePlus Care",
+  metaTitle: "Best Diabetes Doctor in Edmonton",
   metaDescription:
     "Are you searching for the best diabetes doctor in Edmonton? At TelePlus Care, our experienced diabetes specialists and endocrinologists provide comprehensive, patient-focused diabetes care for Type 1, Type 2, and gestational diabetes.",
   title: "Best Diabetes Doctor in Edmonton",

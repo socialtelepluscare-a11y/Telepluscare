@@ -134,31 +134,36 @@ export default function LandingPageTemplate({
         if (sectionImage) usedImages.add(sectionImage);
 
         const showMidCTA = index > 0 && index % 3 === 0;
-        const bgColors = ["#fff", "#fef7ff", "#F0F5FA"];
-        const bgColor = bgColors[index % 3];
+        const bgColors = ["#fff", "#fef7ff"];
+        const bgColor = bgColors[index % 2];
 
         return (
           <div key={index}>
             {/* Mid-page CTA every 3 sections */}
             {showMidCTA && (
-              <section style={{ background: "var(--primary)", padding: "48px 0", textAlign: "center" }}>
-                <div className="container-main">
-                  <h3 style={{ fontSize: 28, fontWeight: 700, color: "#fff", marginBottom: 12 }}>
+              <section style={{ background: "linear-gradient(135deg, #621C72 0%, #8B3A9F 50%, #621C72 100%)", padding: "56px 0", textAlign: "center", position: "relative", overflow: "hidden" }}>
+                {/* Decorative circles */}
+                <div style={{ position: "absolute", top: -40, right: -40, width: 200, height: 200, borderRadius: "50%", background: "rgba(255,255,255,0.05)" }} />
+                <div style={{ position: "absolute", bottom: -60, left: -60, width: 300, height: 300, borderRadius: "50%", background: "rgba(255,255,255,0.03)" }} />
+                <div className="container-main" style={{ position: "relative", zIndex: 1 }}>
+                  <h3 style={{ fontSize: 32, fontWeight: 700, color: "#fff", marginBottom: 12 }}>
                     Ready to Take the Next Step?
                   </h3>
-                  <p style={{ fontSize: 16, color: "rgba(255,255,255,0.85)", marginBottom: 20, maxWidth: 500, margin: "0 auto 20px" }}>
+                  <p style={{ fontSize: 17, color: "rgba(255,255,255,0.85)", maxWidth: 480, margin: "0 auto 24px", lineHeight: 1.7 }}>
                     Book a virtual appointment with a licensed healthcare provider today.
                   </p>
                   <a
                     href={ctaHref}
                     style={{
                       display: "inline-flex", alignItems: "center", gap: 8,
-                      padding: "14px 32px", background: "#fff", color: "var(--primary)",
-                      fontSize: 15, fontWeight: 600, borderRadius: 119,
-                      border: "2px solid #fff", textDecoration: "none", transition: "all 0.3s",
+                      padding: "16px 40px", background: "#fff", color: "#621C72",
+                      fontSize: 16, fontWeight: 700, borderRadius: 119,
+                      border: "none", textDecoration: "none", transition: "all 0.3s",
+                      boxShadow: "0 4px 16px rgba(0,0,0,0.15)",
                     }}
                   >
                     Book Your Appointment Now
+                    <FiArrowUpRight style={{ width: 16, height: 16 }} />
                   </a>
                 </div>
               </section>
@@ -222,25 +227,27 @@ export default function LandingPageTemplate({
       })}
 
       {/* ===== 3. MID-PAGE CTA ===== */}
-      <section style={{ background: "#fef7ff", padding: "64px 0" }}>
-        <div className="container-main" style={{ textAlign: "center", maxWidth: 700, margin: "0 auto" }}>
-          <h2 style={{ fontSize: 36, fontWeight: 700, color: "var(--dark)", marginBottom: 12, lineHeight: 1.2 }}>
-            Your Fast and Convenient <span style={{ color: "var(--primary)" }}>Healthcare</span> Solution
-          </h2>
-          <div className="decorative-line" style={{ margin: "12px auto 20px" }} />
-          <p style={{ fontSize: 17, lineHeight: 1.8, color: "var(--text)", marginBottom: 28 }}>
-            Connect with a licensed healthcare provider from the comfort of your home.
-            No referral needed — book your virtual appointment today.
-          </p>
-          <a href={ctaHref} className="btn-primary" style={{ fontSize: 16, padding: "14px 32px" }}>
-            Book Your Appointment Now
-            <FiArrowUpRight style={{ width: 16, height: 16 }} />
-          </a>
+      <section style={{ background: "#fff", padding: "64px 0" }}>
+        <div className="container-main" style={{ maxWidth: 800, margin: "0 auto" }}>
+          <div style={{ background: "linear-gradient(135deg, #fef7ff 0%, #F0F5FA 100%)", borderRadius: 24, padding: "48px 40px", textAlign: "center", border: "1px solid rgba(98,28,114,0.08)" }}>
+            <h2 style={{ fontSize: 36, fontWeight: 700, color: "var(--dark)", marginBottom: 12, lineHeight: 1.2 }}>
+              Your Fast and Convenient <span style={{ color: "var(--primary)" }}>Healthcare</span> Solution
+            </h2>
+            <div className="decorative-line" style={{ margin: "12px auto 20px" }} />
+            <p style={{ fontSize: 17, lineHeight: 1.8, color: "var(--text)", marginBottom: 28 }}>
+              Connect with a licensed healthcare provider from the comfort of your home.
+              No referral needed — book your virtual appointment today.
+            </p>
+            <a href={ctaHref} className="btn-primary" style={{ fontSize: 16, padding: "14px 32px" }}>
+              Book Your Appointment Now
+              <FiArrowUpRight style={{ width: 16, height: 16 }} />
+            </a>
+          </div>
         </div>
       </section>
 
       {/* ===== 4. RELATED SERVICES ===== */}
-      <section style={{ background: "#FCFAFD", padding: "80px 0" }}>
+      <section style={{ background: "#fef7ff", padding: "80px 0" }}>
         <div className="container-main">
           <div style={{ textAlign: "center", marginBottom: 40 }}>
             <h2 className="section-title" style={{ textAlign: "center" }}>
@@ -301,25 +308,31 @@ export default function LandingPageTemplate({
       )}
 
       {/* ===== 8. BOTTOM CTA ===== */}
-      <section style={{ background: "var(--primary)", padding: "80px 0", textAlign: "center" }}>
-        <div className="container-main">
+      <section style={{ background: "linear-gradient(135deg, #621C72 0%, #8B3A9F 50%, #621C72 100%)", padding: "80px 0", textAlign: "center", position: "relative", overflow: "hidden" }}>
+        <div style={{ position: "absolute", top: -80, right: -80, width: 400, height: 400, borderRadius: "50%", background: "rgba(255,255,255,0.04)" }} />
+        <div style={{ position: "absolute", bottom: -100, left: -100, width: 500, height: 500, borderRadius: "50%", background: "rgba(255,255,255,0.03)" }} />
+        <div className="container-main" style={{ position: "relative", zIndex: 1 }}>
+          <span style={{ display: "inline-block", background: "rgba(255,255,255,0.15)", color: "#fff", padding: "6px 20px", borderRadius: 100, fontSize: 13, fontWeight: 600, letterSpacing: 1, textTransform: "uppercase" as const, marginBottom: 20 }}>
+            Get Started Today
+          </span>
           <h2 style={{ fontSize: 44, fontWeight: 700, color: "#fff", marginBottom: 16, lineHeight: 1.2 }}>
             Ready to Get Started?
           </h2>
-          <p style={{ fontSize: 18, color: "rgba(255,255,255,0.9)", maxWidth: 600, margin: "0 auto 32px", lineHeight: 1.7 }}>
-            Connect with a licensed healthcare provider from the comfort of your
-            home. No referral needed — book your virtual appointment today.
+          <p style={{ fontSize: 18, color: "rgba(255,255,255,0.85)", maxWidth: 560, margin: "0 auto 36px", lineHeight: 1.7 }}>
+            Connect with a licensed healthcare provider from the comfort of your home. No referral needed.
           </p>
           <a
             href={ctaHref}
             style={{
-              display: "inline-flex", alignItems: "center", justifyContent: "center", gap: 8,
-              padding: "14px 32px", background: "#fff", color: "var(--primary)",
-              fontSize: 16, fontWeight: 600, borderRadius: 119, border: "2px solid #fff",
+              display: "inline-flex", alignItems: "center", justifyContent: "center", gap: 10,
+              padding: "18px 44px", background: "#fff", color: "#621C72",
+              fontSize: 17, fontWeight: 700, borderRadius: 119, border: "none",
               textDecoration: "none", transition: "all 0.3s ease",
+              boxShadow: "0 6px 24px rgba(0,0,0,0.2)",
             }}
           >
             Book Your Appointment Now
+            <FiArrowUpRight style={{ width: 18, height: 18 }} />
           </a>
         </div>
       </section>

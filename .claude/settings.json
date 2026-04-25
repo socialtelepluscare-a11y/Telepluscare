@@ -1,0 +1,46 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls /Users/ramanmakkar/Desktop/telepluscare-nextjs/public/*.html)",
+      "Bash(grep -oh 'className=\"[^\"]*\"' /Users/ramanmakkar/Desktop/telepluscare-nextjs/src/components/**/*.tsx)",
+      "Bash(lsof -i :3000 -sTCP:LISTEN)",
+      "Bash(node -e \"console.log\\(require\\('next/package.json'\\).version\\)\")",
+      "Bash(kill -9 8483)",
+      "Bash(curl -s -o /dev/null -w \"HTTP Status: %{http_code}\\\\nTime: %{time_total}s\\\\n\" http://localhost:3000)",
+      "Bash(curl -s https://telepluscare.com/best-botox-treatment-in-edmonton/)",
+      "Bash(mkdir -p /Users/ramanmakkar/Desktop/telepluscare-nextjs/public/images/best-botox-treatment-in-edmonton)",
+      "Bash(curl -sL \"https://telepluscare.com/wp-content/uploads/2026/04/image4.jpg\" -o hero.jpg)",
+      "Bash(curl -sL \"https://telepluscare.com/wp-content/uploads/2026/04/image2.jpg\" -o section-1.jpg)",
+      "Bash(curl -sL \"https://telepluscare.com/wp-content/uploads/2026/04/image3.jpg\" -o section-2.jpg)",
+      "Bash(curl -sL \"https://telepluscare.com/wp-content/uploads/2026/04/image1.png\" -o section-3.png)",
+      "Bash(grep -E \"\\\\.js$|\\\\.html$\")",
+      "Bash(ls -lh /Users/ramanmakkar/Desktop/telepluscare-nextjs/public/*.html)",
+      "Bash(wc -l /Users/ramanmakkar/Desktop/telepluscare-nextjs/public/css/*.css)",
+      "Bash(curl -s http://localhost:3000/best-botox-treatment-in-edmonton/)",
+      "WebFetch(domain:telepluscare.com)",
+      "Bash(ls /Users/ramanmakkar/Desktop/telepluscare-nextjs/src/components/sections/InstagramFeed* /Users/ramanmakkar/Desktop/telepluscare-nextjs/src/components/sections/StickyBottomBar*)",
+      "Bash(ls /Users/ramanmakkar/Desktop/telepluscare-nextjs/public/images/Vector*)",
+      "Bash(curl -s https://telepluscare.com/best-injectable-treatments-in-edmonton/)",
+      "Bash(mkdir -p /Users/ramanmakkar/Desktop/telepluscare-nextjs/public/images/best-injectable-treatments-in-edmonton)",
+      "Bash(curl -sL \"https://telepluscare.com/wp-content/uploads/2026/04/promo_skincare.png\" -o section-3.png)",
+      "Bash(curl -sL \"https://telepluscare.com/wp-content/uploads/2026/04/promo_dermatology.png\" -o section-4.png)",
+      "Bash(bash download_mental_health_images.sh)",
+      "Bash(bash download-weight-loss-images.sh)",
+      "Bash(sed 's/Edmonton/Calgary/g; s/edmonton/calgary/g; s/Sherwood Park, St. Albert, Leduc, Spruce Grove, Fort Saskatchewan, Beaumont/Airdrie, Cochrane, Okotoks, Chestermere, Canmore, Red Deer/g' src/data/pages/online-prescriptions-and-refills-in-edmonton.ts)",
+      "Bash(sed 's/Edmonton/Airdrie/g; s/edmonton/airdrie/g; s/Sherwood Park, St. Albert, Leduc, Spruce Grove, Fort Saskatchewan, Beaumont/Calgary, Cochrane, Okotoks, Chestermere, Crossfield, Red Deer/g' src/data/pages/best-diabetes-doctor-in-edmonton.ts)",
+      "Bash(curl -s -o /dev/null -w \"Status: %{http_code}\\\\nTime: %{time_total}s\\\\n\" http://localhost:3000)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' http://localhost:3000/__TRACKED_VAR__/)",
+      "Bash(curl -s -o /dev/null -w \"Status: %{http_code}\\\\n\" http://localhost:3008)",
+      "Bash(cp public/images/logo-150x150.webp src/app/favicon.ico)",
+      "Bash(ls src/app/favicon*)",
+      "Bash(ls public/favicon*)",
+      "Bash(awk '{print $5}')",
+      "Bash([ -f \"public/images/$f\" ])"
+    ],
+    "additionalDirectories": [
+      "/Users/ramanmakkar/Desktop/telepluscare-nextjs/.next",
+      "/Users/ramanmakkar/Desktop/telepluscare-nextjs/public/images/best-diabetes-doctor-in-edmonton",
+      "/Users/ramanmakkar/Desktop/telepluscare-nextjs/public/images"
+    ]
+  }
+}

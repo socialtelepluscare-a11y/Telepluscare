@@ -2,7 +2,7 @@ import type { LandingPageData } from "@/types/landing-page";
 
 export const pageData: LandingPageData = {
   bookingUrl: "/book-aesthetic",
-  metaTitle: "Best Dermatologist in Edmonton | TelePlus Care",
+  metaTitle: "Best Dermatologist in Edmonton",
   metaDescription:
     "Our team is committed to addressing a wide range of skin conditions. Our approach focuses on understanding your specific needs and crafting individualized treatment plans that fit seamlessly into your lifestyle.",
   title: "Best Dermatologist in Edmonton",

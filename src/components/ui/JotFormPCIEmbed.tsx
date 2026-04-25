@@ -4,17 +4,23 @@ import { useEffect, useRef, useState } from "react";
 
 export default function JotFormPCIEmbed({ formId }: { formId: string }) {
   const containerRef = useRef<HTMLDivElement>(null);
+  const injectedRef = useRef(false);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (!containerRef.current) return;
+    const container = containerRef.current;
+    if (!container || injectedRef.current) return;
+    injectedRef.current = true;
+
+    // Wipe any prior content (stale StrictMode re-mount)
+    container.innerHTML = "";
 
     const script = document.createElement("script");
     script.type = "text/javascript";
     script.src = `https://pci.jotform.com/jsform/${formId}`;
     script.async = true;
     script.onload = () => setTimeout(() => setLoading(false), 1000);
-    containerRef.current.appendChild(script);
+    container.appendChild(script);
 
     const timer = setTimeout(() => setLoading(false), 8000);
 
