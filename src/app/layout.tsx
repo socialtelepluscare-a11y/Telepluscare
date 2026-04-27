@@ -58,6 +58,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={dmSans.variable}>
       <head>
+        <link rel="preconnect" href="https://form.jotform.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://pci.jotform.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://form.jotform.com" />
+        <link rel="dns-prefetch" href="https://pci.jotform.com" />
+        <link rel="dns-prefetch" href="https://cdn.jotfor.ms" />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=GT-PBKWW2Z3"
           strategy="afterInteractive"
