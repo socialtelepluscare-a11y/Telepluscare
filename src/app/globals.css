@@ -74,6 +74,32 @@ img {
   padding: 0 20px;
 }
 
+/* ===== Booking Form Container — wide on desktop, near-fullwidth on mobile ===== */
+.booking-form-section {
+  padding: 0 20px;
+}
+.booking-form-wrap {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.booking-form-card {
+  background: #fff;
+  border-radius: 24px;
+  padding: 40px 32px;
+  box-shadow: 0 4px 24px rgba(98, 28, 114, 0.08);
+  border: 1px solid rgba(98, 28, 114, 0.06);
+}
+@media (max-width: 768px) {
+  .booking-form-section {
+    padding: 0 8px;
+  }
+  .booking-form-card {
+    padding: 20px 12px;
+    border-radius: 16px;
+  }
+}
+
 .section-padding {
   padding: 70px 0;
 }

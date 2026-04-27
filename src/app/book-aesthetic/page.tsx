@@ -69,17 +69,9 @@ export default function BookAestheticPage() {
       </section>
 
       {/* Form */}
-      <section style={{ background: "#fef7ff", padding: "48px 0 80px" }}>
-        <div className="container-main" style={{ maxWidth: 1200, margin: "0 auto" }}>
-          <div
-            style={{
-              background: "#fff",
-              borderRadius: 24,
-              padding: "40px 32px",
-              boxShadow: "0 4px 24px rgba(98,28,114,0.08)",
-              border: "1px solid rgba(98,28,114,0.06)",
-            }}
-          >
+      <section className="booking-form-section" style={{ background: "#fef7ff", padding: "48px 0 80px" }}>
+        <div className="booking-form-wrap">
+          <div className="booking-form-card">
             <JotFormEmbed formId="260934537048058" />
           </div>
         </div>
