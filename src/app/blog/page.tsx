@@ -11,6 +11,51 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    title: "Ozempic Side Effects: A 2026 Canadian Patient Guide",
+    description:
+      "Complete guide to Ozempic side effects in Canada — common GI symptoms, gallbladder risks, pancreatitis warnings, mood changes, and how to manage them.",
+    image: "/images/weight-loss/image-40.png",
+    href: "/ozempic-side-effects-canadian-guide",
+    date: "April 2026",
+    category: "Weight Loss",
+  },
+  {
+    title: "What AHCIP Covers for Virtual Doctor Visits in Alberta",
+    description:
+      "What Alberta Health Care does and does not cover for virtual doctor visits — billing codes, sick notes, third-party fees, and out-of-province pricing.",
+    image: "/images/Group-37520.png",
+    href: "/what-ahcip-covers-virtual-doctor-visits",
+    date: "April 2026",
+    category: "Pricing",
+  },
+  {
+    title: "Family Doctor Wait Times in Canada (2026 Guide)",
+    description:
+      "Province-by-province guide to family doctor wait times in Canada in 2026 — orphaned-patient stats, provincial registries, and faster alternatives.",
+    image: "/images/online-doctors-notes-in-edmonton/section-1.webp",
+    href: "/family-doctor-wait-times-canada-2026",
+    date: "April 2026",
+    category: "Healthcare",
+  },
+  {
+    title: "UTI Antibiotics in Canada: Which Work Best?",
+    description:
+      "First-line UTI antibiotics in Canada — Macrobid, Monurol, Bactrim — when each is preferred, resistance patterns, pregnancy considerations, and red flags.",
+    image: "/images/urinary-tract-infection-treatments.jpg",
+    href: "/uti-antibiotics-canada-which-work-best",
+    date: "April 2026",
+    category: "Conditions",
+  },
+  {
+    title: "How Much Does Botox Cost in Edmonton (2026)?",
+    description:
+      "Complete 2026 Botox pricing guide for Edmonton — per-unit and per-area cost ranges, brand comparison, lip filler pricing, and what insurance covers.",
+    image: "/images/best-botox-treatment-in-edmonton/section-1.jpg",
+    href: "/how-much-does-botox-cost-edmonton-2026",
+    date: "April 2026",
+    category: "Aesthetic",
+  },
+  {
     title: "How to Get Ozempic in Canada (2026 Guide & Cost)",
     description:
       "Step-by-step guide to getting Ozempic legally in Canada in 2026 — eligibility, prescription paths, costs ($300-450/mo), insurance, and same-day virtual options.",

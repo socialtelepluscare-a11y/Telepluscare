@@ -428,12 +428,6 @@ export default function ContactUsPage() {
                 href: "/location",
                 external: false,
               },
-              {
-                title: "WhatsApp",
-                description: "Message us on WhatsApp for quick inquiries and support.",
-                href: siteConfig.whatsapp,
-                external: true,
-              },
             ].map((link) => {
               const Tag = link.external ? "a" : Link;
               const extraProps = link.external

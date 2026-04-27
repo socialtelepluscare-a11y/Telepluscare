@@ -268,4 +268,52 @@
     <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/same-day-virtual-doctor/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/same-day-virtual-doctor/"/>
   </url>
+  <url>
+    <loc>https://telepluscare.com/online-doctor-calgary/</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/online-doctor-calgary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/online-doctor-calgary/"/>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/virtual-walk-in-clinic-calgary/</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/virtual-walk-in-clinic-calgary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/virtual-walk-in-clinic-calgary/"/>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/online-clinic-calgary/</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/online-clinic-calgary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/online-clinic-calgary/"/>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/telemedicine-calgary/</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/telemedicine-calgary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/telemedicine-calgary/"/>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/parking-placard-medical-assessment-in-calgary/</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/parking-placard-medical-assessment-in-calgary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/parking-placard-medical-assessment-in-calgary/"/>
+  </url>
+  <url>
+    <loc>https://telepluscare.com/holistic-healing-centre-in-calgary/</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://telepluscare.com/holistic-healing-centre-in-calgary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://telepluscare.com/holistic-healing-centre-in-calgary/"/>
+  </url>
 </urlset>

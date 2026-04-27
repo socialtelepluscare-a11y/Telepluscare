@@ -21,7 +21,7 @@ export const pageData: LandingPageData = {
         "Weight & lifestyle support for diabetes",
         "Chronic care follow-ups",
       ],
-      image: "/images/best-diabetes-doctor-in-edmonton/hero.png",
+      image: "/images/best-diabetes-doctor-in-edmonton/section-why-choose.jpg",
       imageAlt: "TelePlusCare virtual diabetes care in Edmonton",
     },
     {

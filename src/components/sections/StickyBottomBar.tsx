@@ -2,8 +2,6 @@
 
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
-import { FaWhatsapp } from "react-icons/fa";
-import { siteConfig } from "@/data/siteConfig";
 
 // Route resolver — picks correct booking URL based on current page
 function resolveBookingUrl(pathname: string): { href: string; label: string } {
@@ -72,45 +70,6 @@ export default function StickyBottomBar() {
 
   return (
     <>
-      {/* Floating WhatsApp */}
-      <div
-        style={{
-          position: "fixed",
-          bottom: 90,
-          right: 16,
-          zIndex: 40,
-          display: "flex",
-          flexDirection: "column",
-          gap: 12,
-          transition: "all 0.3s ease",
-          opacity: visible ? 1 : 0,
-          transform: visible ? "translateY(0)" : "translateY(16px)",
-          pointerEvents: visible ? "auto" : "none",
-        }}
-      >
-        <a
-          href={siteConfig.whatsapp}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Chat on WhatsApp"
-          style={{
-            width: 56,
-            height: 56,
-            borderRadius: "50%",
-            background: "#25D366",
-            color: "#fff",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-            transition: "transform 0.2s",
-            textDecoration: "none",
-          }}
-        >
-          <FaWhatsapp size={24} />
-        </a>
-      </div>
-
       {/* Sticky bottom bar */}
       <div
         style={{
