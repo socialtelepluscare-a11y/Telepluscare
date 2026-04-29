@@ -26,27 +26,30 @@ export default function Header() {
         position: "sticky",
         top: 0,
         zIndex: 100,
-        padding: "10px 0",
+        padding: "clamp(6px, 1vw, 10px) 0",
         transition: "padding 0.3s ease, box-shadow 0.3s ease",
       }}
     >
       <div
+        className="header-inner"
         style={{
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
           width: "100%",
-          padding: "0 48px",
+          padding: "0 clamp(16px, 3vw, 48px)",
+          gap: 12,
         }}
       >
         {/* Logo */}
-        <Link href="/" style={{ flexShrink: 0 }}>
+        <Link href="/" style={{ flexShrink: 0, display: "flex", alignItems: "center" }}>
           <Image
             src="/images/logo-150x150.webp"
             alt="TelePlus Care"
             width={100}
             height={100}
-            style={{ height: 100, width: 100, borderRadius: "50%" }}
+            className="site-logo"
+            style={{ height: "auto", width: "clamp(56px, 8vw, 100px)", borderRadius: "50%" }}
             priority
           />
         </Link>

@@ -42,13 +42,13 @@ function resolveBookingUrl(pathname: string): { href: string; label: string } {
     return { href: "/book-doctors-note", label: "Book Doctor's Note" };
   }
 
-  // Out-of-province prescription refill pages → paid prescription refill form
-  const prescriptionRefillCanadaSlugs = [
-    "/online-prescription-canada",
-    "/how-to-save-money-on-prescriptions-canada",
-    "/book-prescription-refill",
-  ];
-  if (prescriptionRefillCanadaSlugs.some((s) => pathname.startsWith(s))) {
+  // Out-of-province prescription refill pages ONLY → paid prescription refill form
+  // (Canada-wide pages like /online-prescription-canada/ default to AB since
+  // most visitors are Alberta residents — they get free AHCIP-eligible care.)
+  if (
+    pathname.startsWith("/online-prescription-refill-") ||
+    pathname.startsWith("/book-prescription-refill")
+  ) {
     return { href: "/book-prescription-refill", label: "Book Prescription Refill" };
   }
 

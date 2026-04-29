@@ -1,0 +1,13 @@
+import type { Metadata } from "next";
+import LandingPageTemplate from "@/components/sections/LandingPageTemplate";
+import { pageData } from "@/data/pages/disability-parking-permit-in-fort-mcmurray";
+
+export const metadata: Metadata = {
+  title: pageData.metaTitle,
+  description: pageData.metaDescription,
+  alternates: { canonical: "/disability-parking-permit-in-fort-mcmurray/" },
+};
+
+export default function Page() {
+  return <LandingPageTemplate {...pageData} />;
+}

@@ -198,7 +198,7 @@ export default function LandingPageTemplate({
           <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "clamp(12px, 2.5vw, 36px)", flexWrap: "wrap" }}>
             {[
               { emoji: "⏱️", label: "Same-Day Appointment" },
-              { emoji: "👨‍⚕️", label: "CPSA-Licensed Physicians" },
+              { emoji: "👨‍⚕️", label: "Licensed Canadian Physicians" },
               { emoji: "🔒", label: "PIPEDA Secure & Private" },
               { emoji: "✓", label: "Trusted by 500+ Patients" },
             ].map((item) => (
