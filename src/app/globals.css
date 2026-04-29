@@ -202,17 +202,11 @@ img {
 
 /* ===== Section Headings ===== */
 .section-title {
-  font-size: 40px;
+  font-size: clamp(24px, 4.5vw, 40px);
   font-weight: 700;
   color: var(--dark);
   margin-bottom: 16px;
   line-height: 1.2;
-}
-
-@media (max-width: 768px) {
-  .section-title {
-    font-size: 28px;
-  }
 }
 
 /* ===== Body Text ===== */

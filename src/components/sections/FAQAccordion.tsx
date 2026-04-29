@@ -61,7 +61,7 @@ export default function FAQAccordion({
                 >
                   <span
                     style={{
-                      fontSize: 18,
+                      fontSize: "clamp(15px, 1.7vw, 18px)",
                       fontWeight: 600,
                       color: isHovered ? "var(--primary)" : "var(--dark)",
                       paddingRight: 16,
@@ -89,7 +89,7 @@ export default function FAQAccordion({
                     paddingBottom: isOpen ? 20 : 0,
                   }}
                 >
-                  <p style={{ fontSize: 16, lineHeight: 1.7, color: "var(--text)" }}>
+                  <p style={{ fontSize: "clamp(14px, 1.5vw, 16px)", lineHeight: 1.7, color: "var(--text)" }}>
                     {item.answer}
                   </p>
                 </div>

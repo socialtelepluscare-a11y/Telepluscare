@@ -42,6 +42,16 @@ function resolveBookingUrl(pathname: string): { href: string; label: string } {
     return { href: "/book-doctors-note", label: "Book Doctor's Note" };
   }
 
+  // Out-of-province prescription refill pages → paid prescription refill form
+  const prescriptionRefillCanadaSlugs = [
+    "/online-prescription-canada",
+    "/how-to-save-money-on-prescriptions-canada",
+    "/book-prescription-refill",
+  ];
+  if (prescriptionRefillCanadaSlugs.some((s) => pathname.startsWith(s))) {
+    return { href: "/book-prescription-refill", label: "Book Prescription Refill" };
+  }
+
   // Default — Alberta booking
   return { href: "/book-appointment-alberta", label: "Book Your Appointment Now" };
 }
@@ -62,7 +72,8 @@ export default function StickyBottomBar() {
   const isBookingPage =
     pathname.startsWith("/book-appointment-alberta") ||
     pathname.startsWith("/book-aesthetic") ||
-    pathname.startsWith("/book-doctors-note");
+    pathname.startsWith("/book-doctors-note") ||
+    pathname.startsWith("/book-prescription-refill");
 
   if (isBookingPage) return null;
 

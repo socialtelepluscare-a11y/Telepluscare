@@ -55,7 +55,7 @@ export default function AEOSummary({
           <p
             itemProp="abstract"
             style={{
-              fontSize: 17,
+              fontSize: "clamp(15px, 1.6vw, 17px)",
               lineHeight: 1.7,
               color: "var(--dark)",
               margin: 0,

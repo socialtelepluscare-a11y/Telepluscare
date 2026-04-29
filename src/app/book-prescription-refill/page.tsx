@@ -1,15 +1,15 @@
-import { FiShield, FiStar, FiCheckCircle } from "react-icons/fi";
-import JotFormEmbed from "@/components/ui/JotFormEmbed";
+import { FiShield, FiClock, FiCheckCircle } from "react-icons/fi";
+import JotFormPCIEmbed from "@/components/ui/JotFormPCIEmbed";
 
 export const metadata = {
-  title: "Book Aesthetic Services - Botox, Fillers & More",
+  title: "Book Prescription Refill — Outside Alberta",
   description:
-    "Book your aesthetic consultation with TelePlus Care. Botox, dermal fillers, PRP, microneedling, and more.",
+    "Get a prescription refill from a licensed Canadian physician. Available for residents of Ontario, British Columbia, Saskatchewan, and other provinces.",
   robots: "noindex",
-  alternates: { canonical: "/book-aesthetic/" },
+  alternates: { canonical: "/book-prescription-refill/" },
 };
 
-export default function BookAestheticPage() {
+export default function BookPrescriptionRefillPage() {
   return (
     <>
       {/* Hero */}
@@ -39,13 +39,13 @@ export default function BookAestheticPage() {
               marginBottom: 20,
             }}
           >
-            Aesthetic Services
+            Prescription Refill — Outside Alberta
           </span>
           <h1 style={{ fontSize: "clamp(28px, 5.5vw, 44px)", fontWeight: 700, color: "#fff", lineHeight: 1.2, marginBottom: 16 }}>
-            Book Your Aesthetic Consultation
+            Book Your Prescription Refill
           </h1>
           <p style={{ fontSize: 17, lineHeight: 1.8, color: "rgba(255,255,255,0.85)", maxWidth: 560, margin: "0 auto" }}>
-            Botox, dermal fillers, PRP, microneedling, and more. Fill out the form below to get started with certified practitioners.
+            Prescription refills from licensed Canadian physicians. Available for Ontario, British Columbia, Saskatchewan, and other provinces. Same-day turnaround.
           </p>
         </div>
       </section>
@@ -55,9 +55,9 @@ export default function BookAestheticPage() {
         <div className="container-main">
           <div style={{ display: "flex", justifyContent: "center", gap: 48, flexWrap: "wrap" }}>
             {[
-              { icon: <FiShield size={18} />, text: "Certified Practitioners" },
-              { icon: <FiStar size={18} />, text: "Natural-Looking Results" },
-              { icon: <FiCheckCircle size={18} />, text: "Virtual Consultation First" },
+              { icon: <FiShield size={18} />, text: "Licensed Canadian Physicians" },
+              { icon: <FiClock size={18} />, text: "Same-Day Turnaround" },
+              { icon: <FiCheckCircle size={18} />, text: "Fill at Any Pharmacy" },
             ].map((item) => (
               <div key={item.text} style={{ display: "flex", alignItems: "center", gap: 8, fontSize: 14, fontWeight: 500, color: "var(--dark)" }}>
                 <span style={{ color: "var(--primary)" }}>{item.icon}</span>
@@ -72,7 +72,7 @@ export default function BookAestheticPage() {
       <section className="booking-form-section" style={{ background: "#fef7ff", padding: "48px 0 80px" }}>
         <div className="booking-form-wrap">
           <div className="booking-form-card">
-            <JotFormEmbed formId="260934537048058" />
+            <JotFormPCIEmbed formId="261184818159263" />
           </div>
         </div>
       </section>

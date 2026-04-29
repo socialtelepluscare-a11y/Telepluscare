@@ -41,7 +41,7 @@ export default function BookDoctorsNotePage() {
           >
             Doctor&apos;s Note Service
           </span>
-          <h1 style={{ fontSize: 44, fontWeight: 700, color: "#fff", lineHeight: 1.2, marginBottom: 16 }}>
+          <h1 style={{ fontSize: "clamp(28px, 5.5vw, 44px)", fontWeight: 700, color: "#fff", lineHeight: 1.2, marginBottom: 16 }}>
             Book Your Doctor&apos;s Note
           </h1>
           <p style={{ fontSize: 17, lineHeight: 1.8, color: "rgba(255,255,255,0.85)", maxWidth: 560, margin: "0 auto" }}>

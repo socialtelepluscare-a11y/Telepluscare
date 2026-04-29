@@ -36,6 +36,7 @@ Disallow: /api/
 Disallow: /book-appointment-alberta/
 Disallow: /book-aesthetic/
 Disallow: /book-doctors-note/
+Disallow: /book-prescription-refill/
 
 # Sitemap index
 Sitemap: https://telepluscare.com/sitemap.xml
