@@ -34,9 +34,10 @@
   RewriteCond %{HTTPS} off
   RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-  # 301 redirects for legacy typo slugs
+  # 301 redirects for legacy typo slugs and short variants
   RewriteRule ^online-prescriptions-and-refills-in-red-dear/?$ /online-prescriptions-and-refills-in-red-deer/ [R=301,L]
   RewriteRule ^holsitic-healing-centre-in-edmonton/?$ /holistic-healing-centre-in-edmonton/ [R=301,L]
+  RewriteRule ^best-botox-in-edmonton/?$ /best-botox-treatment-in-edmonton/ [R=301,L]
 
   # Add trailing slash to non-file paths
   RewriteCond %{REQUEST_FILENAME} !-f
